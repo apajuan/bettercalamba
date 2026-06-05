@@ -1,0 +1,431 @@
+[
+  {
+    "slug": "operation-center",
+    "office_name": "OPERATION CENTER",
+    "address": null,
+    "trunkline": ["530-2981 ext 1000"],
+    "website": null,
+    "email": "opcen@losbanos.gov.ph",
+    "department_head": {
+      "name": null,
+      "contact": null,
+      "email": null
+    }
+  },
+  {
+    "slug": "gender-and-development-office",
+    "office_name": "GENDER AND DEVELOPMENT OFFICE",
+    "address": "2F Municipal Hall",
+    "trunkline": ["530-2981 ext 2013"],
+    "website": "https://losbanos.gov.ph/3",
+    "email": "gado@losbanos.gov.ph",
+    "department_head": {
+      "name": null,
+      "contact": null,
+      "email": null
+    }
+  },
+  {
+    "slug": "local-civil-registry-office",
+    "office_name": "LOCAL CIVIL REGISTRY OFFICE",
+    "address": "1F Municipal Hall",
+    "trunkline": ["530-2981 ext 1003"],
+    "website": "https://losbanos.gov.ph/7",
+    "email": "mcr@losbanos.gov.ph",
+    "department_head": {
+      "name": null,
+      "contact": null,
+      "email": null
+    }
+  },
+  {
+    "slug": "municipal-planning-and-development-office",
+    "office_name": "MUNICIPAL PLANNING AND DEVELOPMENT OFFICE",
+    "address": "1F Municipal Hall",
+    "trunkline": ["530-2981 ext 1005"],
+    "website": "https://losbanos.gov.ph/8",
+    "email": "mpdo@losbanos.gov.ph",
+    "department_head": {
+      "name": "TWILA T. TORRES",
+      "contact": null,
+      "email": null
+    }
+  },
+  {
+    "slug": "municipal-engineering-office",
+    "office_name": "MUNICIPAL ENGINEERING OFFICE",
+    "address": "1F Municipal Hall",
+    "trunkline": ["530-2981 ext 1007"],
+    "website": "https://www.facebook.com/EngineeringOfficeLB",
+    "email": "meo@losbanos.gov.ph",
+    "department_head": {
+      "name": "Ricky R. Estopace",
+      "contact": null,
+      "email": null
+    }
+  },
+  {
+    "slug": "municipal-assessors-office",
+    "office_name": "MUNICIPAL ASSESSOR'S OFFICE",
+    "address": "1F Municipal Hall",
+    "trunkline": ["530-2981 ext 1014"],
+    "website": "https://losbanos.gov.ph/10",
+    "email": "assessor@losbanos.gov.ph",
+    "department_head": {
+      "name": "OLIVER D. MANAIG",
+      "contact": null,
+      "email": null
+    }
+  },
+  {
+    "slug": "municipal-social-welfare-development-office",
+    "office_name": "MUNICIPAL SOCIAL WELFARE DEVELOPMENT OFFICE",
+    "address": "1F Municipal Hall",
+    "trunkline": ["530-2981 ext 1016"],
+    "website": "https://losbanos.gov.ph/11",
+    "email": "mswdo@losbanos.gov.ph",
+    "department_head": {
+      "name": "HANNA ERIKA E. LAVIÑA",
+      "contact": null,
+      "email": null
+    }
+  },
+  {
+    "slug": "municipal-environment-and-natural-resources-office",
+    "office_name": "MUNICIPAL ENVIRONMENT AND NATURAL RESOURCES OFFICE",
+    "address": "2F Municipal Hall",
+    "trunkline": ["530-2981 ext 2015"],
+    "website": "https://losbanos.gov.ph/12",
+    "email": "menro@losbanos.gov.ph",
+    "department_head": {
+      "name": null,
+      "contact": null,
+      "email": null
+    }
+  },
+  {
+    "slug": "municipal-treasurers-office",
+    "office_name": "MUNICIPAL TREASURER'S OFFICE",
+    "address": "1F Municipal Hall",
+    "trunkline": ["530-2981 ext 1011"],
+    "website": "https://losbanos.gov.ph/13",
+    "email": null,
+    "department_head": {
+      "name": "MARIA LUISA G. DIAZ",
+      "contact": null,
+      "email": null
+    }
+  },
+  {
+    "slug": "public-information-office",
+    "office_name": "PUBLIC INFORMATION OFFICE",
+    "address": "3F Municipal Hall",
+    "trunkline": ["530-2981 ext 3017"],
+    "website": "https://losbanos.gov.ph/14",
+    "email": "pio@losbanos.gov.ph",
+    "department_head": {
+      "name": "JOHN MARVIN S. CANARIA",
+      "contact": null,
+      "email": null
+    }
+  },
+  {
+    "slug": "municipal-budget-office",
+    "office_name": "MUNICIPAL BUDGET OFFICE",
+    "address": "3F Municipal Hall",
+    "trunkline": ["530-2981 ext 3006"],
+    "website": "https://losbanos.gov.ph/15",
+    "email": "ombo@losbanos.gov.ph",
+    "department_head": {
+      "name": null,
+      "contact": null,
+      "email": null
+    }
+  },
+  {
+    "slug": "municipal-accounting-office",
+    "office_name": "MUNICIPAL ACCOUNTING OFFICE",
+    "address": "3F Municipal Hall",
+    "trunkline": ["530-2981 ext 3008"],
+    "website": "https://losbanos.gov.ph/16",
+    "email": "omacc@losbanos.gov.ph",
+    "department_head": {
+      "name": null,
+      "contact": null,
+      "email": null
+    }
+  },
+  {
+    "slug": "municipal-human-resource-management-office",
+    "office_name": "MUNICIPAL HUMAN RESOURCE MANAGEMENT OFFICE",
+    "address": "3F Municipal Hall",
+    "trunkline": ["530-2981 ext 3015"],
+    "website": "https://losbanos.gov.ph/17",
+    "email": "hrmo@losbanos.gov.ph",
+    "department_head": {
+      "name": "MIRAFLOR O. TADO",
+      "contact": null,
+      "email": null
+    }
+  },
+  {
+    "slug": "municipal-tourism-office",
+    "office_name": "MUNICIPAL TOURISM OFFICE",
+    "address": null,
+    "trunkline": ["530-2981 ext 4000"],
+    "website": "https://losbanos.gov.ph/18",
+    "email": "tourism@losbanos.gov.ph",
+    "department_head": {
+      "name": "EDMARIE Z. CALUNGSOD",
+      "contact": null,
+      "email": null
+    }
+  },
+  {
+    "slug": "information-and-communication-systems-office",
+    "office_name": "INFORMATION AND COMMUNICATION SYSTEMS OFFICE",
+    "address": "1F Municipal Hall",
+    "trunkline": ["530-2981 ext 3013"],
+    "website": "https://losbanos.gov.ph/19",
+    "email": "icso@losbanos.gov.ph",
+    "department_head": {
+      "name": "ANTONIO L. ADILLE IV",
+      "contact": null,
+      "email": null
+    }
+  },
+  {
+    "slug": "local-youth-and-development-office",
+    "office_name": "LOCAL YOUTH AND DEVELOPMENT OFFICE",
+    "address": "3F Municipal Hall",
+    "trunkline": ["530-2981 ext 3014"],
+    "website": "https://losbanos.gov.ph/20",
+    "email": "lydo@losbanos.gov.ph",
+    "department_head": {
+      "name": null,
+      "contact": null,
+      "email": null
+    }
+  },
+  {
+    "slug": "municipal-agriculture-office",
+    "office_name": "MUNICIPAL AGRICULTURE OFFICE",
+    "address": null,
+    "trunkline": [null],
+    "website": "https://losbanos.gov.ph/21",
+    "email": null,
+    "department_head": {
+      "name": "Cheryl L. Gonzales",
+      "contact": null,
+      "email": null
+    }
+  },
+  {
+    "slug": "municipal-mdrrmo-office",
+    "office_name": "MUNICIPAL DISASTER RISK REDUCTION AND MANAGEMENT OFFICE",
+    "address": null,
+    "trunkline": ["0977 204 9641"],
+    "website": "https://losbanos.gov.ph/21",
+    "email": null,
+    "department_head": {
+      "name": null,
+      "contact": null,
+      "email": null
+    }
+  },
+  {
+    "slug": "municipal-police-station",
+    "office_name": "Municipal Police Station",
+    "address": null,
+    "trunkline": ["0927 509 1198"],
+    "website": "https://www.facebook.com/losbanospnpwebsite",
+    "email": null,
+    "department_head": {
+      "name": null,
+      "contact": null,
+      "email": null
+    }
+  },
+  {
+    "slug": "municipal-health-office",
+    "office_name": "Municipal Health Office",
+    "address": null,
+    "trunkline": ["530-2981 ext 4004"],
+    "website": "https://www.facebook.com/LBMHO",
+    "email": "rhu@losbanos.gov.ph",
+    "department_head": {
+      "name": "ALVIN A. ISIDORO",
+      "contact": null,
+      "email": null
+    }
+  },
+  {
+    "slug": "bureau-fire-protection",
+    "office_name": "Bureau of Fire Protection",
+    "address": null,
+    "trunkline": ["049 536 7965", "049 310 9572", "0939 432 5837"],
+    "website": "https://www.facebook.com/lbfirestation",
+    "email": null,
+    "department_head": {
+      "name": null,
+      "contact": null,
+      "email": null
+    }
+  },
+  {
+    "slug": "business-permit-and-licensing-office",
+    "office_name": "Business Permit and Licensing Office",
+    "address": null,
+    "trunkline": [null],
+    "website": null,
+    "email": null,
+    "department_head": {
+      "name": null,
+      "contact": null,
+      "email": null
+    }
+  },
+  {
+    "slug": "municipal-general-services-office",
+    "office_name": "MUNICIPAL GENERAL SERVICES OFFICE",
+    "address": "3F Municipal Hall",
+    "trunkline": ["530-2981 ext 4002"],
+    "website": null,
+    "email": "gso@losbanos.gov.ph",
+    "department_head": {
+      "name": "Raymond Joseph B. Paraiso",
+      "contact": null,
+      "email": null
+    }
+  },
+  {
+    "slug": "persons-with-disability-affairs-office",
+    "office_name": "PERSONS WITH DISABILITY AFFAIRS OFFICE (PDAO)",
+    "address": null,
+    "trunkline": ["530-2981 ext 1004"],
+    "website": null,
+    "email": "pdao@losbanos.gov.ph",
+    "department_head": {
+      "name": "SHIRLEY D. ANDRADE",
+      "contact": null,
+      "email": null
+    }
+  },
+  {
+    "slug": "municipal-urban-development-and-housing-office",
+    "office_name": "MUNICIPAL URBAN DEVELOPMENT AND HOUSING OFFICE",
+    "address": "3F Municipal Hall",
+    "trunkline": ["530-2981 ext 3012"],
+    "website": null,
+    "email": "mudho@losbanos.gov.ph",
+    "department_head": {
+      "name": "Raymond Joseph B. Paraiso",
+      "contact": null,
+      "email": null
+    }
+  },
+  {
+    "slug": "office-senior-citizens-affairs",
+    "office_name": "OFFICE FOR THE SENIOR CITIZENS' AFFAIRS",
+    "address": "1F Municipal Hall",
+    "trunkline": [null],
+    "website": "https://www.facebook.com/profile.php?id=61559573828843",
+    "email": null,
+    "department_head": {
+      "name": null,
+      "contact": null,
+      "email": null
+    }
+  },
+  {
+    "slug": "municipal-nutrition-office",
+    "office_name": "MUNICIPAL NUTRITION OFFICE",
+    "address": null,
+    "trunkline": ["530-2981 ext 3011"],
+    "website": null,
+    "email": "lbnutritionoffice@gmail.com",
+    "department_head": {
+      "name": null,
+      "contact": null,
+      "email": null
+    }
+  },
+  {
+    "slug": "public-employment-service-office",
+    "office_name": "PUBLIC EMPLOYMENT SERVICE OFFICE",
+    "address": null,
+    "trunkline": ["530-2981 ext 4008"],
+    "website": null,
+    "email": "peso@losbanos.gov.ph",
+    "department_head": {
+      "name": null,
+      "contact": null,
+      "email": null
+    }
+  },
+  {
+    "slug": "municipal-local-government-operations-office",
+    "office_name": "MUNICIPAL LOCAL GOVERNMENT OPERATIONS OFFICE (DILG)",
+    "address": null,
+    "trunkline": [null],
+    "website": null,
+    "email": "mlgoolosbanos2@gmail.com",
+    "department_head": {
+      "name": null,
+      "contact": null,
+      "email": null
+    }
+  },
+  {
+    "slug": "bids-and-awards-committee",
+    "office_name": "BIDS AND AWARDS COMMITTEE",
+    "address": null,
+    "trunkline": ["530-2981 ext 3006"],
+    "website": null,
+    "email": "bac@losbanos.gov.ph",
+    "department_head": {
+      "name": null,
+      "contact": null,
+      "email": null
+    }
+  },
+  {
+    "slug": "market",
+    "office_name": "MUNICIPAL ECONOMIC ENTERPRISE - MARKET",
+    "address": null,
+    "trunkline": [null],
+    "website": null,
+    "email": null,
+    "department_head": {
+      "name": null,
+      "contact": null,
+      "email": null
+    }
+  },
+  {
+    "slug": "slaughterhouse",
+    "office_name": "MUNICIPAL ECONOMIC ENTERPRISE - SLAUGHTERHOUSE",
+    "address": null,
+    "trunkline": [null],
+    "website": null,
+    "email": null,
+    "department_head": {
+      "name": null,
+      "contact": null,
+      "email": null
+    }
+  },
+  {
+    "slug": "public-order-and-safety-office",
+    "office_name": "PUBLIC ORDER AND SAFETY OFFICE",
+    "address": null,
+    "trunkline": [null],
+    "website": null,
+    "email": null,
+    "department_head": {
+      "name": null,
+      "contact": null,
+      "email": null
+    }
+  }
+]

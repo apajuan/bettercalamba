@@ -1,0 +1,61 @@
+{
+  "lgu": {
+    "name": "Los Ba\u00f1os",
+    "fullName": "Municipality of Los Ba\u00f1os",
+    "province": "Laguna",
+    "districtEngineeringOffice": "Laguna 2nd DEO",
+    "region": "Region IV-A",
+    "regionCode": "CALABARZON",
+    "type": "municipality",
+    "officialWebsite": "https://losbanos.gov.ph",
+    "provinceWebsite": "https://laguna.gov.ph"
+  },
+  "portal": {
+    "name": "BetterLB",
+    "domain": "betterlb.org",
+    "baseUrl": "https://betterlb.org",
+    "description": "Community-powered portal of the Municipality of Los Ba\u00f1os.",
+    "brandColor": "#0066eb",
+    "footerBrandName": "Better Los Ba\u00f1os",
+    "logoWhitePath": "/logos/svg/betterlb-icon-white.svg",
+    "navbarLogoPath": "/logos/svg/betterlb-icon-colored.svg",
+    "defaultOgImagePath": "/logos/svg/betterlb-icon-colored.svg",
+    "faviconPath": "/logos/png/betterlb-banner-colored.png",
+    "faviconSvgPath": "/logos/svg/betterlb-logo-primary.svg",
+    "appleTouchIconPath": "/logos/png/betterlb-banner-inverted.png",
+    "githubUrl": "https://github.com/BetterLosBanos/betterlb",
+    "discordUrl": "https://discord.gg/dA6tkU4FYS",
+    "facebookUrl": "https://facebook.com/betterlb.org",
+    "contactEmail": "volunteers@bettergov.ph"
+  },
+  "location": {
+    "coordinates": {
+      "lat": 14.1763,
+      "lon": 121.2219
+    },
+    "weather": {
+      "defaultCity": "Los Ba\u00f1os"
+    }
+  },
+  "transparency": {
+    "procurement": {
+      "organizationName": "MUNICIPALITY OF LOS BA\u00d1OS, LAGUNA",
+      "externalDashboard": "https://transparency.bettergov.ph/organizations/"
+    },
+    "infrastructure": {
+      "searchString": "Los Ba\u00f1os",
+      "exactMatchTargets": ["los ba\u00f1os", "los banos"]
+    }
+  },
+  "dataPaths": {
+    "departments": "src/data/lgu/losbanos/directory/departments.json",
+    "barangays": "src/data/lgu/losbanos/directory/barangays.json",
+    "services": "src/data/lgu/losbanos/services/categories"
+  },
+  "features": {
+    "openLGU": true,
+    "transparency": true,
+    "tourism": true,
+    "statistics": true
+  }
+}

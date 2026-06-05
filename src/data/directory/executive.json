@@ -1,0 +1,34 @@
+[
+  {
+    "slug": "office-of-the-mayor",
+    "name": "Niel Andrew N. Nocon",
+    "role": "Mayor",
+    "office": "Office of the Mayor",
+    "address": "Municipal Hall, Los Baños",
+    "phone": "530-2981 ext 3000",
+    "email": "mayorsoffice@losbanos.gov.ph",
+    "website": "https://www.facebook.com/alagangNOCON",
+    "isElected": true,
+    "personId": "nocon-niel-andrew-n"
+  },
+  {
+    "slug": "office-of-the-vice-mayor",
+    "name": "Marlo PJ A. Alipon",
+    "role": "Vice Mayor",
+    "office": "Office of the Vice Mayor",
+    "address": "Municipal Hall, Los Baños",
+    "phone": "530-2981 ext 2000",
+    "email": "vmo@losbanos.gov.ph",
+    "website": "https://www.facebook.com/profile.php?id=100064361905801",
+    "isElected": true,
+    "personId": "alipon-marlo-pj-a"
+  },
+  {
+    "slug": "chief-of-staff",
+    "name": "Anatoly P. Guinto",
+    "role": "Chief of Staff",
+    "phone": null,
+    "email": null,
+    "isElected": false
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "service": "Public School Directory",
+    "slug": "public-school-directory",
+    "type": "information",
+    "description": "A comprehensive list of public elementary and secondary schools in the municipality.",
+    "officeSlug": ["department-of-education"],
+    "category": {
+      "name": "Education & Scholarship",
+      "slug": "education-scholarship"
+    },
+    "steps": [
+      "Los Baños Central Elementary School (Timugan)",
+      "Mayondon Elementary School",
+      "Bayog Elementary School",
+      "Lalakay Elementary School",
+      "Los Baños National High School (Poblacion)",
+      "Bernardo F. San Juan National High School",
+      "South Hill School (Private)",
+      "University of the Philippines Rural High School"
+    ],
+    "requirements": [],
+    "relatedServices": ["scholarship-application"],
+    "faqs": [
+      {
+        "question": "When does enrollment start?",
+        "answer": "Enrollment typically begins in July. Please follow the official DepEd page for announcements."
+      }
+    ],
+    "updatedAt": null,
+    "sources": [
+      {
+        "name": "DepEd Schools Division Office List",
+        "url": ""
+      }
+    ]
+  }
+]
