@@ -1,13 +1,7 @@
 name: Validate JSON Schema
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - 'src/data/**/*.json'
-      - 'src/data/**/schema/*.json'
-      - 'scripts/validate-json-schema.js'
+  workflow_dispatch:
       - '.github/workflows/validate-json-schema.yml'
   pull_request:
     branches:
