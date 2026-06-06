@@ -1,72 +1,62 @@
 [
   {
-    "year": "1571",
-    "title": "Origins in Bay",
-    "description": "Fr. Martin de Rada builds the first bamboo and nipa church along the lakeshore of Bay, marking the ecclesiastical beginnings of the area."
+    "year": "1742",
+    "title": "Founding of Calamba",
+    "description": "Calamba is established as a separate town by Franciscan missionaries, separated from the older town of Tabuco (now Cabuyao). The name is said to derive from a large clay water jar ('kalan-banga') that became a symbol of the town."
   },
   {
-    "year": "1589",
-    "title": "The Naming",
-    "description": "Franciscan friar Fr. Pedro Bautista visits the hot springs of 'Mainit' at the foot of Mt. Makiling. Recognizing their curative powers, he renames the settlement 'Los Baños' (The Bathing Places)."
+    "year": "1861",
+    "title": "Birth of Dr. José Rizal",
+    "description": "On June 19, the Philippines' national hero Dr. José Protasio Rizal Mercado y Alonso Realonda is born in the Mercado-Rizal ancestral house in Calamba, an event that would forever link the town to the country's struggle for independence."
   },
   {
-    "year": "1602",
-    "title": "Hospital de Aguas Santas",
-    "description": "Establishment of the 'Hospital de Aguas Santas de Mainit' by Fr. Diego Santa Maria to harness the thermal waters for healing."
+    "year": "1872",
+    "title": "Confiscation of the Friar Lands",
+    "description": "The Dominican-administered Calamba Hacienda forcibly displaces tenant farmers, including the Mercado-Rizal family, foreshadowing the agrarian conflict Rizal would later expose in his novels and writings."
   },
   {
-    "year": "1615",
-    "title": "Independent Town",
-    "description": "On September 17, Los Baños is officially separated from Bay and declared an independent pueblo administered by the Franciscans."
+    "year": "1898",
+    "title": "Calambeños Join the Revolution",
+    "description": "Townspeople of Calamba take part in the Philippine Revolution against Spain and the subsequent Philippine–American War, contributing to the wider struggle for national independence."
   },
   {
-    "year": "1640",
-    "title": "First Governance",
-    "description": "Juan Castañeda is appointed as the first Gobernadorcillo (Little Governor) of the municipality."
-  },
-  {
-    "year": "1790",
-    "title": "The Stone Church",
-    "description": "Construction of the first stone church begins under Fr. Domingo Mateo, replacing earlier structures destroyed by fire."
-  },
-  {
-    "year": "1897",
-    "title": "Mabini's Revolution",
-    "description": "The sublime paralytic Apolinario Mabini seeks therapy in the hot springs. During his stay, he drafts plans for the revolution against Spain."
-  },
-  {
-    "year": "1909",
-    "title": "UP College of Agriculture",
-    "description": "Establishment of the UP College of Agriculture (now UPLB), transforming the town into a premier hub for agricultural research in Asia."
+    "year": "1939",
+    "title": "Reconstruction of the Rizal Shrine",
+    "description": "Reconstruction of the Mercado-Rizal ancestral home begins under the National Historical Committee, restoring the birthplace of Dr. José Rizal as a national shrine and museum (completed 1950)."
   },
   {
     "year": "1945",
-    "title": "The Great Raid",
-    "description": "On February 23, Allied forces and Filipino guerillas execute the daring Raid at Los Baños, rescuing over 2,000 civilian internees from the Baker Hall internment camp."
+    "title": "Liberation from Japanese Occupation",
+    "description": "Calamba is liberated by combined Filipino and American forces during the closing months of World War II, after suffering significant destruction during the war years."
   },
   {
-    "year": "1946",
-    "title": "War Crimes Trials",
-    "description": "Japanese Generals Tomoyuki Yamashita and Masaharu Homma are tried and executed in Los Baños for war crimes committed during the occupation."
+    "year": "1995",
+    "title": "Resort Capital of the Philippines",
+    "description": "Calamba is officially recognized as the 'Resort Capital of the Philippines', anchored by its world-renowned hot spring resorts in Pansol, Bucal, and Bagong Kalsada drawn from the geothermal waters of Mount Makiling."
   },
   {
-    "year": "1959",
-    "title": "World Scout Jamboree",
-    "description": "Los Baños hosts the 10th World Scout Jamboree, welcoming over 12,000 scouts from around the globe to the Makiling foothills."
+    "year": "2001",
+    "title": "Conversion to a Component City",
+    "description": "Republic Act No. 9024 is ratified on April 21 via plebiscite, converting the Municipality of Calamba into a Component City of Laguna and ushering in expanded fiscal autonomy and urban development."
   },
   {
-    "year": "1962",
-    "title": "IRRI Established",
-    "description": "The International Rice Research Institute (IRRI) is founded, cementing the town's status as the global capital for rice science."
+    "year": "2008",
+    "title": "Calamba as Provincial Capital of Laguna",
+    "description": "Republic Act No. 9495 formally designates Calamba as the new capital of the Province of Laguna, transferring provincial seat functions from Santa Cruz and reinforcing the city's role as a regional center."
   },
   {
-    "year": "1982",
-    "title": "Special Science and Nature City",
-    "description": "By virtue of Presidential Proclamation 349, Los Baños is declared the 'Special Science and Nature City of the Philippines' in recognition of its contributions to forestry, agriculture, and life sciences."
+    "year": "2011",
+    "title": "150th Birth Anniversary of José Rizal",
+    "description": "Calamba hosts national commemorations for the 150th birth anniversary of Dr. José Rizal, including the unveiling of one of the tallest Rizal monuments in the country at the city plaza."
   },
   {
-    "year": "2016",
-    "title": "Camp Gen. Macario Sakay",
-    "description": "Camp Eldridge, site of the historic hospital and military base, is renamed Camp General Macario Sakay to honor the Filipino revolutionary leader."
+    "year": "2020",
+    "title": "Pandemic Response and Recovery",
+    "description": "The City Government leads frontline response efforts during the COVID-19 pandemic, scaling up health services, social amelioration programs, and digital service delivery across all 54 barangays."
+  },
+  {
+    "year": "2025",
+    "title": "12th Sangguniang Panlungsod",
+    "description": "Following the May 2025 national and local elections, Mayor Roseller 'Ross' Rizal, Vice Mayor Angelito 'Totie' Lazaro Jr., and the 12th Sangguniang Panlungsod assume office for the 2025–2028 term."
   }
 ]

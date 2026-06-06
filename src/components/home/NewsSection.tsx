@@ -49,7 +49,7 @@ const NewsSection: FC = () => {
             {t('news.title')}
           </h2>
           <a
-            href='https://losbanos.gov.ph/all'
+            href='https://calamba.gov.ph/all'
             target='_blank'
             rel='noopener noreferrer'
             className='flex items-center font-medium text-kapwa-text-brand transition-colors hover:text-kapwa-text-brand'

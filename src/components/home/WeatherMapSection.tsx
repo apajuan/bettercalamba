@@ -11,6 +11,7 @@ import {
   CloudDrizzle,
   CloudLightning,
   CloudMoon,
+  CloudOff,
   CloudRain,
   CloudSnow,
   CloudSun,
@@ -57,20 +58,18 @@ interface LeafletHTMLElement extends HTMLElement {
 export default function WeatherMapSection() {
   const [weather, setWeather] = useState<WeatherData | null>(null);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
+  const [unavailable, setUnavailable] = useState(false);
 
   // Fetch weather data
   useEffect(() => {
     const getWeather = async () => {
       try {
         setLoading(true);
-        const data = await fetchWeatherData(); // WeatherData[]
-        const losBanos = data[0]; // Only 1 city
-        setWeather(losBanos);
+        const data = await fetchWeatherData();
+        setWeather(data[0]);
       } catch (err: unknown) {
-        setError(
-          err instanceof Error ? err.message : 'Failed to fetch weather data'
-        );
+        console.error('Weather fetch failed:', err);
+        setUnavailable(true);
       } finally {
         setLoading(false);
       }
@@ -200,8 +199,17 @@ export default function WeatherMapSection() {
                   <LoaderIcon className='h-5 w-5 animate-spin' />
                   Loading weather...
                 </div>
-              ) : error ? (
-                <p className='text-kapwa-text-danger'>{error}</p>
+              ) : unavailable ? (
+                <div className='flex flex-col items-center justify-center gap-3 py-6 text-center'>
+                  <CloudOff className='text-kapwa-text-disabled h-12 w-12' />
+                  <p className='text-kapwa-text-strong text-base font-semibold'>
+                    Weather forecast temporarily unavailable
+                  </p>
+                  <p className='text-kapwa-text-support text-sm'>
+                    Live conditions for {config.lgu.name} will be back shortly.
+                    Please check again later.
+                  </p>
+                </div>
               ) : weather ? (
                 <>
                   {/* Top: Temp & Condition */}

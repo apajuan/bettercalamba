@@ -1,45 +1,885 @@
 [
   {
-    "service": "Rural Health Unit (RHU) Locations",
-    "slug": "rhu-locations",
-    "type": "information",
-    "description": "Locations of health centers providing free primary care, immunization, and maternal services.",
-    "officeSlug": ["municipal-health-office"],
-    "category": {
-      "name": "Health & Wellness",
-      "slug": "health-wellness"
-    },
-    "steps": [
-      "RHU 1: Main Health Center, Municipal Hall Compound, Brgy. Timugan",
-      "RHU 2: Brgy. Batong Malake (Near Barangay Hall)",
-      "RHU 3: Brgy. Mayondon (Purok 3)",
-      "Animal Bite Center: Municipal Hall Compound"
+    "service": "Certified Death Certificate (Medico-Legal Cases) / Signing of Death Certificate",
+    "plainLanguageName": "Death Certificate Signing (Medico-Legal)",
+    "slug": "certified-death-certificate-medico-legal",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "description": "A City Health Office physician reviews and signs death certificates for medico-legal cases. The signed certificate is then brought to the City Civil Registry Office for registration.",
+    "serviceNumber": "1",
+    "officeDivision": "City Health Services Office — Sanitation and Information Section",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "Calamba City residents",
+    "officeSlug": ["city-health-office"],
+    "category": { "name": "Health & Wellness", "slug": "health-wellness" },
+    "detailedRequirements": [
+      { "requirement": "Death Certificate (Sertipiko ng Pagpanaw)", "where_to_secure": "Hospital" }
     ],
-    "requirements": [],
-    "relatedServices": ["health-certificate"],
-    "updatedAt": null,
-    "sources": [
+    "clientSteps": [
       {
-        "name": "Municipal Health Office Registry",
-        "url": ""
+        "step": 1,
+        "action": "Submit the Death Certificate.",
+        "agencyAction": "Review the Death Certificate.",
+        "fee": "None",
+        "processing_time": "5 minutes"
+      },
+      {
+        "step": 2,
+        "action": "Attend an interview about the cause of death and sign the certificate.",
+        "agencyAction": "Consult with the doctor and sign the Death Certificate.",
+        "fee": "None",
+        "processing_time": "10 minutes"
+      },
+      {
+        "step": 3,
+        "action": "Receive the signed Death Certificate and proceed to the Civil Registry Office for registration.",
+        "agencyAction": "Record and release the signed Death Certificate.",
+        "fee": "None",
+        "processing_time": "1 minute"
       }
-    ]
+    ],
+    "processingTime": "16 minutes",
+    "fees": null,
+    "notes": "After receiving the signed certificate, proceed to the City Civil Registry Office to complete the registration.",
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [{ "name": "City Health Services Office Citizen's Charter 2025", "url": null }]
   },
   {
-    "service": "Animal Bite Treatment Center",
-    "slug": "animal-bite-treatment-center",
+    "service": "Pag-gawa ng Sertipiko ng Pagpanaw (Death Certificate Preparation)",
+    "plainLanguageName": "Death Certificate Preparation",
+    "slug": "death-certificate-preparation",
     "type": "transaction",
-    "description": "Anti-rabies vaccination and wound management for individuals bitten by animals.",
-    "officeSlug": ["municipal-health-office"],
-    "category": {
-      "name": "Health & Wellness",
-      "slug": "health-wellness"
-    },
-    "updatedAt": null,
-    "quickInfo": {
-      "processingTime": "Immediate",
-      "appointmentType": "Walk-in (Urgent)"
-    },
-    "sources": []
+    "source": "citizens-charter",
+    "description": "Prepares and issues a Death Certificate for deaths that occurred at home or in cases where no hospital certificate was issued, requiring information gathering and physician sign-off at the City Health Office.",
+    "serviceNumber": "2",
+    "officeDivision": "City Health Services Office — Sanitation and Information Section",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "Calamba City residents",
+    "officeSlug": ["city-health-office"],
+    "category": { "name": "Health & Wellness", "slug": "health-wellness" },
+    "detailedRequirements": [
+      { "requirement": "Data Form", "where_to_secure": "CHO Sanitation and Information Section" },
+      { "requirement": "Medical Records", "where_to_secure": "Hospital" },
+      { "requirement": "Birth Certificate, Baptismal Certificate, and Marriage Certificate (of deceased)", "where_to_secure": "City Civil Registry Office / Church" }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Fill out and submit the Data Form.",
+        "agencyAction": "Enter information into the Death Certificate and process the document.",
+        "fee": "None",
+        "processing_time": "15 minutes (5 min + 10 min)"
+      },
+      {
+        "step": 2,
+        "action": "Undergo an interview about the cause of death and sign the Death Certificate.",
+        "agencyAction": "Consult with the doctor.",
+        "fee": "None",
+        "processing_time": "10 minutes"
+      }
+    ],
+    "processingTime": "25 minutes",
+    "fees": null,
+    "notes": "After receiving the prepared certificate, proceed to the City Civil Registry Office for Order of Payment and registration.",
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [{ "name": "City Health Services Office Citizen's Charter 2025", "url": null }]
+  },
+  {
+    "service": "Pag-gawa ng Sertipiko ng Paglipat ng Labi ng Patay (Transfer of Cadaver Certificate)",
+    "plainLanguageName": "Certificate of Transfer of Cadaver",
+    "slug": "certificate-transfer-of-cadaver",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "description": "Issues a certificate authorizing the transfer of a cadaver from one location to another (e.g., from hospital to home, between municipalities). Required before the Civil Registry Office issues an Order of Payment for burial transfer.",
+    "serviceNumber": "3",
+    "officeDivision": "City Health Services Office — Sanitation and Information Section",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "Calamba City residents",
+    "officeSlug": ["city-health-office"],
+    "category": { "name": "Health & Wellness", "slug": "health-wellness" },
+    "detailedRequirements": [
+      { "requirement": "Death Certificate (Sertipiko ng Pagpanaw)", "where_to_secure": "CHO Sanitation and Information Section" }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Submit the Death Certificate.",
+        "agencyAction": "Receive, review, and record the Death Certificate, then prepare the Transfer Certificate.",
+        "fee": "None",
+        "processing_time": "7 minutes (5 min + 2 min)"
+      },
+      {
+        "step": 2,
+        "action": "Receive the Certificate of Transfer of Cadaver.",
+        "agencyAction": "Release the Certificate of Transfer of Cadaver.",
+        "fee": "None",
+        "processing_time": "1 minute"
+      },
+      {
+        "step": 3,
+        "action": "Proceed to the City Civil Registry Office for Order of Payment.",
+        "agencyAction": "—",
+        "fee": "Per Civil Registry fee schedule",
+        "processing_time": "At Civil Registry Office"
+      }
+    ],
+    "processingTime": "7 minutes (plus Civil Registry processing)",
+    "fees": null,
+    "notes": "After receiving the certificate, proceed to the City Civil Registry Office for the Order of Payment and burial transfer authorization.",
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [{ "name": "City Health Services Office Citizen's Charter 2025", "url": null }]
+  },
+  {
+    "service": "Exhumation Permit (Pahintulot sa Paghukay Muli sa Inilibing)",
+    "plainLanguageName": "Exhumation Permit",
+    "slug": "exhumation-permit",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "description": "Issues an official permit authorizing the exhumation (re-digging) of an already-buried corpse, required by law before any exhumation is performed.",
+    "serviceNumber": "4",
+    "officeDivision": "City Health Services Office — Sanitation and Information Section",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "Calamba City residents",
+    "officeSlug": ["city-health-office"],
+    "category": { "name": "Health & Wellness", "slug": "health-wellness" },
+    "detailedRequirements": [
+      { "requirement": "Request Form", "where_to_secure": "CHO Sanitation and Information Section" },
+      { "requirement": "Death Certificate (Sertipiko ng Pagpanaw)", "where_to_secure": "City Civil Registry Office" }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Fill out the request form and submit required documents.",
+        "agencyAction": "Interview the client and process the document.",
+        "fee": "None",
+        "processing_time": "5 minutes"
+      },
+      {
+        "step": 2,
+        "action": "Receive the Exhumation Permit.",
+        "agencyAction": "Sign and release the Exhumation Permit.",
+        "fee": "None",
+        "processing_time": "2 minutes"
+      },
+      {
+        "step": 3,
+        "action": "Proceed to the City Civil Registry Office for Order of Payment.",
+        "agencyAction": "—",
+        "fee": "Per Civil Registry fee schedule",
+        "processing_time": "At Civil Registry Office"
+      }
+    ],
+    "processingTime": "7 minutes (plus Civil Registry processing)",
+    "fees": null,
+    "notes": "After receiving the permit, proceed to the City Civil Registry Office for the Order of Payment.",
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [{ "name": "City Health Services Office Citizen's Charter 2025", "url": null }]
+  },
+  {
+    "service": "Permit Pangkalusugan (Health Certificate)",
+    "plainLanguageName": "Health Certificate",
+    "slug": "health-certificate",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "description": "Issues an official Health Certificate (Permit Pangkalusugan) certifying that an individual has been examined and is medically fit to work, particularly required for food handlers, healthcare workers, and other regulated occupations.",
+    "serviceNumber": "5",
+    "officeDivision": "City Health Services Office — Sanitation and Information Section",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "Calamba City residents",
+    "officeSlug": ["city-health-office"],
+    "category": { "name": "Health & Wellness", "slug": "health-wellness" },
+    "detailedRequirements": [
+      { "requirement": "Chest X-ray result", "where_to_secure": "CHO Sanitation and Information Section or accredited clinic" },
+      { "requirement": "Urinalysis result", "where_to_secure": "CHO Sanitation and Information Section or accredited clinic" },
+      { "requirement": "Fecalysis result", "where_to_secure": "CHO Sanitation and Information Section or accredited clinic" },
+      { "requirement": "Hepatitis B Screening result", "where_to_secure": "CHO Sanitation and Information Section or accredited clinic" }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Submit all laboratory results.",
+        "agencyAction": "Receive, review, and interview the client based on submitted results, then issue Order of Payment.",
+        "fee": "None",
+        "processing_time": "7 minutes"
+      },
+      {
+        "step": 2,
+        "action": "Pay the required fee at the City Treasury Office.",
+        "agencyAction": "Accept payment and issue Official Receipt.",
+        "fee": "Php 50.00",
+        "processing_time": "2 minutes"
+      },
+      {
+        "step": 3,
+        "action": "Receive the Health Certificate ID card.",
+        "agencyAction": "Issue the Health Certificate (Permit Pangkalusugan) ID.",
+        "fee": "None",
+        "processing_time": "5 minutes"
+      }
+    ],
+    "processingTime": "12 minutes (excluding laboratory test turnaround time)",
+    "fees": { "amount": "Php 50.00", "description": "Per certificate" },
+    "notes": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [{ "name": "City Health Services Office Citizen's Charter 2025", "url": null }]
+  },
+  {
+    "service": "Permit ng Sanitasyon (Sanitary Permit)",
+    "plainLanguageName": "Sanitary Permit for Business Establishments",
+    "slug": "sanitary-permit",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "description": "Issues an annual Sanitary Permit certifying that a business establishment in Calamba City complies with public health and sanitation requirements. Required by law for all business establishments before they can operate.",
+    "serviceNumber": "6",
+    "officeDivision": "City Health Services Office — Sanitation and Information Section",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "Business establishment owners in Calamba City",
+    "officeSlug": ["city-health-office"],
+    "category": { "name": "Health & Wellness", "slug": "health-wellness" },
+    "detailedRequirements": [
+      { "requirement": "Health Certificates of all employees (food handlers, etc.)", "where_to_secure": "City Health Office" },
+      { "requirement": "Water Refilling Stations: 40-hour seminar from DOH, Health Certificate, Operational Permit, Water Analysis (Physico-Chemical)", "where_to_secure": "Department of Health (DOH)" },
+      { "requirement": "Lying-in / Hospital / Diagnostic Clinic: License to Operate (LTO) from DOH, Healthcare Waste Management documents", "where_to_secure": "DOH" },
+      { "requirement": "Funeral Parlor: Embalmer's License, Memorandum of Agreement (MOA)", "where_to_secure": "Relevant licensing office" },
+      { "requirement": "Drug Store / Pharmacy: License to Operate from FDA", "where_to_secure": "Food and Drug Administration (FDA)" },
+      { "requirement": "Company (Food/Non-Food): Annual APE, Vermin Control Program, Health Certificate, Water Analysis (Physico-Chemical)", "where_to_secure": "Relevant offices" },
+      { "requirement": "Rehabilitation Center: DOH Accreditation", "where_to_secure": "DOH" },
+      { "requirement": "Schools: Sanitary Permit, Annual Medical Certificate", "where_to_secure": "City Health Office" },
+      { "requirement": "Water Provider: Certificate of Potability, Water Analysis (Physico-Chemical)", "where_to_secure": "Relevant laboratories" },
+      { "requirement": "Other establishments: Medical Health Certificate (requirements vary by establishment type)", "where_to_secure": "City Health Office" }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Submit the Application Form and required documents.",
+        "agencyAction": "Receive, verify, and record documents; interview the applicant; issue Order of Payment and process the permit.",
+        "fee": "None",
+        "processing_time": "15 minutes"
+      },
+      {
+        "step": 2,
+        "action": "Pay the required fee at the City Treasury Office.",
+        "agencyAction": "Accept payment and issue Official Receipt.",
+        "fee": "Based on business gross income / establishment type",
+        "processing_time": "2 minutes"
+      },
+      {
+        "step": 3,
+        "action": "Present the Official Receipt and claim the Sanitary Permit.",
+        "agencyAction": "Conduct actual inspection of the establishment (for new applicants), then release the Sanitary Permit.",
+        "fee": "None",
+        "processing_time": "1 day (for new establishments requiring inspection)"
+      }
+    ],
+    "processingTime": "1 day and 19 minutes (new establishments); 19 minutes (renewals)",
+    "fees": { "amount": "Varies", "description": "Based on business gross income or establishment type" },
+    "notes": "New establishments require an actual on-site inspection before the permit is released.",
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [{ "name": "City Health Services Office Citizen's Charter 2025", "url": null }]
+  },
+  {
+    "service": "Pag-susuri ng Ngipin (Dental Examination / Tooth Extraction)",
+    "plainLanguageName": "Dental Examination and Tooth Extraction",
+    "slug": "dental-examination-tooth-extraction",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "description": "Provides free dental examination and tooth extraction services to Calamba City residents through the City Health Office's dental clinic.",
+    "serviceNumber": "7",
+    "officeDivision": "City Health Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "Calamba City residents",
+    "officeSlug": ["city-health-office"],
+    "category": { "name": "Health & Wellness", "slug": "health-wellness" },
+    "detailedRequirements": [
+      { "requirement": "Dental Record (existing patients)", "where_to_secure": "City Health Office Main Health Center" },
+      { "requirement": "Referral Letter from Barangay Midwife", "where_to_secure": "Barangay Midwife" },
+      { "requirement": "Cedula (Community Tax Certificate)", "where_to_secure": "Barangay Hall" },
+      { "requirement": "Barangay Clearance", "where_to_secure": "Barangay Hall" }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Register your name at the dental clinic.",
+        "agencyAction": "Interview the patient, take vital signs, conduct the actual dental procedure, and advise on medication.",
+        "fee": "None",
+        "processing_time": "40 minutes (10 min + 30 min procedure)"
+      },
+      {
+        "step": 2,
+        "action": "Receive prescribed medication.",
+        "agencyAction": "Dispense the medication.",
+        "fee": "None",
+        "processing_time": "5 minutes"
+      }
+    ],
+    "processingTime": "45 minutes",
+    "fees": null,
+    "notes": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [{ "name": "City Health Services Office Citizen's Charter 2025", "url": null }]
+  },
+  {
+    "service": "Serbisyong Pang-Laboratoryo (Laboratory Services)",
+    "plainLanguageName": "Free Laboratory Services",
+    "slug": "laboratory-services",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "description": "Provides free basic laboratory testing services (blood, urine, stool, etc.) at the City Health Office, with results reviewed by a doctor who prescribes the appropriate treatment.",
+    "serviceNumber": "8",
+    "officeDivision": "City Health Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "Calamba City residents",
+    "officeSlug": ["city-health-office"],
+    "category": { "name": "Health & Wellness", "slug": "health-wellness" },
+    "detailedRequirements": [
+      { "requirement": "Laboratory Request Form", "where_to_secure": "City Health Office Main Health Center" },
+      { "requirement": "Specimen (as required by the test)", "where_to_secure": "City Health Office Main Health Center" }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Submit the Laboratory Request Form and specimen, and register your name.",
+        "agencyAction": "Receive and review the request, collect the specimen, interview the patient, conduct the actual analysis, and release the results.",
+        "fee": "None",
+        "processing_time": "1 hour and 27 minutes (25 min intake + 1 hour testing + 2 min release)"
+      },
+      {
+        "step": 2,
+        "action": "Have laboratory results reviewed by a doctor.",
+        "agencyAction": "Review laboratory results and prescribe medication.",
+        "fee": "None",
+        "processing_time": "35 minutes"
+      },
+      {
+        "step": 3,
+        "action": "Receive prescribed medication.",
+        "agencyAction": "Dispense the medication.",
+        "fee": "None",
+        "processing_time": "5 minutes"
+      }
+    ],
+    "processingTime": "2 hours and 2 minutes",
+    "fees": null,
+    "notes": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [{ "name": "City Health Services Office Citizen's Charter 2025", "url": null }]
+  },
+  {
+    "service": "Serbisyong Konsultasyon para sa mga Pasyente (Medical Consultation)",
+    "plainLanguageName": "Free Medical Consultation",
+    "slug": "medical-consultation",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "description": "Provides free medical consultation at the City Health Office for Calamba residents referred by their Barangay Midwife, including physical examination and prescription of medication.",
+    "serviceNumber": "9",
+    "officeDivision": "City Health Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "Calamba City residents",
+    "officeSlug": ["city-health-office"],
+    "category": { "name": "Health & Wellness", "slug": "health-wellness" },
+    "detailedRequirements": [
+      { "requirement": "Patient record and referral letter from the Barangay Midwife", "where_to_secure": "City Health Office Main Health Center" }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Submit the referral letter from the Barangay Midwife.",
+        "agencyAction": "Verify the referral, record the patient, take vital signs, conduct the medical examination, and prescribe medication.",
+        "fee": "None",
+        "processing_time": "43 minutes (3 min + 10 min + 30 min)"
+      },
+      {
+        "step": 2,
+        "action": "Receive prescribed medication.",
+        "agencyAction": "Dispense the medication.",
+        "fee": "None",
+        "processing_time": "5 minutes"
+      }
+    ],
+    "processingTime": "48 minutes",
+    "fees": null,
+    "notes": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [{ "name": "City Health Services Office Citizen's Charter 2025", "url": null }]
+  },
+  {
+    "service": "Pag-plano para sa Pagbuo ng Pamilya (Family Planning Services)",
+    "plainLanguageName": "Family Planning Services",
+    "slug": "family-planning-services",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "description": "Provides free family planning counseling and services at the City Health Office, including information on various contraception methods and the actual procedures (excluding permanent methods such as ligation and vasectomy).",
+    "serviceNumber": "10",
+    "officeDivision": "City Health Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "Calamba City residents",
+    "officeSlug": ["city-health-office"],
+    "category": { "name": "Health & Wellness", "slug": "health-wellness" },
+    "detailedRequirements": [
+      { "requirement": "Family Planning Record", "where_to_secure": "City Health Office Main Health Center" }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Register at the City Health Office.",
+        "agencyAction": "Record the client.",
+        "fee": "None",
+        "processing_time": "5 minutes"
+      },
+      {
+        "step": 2,
+        "action": "Proceed to the Family Planning Coordinator.",
+        "agencyAction": "Interview the client and provide counseling on appropriate family planning methods, then conduct the actual procedure.",
+        "fee": "None",
+        "processing_time": "25 minutes (10 min counseling + 15 min procedure)"
+      },
+      {
+        "step": 3,
+        "action": "Prepare for the chosen method.",
+        "agencyAction": "Provide the necessary family planning supplies or materials.",
+        "fee": "None",
+        "processing_time": "5 minutes"
+      }
+    ],
+    "processingTime": "35 minutes",
+    "fees": null,
+    "notes": "Permanent methods (ligation and vasectomy) are not covered by this service.",
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [{ "name": "City Health Services Office Citizen's Charter 2025", "url": null }]
+  },
+  {
+    "service": "Serbisyong Pagbabakuna (Immunization Services)",
+    "plainLanguageName": "Free Immunization / Vaccination Services",
+    "slug": "immunization-services",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "description": "Provides free childhood immunization/vaccination services through Barangay Health Stations and the City Health Office, following the national immunization schedule.",
+    "serviceNumber": "11",
+    "officeDivision": "City Health Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "Calamba City residents",
+    "officeSlug": ["city-health-office"],
+    "category": { "name": "Health & Wellness", "slug": "health-wellness" },
+    "detailedRequirements": [
+      { "requirement": "Child's Medical Records / Immunization Card", "where_to_secure": "Barangay Health Station" }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Register and submit the child's medical records.",
+        "agencyAction": "Receive and review documents, take the child's weight and temperature, interview the parent/guardian about the child's health education, then administer the vaccine.",
+        "fee": "None",
+        "processing_time": "35 minutes (5 min + 10 min + 15 min + 5 min)"
+      },
+      {
+        "step": 2,
+        "action": "Receive any prescribed medication.",
+        "agencyAction": "Dispense medication if needed.",
+        "fee": "None",
+        "processing_time": "5 minutes"
+      }
+    ],
+    "processingTime": "40 minutes",
+    "fees": null,
+    "notes": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [{ "name": "City Health Services Office Citizen's Charter 2025", "url": null }]
+  },
+  {
+    "service": "Mga Serbisyo para sa mga Bago at Pagkatapos Manganak (Ante/Post-Natal Services)",
+    "plainLanguageName": "Ante-Natal and Post-Natal Services",
+    "slug": "ante-post-natal-services",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "description": "Provides free ante-natal (pre-delivery) and post-natal (after delivery) health services to mothers through Barangay Health Stations and the City Health Office, including check-ups, Tetanus Toxoid vaccination, and vitamins.",
+    "serviceNumber": "12",
+    "officeDivision": "City Health Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "Calamba City residents",
+    "officeSlug": ["city-health-office"],
+    "category": { "name": "Health & Wellness", "slug": "health-wellness" },
+    "detailedRequirements": [
+      { "requirement": "Pre-natal record booklet (\"Mommy at Baby Booklet\")", "where_to_secure": "Barangay Health Station" }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Register and provide required information.",
+        "agencyAction": "Verify and record the patient, take vital signs, and interview the patient.",
+        "fee": "None",
+        "processing_time": "10 minutes"
+      },
+      {
+        "step": 2,
+        "action": "Undergo the examination and submit laboratory results.",
+        "agencyAction": "Conduct the physical examination (Leopold's maneuver), request laboratory tests, administer Tetanus Toxoid vaccination, and provide health education.",
+        "fee": "None",
+        "processing_time": "35 minutes"
+      },
+      {
+        "step": 3,
+        "action": "Receive vitamins and medications.",
+        "agencyAction": "Dispense vitamins.",
+        "fee": "None",
+        "processing_time": "5 minutes"
+      }
+    ],
+    "processingTime": "35 minutes",
+    "fees": null,
+    "notes": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [{ "name": "City Health Services Office Citizen's Charter 2025", "url": null }]
+  },
+  {
+    "service": "Newborn Screening",
+    "plainLanguageName": "Newborn Screening",
+    "slug": "newborn-screening",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "description": "Screens newborns aged 48–72 hours old for five congenital disorders through a heel-prick blood test. Samples are sent to the New Born Screening Center in Southern Luzon, Tanauan for analysis.",
+    "serviceNumber": "13",
+    "officeDivision": "City Health Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "Calamba City residents",
+    "officeSlug": ["city-health-office"],
+    "category": { "name": "Health & Wellness", "slug": "health-wellness" },
+    "detailedRequirements": [
+      { "requirement": "Newborn infant aged 48–72 hours old (must be present)", "where_to_secure": "City Health Office Main Health Center" }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Complete and submit required documents.",
+        "agencyAction": "Verify and record patient information, interview parent/guardian, and provide health education about the five disorders being screened.",
+        "fee": "None",
+        "processing_time": "25 minutes (5 min + 5 min + 15 min)"
+      },
+      {
+        "step": 2,
+        "action": "The newborn's left heel is pricked to collect a blood sample.",
+        "agencyAction": "Prepare and massage the newborn's heel, collect the blood sample on a filter card, and allow to dry.",
+        "fee": "None",
+        "processing_time": "15 minutes"
+      },
+      {
+        "step": 3,
+        "action": "Wait for results (approximately 3 weeks).",
+        "agencyAction": "Send sample to New Born Screening Center (Southern Luzon, Tanauan) for processing.",
+        "fee": "None",
+        "processing_time": "3 weeks"
+      },
+      {
+        "step": 4,
+        "action": "Claim the screening result.",
+        "agencyAction": "Release the result from the Health Center. If positive: assist the patient in further testing and management.",
+        "fee": "None",
+        "processing_time": "1 day and 5 minutes"
+      }
+    ],
+    "processingTime": "1 day and 45 minutes (excluding the 3-week lab processing at the Screening Center)",
+    "fees": null,
+    "notes": "Results are available approximately three (3) weeks after submission, as samples are sent to the Newborn Screening Center in Tanauan, Southern Luzon.",
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [{ "name": "City Health Services Office Citizen's Charter 2025", "url": null }]
+  },
+  {
+    "service": "Serbisyong Konsultasyon Laban sa Tuberculosis (TB Consultation)",
+    "plainLanguageName": "Free Tuberculosis (TB) Consultation",
+    "slug": "tuberculosis-consultation",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "description": "Provides free tuberculosis (TB) consultation, screening, diagnosis, and treatment services for adults at the City Health Office, including sputum testing, chest X-ray, HIV testing, and DOT (Directly Observed Treatment) medication.",
+    "serviceNumber": "14",
+    "officeDivision": "City Health Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "Calamba City residents",
+    "officeSlug": ["city-health-office"],
+    "category": { "name": "Health & Wellness", "slug": "health-wellness" },
+    "detailedRequirements": [
+      { "requirement": "Sputum (phlegm) sample from the patient", "where_to_secure": "Collected at City Health Office" },
+      { "requirement": "Completed Laboratory Request Form", "where_to_secure": "City Health Office" },
+      { "requirement": "NTP (National TB Program) Referral Form", "where_to_secure": "City Health Office" },
+      { "requirement": "Household Interview Form", "where_to_secure": "City Health Office" },
+      { "requirement": "Chest X-ray", "where_to_secure": "City Health Office" },
+      { "requirement": "Voter's ID", "where_to_secure": "COMELEC" }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Register and provide personal information.",
+        "agencyAction": "Interview, record patient information, and issue a chest X-ray request.",
+        "fee": "None",
+        "processing_time": "10 minutes"
+      },
+      {
+        "step": 2,
+        "action": "Submit the chest X-ray result and required documents.",
+        "agencyAction": "Review X-ray and process documents. If X-ray is positive: request GeneXpert sputum test. If negative: refer to a specialist. Provide TB and HIV health education, and conduct HIV screening.",
+        "fee": "None",
+        "processing_time": "40 minutes (15 + 10 + 5 + 10)"
+      },
+      {
+        "step": 3,
+        "action": "Receive medication.",
+        "agencyAction": "Dispense medication or prescription as needed.",
+        "fee": "None",
+        "processing_time": "3 minutes"
+      }
+    ],
+    "processingTime": "53 minutes",
+    "fees": null,
+    "notes": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [{ "name": "City Health Services Office Citizen's Charter 2025", "url": null }]
+  },
+  {
+    "service": "Serbisyong Konsultasyon laban sa Tuberculosis ng mga Bata (Pediatric TB Consultation)",
+    "plainLanguageName": "Free Pediatric Tuberculosis (TB) Consultation",
+    "slug": "pediatric-tuberculosis-consultation",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "description": "Provides free tuberculosis (TB) consultation, diagnosis, and treatment services specifically for children at the City Health Office, including PPD testing, sputum analysis, chest X-ray, and health education.",
+    "serviceNumber": "15",
+    "officeDivision": "City Health Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "Calamba City residents",
+    "officeSlug": ["city-health-office"],
+    "category": { "name": "Health & Wellness", "slug": "health-wellness" },
+    "detailedRequirements": [
+      { "requirement": "PPD Test result", "where_to_secure": "City Health Office Main Health Center (TBDOTS)" },
+      { "requirement": "Sputum (phlegm) sample from the patient", "where_to_secure": "Collected at City Health Office" },
+      { "requirement": "Completed Laboratory Request Form", "where_to_secure": "Laboratory clinic" },
+      { "requirement": "NTP (National TB Program) Referral Form", "where_to_secure": "City Health Office" },
+      { "requirement": "Household Interview Form", "where_to_secure": "City Health Office" },
+      { "requirement": "Chest X-ray", "where_to_secure": "City Health Office" },
+      { "requirement": "Voter's ID (of parent/guardian)", "where_to_secure": "COMELEC" }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Register and provide the child's information.",
+        "agencyAction": "Interview and record patient information, then conduct PPD testing and record results.",
+        "fee": "None",
+        "processing_time": "20 minutes (15 min + 5 min)"
+      },
+      {
+        "step": 2,
+        "action": "Attend the Health Education Program registration.",
+        "agencyAction": "Record and provide comprehensive health information to the patient.",
+        "fee": "None",
+        "processing_time": "30 minutes"
+      },
+      {
+        "step": 3,
+        "action": "Receive medication.",
+        "agencyAction": "Dispense medication.",
+        "fee": "None",
+        "processing_time": "3 minutes"
+      }
+    ],
+    "processingTime": "53 minutes",
+    "fees": null,
+    "notes": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [{ "name": "City Health Services Office Citizen's Charter 2025", "url": null }]
+  },
+  {
+    "service": "Pre-Natal Services at Birthing Facility",
+    "plainLanguageName": "Pre-Natal Check-up at the City Health Birthing Facility",
+    "slug": "pre-natal-services-birthing-facility",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "description": "Provides comprehensive free pre-natal health services to pregnant women at the City Health Office's birthing facility, including physical examination, laboratory requests, Tetanus Toxoid vaccination, health education, and vitamins.",
+    "serviceNumber": "16",
+    "officeDivision": "City Health Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "Calamba City residents",
+    "officeSlug": ["city-health-office"],
+    "category": { "name": "Health & Wellness", "slug": "health-wellness" },
+    "detailedRequirements": [
+      { "requirement": "Pre-natal record booklet (\"Booklet ni Mommy at Baby\")", "where_to_secure": "Barangay Health Station" }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Register or enroll your name.",
+        "agencyAction": "Verify and record the patient's information and take vital signs.",
+        "fee": "None",
+        "processing_time": "10 minutes (5 + 5)"
+      },
+      {
+        "step": 2,
+        "action": "Undergo examination and present laboratory results.",
+        "agencyAction": "Conduct the physical examination (Leopold's maneuver), request laboratory tests, administer Tetanus Toxoid vaccination, and provide health education.",
+        "fee": "None",
+        "processing_time": "35 minutes"
+      },
+      {
+        "step": 3,
+        "action": "Receive vitamins and medications.",
+        "agencyAction": "Dispense vitamins.",
+        "fee": "None",
+        "processing_time": "5 minutes"
+      }
+    ],
+    "processingTime": "40 minutes",
+    "fees": null,
+    "notes": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [{ "name": "City Health Services Office Citizen's Charter 2025", "url": null }]
+  },
+  {
+    "service": "Gamutan para sa mga Nakagat ng Hayop (Animal Bite Treatment)",
+    "plainLanguageName": "Free Animal Bite Treatment (Anti-Rabies)",
+    "slug": "animal-bite-treatment",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "description": "Provides free anti-rabies treatment and post-exposure prophylaxis (PEP) for residents bitten by animals. Treatment follows the WHO animal bite category guidelines, including ERIG injection for Category III bites.",
+    "serviceNumber": "17",
+    "officeDivision": "City Health Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "Calamba City residents",
+    "officeSlug": ["city-health-office"],
+    "category": { "name": "Health & Wellness", "slug": "health-wellness" },
+    "detailedRequirements": [
+      { "requirement": "Barangay Investigation Report (about the biting animal)", "where_to_secure": "Barangay" }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Register your name and submit the Barangay Investigation Report.",
+        "agencyAction": "Interview the patient, record information, provide health education and vaccination schedule, administer anti-rabies vaccine, and administer ERIG injection for Category III bites.",
+        "fee": "None",
+        "processing_time": "1 hour and 25 minutes (10 min + 15 min + 15 min + 1 hour for ERIG)"
+      }
+    ],
+    "processingTime": "1 hour and 25 minutes",
+    "fees": null,
+    "notes": "Equine Rabies Immunoglobulin (ERIG) injection is required for Category III animal bites and adds approximately 1 hour to the treatment.",
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [{ "name": "City Health Services Office Citizen's Charter 2025", "url": null }]
+  },
+  {
+    "service": "Adult Psychiatric Consultation",
+    "plainLanguageName": "Free Adult Psychiatric Consultation",
+    "slug": "adult-psychiatric-consultation",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "description": "Provides free psychiatric consultation, assessment, and treatment for adult residents at the City Health Office's Mental Health program. Appointments must be confirmed in advance through the Mental Health hotline or Facebook page.",
+    "serviceNumber": "18",
+    "officeDivision": "City Health Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "Calamba City residents",
+    "officeSlug": ["city-health-office"],
+    "category": { "name": "Health & Wellness", "slug": "health-wellness" },
+    "detailedRequirements": [
+      { "requirement": "Confirmed appointment schedule", "where_to_secure": "City of Calamba Mental Health hotline or Facebook page" }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Register or check in at the reception.",
+        "agencyAction": "Verify patient information, confirm the appointment with the Program Coordinator, provide a laboratory request slip if needed, take patient history and assessment, and conduct psychiatric treatment.",
+        "fee": "None",
+        "processing_time": "50 minutes (5 + 10 + 5 + 30)"
+      },
+      {
+        "step": 2,
+        "action": "Receive free medication.",
+        "agencyAction": "Dispense free medication to the patient.",
+        "fee": "None",
+        "processing_time": "5 minutes"
+      }
+    ],
+    "processingTime": "55 minutes",
+    "fees": null,
+    "notes": "Appointment must be confirmed in advance through the Mental Health hotline number or the City of Calamba Mental Health program Facebook page.",
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [{ "name": "City Health Services Office Citizen's Charter 2025", "url": null }]
+  },
+  {
+    "service": "Adult Counselling",
+    "plainLanguageName": "Free Adult Counseling and Psychotherapy",
+    "slug": "adult-counselling",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "description": "Provides free individual counseling and psychotherapy sessions to adult residents through the City Health Office's Mental Health program. Appointments must be confirmed in advance.",
+    "serviceNumber": "19",
+    "officeDivision": "City Health Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "Calamba City residents",
+    "officeSlug": ["city-health-office"],
+    "category": { "name": "Health & Wellness", "slug": "health-wellness" },
+    "detailedRequirements": [
+      { "requirement": "Confirmed appointment schedule", "where_to_secure": "City of Calamba Mental Health hotline or Facebook page" }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Register or check in at the reception.",
+        "agencyAction": "Verify patient information, assess counseling needs, and conduct psychotherapy or counseling session.",
+        "fee": "None",
+        "processing_time": "1 hour and 5 minutes (5 min + 1 hour)"
+      }
+    ],
+    "processingTime": "1 hour and 5 minutes",
+    "fees": null,
+    "notes": "Appointment must be confirmed in advance through the Mental Health hotline number or the City of Calamba Mental Health program Facebook page.",
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [{ "name": "City Health Services Office Citizen's Charter 2025", "url": null }]
+  },
+  {
+    "service": "Issuance of Pink Card",
+    "plainLanguageName": "Pink Card Issuance (for Entertainment / Night Establishment Workers)",
+    "slug": "issuance-of-pink-card",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "description": "Issues the Pink Card health clearance certificate required for workers in entertainment establishments and similar regulated workplaces. Requires passing multiple medical tests including VDRL, Hepatitis B, chest X-ray, urinalysis, stool exam, and drug test.",
+    "serviceNumber": "20",
+    "officeDivision": "City Health Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "Calamba City residents",
+    "officeSlug": ["city-health-office"],
+    "category": { "name": "Health & Wellness", "slug": "health-wellness" },
+    "detailedRequirements": [
+      { "requirement": "VDRL Laboratory Result", "where_to_secure": "Hospital / Clinic" },
+      { "requirement": "Hepatitis B Screening Result", "where_to_secure": "Hospital / Clinic" },
+      { "requirement": "Chest X-ray, Urinalysis, Fecalysis, and Drug Test Results", "where_to_secure": "Hospital / Clinic" },
+      { "requirement": "Health Certificate / Health Card", "where_to_secure": "Hospital / Clinic" }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Submit all required medical documents.",
+        "agencyAction": "Receive and review documents. If compliant results: issue Pink Card. If non-compliant results: refer to the Social Hygienic Clinic for further evaluation and management.",
+        "fee": "None",
+        "processing_time": "8 minutes (5 min + 3 min)"
+      }
+    ],
+    "processingTime": "8 minutes",
+    "fees": null,
+    "notes": "If test results are non-compliant, the client will be referred to the Social Hygienic Clinic for thorough assessment and management.",
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [{ "name": "City Health Services Office Citizen's Charter 2025", "url": null }]
   }
 ]

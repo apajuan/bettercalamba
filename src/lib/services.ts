@@ -12,7 +12,7 @@ import type {
 } from '@/types/servicesTypes';
 
 // Import the merged services data
-import mergedServicesData from '@/data/citizens-charter/merged-services.json';
+import mergedServicesData from '@/data/services/services.json';
 
 /**
  * Get all merged services (Citizens Charter + community)

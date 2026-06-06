@@ -10,6 +10,9 @@ import { useTranslation } from 'react-i18next';
 import { Badge } from '@/components/ui/Badge';
 import { Card, CardContent, CardGrid } from '@/components/ui/Card';
 
+import barangaysData from '@/data/directory/barangays.json';
+import departmentsData from '@/data/directory/departments.json';
+
 const GovernmentSection: FC = () => {
   const { t } = useTranslation('common');
   const navigate = useNavigate();
@@ -59,10 +62,10 @@ const GovernmentSection: FC = () => {
         {/* Quick stats using documented Badge component */}
         <div className='flex flex-wrap justify-center gap-4 mb-8'>
           <Badge variant='primary' className='px-4 py-2 text-sm'>
-            18 Barangays
+            {barangaysData.length} Barangays
           </Badge>
           <Badge variant='secondary' className='px-4 py-2 text-sm'>
-            15 Departments
+            {departmentsData.length} Departments
           </Badge>
           <Badge variant='slate' className='px-4 py-2 text-sm'>
             Elected Officials

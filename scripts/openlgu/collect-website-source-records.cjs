@@ -6,14 +6,14 @@ const crypto = require('node:crypto');
 
 const cheerio = require('cheerio');
 
-const COLLECTOR_VERSION = 'losbanos-website-collector-v1';
+const COLLECTOR_VERSION = 'calamba-website-collector-v1';
 const DEFAULT_OUTPUT_ROOT = 'pipeline/openlgu/sources';
 
 const SOURCES = [
   {
     key: 'resolutions',
     label: 'Resolutions',
-    url: 'https://losbanos.gov.ph/municipal_resolutions',
+    url: 'https://calamba.gov.ph/resolutions',
     table_selector: 'table#table1',
     fallback_selectors: ['table#dataTable', 'table.dataTable'],
     expected_columns: 4,
@@ -29,7 +29,7 @@ const SOURCES = [
   {
     key: 'ordinances',
     label: 'Ordinances',
-    url: 'https://losbanos.gov.ph/ordinance',
+    url: 'https://calamba.gov.ph/ordinances',
     table_selector: 'table#table1',
     fallback_selectors: ['table#dataTable', 'table.dataTable'],
     expected_columns: 6,
@@ -47,7 +47,7 @@ const SOURCES = [
   {
     key: 'executive_orders',
     label: 'Executive Orders',
-    url: 'https://losbanos.gov.ph/executive',
+    url: 'https://calamba.gov.ph/executive-orders',
     table_selector: 'table#table1',
     fallback_selectors: ['table#dataTable', 'table.dataTable'],
     expected_columns: 4,

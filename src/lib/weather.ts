@@ -3,6 +3,17 @@ import { fetchWithCache } from './api';
 import { config } from './lguConfig';
 
 /**
+ * Thrown when the weather API is unreachable or the Cloudflare Functions
+ * backend is offline. The home page renders a friendly fallback for this.
+ */
+export class WeatherUnavailableError extends Error {
+  constructor(message = 'Weather service is temporarily unavailable') {
+    super(message);
+    this.name = 'WeatherUnavailableError';
+  }
+}
+
+/**
  * Map OpenWeatherMap icon codes to Lucide icon names
  */
 export const mapWeatherIconToLucide = (iconCode: string): string => {
@@ -41,13 +52,30 @@ export const fetchWeatherData = async (): Promise<WeatherData[]> => {
     .replace(/ñ/g, 'n');
 
   // Always fetch specific city
-  let data = await fetchWithCache(
-    `/api/weather?city=${encodeURIComponent(cityName)}`
-  );
+  let data;
+  try {
+    data = await fetchWithCache(
+      `/api/weather?city=${encodeURIComponent(cityName)}`
+    );
 
-  // If KV is empty or city missing, fallback to update
-  if (!data || Object.keys(data).length === 0) {
-    data = await fetchWithCache('/api/weather?update=true');
+    // If KV is empty or city missing, fallback to update
+    if (!data || Object.keys(data).length === 0) {
+      data = await fetchWithCache('/api/weather?update=true');
+    }
+  } catch (err) {
+    // Vite proxy returns 503 with { offline: true } when the Functions
+    // backend is not running; the upstream Functions handler returns 500
+    // when OPENWEATHERMAP_API_KEY is missing. Surface both as a sentinel
+    // so the UI can show a friendly fallback rather than a raw error.
+    const message = err instanceof Error ? err.message : String(err);
+    if (
+      message.includes('503') ||
+      message.includes('500') ||
+      message.toLowerCase().includes('offline')
+    ) {
+      throw new WeatherUnavailableError();
+    }
+    throw err;
   }
 
   const city =

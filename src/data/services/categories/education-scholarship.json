@@ -1,38 +1,906 @@
 [
   {
-    "service": "Public School Directory",
-    "slug": "public-school-directory",
-    "type": "information",
-    "description": "A comprehensive list of public elementary and secondary schools in the municipality.",
-    "officeSlug": ["department-of-education"],
-    "category": {
-      "name": "Education & Scholarship",
-      "slug": "education-scholarship"
-    },
-    "steps": [
-      "Los Baños Central Elementary School (Timugan)",
-      "Mayondon Elementary School",
-      "Bayog Elementary School",
-      "Lalakay Elementary School",
-      "Los Baños National High School (Poblacion)",
-      "Bernardo F. San Juan National High School",
-      "South Hill School (Private)",
-      "University of the Philippines Rural High School"
+    "service": "Enrollment for Regular and Freshmen Students",
+    "plainLanguageName": "Enroll as a Regular or Freshman Student",
+    "slug": "enrollment-regular-freshmen-students",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "description": "Processes enrollment for continuing regular students and incoming freshmen at the City College of Calamba (CCC).",
+    "serviceNumber": "1",
+    "officeDivision": "City College of Calamba — Office of the College Registrar",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "Student-citizens of Calamba City",
+    "officeSlug": ["city-college-of-calamba"],
+    "category": { "name": "Education & Scholarship", "slug": "education-scholarship" },
+    "detailedRequirements": [
+      { "requirement": "Registration Form", "where_to_secure": "Office of the College Registrar" }
     ],
-    "requirements": [],
-    "relatedServices": ["scholarship-application"],
-    "faqs": [
+    "clientSteps": [
       {
-        "question": "When does enrollment start?",
-        "answer": "Enrollment typically begins in July. Please follow the official DepEd page for announcements."
+        "step": 1,
+        "action": "Complete the Online Pre-Registration.",
+        "agencyAction": "Enroll the registered student in the system.",
+        "fee": "None",
+        "processing_time": "5 minutes"
+      },
+      {
+        "step": 2,
+        "action": "Pick up the Registration Form from the Registrar's Office.",
+        "agencyAction": "Print and release the Registration Form.",
+        "fee": "None",
+        "processing_time": "20 minutes"
       }
     ],
-    "updatedAt": null,
-    "sources": [
+    "processingTime": "25 minutes",
+    "fees": null,
+    "notes": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [{ "name": "City College of Calamba Citizen's Charter 2025", "url": null }]
+  },
+  {
+    "service": "Enrollment for Irregular and Transferee Students",
+    "plainLanguageName": "Enroll as an Irregular or Transferee Student",
+    "slug": "enrollment-irregular-transferee-students",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "description": "Processes enrollment for irregular students (those not following a standard study plan) and transferees from other schools, including evaluation of previously earned academic units.",
+    "serviceNumber": "2",
+    "officeDivision": "City College of Calamba — Office of the College Registrar",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "Student-citizens of Calamba City",
+    "officeSlug": ["city-college-of-calamba"],
+    "category": { "name": "Education & Scholarship", "slug": "education-scholarship" },
+    "detailedRequirements": [
+      { "requirement": "Student ID from previous school", "where_to_secure": "Previous School" },
+      { "requirement": "Comp Cards (completion cards)", "where_to_secure": "Previous School" },
+      { "requirement": "Transcript of Records (for transferees)", "where_to_secure": "Previous School" }
+    ],
+    "clientSteps": [
       {
-        "name": "DepEd Schools Division Office List",
-        "url": ""
+        "step": 1,
+        "action": "Complete the Online Pre-Registration, then go to the Office of the Director for subject evaluation and study load assignment.",
+        "agencyAction": "Submit the list of registered students to the Director's Office, evaluate the student's units, and assign a study load.",
+        "fee": "None",
+        "processing_time": "20 minutes (5 min + 15 min)"
+      },
+      {
+        "step": 2,
+        "action": "Claim the Registration Form.",
+        "agencyAction": "Encode the study load and print the Registration Form.",
+        "fee": "None",
+        "processing_time": "5 minutes"
       }
-    ]
+    ],
+    "processingTime": "25 minutes",
+    "fees": null,
+    "notes": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [{ "name": "City College of Calamba Citizen's Charter 2025", "url": null }]
+  },
+  {
+    "service": "Pre-Registration for Entering Freshmen and Transferees",
+    "plainLanguageName": "Pre-Register as an Incoming Freshman or Transferee",
+    "slug": "pre-registration-entering-freshmen-transferee",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "description": "Registers incoming freshmen and transferees at CCC before the enrollment period, evaluates their submitted documents, and assigns them a student ID number and enrollment stub.",
+    "serviceNumber": "3",
+    "officeDivision": "City College of Calamba — Office of the College Registrar",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "Student-citizens of Calamba City",
+    "officeSlug": ["city-college-of-calamba"],
+    "category": { "name": "Education & Scholarship", "slug": "education-scholarship" },
+    "detailedRequirements": [
+      { "requirement": "Form 138 / Transcript of Records (for transferees)", "where_to_secure": "Previous School" },
+      { "requirement": "Form 137 / Copy of Grades (for transferees)", "where_to_secure": "Previous School" },
+      { "requirement": "Honorable Dismissal", "where_to_secure": "Previous School" },
+      { "requirement": "Admission Slip", "where_to_secure": "Previous School" },
+      { "requirement": "Certificate of Good Moral Character", "where_to_secure": "Previous School" },
+      { "requirement": "Birth Certificate", "where_to_secure": "Philippine Statistics Authority (PSA)" },
+      { "requirement": "Personal Information Sheet", "where_to_secure": "Office of the College Registrar" },
+      { "requirement": "Barangay Clearance", "where_to_secure": "Barangay Hall" }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Complete the online pre-registration via the CCC Registrar's Facebook page to receive a schedule for document submission.",
+        "agencyAction": "Provide a schedule for document submission.",
+        "fee": "None",
+        "processing_time": "5 minutes"
+      },
+      {
+        "step": 2,
+        "action": "Submit all required documents on the assigned date to receive a student ID number and enrollment stub.",
+        "agencyAction": "Receive and review all submitted documents.",
+        "fee": "None",
+        "processing_time": "10 minutes"
+      }
+    ],
+    "processingTime": "15 minutes",
+    "fees": null,
+    "notes": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [{ "name": "City College of Calamba Citizen's Charter 2025", "url": null }]
+  },
+  {
+    "service": "Request for Copy of Grades",
+    "plainLanguageName": "Request Copy of Grades",
+    "slug": "request-copy-of-grades",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "description": "Issues an official copy of a student's grade report for a specific semester or school year at the City College of Calamba.",
+    "serviceNumber": "4",
+    "officeDivision": "City College of Calamba — Office of the College Registrar",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "Students of the City College of Calamba",
+    "officeSlug": ["city-college-of-calamba"],
+    "category": { "name": "Education & Scholarship", "slug": "education-scholarship" },
+    "detailedRequirements": [
+      { "requirement": "Documentary Stamp", "where_to_secure": "Available at the Office" },
+      { "requirement": "Official Receipt of payment", "where_to_secure": "CCC Cashier's Office" },
+      { "requirement": "Request Form", "where_to_secure": "Office of the College Registrar" }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Fill out the request form and pay the required fee at the Cashier's Office.",
+        "agencyAction": "Issue Official Receipt.",
+        "fee": "Php 30.00",
+        "processing_time": "5 minutes"
+      },
+      {
+        "step": 2,
+        "action": "Present the Request Form and Official Receipt to the Registrar's Office.",
+        "agencyAction": "Issue a Claim Stub.",
+        "fee": "None",
+        "processing_time": "5 minutes"
+      },
+      {
+        "step": 3,
+        "action": "Claim the Copy of Grades on the scheduled release date.",
+        "agencyAction": "Release the document.",
+        "fee": "None",
+        "processing_time": "2 minutes"
+      }
+    ],
+    "processingTime": "12 minutes (document released within 7 working days)",
+    "fees": { "amount": "Php 30.00", "description": "Per request" },
+    "notes": "Copy of Grades will be released within seven (7) working days per the CCC Registrar's Manual of Operation.",
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [{ "name": "City College of Calamba Citizen's Charter 2025", "url": null }]
+  },
+  {
+    "service": "Request for Transcript of Records",
+    "plainLanguageName": "Request Official Transcript of Records",
+    "slug": "request-transcript-of-records",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "description": "Issues an official Transcript of Records showing a student's complete academic history at the City College of Calamba. Commonly required for job applications, graduate school admission, and professional licensing.",
+    "serviceNumber": "5",
+    "officeDivision": "City College of Calamba — Office of the College Registrar",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "Students of the City College of Calamba",
+    "officeSlug": ["city-college-of-calamba"],
+    "category": { "name": "Education & Scholarship", "slug": "education-scholarship" },
+    "detailedRequirements": [
+      { "requirement": "Documentary Stamp", "where_to_secure": "Available at the Office" },
+      { "requirement": "Official Receipt of payment", "where_to_secure": "CCC Cashier's Office" },
+      { "requirement": "Request Form", "where_to_secure": "Office of the College Registrar" }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Fill out the request form and pay the required fee at the Cashier's Office.",
+        "agencyAction": "Issue Official Receipt.",
+        "fee": "Php 50.00 per page",
+        "processing_time": "5 minutes"
+      },
+      {
+        "step": 2,
+        "action": "Present the Request Form and Official Receipt to the Registrar's Office.",
+        "agencyAction": "Issue a Claim Stub.",
+        "fee": "None",
+        "processing_time": "5 minutes"
+      },
+      {
+        "step": 3,
+        "action": "Claim the Transcript of Records on the scheduled release date.",
+        "agencyAction": "Release the document.",
+        "fee": "None",
+        "processing_time": "2 minutes"
+      }
+    ],
+    "processingTime": "12 minutes (document released within 7 working days)",
+    "fees": { "amount": "Php 50.00", "description": "Per page" },
+    "notes": "Transcript of Records will be released within seven (7) working days per the CCC Registrar's Manual of Operation.",
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [{ "name": "City College of Calamba Citizen's Charter 2025", "url": null }]
+  },
+  {
+    "service": "Issuance of Academic Certificates (Enrollment, GWA, Medium of Instruction, Graduation, Completion)",
+    "plainLanguageName": "Request Academic Certificate",
+    "slug": "issuance-of-academic-certificates",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "description": "Issues official academic certificates from the City College of Calamba, including certificates of enrollment, general weighted average (GWA), medium of instruction, graduation, and completion.",
+    "serviceNumber": "6",
+    "officeDivision": "City College of Calamba — Office of the College Registrar",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "Students of the City College of Calamba",
+    "officeSlug": ["city-college-of-calamba"],
+    "category": { "name": "Education & Scholarship", "slug": "education-scholarship" },
+    "detailedRequirements": [
+      { "requirement": "Documentary Stamp", "where_to_secure": "Available at the Office" },
+      { "requirement": "Official Receipt of payment", "where_to_secure": "CCC Cashier's Office" },
+      { "requirement": "Request Form", "where_to_secure": "Office of the College Registrar" }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Fill out the request form and pay the required fee at the Cashier's Office.",
+        "agencyAction": "Issue Official Receipt.",
+        "fee": "Php 50.00 per page",
+        "processing_time": "5 minutes"
+      },
+      {
+        "step": 2,
+        "action": "Present the Request Form and Official Receipt.",
+        "agencyAction": "Issue a Claim Stub.",
+        "fee": "None",
+        "processing_time": "5 minutes"
+      },
+      {
+        "step": 3,
+        "action": "Claim the certificate on the scheduled release date.",
+        "agencyAction": "Release the certificate.",
+        "fee": "None",
+        "processing_time": "15 minutes"
+      }
+    ],
+    "processingTime": "25 minutes",
+    "fees": { "amount": "Php 50.00", "description": "Per page" },
+    "notes": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [{ "name": "City College of Calamba Citizen's Charter 2025", "url": null }]
+  },
+  {
+    "service": "Dropping of Subjects",
+    "plainLanguageName": "Drop a Subject",
+    "slug": "dropping-of-subjects",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "description": "Officially removes a student from a currently enrolled subject at the City College of Calamba within the allowed period for dropping.",
+    "serviceNumber": "7",
+    "officeDivision": "City College of Calamba — Office of the College Registrar",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "Students of the City College of Calamba",
+    "officeSlug": ["city-college-of-calamba"],
+    "category": { "name": "Education & Scholarship", "slug": "education-scholarship" },
+    "detailedRequirements": [
+      { "requirement": "Dropping Form", "where_to_secure": "Registrar's Office" },
+      { "requirement": "Official Receipt of payment", "where_to_secure": "CCC Cashier's Office" }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Fill out the Dropping Form.",
+        "agencyAction": "Review the Dropping Form. If approved: student proceeds to Cashier. If disapproved: student is referred to the Dean for consultation.",
+        "fee": "None",
+        "processing_time": "10 minutes"
+      },
+      {
+        "step": 2,
+        "action": "Pay the required fee at the Cashier's Office.",
+        "agencyAction": "Issue Official Receipt.",
+        "fee": "Php 25.00 per subject",
+        "processing_time": "5 minutes"
+      },
+      {
+        "step": 3,
+        "action": "Submit the completed Dropping Form.",
+        "agencyAction": "Accept and file the Dropping Form.",
+        "fee": "None",
+        "processing_time": "5 minutes"
+      }
+    ],
+    "processingTime": "20 minutes",
+    "fees": { "amount": "Php 25.00", "description": "Per subject dropped" },
+    "notes": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [{ "name": "City College of Calamba Citizen's Charter 2025", "url": null }]
+  },
+  {
+    "service": "Filing of Student Leave of Absence (LOA)",
+    "plainLanguageName": "File a Leave of Absence",
+    "slug": "filing-student-leave-of-absence",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "description": "Processes a student's application to take a formal leave of absence from the City College of Calamba, including dropping all currently enrolled subjects for the semester.",
+    "serviceNumber": "8",
+    "officeDivision": "City College of Calamba — Office of the College Registrar",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "Students of the City College of Calamba",
+    "officeSlug": ["city-college-of-calamba"],
+    "category": { "name": "Education & Scholarship", "slug": "education-scholarship" },
+    "detailedRequirements": [
+      { "requirement": "Leave of Absence Form", "where_to_secure": "Registrar's Office" },
+      { "requirement": "Dropping Form", "where_to_secure": "Registrar's Office" },
+      { "requirement": "Official Receipt of payment", "where_to_secure": "CCC Cashier's Office" }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Get the Leave of Absence and Dropping Forms from the Registrar's Office, then fill out and sign both.",
+        "agencyAction": "Provide the Leave of Absence Form.",
+        "fee": "None",
+        "processing_time": "5 minutes"
+      },
+      {
+        "step": 2,
+        "action": "Pay the required fee at the Cashier's Office.",
+        "agencyAction": "Issue Official Receipt.",
+        "fee": "Php 25.00 per subject",
+        "processing_time": "5 minutes"
+      },
+      {
+        "step": 3,
+        "action": "Submit the completed forms.",
+        "agencyAction": "Accept and file the forms.",
+        "fee": "None",
+        "processing_time": "5 minutes"
+      }
+    ],
+    "processingTime": "15 minutes",
+    "fees": { "amount": "Php 25.00", "description": "Per subject (for dropping)" },
+    "notes": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [{ "name": "City College of Calamba Citizen's Charter 2025", "url": null }]
+  },
+  {
+    "service": "Exit Clearance or Returning Clearance",
+    "plainLanguageName": "Get Exit or Returning Clearance",
+    "slug": "exit-clearance-or-returning-clearance",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "description": "Processes exit clearance for students leaving CCC, or a returning clearance for students coming back from a leave of absence.",
+    "serviceNumber": "9",
+    "officeDivision": "City College of Calamba — Office of the College Registrar",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "Students of the City College of Calamba",
+    "officeSlug": ["city-college-of-calamba"],
+    "category": { "name": "Education & Scholarship", "slug": "education-scholarship" },
+    "detailedRequirements": [
+      { "requirement": "Leave of Absence Form (for Returning Clearance only)", "where_to_secure": "Registrar's Office" },
+      { "requirement": "Dropping Form (if applicable)", "where_to_secure": "Registrar's Office" }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Get the Exit or Returning Clearance form, sign it, and complete all required sections.",
+        "agencyAction": "Provide the clearance form.",
+        "fee": "None",
+        "processing_time": "5 minutes"
+      },
+      {
+        "step": 2,
+        "action": "Submit the completed form and wait for a copy.",
+        "agencyAction": "Accept and file the clearance form.",
+        "fee": "None",
+        "processing_time": "5 minutes"
+      }
+    ],
+    "processingTime": "10 minutes",
+    "fees": null,
+    "notes": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [{ "name": "City College of Calamba Citizen's Charter 2025", "url": null }]
+  },
+  {
+    "service": "Petition to Open a Subject",
+    "plainLanguageName": "Petition to Open a Subject",
+    "slug": "petition-opening-of-subject",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "description": "Allows students to formally petition the college to open a subject that is not yet scheduled or has insufficient enrollment numbers. The Dean approves or denies the petition.",
+    "serviceNumber": "10",
+    "officeDivision": "City College of Calamba — Office of the College Registrar",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "Students of the City College of Calamba",
+    "officeSlug": ["city-college-of-calamba"],
+    "category": { "name": "Education & Scholarship", "slug": "education-scholarship" },
+    "detailedRequirements": [
+      { "requirement": "Petition Form", "where_to_secure": "Office of the College Registrar" }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Get a Petition Form from the Registrar's Office.",
+        "agencyAction": "Provide the Petition Form.",
+        "fee": "None",
+        "processing_time": "5 minutes"
+      },
+      {
+        "step": 2,
+        "action": "Fill out, sign, and submit the Petition Form.",
+        "agencyAction": "Accept and file the form. If approved: the subject will be offered. If disapproved: student is referred to the Dean for consultation.",
+        "fee": "None",
+        "processing_time": "5 minutes"
+      }
+    ],
+    "processingTime": "10 minutes",
+    "fees": null,
+    "notes": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [{ "name": "City College of Calamba Citizen's Charter 2025", "url": null }]
+  },
+  {
+    "service": "Authentication of Academic Documents",
+    "plainLanguageName": "Authenticate an Academic Document",
+    "slug": "authentication-of-documents",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "description": "Authenticates copies of academic documents issued by the City College of Calamba, confirming that the photocopy matches the original on file with the Registrar.",
+    "serviceNumber": "11",
+    "officeDivision": "City College of Calamba — Office of the College Registrar",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "Students of the City College of Calamba",
+    "officeSlug": ["city-college-of-calamba"],
+    "category": { "name": "Education & Scholarship", "slug": "education-scholarship" },
+    "detailedRequirements": [
+      { "requirement": "Request Form", "where_to_secure": "Office of the College Registrar" },
+      { "requirement": "Original copy of the document to be authenticated", "where_to_secure": "Client" },
+      { "requirement": "Photocopy of the document to be authenticated", "where_to_secure": "Client" },
+      { "requirement": "Official Receipt of payment", "where_to_secure": "CCC Cashier's Office" }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Fill out the request form and pay the fee at the Cashier's Office.",
+        "agencyAction": "Issue Official Receipt.",
+        "fee": "Php 30.00 per document",
+        "processing_time": "5 minutes"
+      },
+      {
+        "step": 2,
+        "action": "Present the Request Form and Official Receipt, then wait for the document.",
+        "agencyAction": "Process and release the authenticated document.",
+        "fee": "None",
+        "processing_time": "5 minutes"
+      }
+    ],
+    "processingTime": "10 minutes",
+    "fees": { "amount": "Php 30.00", "description": "Per document" },
+    "notes": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [{ "name": "City College of Calamba Citizen's Charter 2025", "url": null }]
+  },
+  {
+    "service": "Request for Second Copy (Registration Form, Comp Card, or Diploma)",
+    "plainLanguageName": "Request a Replacement Copy of a Registration Form, Comp Card, or Diploma",
+    "slug": "request-second-copy-registration-form-comp-card-diploma",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "description": "Issues a second copy of a student's Registration Form, Completion Card (Comp Card), or Diploma from the City College of Calamba. An Affidavit of Loss is required for a replacement diploma.",
+    "serviceNumber": "12",
+    "officeDivision": "City College of Calamba — Office of the College Registrar",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "Students of the City College of Calamba",
+    "officeSlug": ["city-college-of-calamba"],
+    "category": { "name": "Education & Scholarship", "slug": "education-scholarship" },
+    "detailedRequirements": [
+      { "requirement": "Request Form", "where_to_secure": "Office of the College Registrar" },
+      { "requirement": "Affidavit of Loss (for replacement diploma only)", "where_to_secure": "Any Legal Office" },
+      { "requirement": "Official Receipt of payment", "where_to_secure": "CCC Cashier's Office" }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Fill out the request form and pay the required fee at the Cashier's Office.",
+        "agencyAction": "Issue Official Receipt.",
+        "fee": "Php 100.00 (Registration Form), Php 50.00 (Comp Card), Php 300.00 (Diploma)",
+        "processing_time": "5 minutes"
+      },
+      {
+        "step": 2,
+        "action": "Present the Request Form and Official Receipt, then claim the document.",
+        "agencyAction": "Process and release the requested document.",
+        "fee": "None",
+        "processing_time": "10 minutes (Registration Form & Comp Card); 14 working days (Diploma)"
+      }
+    ],
+    "processingTime": "15 minutes for Registration Form & Comp Card; 14 working days for Diploma",
+    "fees": { "amount": "Php 100.00 / Php 50.00 / Php 300.00", "description": "Registration Form / Comp Card / Diploma" },
+    "notes": "Replacement diploma will be ready within fourteen (14) working days as it is sent to a printing press.",
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [{ "name": "City College of Calamba Citizen's Charter 2025", "url": null }]
+  },
+  {
+    "service": "Request for Completion Form",
+    "plainLanguageName": "Request a Completion Form",
+    "slug": "request-for-completion-form",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "description": "Issues the official Completion Form from the City College of Calamba, used to formally complete an incomplete grade or satisfy an outstanding academic requirement.",
+    "serviceNumber": "13",
+    "officeDivision": "City College of Calamba — Office of the College Registrar",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "Students of the City College of Calamba",
+    "officeSlug": ["city-college-of-calamba"],
+    "category": { "name": "Education & Scholarship", "slug": "education-scholarship" },
+    "detailedRequirements": [
+      { "requirement": "Request Form", "where_to_secure": "Registrar's Office" },
+      { "requirement": "Documentary Stamp (for Diploma)", "where_to_secure": "Available at the Office" },
+      { "requirement": "Official Receipt of payment", "where_to_secure": "CCC Cashier's Office" }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Fill out the request form and pay the required fee at the Cashier's Office.",
+        "agencyAction": "Issue Official Receipt.",
+        "fee": "Php 50.00",
+        "processing_time": "5 minutes"
+      },
+      {
+        "step": 2,
+        "action": "Present the Request Form and Official Receipt, then claim the document.",
+        "agencyAction": "Release the Completion Form.",
+        "fee": "None",
+        "processing_time": "5 minutes"
+      }
+    ],
+    "processingTime": "10 minutes",
+    "fees": { "amount": "Php 50.00", "description": "Per request" },
+    "notes": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [{ "name": "City College of Calamba Citizen's Charter 2025", "url": null }]
+  },
+  {
+    "service": "Application for Late Enrollment, Re-Admission, and Shifting",
+    "plainLanguageName": "Apply for Late Enrollment, Re-Admission, or Course Shifting",
+    "slug": "application-late-enrollment-re-admission-shifting",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "description": "Processes applications from students who need to enroll after the regular enrollment period, students returning after a leave or stopout (re-admission), or students transferring to a different course (shifting).",
+    "serviceNumber": "14",
+    "officeDivision": "City College of Calamba — Office of the College Registrar",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "Students of the City College of Calamba",
+    "officeSlug": ["city-college-of-calamba"],
+    "category": { "name": "Education & Scholarship", "slug": "education-scholarship" },
+    "detailedRequirements": [
+      { "requirement": "Evaluation Form", "where_to_secure": "Registrar's Office" },
+      { "requirement": "2x2 picture (for shiftees)", "where_to_secure": "Client" },
+      { "requirement": "Official Receipt of payment", "where_to_secure": "CCC Cashier's Office" }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Fill out the form and pay the required fee at the Cashier's Office.",
+        "agencyAction": "Issue Official Receipt.",
+        "fee": "Php 50.00",
+        "processing_time": "5 minutes"
+      },
+      {
+        "step": 2,
+        "action": "Submit the request form and Official Receipt, then claim the shifting form.",
+        "agencyAction": "Release the Shifting Form.",
+        "fee": "None",
+        "processing_time": "5 minutes"
+      },
+      {
+        "step": 3,
+        "action": "Fill out and submit the Shifting Form.",
+        "agencyAction": "Accept and file the Shifting Form.",
+        "fee": "None",
+        "processing_time": "5 minutes"
+      }
+    ],
+    "processingTime": "15 minutes",
+    "fees": { "amount": "Php 50.00", "description": "Per request" },
+    "notes": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [{ "name": "City College of Calamba Citizen's Charter 2025", "url": null }]
+  },
+  {
+    "service": "Application for Graduation Clearance",
+    "plainLanguageName": "Apply for Graduation Clearance",
+    "slug": "application-for-clearance-for-graduating-students",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "description": "Processes the graduation clearance application for eligible graduating students at the City College of Calamba, confirming that all academic and administrative requirements have been fulfilled.",
+    "serviceNumber": "15",
+    "officeDivision": "City College of Calamba — Office of the College Registrar",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "Graduating students of the City College of Calamba",
+    "officeSlug": ["city-college-of-calamba"],
+    "category": { "name": "Education & Scholarship", "slug": "education-scholarship" },
+    "detailedRequirements": [
+      { "requirement": "Application for Graduation Stub", "where_to_secure": "Registrar's Office" },
+      { "requirement": "2 pieces Documentary Stamps", "where_to_secure": "Available at the Office" },
+      { "requirement": "Birth Certificate", "where_to_secure": "Philippine Statistics Authority (PSA)" },
+      { "requirement": "Prospectus", "where_to_secure": "Available at the Office" }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Fill out the online graduation application form to receive an appointment schedule.",
+        "agencyAction": "Provide an appointment schedule.",
+        "fee": "None",
+        "processing_time": "5 minutes"
+      },
+      {
+        "step": 2,
+        "action": "Submit the required documents on the assigned date.",
+        "agencyAction": "Receive and file the submitted documents.",
+        "fee": "None",
+        "processing_time": "5 minutes"
+      }
+    ],
+    "processingTime": "10 minutes",
+    "fees": null,
+    "notes": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [{ "name": "City College of Calamba Citizen's Charter 2025", "url": null }]
+  },
+  {
+    "service": "Request for Change of Grades",
+    "plainLanguageName": "Request a Grade Change",
+    "slug": "request-for-change-of-grades",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "description": "Processes a formal request from a teacher or student to review and potentially change a submitted grade at the City College of Calamba. The request undergoes review by the Academic Personnel Council.",
+    "serviceNumber": "16",
+    "officeDivision": "City College of Calamba — Office of the College Registrar",
+    "classification": "Highly Technical",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "Teachers and students of the City College of Calamba",
+    "officeSlug": ["city-college-of-calamba"],
+    "category": { "name": "Education & Scholarship", "slug": "education-scholarship" },
+    "detailedRequirements": [
+      { "requirement": "Letter requesting a change of grade", "where_to_secure": "Student or Teacher" },
+      { "requirement": "Supporting Documents justifying the grade change", "where_to_secure": "Client" },
+      { "requirement": "Request Form", "where_to_secure": "Office of the College Registrar" }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Submit the letter and supporting documents within one (1) month after grades were submitted.",
+        "agencyAction": "Review the supporting documents and, if necessary, request an audience with the Academic Personnel Council.",
+        "fee": "None",
+        "processing_time": "5 minutes (initial review; deliberation takes up to 1 month)"
+      },
+      {
+        "step": 2,
+        "action": "Receive a copy of the resolution.",
+        "agencyAction": "Release the Resolution to the concerned teacher and/or student.",
+        "fee": "None",
+        "processing_time": "5 minutes"
+      }
+    ],
+    "processingTime": "10 minutes (deliberation by the Academic Personnel Council may take one month or more)",
+    "fees": null,
+    "notes": "The Academic Personnel Council deliberation may take one (1) month or longer.",
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [{ "name": "City College of Calamba Citizen's Charter 2025", "url": null }]
+  },
+  {
+    "service": "Pagbibigay ng Certificate of Good Moral Character (CCC)",
+    "plainLanguageName": "Request Certificate of Good Moral Character (City College of Calamba)",
+    "slug": "certificate-of-good-moral-character-ccc",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "description": "Issues a Certificate of Good Moral Character for CCC students, issued by the Guidance, Counselling, Testing and Career Development Center. Typically required for employment, scholarships, or transfer to another school.",
+    "serviceNumber": "17",
+    "officeDivision": "City College of Calamba — Guidance, Counselling, Testing and Career Development Center",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "Students of the City College of Calamba",
+    "officeSlug": ["city-college-of-calamba"],
+    "category": { "name": "Education & Scholarship", "slug": "education-scholarship" },
+    "detailedRequirements": [
+      { "requirement": "Requisition Form", "where_to_secure": "Guidance, Counselling, Testing and Career Development Center" }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Go to the Registrar's Office to get a Request Form, then pay the fee at the Cashier's Office.",
+        "agencyAction": "Issue Official Receipt.",
+        "fee": "Php 30.00",
+        "processing_time": "2 minutes"
+      },
+      {
+        "step": 2,
+        "action": "Submit the Request Form and present the Official Receipt.",
+        "agencyAction": "Verify and process the document.",
+        "fee": "None",
+        "processing_time": "15 minutes"
+      },
+      {
+        "step": 3,
+        "action": "Claim the Certificate of Good Moral Character.",
+        "agencyAction": "Release the certificate.",
+        "fee": "None",
+        "processing_time": "3 minutes"
+      }
+    ],
+    "processingTime": "20 minutes",
+    "fees": { "amount": "Php 30.00", "description": "Per request" },
+    "notes": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [{ "name": "City College of Calamba Citizen's Charter 2025", "url": null }]
+  },
+  {
+    "service": "Learning Management System (LMS) Queries and Concerns",
+    "plainLanguageName": "Report an LMS Issue or Query",
+    "slug": "lms-queries-and-concerns",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "description": "Handles queries, technical issues, and concerns from CCC students and teachers regarding the school's online Learning Management System (LMS).",
+    "serviceNumber": "18",
+    "officeDivision": "City College of Calamba — Management Information System Department",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "CCC students and teachers",
+    "officeSlug": ["city-college-of-calamba"],
+    "category": { "name": "Education & Scholarship", "slug": "education-scholarship" },
+    "detailedRequirements": [
+      { "requirement": "Client Query Form (submitted via email)", "where_to_secure": "Management Information System Department" }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Fill out and submit the Client Query Form via email.",
+        "agencyAction": "Review and investigate the query.",
+        "fee": "None",
+        "processing_time": "5 minutes"
+      },
+      {
+        "step": 2,
+        "action": "Wait for a notification regarding the status of the query.",
+        "agencyAction": "Notify the client of the query status and resolution.",
+        "fee": "None",
+        "processing_time": "4 minutes"
+      }
+    ],
+    "processingTime": "9 minutes",
+    "fees": null,
+    "notes": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [{ "name": "City College of Calamba Citizen's Charter 2025", "url": null }]
+  },
+  {
+    "service": "Hardware, Software, and Network Maintenance and Troubleshooting",
+    "plainLanguageName": "IT Support: Hardware, Software, and Network Issues",
+    "slug": "hardware-software-network-maintenance-troubleshooting",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "description": "Provides technical support for hardware, software, and network issues reported by CCC students and teaching/non-teaching staff through the Management Information System Department.",
+    "serviceNumber": "19",
+    "officeDivision": "City College of Calamba — Management Information System Department",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "CCC students and teachers",
+    "officeSlug": ["city-college-of-calamba"],
+    "category": { "name": "Education & Scholarship", "slug": "education-scholarship" },
+    "detailedRequirements": [
+      { "requirement": "Client Log and Service Request Form", "where_to_secure": "Management Information System Department" }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Fill out the Service Request Form.",
+        "agencyAction": "Review the Service Request Form, then perform maintenance and troubleshooting on the hardware/software/network.",
+        "fee": "None",
+        "processing_time": "32 minutes (2 min review + 30 min repair)"
+      },
+      {
+        "step": 2,
+        "action": "Wait for notification about the repair status.",
+        "agencyAction": "Notify the client of the repair status.",
+        "fee": "None",
+        "processing_time": "3 minutes"
+      }
+    ],
+    "processingTime": "35 minutes (may take longer for complex issues)",
+    "fees": null,
+    "notes": "Hardware, software, and network maintenance or troubleshooting may take more than 30 minutes depending on the complexity of the issue.",
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [{ "name": "City College of Calamba Citizen's Charter 2025", "url": null }]
+  },
+  {
+    "service": "Request for Retrieval of Document",
+    "plainLanguageName": "Retrieve an Official Document from Records",
+    "slug": "request-for-retrieval-of-document",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "description": "Retrieves official documents from the CCC Records Management Office on behalf of teachers and non-teaching staff.",
+    "serviceNumber": "20",
+    "officeDivision": "City College of Calamba — Records Management Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "CCC teachers and non-teaching staff",
+    "officeSlug": ["city-college-of-calamba"],
+    "category": { "name": "Education & Scholarship", "slug": "education-scholarship" },
+    "detailedRequirements": [
+      { "requirement": "Request Form", "where_to_secure": "Records Management Office" }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Fill out the Request Form.",
+        "agencyAction": "Review the Request Form, then retrieve and process the requested document.",
+        "fee": "None",
+        "processing_time": "33 minutes (3 min + 30 min)"
+      },
+      {
+        "step": 2,
+        "action": "Receive the retrieved document.",
+        "agencyAction": "Release the requested document.",
+        "fee": "None",
+        "processing_time": "5 minutes"
+      }
+    ],
+    "processingTime": "38 minutes",
+    "fees": null,
+    "notes": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [{ "name": "City College of Calamba Citizen's Charter 2025", "url": null }]
+  },
+  {
+    "service": "Application for Temporary Student ID",
+    "plainLanguageName": "Get a Temporary Student ID",
+    "slug": "application-for-temporary-id",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "description": "Issues a temporary student identification card for CCC students who have lost their ID or are waiting for their official ID to be processed.",
+    "serviceNumber": "21",
+    "officeDivision": "City College of Calamba — Office of the Student Affairs",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "Students of the City College of Calamba",
+    "officeSlug": ["city-college-of-calamba"],
+    "category": { "name": "Education & Scholarship", "slug": "education-scholarship" },
+    "detailedRequirements": [
+      { "requirement": "Request Form", "where_to_secure": "Office of the Student Affairs" },
+      { "requirement": "Letter (explaining the reason for the request)", "where_to_secure": "Client" },
+      { "requirement": "1x1 ID picture", "where_to_secure": "Client" },
+      { "requirement": "Photocopy of guardian's ID", "where_to_secure": "Client" }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Fill out the request form and submit all required documents.",
+        "agencyAction": "Review the documents and process the Temporary ID.",
+        "fee": "None",
+        "processing_time": "10 minutes"
+      },
+      {
+        "step": 2,
+        "action": "Receive the Temporary ID.",
+        "agencyAction": "Release the Temporary Student ID.",
+        "fee": "None",
+        "processing_time": "2 minutes"
+      }
+    ],
+    "processingTime": "12 minutes",
+    "fees": null,
+    "notes": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [{ "name": "City College of Calamba Citizen's Charter 2025", "url": null }]
   }
 ]

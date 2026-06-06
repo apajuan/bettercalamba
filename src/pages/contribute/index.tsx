@@ -30,7 +30,7 @@ export default function ContributePage() {
       </Breadcrumb>
 
       <ModuleHeader
-        title='Contribute to BetterLB'
+        title='Contribute to BetterCalamba'
         description='Help us keep the service directory accurate and up-to-date.'
       />
 
