@@ -1,0 +1,43 @@
+<!--
+  TODO: Replace this placeholder with the official Calamba City seal SVG.
+  Drop the real file here as /public/calamba-seal.svg (colored, for light backgrounds).
+  Also add /public/calamba-seal-white.svg (all-white paths, for dark backgrounds / footer).
+  Until then this placeholder renders a labeled circle so the header and footer
+  show a visible element rather than a broken image.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Calamba City Seal (placeholder)">
+  <!-- Outer ring — Calamba Blue -->
+  <circle cx="60" cy="60" r="58" fill="none" stroke="#0032A0" stroke-width="4"/>
+  <!-- Inner fill -->
+  <circle cx="60" cy="60" r="52" fill="#0032A0"/>
+  <!-- Gold accent ring -->
+  <circle cx="60" cy="60" r="56" fill="none" stroke="#FED141" stroke-width="2"/>
+  <!-- City name -->
+  <text
+    x="60" y="52"
+    text-anchor="middle"
+    font-family="Inter, Arial, sans-serif"
+    font-weight="700"
+    font-size="11"
+    fill="#FFFFFF"
+    letter-spacing="1"
+  >CITY OF</text>
+  <text
+    x="60" y="68"
+    text-anchor="middle"
+    font-family="Inter, Arial, sans-serif"
+    font-weight="700"
+    font-size="14"
+    fill="#FED141"
+    letter-spacing="0.5"
+  >CALAMBA</text>
+  <text
+    x="60" y="82"
+    text-anchor="middle"
+    font-family="Inter, Arial, sans-serif"
+    font-weight="600"
+    font-size="9"
+    fill="#FFFFFF"
+    letter-spacing="1"
+  >LAGUNA</text>
+</svg>
