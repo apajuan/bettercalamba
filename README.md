@@ -223,6 +223,19 @@ docs: update setup instructions
 - [ ] **Social links** — `discordUrl` and `facebookUrl` in `config/lgu.config.json` are empty; fill in when community pages are set up
 - [ ] **Weather API key** — copy `.dev.vars.example` to `.dev.vars` and add an OpenWeatherMap API key for local dev (free key from openweathermap.org)
 
+### Feature work available now (while services are out for QA)
+
+Services data was removed temporarily for QA (commit `bb4fb3a`). These feature areas are fully wired into the router and independent of the services data, so they can be worked on in the meantime:
+
+- [ ] **Government directory** (`/government`) — elected officials, municipal committees, departments, barangays. Content-driven; data in `src/data/directory/`. Highest public-facing payoff.
+- [ ] **Transparency** (`/transparency`) — financial, procurement, infrastructure (+ detail), bids
+- [ ] **Statistics** (`/government/statistics`) — population, municipal-income, competitiveness
+- [ ] **OpenLGU legislative** (`/openlgu`) — docs, officials, terms, sessions, persons. Separate pipeline from the Citizens Charter, so fully decoupled from services QA; backed by `functions/api/openlgu/`
+- [ ] **Data widgets** (`/data`) — weather (needs `.dev.vars` key) and forex pages
+- [ ] **Admin tooling** (`/admin`) — documents, person merge, deletion queue, error log, audit logs, review queue, reconcile, OpenLGU workbench (several TODO markers)
+- [ ] **Standalone pages** — Home, About, Contact, Accessibility, Search, Ideas, Join-us, Sitemap, Contribute
+- [ ] **BetterLB → Calamba localization audit** — sweep pages/data for remaining Los Baños placeholders and template carry-overs (see also the Data audit items above)
+
 ### Cleanup
 
 - [ ] **Remove `src/pages/government/reference-implementation.tsx`** — template file from BetterLB, not a real Calamba page
