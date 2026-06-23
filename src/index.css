@@ -76,14 +76,14 @@
 /* Gold (#FED141) is for accents and highlights only — never large fills.   */
 /* Contrast note: never use calamba-gold or calamba-grey as text on white.  */
 @theme {
-  --color-calamba-blue: #0032a0;       /* dominant brand — primary surfaces */
+  --color-calamba-blue: #0032a0; /* dominant brand — primary surfaces */
   --color-calamba-blue-light: #eef3fc; /* tint for hover states and weak BGs */
-  --color-calamba-red: #bf0d3e;        /* secondary — CTAs, alerts, accents  */
-  --color-calamba-red-light: #fce7ee;  /* tint for danger/alert backgrounds  */
-  --color-calamba-gold: #fed141;       /* accent only — borders, stars, icons */
+  --color-calamba-red: #bf0d3e; /* secondary — CTAs, alerts, accents  */
+  --color-calamba-red-light: #fce7ee; /* tint for danger/alert backgrounds  */
+  --color-calamba-gold: #fed141; /* accent only — borders, stars, icons */
   --color-calamba-gold-light: #fffbe6; /* very light gold tint               */
-  --color-calamba-grey: #a9a9a9;       /* muted text and dividers            */
-  --color-calamba-white: #ffffff;      /* base background / inverse text     */
+  --color-calamba-grey: #a9a9a9; /* muted text and dividers            */
+  --color-calamba-white: #ffffff; /* base background / inverse text     */
 }
 
 /* --- ANIMATIONS --- */
@@ -125,5 +125,43 @@
     border-color: var(--color-border-kapwa-border-brand);
     border-left-width: 2px;
     font-weight: 600;
+  }
+}
+
+/* --- PRINT STYLES --- */
+/* Ink-friendly homepage: drop motion/shadows, reveal clamped + animated-in
+   content, and hide interaction-only chrome (tabs, Follow buttons, counts). */
+@media print {
+  body {
+    background: #ffffff !important;
+  }
+
+  /* Kill transitions, transforms and animations so nothing prints mid-motion */
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+    transform: none !important;
+    animation: none !important;
+    box-shadow: none !important;
+  }
+
+  /* Ensure scroll-reveal content that hasn't fired is still printed */
+  .opacity-0 {
+    opacity: 1 !important;
+  }
+
+  /* Expand truncated text so the full copy shows on paper */
+  [class*='line-clamp-'] {
+    -webkit-line-clamp: unset !important;
+    line-clamp: unset !important;
+    display: block !important;
+    overflow: visible !important;
+  }
+
+  /* Hide interactive-only chrome */
+  [role='tablist'],
+  [data-print-hide] {
+    display: none !important;
   }
 }

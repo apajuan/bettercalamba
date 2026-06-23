@@ -236,6 +236,14 @@ Services data was removed temporarily for QA (commit `bb4fb3a`). These feature a
 - [ ] **Standalone pages** — Home, About, Contact, Accessibility, Search, Ideas, Join-us, Sitemap, Contribute
 - [ ] **BetterLB → Calamba localization audit** — sweep pages/data for remaining Los Baños placeholders and template carry-overs (see also the Data audit items above)
 
+### Planned Features (frontpage expansion)
+
+Designs to be prototyped with Claude `frontend-design` first (see `design/frontpage-expansion/`), reviewed, then ported into the real codebase using Kapwa semantic tokens.
+
+- [ ] **Tourism section (homepage)** — showcase key buildings, city highlights, and notable locations (e.g. Rizal Shrine, Calamba landmarks, hot springs/resorts). Gated by existing `config.features.tourism`. Needs a data shape (`src/data/tourism/*.json`), card/grid components, and optional map markers (Leaflet already in stack)
+- [ ] **Facebook news & interest pages** — curated feed/links to official and community Facebook pages linked to Calamba City. Decide between embedded Page plugin (iframe) vs. a lightweight curated link list (no third-party script/privacy cost). Store the page list in config or `src/data/`
+- [ ] **Online transactions "quick dial" (homepage)** — a prominent panel of shortcuts to the city's online services: one-stop shops, online payment portals, permit/clearance portals, appointment booking. Data-driven list of `{ label, url, icon, description }`; opens external links safely (`rel="noopener noreferrer"`)
+
 ### Cleanup
 
 - [ ] **Remove `src/pages/government/reference-implementation.tsx`** — template file from BetterLB, not a real Calamba page
