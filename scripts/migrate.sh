@@ -1,6 +1,6 @@
 #!/bin/bash
 # D1 Database Migration Automation Script
-# BetterLB - Cloudflare D1 Migration Management
+# BetterCalamba - Cloudflare D1 Migration Management
 #
 # Usage:
 #   ./scripts/migrate.sh local              # Run migrations on local database
@@ -21,7 +21,7 @@ NC='\033[0m' # No Color
 # Configuration
 MIGRATIONS_DIR="db/migrations"
 DB_BINDING="BETTERLB_DB"
-DB_NAME="betterlb-openlgu"
+DB_NAME="bettercalamba-openlgu"
 WRANGLER_CMD="npx wrangler d1 execute"
 
 # Functions

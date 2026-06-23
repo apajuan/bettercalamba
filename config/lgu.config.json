@@ -1,56 +1,56 @@
 {
   "lgu": {
-    "name": "Los Ba\u00f1os",
-    "fullName": "Municipality of Los Ba\u00f1os",
+    "name": "Calamba",
+    "fullName": "City of Calamba",
     "province": "Laguna",
-    "districtEngineeringOffice": "Laguna 2nd DEO",
+    "districtEngineeringOffice": "Laguna 1st DEO",
     "region": "Region IV-A",
     "regionCode": "CALABARZON",
-    "type": "municipality",
-    "officialWebsite": "https://losbanos.gov.ph",
+    "type": "city",
+    "officialWebsite": "https://calamba.gov.ph",
     "provinceWebsite": "https://laguna.gov.ph"
   },
   "portal": {
-    "name": "BetterLB",
-    "domain": "betterlb.org",
-    "baseUrl": "https://betterlb.org",
-    "description": "Community-powered portal of the Municipality of Los Ba\u00f1os.",
-    "brandColor": "#0066eb",
-    "footerBrandName": "Better Los Ba\u00f1os",
-    "logoWhitePath": "/logos/svg/betterlb-icon-white.svg",
-    "navbarLogoPath": "/logos/svg/betterlb-icon-colored.svg",
-    "defaultOgImagePath": "/logos/svg/betterlb-icon-colored.svg",
-    "faviconPath": "/logos/png/betterlb-banner-colored.png",
-    "faviconSvgPath": "/logos/svg/betterlb-logo-primary.svg",
-    "appleTouchIconPath": "/logos/png/betterlb-banner-inverted.png",
-    "githubUrl": "https://github.com/BetterLosBanos/betterlb",
-    "discordUrl": "https://discord.gg/dA6tkU4FYS",
-    "facebookUrl": "https://facebook.com/betterlb.org",
+    "name": "BetterCalamba",
+    "domain": "bettercalamba.org",
+    "baseUrl": "https://bettercalamba.org",
+    "description": "Community-powered portal of the City of Calamba.",
+    "brandColor": "#0032a0",
+    "footerBrandName": "Better Calamba",
+    "logoWhitePath": "/calamba-seal.svg",
+    "navbarLogoPath": "/calamba-seal.svg",
+    "defaultOgImagePath": "/calamba-seal.svg",
+    "faviconPath": "/calamba-seal.svg",
+    "faviconSvgPath": "/calamba-seal.svg",
+    "appleTouchIconPath": "/calamba-seal.svg",
+    "githubUrl": "https://github.com/BetterCalamba/bettercalamba",
+    "discordUrl": "",
+    "facebookUrl": "",
     "contactEmail": "volunteers@bettergov.ph"
   },
   "location": {
     "coordinates": {
-      "lat": 14.1763,
-      "lon": 121.2219
+      "lat": 14.2168,
+      "lon": 121.1667
     },
     "weather": {
-      "defaultCity": "Los Ba\u00f1os"
+      "defaultCity": "Calamba"
     }
   },
   "transparency": {
     "procurement": {
-      "organizationName": "MUNICIPALITY OF LOS BA\u00d1OS, LAGUNA",
+      "organizationName": "CITY GOVERNMENT OF CALAMBA, LAGUNA",
       "externalDashboard": "https://transparency.bettergov.ph/organizations/"
     },
     "infrastructure": {
-      "searchString": "Los Ba\u00f1os",
-      "exactMatchTargets": ["los ba\u00f1os", "los banos"]
+      "searchString": "Calamba",
+      "exactMatchTargets": ["calamba", "calamba city"]
     }
   },
   "dataPaths": {
-    "departments": "src/data/lgu/losbanos/directory/departments.json",
-    "barangays": "src/data/lgu/losbanos/directory/barangays.json",
-    "services": "src/data/lgu/losbanos/services/categories"
+    "departments": "src/data/directory/departments.json",
+    "barangays": "src/data/directory/barangays.json",
+    "services": "src/data/services/categories"
   },
   "features": {
     "openLGU": true,

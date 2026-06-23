@@ -67,6 +67,8 @@ export interface SupportingDocumentsDetail {
 export interface ClientStep {
   step: number;
   action: string;
+  agencyAction?: string;
+  personResponsible?: string;
   sub_steps?: {
     letter: string;
     action: string;
@@ -74,6 +76,7 @@ export interface ClientStep {
   }[];
   url?: string;
   processing_time?: string;
+  fee?: string;
 }
 
 export interface ServiceFee {

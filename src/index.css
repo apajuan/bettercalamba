@@ -11,6 +11,22 @@
     sans-serif;
   --font-kapwa-mono:
     'Roboto Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  /* --- CALAMBA CITY BRAND: remap Kapwa brand palette to Calamba Blue (#0032A0) --- */
+  --color-kapwa-brand-50: #eef3fc;
+  --color-kapwa-brand-100: #d6e4f7;
+  --color-kapwa-brand-200: #acc8ef;
+  --color-kapwa-brand-300: #6fa3e4;
+  --color-kapwa-brand-400: #3579d0;
+  --color-kapwa-brand-500: #1457b8;
+  --color-kapwa-brand-600: #0032a0; /* primary — buttons, active nav, brand text */
+  --color-kapwa-brand-700: #002885;
+  --color-kapwa-brand-800: #001e68;
+  --color-kapwa-brand-900: #00134a;
+  --color-kapwa-brand-950: #000c2e;
+
+  /* Off-white base surface — slightly warm so it reads as intentional, not default */
+  --color-kapwa-neutral-50: #f5f4f1;
 }
 
 @layer base {
@@ -20,6 +36,10 @@
   ::backdrop,
   ::file-selector-button {
     border-color: var(--color-border-kapwa-border-weak, currentcolor);
+  }
+
+  body {
+    background-color: var(--color-kapwa-neutral-50);
   }
 }
 
@@ -49,6 +69,21 @@
 .leaflet-popup-close-button {
   color: var(--color-text-kapwa-text-disabled) !important;
   padding: 8px !important;
+}
+
+/* --- CALAMBA CITY PALETTE TOKENS --- */
+/* Available as Tailwind utilities: bg-calamba-blue, text-calamba-red, etc. */
+/* Gold (#FED141) is for accents and highlights only — never large fills.   */
+/* Contrast note: never use calamba-gold or calamba-grey as text on white.  */
+@theme {
+  --color-calamba-blue: #0032a0;       /* dominant brand — primary surfaces */
+  --color-calamba-blue-light: #eef3fc; /* tint for hover states and weak BGs */
+  --color-calamba-red: #bf0d3e;        /* secondary — CTAs, alerts, accents  */
+  --color-calamba-red-light: #fce7ee;  /* tint for danger/alert backgrounds  */
+  --color-calamba-gold: #fed141;       /* accent only — borders, stars, icons */
+  --color-calamba-gold-light: #fffbe6; /* very light gold tint               */
+  --color-calamba-grey: #a9a9a9;       /* muted text and dividers            */
+  --color-calamba-white: #ffffff;      /* base background / inverse text     */
 }
 
 /* --- ANIMATIONS --- */

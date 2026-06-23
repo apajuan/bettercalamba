@@ -61,7 +61,7 @@ export default function TransparencyIndex() {
               Independent Grassroots Initiative
             </h3>
             <p className='text-sm leading-relaxed text-kapwa-orange-600'>
-              Better LB is <strong>not an official government portal</strong>.
+              BetterCalamba is <strong>not an official government portal</strong>.
               We are a volunteer movement mirroring public records to empower
               citizens with the information they need to engage in local
               governance.

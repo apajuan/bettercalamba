@@ -9,8 +9,8 @@ import { Env } from './types';
  * Restricts API access to trusted origins only (security fix for T-059)
  */
 const ALLOWED_ORIGINS = [
-  'https://betterlb.pages.dev',
-  'https://betterlb.gov.ph', // Custom domain if configured
+  'https://bettercalamba.pages.dev',
+  'https://bettercalamba.org', // Custom domain if configured
   'http://localhost:5173', // Vite dev server
   'http://localhost:8788', // Wrangler dev server
 ];

@@ -1,7 +1,7 @@
 {
   "hero": {
-    "title": "Welcome to BetterLB",
-    "subtitle": "The volunteer run portal of the Municipality of Los Baños. Find information, access government services, stay updated with the latest news about Los Baños.",
+    "title": "Welcome to BetterCalamba",
+    "subtitle": "The volunteer run portal of the City of Calamba. Find information, access government services, stay updated with the latest news about Calamba.",
     "quickAccess": "Quick Access",
     "nationalId": "National ID",
     "birthCertificate": "Birth Certificate",
@@ -24,7 +24,7 @@
     "title": "Latest News & Updates"
   },
   "footer": {
-    "copyright": "2025 BetterLB.org - All content is public domain unless otherwise specified."
+    "copyright": "2025 BetterCalamba.org - All content is public domain unless otherwise specified."
   },
   "navbar": {
     "home": "Home",
@@ -75,12 +75,12 @@
     "registerNow": "Register Now"
   },
   "government": {
-    "title": "Local Government of the Municipality of Los Baños",
-    "description": "Learn about the key offices, councils, and local units that make up the Municipal Government of Los Baños.",
+    "title": "Local Government of the City of Calamba",
+    "description": "Learn about the key offices, councils, and local units that make up the City Government of Calamba.",
     "executiveTitle": "Executive Branch",
     "executiveDescription": "Led by the Mayor, responsible for implementing municipal policies, programs, and ordinances.",
     "legislativeTitle": "Legislative Branch",
-    "legislativeDescription": "Composed of the Sangguniang Bayan, responsible for making local laws.",
+    "legislativeDescription": "Composed of the Sangguniang Panlungsod, responsible for making local laws.",
     "barangaysTitle": "Barangays",
     "barangaysDescription": "Local government units within the municipality, led by elected officials who manage community-level services and programs.",
     "departmentsTitle": "Municipal Departments",

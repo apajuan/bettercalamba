@@ -1,7 +1,7 @@
 {
   "hero": {
-    "title": "Maligayang Pagdating sa BetterLB",
-    "subtitle": "Ang volunteer-run portal ng Munisipalidad ng Los Baños. Maghanap ng impormasyon, i-access ang mga serbisyo ng pamahalaan, manatiling updated sa pinakabagong balita tungkol sa Los Baños.",
+    "title": "Maligayang Pagdating sa BetterCalamba",
+    "subtitle": "Ang volunteer-run portal ng Lungsod ng Calamba. Maghanap ng impormasyon, i-access ang mga serbisyo ng pamahalaan, manatiling updated sa pinakabagong balita tungkol sa Calamba.",
     "quickAccess": "Mabilisang Puntahan"
   },
   "services": {
@@ -17,7 +17,7 @@
     "title": "Pinakabagong Balita at Updates"
   },
   "footer": {
-    "copyright": "2025 BetterGov.ph - Lahat ng nilalaman ay public domain maliban kung iba ang nakasaad."
+    "copyright": "2025 BetterCalamba.org - Lahat ng nilalaman ay public domain maliban kung iba ang nakasaad."
   },
   "navbar": {
     "philippines": "Pilipinas",

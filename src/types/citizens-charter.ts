@@ -98,6 +98,10 @@ export interface ClientStep {
   step: number;
   /** What the client does - must use imperative language (e.g., "Submit requirements") */
   action: string;
+  /** What the agency does in response to the client's action */
+  agencyAction?: string;
+  /** Person or office responsible for the agency action */
+  personResponsible?: string;
   /** Optional: Sub-steps with letter labels (A, B, C, etc.) */
   sub_steps?: {
     /** Letter label for the sub-step */
@@ -111,6 +115,8 @@ export interface ClientStep {
   url?: string;
   /** Optional: Processing time for this step */
   processing_time?: string;
+  /** Optional: Fee for this specific step */
+  fee?: string;
 }
 
 /**

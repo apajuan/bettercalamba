@@ -13,12 +13,12 @@ import type {
 /**
  * CORS Configuration
  * Restricts API access to trusted origins only (security fix for T-059)
- * Production: betterlb.pages.dev and custom domain
+ * Production: bettercalamba.pages.dev and custom domain
  * Development: localhost for local development
  */
 const ALLOWED_ORIGINS = [
-  'https://betterlb.pages.dev',
-  'https://betterlb.gov.ph', // Custom domain if configured
+  'https://bettercalamba.pages.dev',
+  'https://bettercalamba.org', // Custom domain if configured
   'http://localhost:5173', // Vite dev server
   'http://localhost:8788', // Wrangler dev server
 ];
@@ -49,15 +49,15 @@ function getCorsHeaders(origin: string | null): Record<string, string> {
 
 // CONFIGURATION - Easy to change for other municipalities
 const DEFAULT_CITY: CityCoordinates = {
-  name: 'Los Baños',
-  lat: 14.1763,
-  lon: 121.2219,
+  name: 'Calamba',
+  lat: 14.2168,
+  lon: 121.1667,
 };
 
 // Optional: Add more cities if needed
 const ADDITIONAL_CITIES: CityCoordinates[] = [
+  // { name: 'Los Baños', lat: 14.1763, lon: 121.2219 },
   // { name: 'Bay', lat: 14.1833, lon: 121.2833 },
-  // { name: 'Calamba', lat: 14.2167, lon: 121.1667 },
 ];
 
 const ALL_CITIES = [DEFAULT_CITY, ...ADDITIONAL_CITIES];

@@ -5,7 +5,7 @@ const path = require('node:path');
 const crypto = require('node:crypto');
 
 const COLLECTOR_VERSION = 'facebook-post-collector-v1';
-const SOURCE_KEY = 'losbanos_facebook_sessions';
+const SOURCE_KEY = 'calamba_facebook_sessions';
 const DEFAULT_INPUT_DIR = 'pipeline/openlgu/fixtures/facebook';
 const DEFAULT_OUTPUT_ROOT = 'pipeline/openlgu/sources';
 

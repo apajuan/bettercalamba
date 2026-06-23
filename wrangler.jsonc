@@ -1,5 +1,5 @@
 {
-	"name": "betterlb",
+	"name": "bettercalamba",
 	"pages_build_output_dir": "dist",
 	"compatibility_date": "2026-01-13",
 	"kv_namespaces": [
@@ -11,12 +11,12 @@
 	"d1_databases": [
 		{
 			"binding": "BETTERLB_DB",
-			"database_name": "betterlb-openlgu",
-			"database_id": "2adbe9e2-d061-473b-8de2-8aacdae4fb0d",
+			"database_name": "bettercalamba-openlgu",
+			"database_id": "TODO-create-new-d1-database",
 			"migrations_dir": "db/migrations"
 		}
 	],
 	"vars": {
-		"GITHUB_REPO": "BetterLosBanos/betterlb",
+		"GITHUB_REPO": "BetterCalamba/bettercalamba",
 	}
 }
