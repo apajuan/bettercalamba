@@ -8,9 +8,9 @@ This project is a city-focused fork of [BetterGov.ph](https://bettergov.ph), ada
 
 ### Inspirations
 
-BetterGov.PH https://github.com/bettergovph/bettergov
-BetterSolano.org https://github.com/BetterSolano/bettersolano
-Betterlocalgov https://github.com/iyanski/betterlocalgov
+BetterGov.PH <https://github.com/bettergovph/bettergov>
+BetterSolano.org <https://github.com/BetterSolano/bettersolano>
+Betterlocalgov <https://github.com/iyanski/betterlocalgov>
 
 ### Portal Features
 
@@ -92,7 +92,7 @@ bettercalamba/
 ### 1. Clone and Install
 
 ```bash
-git clone https://github.com/BetterCalamba/bettercalamba
+git clone https://github.com/apajuan/bettercalamba
 cd bettercalamba
 npm install
 ```
@@ -273,6 +273,6 @@ Data is presented as-is and may not reflect the most current information. Always
 
 ## Contact and Support
 
-- **Website**: https://bettercalamba.org
-- **GitHub Issues**: https://github.com/BetterCalamba/bettercalamba/issues
-- **Contact**: volunteers@bettergov.ph
+- **Website**: <https://bettercalamba.org>
+- **GitHub Issues**: <https://github.com/BetterCalamba/bettercalamba/issues>
+- **Contact**: <volunteers@bettergov.ph>
