@@ -8,4 +8,5 @@
  */
 
 export * from './useFinancialData';
+export * from './useScrollReveal';
 export { useBreadcrumbs } from '@/components/layout/UnifiedLayouts';

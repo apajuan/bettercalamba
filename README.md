@@ -204,6 +204,7 @@ docs: update setup instructions
 ### Data
 
 - [ ] **Repopulate services data** — all service data was cleared to blank (`[]`) pending a clean re-import from the Citizens Charter. See the "Citizens Charter re-import" workflow below. Old data is preserved in `.backups/citizens-charter/`
+- [ ] **Pansol hot spring resorts directory** — compile an official/city-vetted list of Pansol hot spring resorts and add it back to the Services section, to help residents and tourists avoid scam/fake-resort listings (a real problem people face). Source from the city tourism office / business permits, add to `src/data/`, then run `npm run merge:services`
 - [ ] **Fix Los Baños office mappings in `scripts/merge_citizens_charter.py`** — the `map_office_division_to_slug()` function has Los Baños office names and slugs hardcoded (e.g. `"PHILIPPINE NATIONAL POLICE (PNP) - LOS BAÑOS MPS"`, `MUNICIPAL ...` offices, `"12th-sangguniang-bayan"`). When repopulating, either rewrite these for Calamba's offices or skip this script's mapping path and write the category JSONs directly
 - [ ] **Fill ex-officio councilor slots** — `src/data/directory/legislative.json` has two `"To be confirmed"` entries for ABC President and SK Federation President; fill in when confirmed
 - [ ] **Audit `src/data/websites.json`** — 3 entries (IRRI, LSPU, PHSA) have Los Baños addresses; decide if these belong in a Calamba portal or are LB carry-overs to remove
@@ -235,6 +236,14 @@ Services data was removed temporarily for QA (commit `bb4fb3a`). These feature a
 - [ ] **Admin tooling** (`/admin`) — documents, person merge, deletion queue, error log, audit logs, review queue, reconcile, OpenLGU workbench (several TODO markers)
 - [ ] **Standalone pages** — Home, About, Contact, Accessibility, Search, Ideas, Join-us, Sitemap, Contribute
 - [ ] **BetterLB → Calamba localization audit** — sweep pages/data for remaining Los Baños placeholders and template carry-overs (see also the Data audit items above)
+
+### Planned Features (frontpage expansion)
+
+Designs to be prototyped with Claude `frontend-design` first (see `design/frontpage-expansion/`), reviewed, then ported into the real codebase using Kapwa semantic tokens.
+
+- [ ] **Tourism section (homepage)** — showcase key buildings, city highlights, and notable locations (e.g. Rizal Shrine, Calamba landmarks, hot springs/resorts). Gated by existing `config.features.tourism`. Needs a data shape (`src/data/tourism/*.json`), card/grid components, and optional map markers (Leaflet already in stack)
+- [ ] **Facebook news & interest pages** — curated feed/links to official and community Facebook pages linked to Calamba City. Decide between embedded Page plugin (iframe) vs. a lightweight curated link list (no third-party script/privacy cost). Store the page list in config or `src/data/`
+- [ ] **Online transactions "quick dial" (homepage)** — a prominent panel of shortcuts to the city's online services: one-stop shops, online payment portals, permit/clearance portals, appointment booking. Data-driven list of `{ label, url, icon, description }`; opens external links safely (`rel="noopener noreferrer"`)
 
 ### Cleanup
 

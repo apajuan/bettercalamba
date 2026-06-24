@@ -106,8 +106,21 @@ const Hero: FC = () => {
   ];
 
   return (
-    <div className='py-12 from-kapwa-brand-600 to-kapwa-brand-700 bg-linear-to-r text-kapwa-text-inverse md:py-24'>
-      <div className='container px-4 mx-auto'>
+    <div className='overflow-hidden relative py-12 text-kapwa-text-inverse md:py-24'>
+      {/* Hero background: Calamba City Hall */}
+      <img
+        src='/calamba-city-hall.webp'
+        alt=''
+        aria-hidden='true'
+        loading='eager'
+        className='object-cover absolute inset-0 w-full h-full'
+      />
+      {/* Brand gradient overlay keeps the text legible over the photo */}
+      <div
+        aria-hidden='true'
+        className='absolute inset-0 from-kapwa-brand-700/80 to-kapwa-brand-600/45 bg-linear-to-r'
+      />
+      <div className='container relative z-10 px-4 mx-auto'>
         <div className='grid grid-cols-1 gap-8 items-center lg:grid-cols-2'>
           {/* Left section: title + search + quick categories */}
           <div className='animate-fade-in'>

@@ -129,7 +129,7 @@ export default function WeatherMapSection() {
         config.location.coordinates.lon,
       ]).addTo(mapInstance);
       const popupContent = document.createElement('div');
-      popupContent.textContent = `${config.lgu.fullName} Municipal Hall`;
+      popupContent.textContent = `${config.lgu.fullName} City Hall`;
       const popupSub = document.createElement('div');
       popupSub.textContent = `${config.lgu.province}, Philippines`;
       popupContent.appendChild(popupSub);
@@ -274,9 +274,9 @@ export default function WeatherMapSection() {
           <div className='flex w-full flex-col overflow-hidden rounded-xl shadow-sm hover:shadow-md md:flex-[2.5]'>
             <div
               id='map-container'
-              className='h-64 w-full md:flex-1'
+              className='relative isolate h-64 w-full md:flex-1'
               role='application'
-              aria-label={`Interactive map of ${config.lgu.fullName} Municipal Hall`}
+              aria-label={`Interactive map of ${config.lgu.fullName} City Hall`}
             >
               <noscript>
                 <div className='text-kapwa-text-disabled p-4 text-sm'>
@@ -287,7 +287,7 @@ export default function WeatherMapSection() {
                     rel='noopener noreferrer'
                     className='text-kapwa-text-brand ml-1 underline'
                   >
-                    View {config.lgu.fullName} Municipal Hall on OpenStreetMap
+                    View {config.lgu.fullName} City Hall on OpenStreetMap
                   </a>
                 </div>
               </noscript>
@@ -295,7 +295,7 @@ export default function WeatherMapSection() {
             <div className='border-kapwa-border-weak bg-kapwa-bg-surface flex items-center gap-2 border-t p-3'>
               <MapPin className='text-kapwa-text-brand h-5 w-5' />
               <span className='text-kapwa-text-support text-sm font-medium'>
-                {config.lgu.fullName} Municipal Hall
+                {config.lgu.fullName} City Hall
               </span>
             </div>
           </div>
