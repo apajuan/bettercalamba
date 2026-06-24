@@ -204,6 +204,7 @@ docs: update setup instructions
 ### Data
 
 - [ ] **Repopulate services data** — all service data was cleared to blank (`[]`) pending a clean re-import from the Citizens Charter. See the "Citizens Charter re-import" workflow below. Old data is preserved in `.backups/citizens-charter/`
+- [ ] **Pansol hot spring resorts directory** — compile an official/city-vetted list of Pansol hot spring resorts and add it back to the Services section, to help residents and tourists avoid scam/fake-resort listings (a real problem people face). Source from the city tourism office / business permits, add to `src/data/`, then run `npm run merge:services`
 - [ ] **Fix Los Baños office mappings in `scripts/merge_citizens_charter.py`** — the `map_office_division_to_slug()` function has Los Baños office names and slugs hardcoded (e.g. `"PHILIPPINE NATIONAL POLICE (PNP) - LOS BAÑOS MPS"`, `MUNICIPAL ...` offices, `"12th-sangguniang-bayan"`). When repopulating, either rewrite these for Calamba's offices or skip this script's mapping path and write the category JSONs directly
 - [ ] **Fill ex-officio councilor slots** — `src/data/directory/legislative.json` has two `"To be confirmed"` entries for ABC President and SK Federation President; fill in when confirmed
 - [ ] **Audit `src/data/websites.json`** — 3 entries (IRRI, LSPU, PHSA) have Los Baños addresses; decide if these belong in a Calamba portal or are LB carry-overs to remove

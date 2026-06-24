@@ -8,8 +8,8 @@ export interface Landmark {
   name: string;
   /** Category key — drives badge color via `landmarkCategoryColors`. */
   tag: LandmarkCategory;
-  /** Label rendered over the image placeholder. */
-  photoLabel: string;
+  /** Public-path photo. When omitted, a striped placeholder is shown instead. */
+  image?: string;
   blurb: string;
   /** When true, this landmark is rendered as the full-bleed hero card. */
   featured?: boolean;
@@ -20,7 +20,7 @@ export const tourismLandmarks: Landmark[] = [
     id: 'rizal-shrine',
     name: 'Rizal Shrine',
     tag: 'Heritage',
-    photoLabel: 'RIZAL SHRINE · PHOTO',
+    image: '/rizal-shrine.webp',
     blurb:
       'The reconstructed birthplace of national hero Dr. José Rizal, set in a quiet heritage garden in the heart of the city.',
     featured: true,
@@ -29,7 +29,7 @@ export const tourismLandmarks: Landmark[] = [
     id: 'city-plaza-hall',
     name: 'Calamba City Plaza & Hall',
     tag: 'Civic',
-    photoLabel: 'CITY PLAZA & HALL · PHOTO',
+    image: '/city-plaza-hall.webp',
     blurb:
       'The seat of city government fronting the historic town plaza and fountain.',
   },
@@ -37,7 +37,7 @@ export const tourismLandmarks: Landmark[] = [
     id: 'st-john-parish',
     name: 'St. John the Baptist Parish',
     tag: 'Heritage',
-    photoLabel: 'ST. JOHN PARISH · PHOTO',
+    image: '/st-john-parish.webp',
     blurb:
       'The centuries-old stone church where José Rizal was baptized in 1861.',
   },
@@ -45,7 +45,6 @@ export const tourismLandmarks: Landmark[] = [
     id: 'pansol-resorts',
     name: 'Pansol Hot-Spring Resorts',
     tag: 'Leisure',
-    photoLabel: 'PANSOL RESORTS · PHOTO',
     blurb:
       'Natural thermal springs at the foot of Mount Makiling — the city’s leisure heart.',
   },
@@ -53,7 +52,7 @@ export const tourismLandmarks: Landmark[] = [
     id: 'calamba-banga',
     name: 'The Calamba “Banga”',
     tag: 'Landmark',
-    photoLabel: 'THE BANGA · PHOTO',
+    image: '/calamba-banga.webp',
     blurb:
       'The world’s largest clay jar — Calamba’s iconic monument to its pottery heritage.',
   },
@@ -61,7 +60,7 @@ export const tourismLandmarks: Landmark[] = [
     id: 'mount-makiling',
     name: 'Mount Makiling',
     tag: 'Nature',
-    photoLabel: 'MT. MAKILING · PHOTO',
+    image: '/mount-makiling.webp',
     blurb:
       'A forest reserve and dormant volcano steeped in the legend of Maria Makiling.',
   },

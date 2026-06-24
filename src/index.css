@@ -38,8 +38,12 @@
     border-color: var(--color-border-kapwa-border-weak, currentcolor);
   }
 
+  html,
   body {
     background-color: var(--color-kapwa-neutral-50);
+    /* Prevent overscroll rubber-band so the sticky navbar stays pinned to the
+       top instead of bouncing down when scrolling up past the page top. */
+    overscroll-behavior-y: none;
   }
 }
 

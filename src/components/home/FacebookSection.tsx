@@ -39,9 +39,9 @@ const FacebookSection: FC = () => {
   return (
     <section
       aria-labelledby='facebook-heading'
-      className='bg-[#f5f4f1] px-4 py-10 md:px-10 md:py-16'
+      className='bg-[#f5f4f1] py-10 md:py-16'
     >
-      <div ref={ref} className='mx-auto max-w-[1180px]'>
+      <div ref={ref} className='container mx-auto px-4'>
         <div className={clsx(revealBaseClass, revealStateClass(isRevealed))}>
           <SectionHeader
             titleId='facebook-heading'

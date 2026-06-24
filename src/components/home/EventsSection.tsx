@@ -43,9 +43,9 @@ const EventsSection: FC = () => {
   return (
     <section
       aria-labelledby='events-heading'
-      className='border-y border-[#d8dbdf] bg-[#f7f7f8] px-4 py-10 md:px-10 md:py-16'
+      className='border-y border-[#d8dbdf] bg-[#f7f7f8] py-10 md:py-16'
     >
-      <div ref={ref} className='mx-auto max-w-[1180px]'>
+      <div ref={ref} className='container mx-auto px-4'>
         <div className={clsx(revealBaseClass, revealStateClass(isRevealed))}>
           <SectionHeader
             titleId='events-heading'

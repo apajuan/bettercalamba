@@ -31,9 +31,9 @@ const TourismHighlights: FC = () => {
   return (
     <section
       aria-labelledby='tourism-heading'
-      className='bg-[#f5f4f1] px-4 py-10 md:px-10 md:py-16'
+      className='bg-[#f5f4f1] py-10 md:py-16'
     >
-      <div ref={ref} className='mx-auto max-w-[1180px]'>
+      <div ref={ref} className='container mx-auto px-4'>
         <div className={clsx(revealBaseClass, revealStateClass(isRevealed))}>
           <SectionHeader
             titleId='tourism-heading'
@@ -66,14 +66,19 @@ const TourismHighlights: FC = () => {
                   tabIndex={0}
                   className='group relative block h-[300px] cursor-pointer overflow-hidden rounded-2xl shadow-[0_4px_14px_-4px_rgba(0,12,46,0.32)] transition-all duration-300 ease-out hover:-translate-y-[3px] hover:shadow-[0_20px_40px_-14px_rgba(0,12,46,0.45)] focus-visible:ring-2 focus-visible:ring-calamba-blue focus-visible:ring-offset-2 focus-visible:outline-none motion-reduce:transition-none motion-reduce:hover:translate-y-0 md:h-[340px]'
                 >
-                  <ImagePlaceholder variant='dark' />
+                  {hero.image ? (
+                    <img
+                      src={hero.image}
+                      alt={hero.name}
+                      className='absolute inset-0 h-full w-full object-cover object-[center_30%] transition-transform duration-500 ease-out group-hover:scale-[1.06] motion-reduce:transition-none motion-reduce:group-hover:scale-100'
+                    />
+                  ) : (
+                    <ImagePlaceholder variant='dark' />
+                  )}
                   <div
                     aria-hidden='true'
-                    className='absolute inset-0 bg-[linear-gradient(115deg,rgba(0,12,46,0.86)_0%,rgba(0,12,46,0.42)_48%,rgba(0,12,46,0.06)_100%)]'
+                    className='absolute inset-0 bg-[linear-gradient(115deg,rgba(0,12,46,0.77)_0%,rgba(0,12,46,0.26)_48%,rgba(0,12,46,0)_100%)]'
                   />
-                  <span className='absolute top-4 left-[18px] font-mono text-[10px] tracking-[0.12em] text-white/70'>
-                    {hero.photoLabel}
-                  </span>
                   <div className='absolute top-4 right-[18px] inline-flex items-center gap-1.5 rounded-full bg-calamba-gold px-[11px] py-[5px] text-[11px] font-extrabold tracking-[0.06em] text-[#1e2124] uppercase'>
                     <Star
                       className='h-3 w-3'
@@ -119,14 +124,20 @@ const TourismHighlights: FC = () => {
                     tabIndex={0}
                     className='group relative block h-[200px] w-full cursor-pointer overflow-hidden rounded-2xl shadow-[0_2px_8px_-2px_rgba(38,43,43,0.22)] transition-all duration-300 ease-out hover:-translate-y-[3px] hover:shadow-[0_16px_28px_-12px_rgba(0,12,46,0.42)] focus-visible:ring-2 focus-visible:ring-calamba-blue focus-visible:ring-offset-2 focus-visible:outline-none motion-reduce:transition-none motion-reduce:hover:translate-y-0 md:h-[224px]'
                   >
-                    <ImagePlaceholder variant='dark' />
+                    {landmark.image ? (
+                      <img
+                        src={landmark.image}
+                        alt={landmark.name}
+                        loading='lazy'
+                        className='absolute inset-0 h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.06] motion-reduce:transition-none motion-reduce:group-hover:scale-100'
+                      />
+                    ) : (
+                      <ImagePlaceholder variant='dark' />
+                    )}
                     <div
                       aria-hidden='true'
                       className='absolute inset-0 bg-[linear-gradient(to_top,rgba(0,12,46,0.9)_0%,rgba(0,12,46,0.3)_48%,rgba(0,12,46,0.04)_100%)]'
                     />
-                    <span className='absolute top-2.5 left-[11px] font-mono text-[9px] tracking-[0.08em] text-white/70'>
-                      {landmark.photoLabel}
-                    </span>
                     <div className='absolute right-3 bottom-[13px] left-3'>
                       <CategoryBadge
                         variant='tag'

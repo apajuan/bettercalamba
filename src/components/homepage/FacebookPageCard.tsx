@@ -21,7 +21,7 @@ const FacebookPageCard: FC<FacebookPageCardProps> = ({ page }) => (
       </span>
     </div>
 
-    <div className='-mt-[26px] flex flex-1 flex-col items-start px-[18px] pb-[18px]'>
+    <div className='relative z-10 -mt-[26px] flex flex-1 flex-col items-start px-[18px] pb-[18px]'>
       <Avatar
         ringed
         useSeal={page.useSeal}
