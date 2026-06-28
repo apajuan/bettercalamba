@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import { FC, useState } from 'react';
 
 import { ArrowRight, Star } from 'lucide-react';
 import clsx from 'clsx';
@@ -6,9 +6,10 @@ import clsx from 'clsx';
 import CategoryBadge from '@/components/homepage/CategoryBadge';
 import ImagePlaceholder from '@/components/homepage/ImagePlaceholder';
 import SectionHeader from '@/components/homepage/SectionHeader';
+import DestinationModal from '@/components/tourism/DestinationModal';
 import { EmptyState } from '@/components/ui/EmptyState';
 import { landmarkCategoryColors } from '@/data/homepage-constants';
-import { tourismLandmarks } from '@/data/tourism';
+import { tourismHighlights, type Destination } from '@/data/tourism';
 import {
   revealBaseClass,
   revealStateClass,
@@ -18,15 +19,20 @@ import {
 /**
  * Tourism Highlights — Direction A "Editorial Warm": a full-bleed hero card
  * for the featured landmark above a filmstrip of the remaining destinations.
+ * Any card opens the shared destination detail modal.
  */
 const TourismHighlights: FC = () => {
   const { ref, isRevealed } = useScrollReveal<HTMLDivElement>();
+  const [openId, setOpenId] = useState<string | null>(null);
 
-  const hero =
-    tourismLandmarks.find(landmark => landmark.featured) ?? tourismLandmarks[0];
-  const filmstrip = tourismLandmarks
-    .filter(landmark => landmark.id !== hero?.id)
-    .slice(0, 5);
+  const hero = tourismHighlights[0];
+  const filmstrip = tourismHighlights.slice(1, 6);
+
+  const openDestination = openId
+    ? (tourismHighlights.find(d => d.id === openId) ?? null)
+    : null;
+
+  const open = (destination: Destination) => setOpenId(destination.id);
 
   return (
     <section
@@ -44,7 +50,7 @@ const TourismHighlights: FC = () => {
           />
         </div>
 
-        {tourismLandmarks.length === 0 ? (
+        {tourismHighlights.length === 0 ? (
           <EmptyState
             icon={Star}
             title='No destinations yet'
@@ -62,9 +68,11 @@ const TourismHighlights: FC = () => {
                 )}
                 style={{ transitionDelay: '80ms' }}
               >
-                <article
-                  tabIndex={0}
-                  className='group relative block h-[300px] cursor-pointer overflow-hidden rounded-2xl shadow-[0_4px_14px_-4px_rgba(0,12,46,0.32)] transition-all duration-300 ease-out hover:-translate-y-[3px] hover:shadow-[0_20px_40px_-14px_rgba(0,12,46,0.45)] focus-visible:ring-2 focus-visible:ring-calamba-blue focus-visible:ring-offset-2 focus-visible:outline-none motion-reduce:transition-none motion-reduce:hover:translate-y-0 md:h-[340px]'
+                <button
+                  type='button'
+                  onClick={() => open(hero)}
+                  aria-label={`View details for ${hero.name}`}
+                  className='group relative block h-[300px] w-full cursor-pointer overflow-hidden rounded-2xl text-left shadow-[0_4px_14px_-4px_rgba(0,12,46,0.32)] transition-all duration-300 ease-out hover:-translate-y-[3px] hover:shadow-[0_20px_40px_-14px_rgba(0,12,46,0.45)] focus-visible:ring-2 focus-visible:ring-calamba-blue focus-visible:ring-offset-2 focus-visible:outline-none motion-reduce:transition-none motion-reduce:hover:translate-y-0 md:h-[340px]'
                 >
                   {hero.image ? (
                     <img
@@ -73,7 +81,7 @@ const TourismHighlights: FC = () => {
                       className='absolute inset-0 h-full w-full object-cover object-[center_30%] transition-transform duration-500 ease-out group-hover:scale-[1.06] motion-reduce:transition-none motion-reduce:group-hover:scale-100'
                     />
                   ) : (
-                    <ImagePlaceholder variant='dark' />
+                    <ImagePlaceholder variant='dark' label={hero.photo} />
                   )}
                   <div
                     aria-hidden='true'
@@ -104,7 +112,7 @@ const TourismHighlights: FC = () => {
                       <ArrowRight className='h-4 w-4' aria-hidden='true' />
                     </span>
                   </div>
-                </article>
+                </button>
               </div>
             )}
 
@@ -120,9 +128,11 @@ const TourismHighlights: FC = () => {
                   )}
                   style={{ transitionDelay: `${140 + index * 70}ms` }}
                 >
-                  <article
-                    tabIndex={0}
-                    className='group relative block h-[200px] w-full cursor-pointer overflow-hidden rounded-2xl shadow-[0_2px_8px_-2px_rgba(38,43,43,0.22)] transition-all duration-300 ease-out hover:-translate-y-[3px] hover:shadow-[0_16px_28px_-12px_rgba(0,12,46,0.42)] focus-visible:ring-2 focus-visible:ring-calamba-blue focus-visible:ring-offset-2 focus-visible:outline-none motion-reduce:transition-none motion-reduce:hover:translate-y-0 md:h-[224px]'
+                  <button
+                    type='button'
+                    onClick={() => open(landmark)}
+                    aria-label={`View details for ${landmark.name}`}
+                    className='group relative block h-[200px] w-full cursor-pointer overflow-hidden rounded-2xl text-left shadow-[0_2px_8px_-2px_rgba(38,43,43,0.22)] transition-all duration-300 ease-out hover:-translate-y-[3px] hover:shadow-[0_16px_28px_-12px_rgba(0,12,46,0.42)] focus-visible:ring-2 focus-visible:ring-calamba-blue focus-visible:ring-offset-2 focus-visible:outline-none motion-reduce:transition-none motion-reduce:hover:translate-y-0 md:h-[224px]'
                   >
                     {landmark.image ? (
                       <img
@@ -132,7 +142,7 @@ const TourismHighlights: FC = () => {
                         className='absolute inset-0 h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-[1.06] motion-reduce:transition-none motion-reduce:group-hover:scale-100'
                       />
                     ) : (
-                      <ImagePlaceholder variant='dark' />
+                      <ImagePlaceholder variant='dark' label={landmark.photo} />
                     )}
                     <div
                       aria-hidden='true'
@@ -148,13 +158,18 @@ const TourismHighlights: FC = () => {
                         {landmark.name}
                       </h3>
                     </div>
-                  </article>
+                  </button>
                 </div>
               ))}
             </div>
           </>
         )}
       </div>
+
+      <DestinationModal
+        destination={openDestination}
+        onClose={() => setOpenId(null)}
+      />
     </section>
   );
 };

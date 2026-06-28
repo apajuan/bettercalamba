@@ -1,0 +1,725 @@
+[
+  {
+    "id": "rizal",
+    "name": "Rizal Shrine",
+    "tag": "Heritage",
+    "image": "/rizal-shrine.webp",
+    "photo": "RIZAL SHRINE · PHOTO",
+    "rating": "4.8",
+    "reviews": "3.2K",
+    "area": "Poblacion · J.P. Rizal St.",
+    "address": "J.P. Rizal St. cor. Mercado St., Brgy. 5, Poblacion",
+    "admission": "Free",
+    "duration": "1–2 hrs",
+    "bestTime": "Weekday AM",
+    "distance": "City center",
+    "hoursShort": "Tue–Sun",
+    "blurb": "The reconstructed birthplace of national hero Dr. José Rizal, set in a quiet heritage garden.",
+    "overview": "A faithful reconstruction of the two-storey Spanish-colonial house where Dr. José Rizal was born on June 19, 1861. Managed by the National Historical Commission of the Philippines, the shrine preserves period furnishings, family heirlooms, and a landscaped garden — an intimate look at the early life of the country’s foremost national hero.",
+    "highlights": [
+      {
+        "t": "Reconstructed ancestral house",
+        "d": "Two storeys of period rooms furnished as they were in the 1860s."
+      },
+      {
+        "t": "Family heirlooms & memorabilia",
+        "d": "Original furniture, religious items, and Rizal-family artifacts."
+      },
+      {
+        "t": "Heritage garden & courtyard",
+        "d": "Shaded grounds with a bronze marker and relief mural."
+      },
+      {
+        "t": "NHCP guided heritage walk",
+        "d": "Free docent-led tours every Saturday at 9:00 AM."
+      }
+    ],
+    "hoursWeek": [
+      {
+        "d": "Tue – Sun",
+        "t": "8:00 AM – 5:00 PM"
+      },
+      {
+        "d": "Monday",
+        "t": "Closed",
+        "off": true
+      },
+      {
+        "d": "Holidays",
+        "t": "Closed",
+        "off": true
+      }
+    ],
+    "amenities": [
+      "Free parking",
+      "Restrooms",
+      "Guided tours",
+      "Souvenir shop",
+      "Wheelchair access"
+    ],
+    "gettingThere": "About 5 minutes from Calamba Crossing. Take any jeepney bound for Poblacion and alight at the city plaza; the shrine is a short walk along J.P. Rizal St. On-site parking is available.",
+    "tip": "Arrive before 10 AM on a weekday to have the heritage rooms almost to yourself, and time your Saturday visit for the free 9 AM guided walk.",
+    "phone": "(049) 545-1880",
+    "fb": "fb.com/RizalShrineNHCP"
+  },
+  {
+    "id": "plaza",
+    "name": "Calamba City Plaza & Hall",
+    "tag": "Civic",
+    "image": "/city-plaza-hall.webp",
+    "photo": "CITY PLAZA & HALL · PHOTO",
+    "rating": "4.5",
+    "reviews": "1.1K",
+    "area": "Poblacion · Town center",
+    "address": "Calamba City Hall, Brgy. Real, Poblacion",
+    "admission": "Free",
+    "duration": "30–60 min",
+    "bestTime": "Evenings",
+    "distance": "0.3 km",
+    "hoursShort": "Open daily",
+    "blurb": "The seat of city government fronting the historic town plaza and fountain.",
+    "overview": "The civic heart of Calamba, where the City Hall faces a lively public plaza anchored by a central fountain and a monument to José Rizal. By day a working government center; by evening the plaza fills with families, food vendors, and seasonal light displays.",
+    "highlights": [
+      {
+        "t": "Historic town plaza & fountain",
+        "d": "A gathering place with benches, greenery, and a central fountain."
+      },
+      {
+        "t": "Rizal monument",
+        "d": "A bronze tribute to the city’s most famous son."
+      },
+      {
+        "t": "Seasonal light displays",
+        "d": "Festive installations during fiestas and the Christmas season."
+      },
+      {
+        "t": "Weekend bazaars",
+        "d": "Local crafts and street food on select weekends."
+      }
+    ],
+    "hoursWeek": [
+      {
+        "d": "Plaza",
+        "t": "Open 24 hours"
+      },
+      {
+        "d": "City Hall",
+        "t": "Mon–Fri 8AM–5PM"
+      },
+      {
+        "d": "Weekends",
+        "t": "Plaza only",
+        "off": true
+      }
+    ],
+    "amenities": [
+      "Public parking",
+      "Restrooms",
+      "Food stalls",
+      "Benches",
+      "Wi-Fi zone"
+    ],
+    "gettingThere": "At the center of Poblacion, within walking distance of the Rizal Shrine and St. John the Baptist Parish. Most Poblacion-bound jeepneys pass directly by the plaza.",
+    "tip": "Come around sunset — the fountain lights switch on and the plaza’s evening food vendors set up shop.",
+    "phone": "(049) 545-1234",
+    "fb": "fb.com/CalambaCityGov"
+  },
+  {
+    "id": "church",
+    "name": "St. John the Baptist Parish",
+    "tag": "Heritage",
+    "image": "/st-john-parish.webp",
+    "photo": "ST. JOHN PARISH · PHOTO",
+    "rating": "4.7",
+    "reviews": "2.4K",
+    "area": "Poblacion · Beside plaza",
+    "address": "J.P. Rizal St., Brgy. 5, Poblacion",
+    "admission": "Free",
+    "duration": "30–45 min",
+    "bestTime": "Outside Mass",
+    "distance": "0.2 km",
+    "hoursShort": "Daily",
+    "blurb": "The centuries-old stone church where José Rizal was baptized in 1861.",
+    "overview": "Founded in the 1850s, this Baroque stone church is best known as the place where the infant José Rizal was baptized on June 22, 1861. The cool interior holds a richly carved retablo, the historic baptismal font, and a commemorative marker — a quiet, working parish central to Calamba’s spiritual life.",
+    "highlights": [
+      {
+        "t": "Rizal’s baptismal font",
+        "d": "The very font used at the hero’s 1861 baptism, with a marker."
+      },
+      {
+        "t": "Spanish-era retablo",
+        "d": "An ornate carved-and-gilded altarpiece at the sanctuary."
+      },
+      {
+        "t": "Stone bell tower",
+        "d": "A landmark facade visible across the plaza."
+      },
+      {
+        "t": "Devotional chapels",
+        "d": "Side altars and images cherished by the local community."
+      }
+    ],
+    "hoursWeek": [
+      {
+        "d": "Mon – Sat",
+        "t": "6:00 AM – 7:00 PM"
+      },
+      {
+        "d": "Sunday",
+        "t": "Mass schedule"
+      },
+      {
+        "d": "Daily Mass",
+        "t": "6 AM & 6 PM"
+      }
+    ],
+    "amenities": [
+      "Street parking",
+      "Restrooms",
+      "Candle stalls",
+      "Quiet area",
+      "Accessible"
+    ],
+    "gettingThere": "Right beside the city plaza in Poblacion, an easy walk from the Rizal Shrine. Park along the side streets or at the public plaza lot.",
+    "tip": "Visit outside Mass hours to admire the retablo and baptismal font without interrupting services — mornings are quietest.",
+    "phone": "(049) 545-2233",
+    "fb": "fb.com/SJBParishCalamba"
+  },
+  {
+    "id": "pansol",
+    "name": "Pansol Hot-Spring Resorts",
+    "tag": "Leisure",
+    "photo": "PANSOL RESORTS · PHOTO",
+    "rating": "4.3",
+    "reviews": "5.6K",
+    "area": "Brgy. Pansol · Makiling foothills",
+    "address": "Pansol & Bucal resort belt, along the National Highway",
+    "admission": "Varies",
+    "duration": "Half / full day",
+    "bestTime": "Weekdays",
+    "distance": "6 km",
+    "hoursShort": "Day & night",
+    "blurb": "Natural thermal springs at the foot of Mount Makiling.",
+    "overview": "Calamba’s famous hot-spring district, a cluster of private and public resorts fed by naturally heated mineral water from Mount Makiling. Options range from simple day pools to fully catered overnight villas — a favorite weekend escape for families and barkadas across the region.",
+    "highlights": [
+      {
+        "t": "Natural thermal pools",
+        "d": "Mineral water warmed by the volcano’s geothermal activity."
+      },
+      {
+        "t": "Private & day-tour resorts",
+        "d": "From budget public pools to exclusive overnight villas."
+      },
+      {
+        "t": "Group & overnight packages",
+        "d": "Cottages, function halls, and catering for events."
+      },
+      {
+        "t": "Makiling backdrop",
+        "d": "Lush forested foothills surrounding the resort belt."
+      }
+    ],
+    "hoursWeek": [
+      {
+        "d": "Day use",
+        "t": "8:00 AM – 5:00 PM"
+      },
+      {
+        "d": "Night swim",
+        "t": "7:00 PM – 5:00 AM"
+      },
+      {
+        "d": "Booking",
+        "t": "Per resort"
+      }
+    ],
+    "amenities": [
+      "On-site parking",
+      "Pools",
+      "Cottages",
+      "Catering",
+      "Function halls"
+    ],
+    "gettingThere": "About 15 minutes from the city center along the National Highway toward Los Baños. Jeepneys and tricycles serve the Pansol–Bucal belt; most resorts sit just off the highway.",
+    "tip": "Book on a weekday for lower rates and fewer crowds, and confirm whether your resort charges day-tour vs. overnight rates before arriving.",
+    "phone": "(049) 545-0099",
+    "fb": "fb.com/PansolResortsCalamba"
+  },
+  {
+    "id": "banga",
+    "name": "The Calamba “Banga”",
+    "tag": "Landmark",
+    "image": "/calamba-banga.webp",
+    "photo": "THE BANGA · PHOTO",
+    "rating": "4.4",
+    "reviews": "980",
+    "area": "City Hall grounds · Brgy. Real",
+    "address": "Calamba City Hall complex, Brgy. Real, Poblacion",
+    "admission": "Free",
+    "duration": "15–30 min",
+    "bestTime": "Daytime",
+    "distance": "0.3 km",
+    "hoursShort": "Open daily",
+    "blurb": "The world’s largest clay jar — Calamba’s iconic monument.",
+    "overview": "A giant earthen water jar, or “banga,” that gives the city its name and stands as its most recognizable monument. Built into the City Hall grounds, the oversized jar is ringed with plaques naming Calamba’s barangays — a favorite photo stop and civic landmark.",
+    "highlights": [
+      {
+        "t": "Giant clay-jar monument",
+        "d": "A towering banga, said to be the largest of its kind."
+      },
+      {
+        "t": "Barangay name plaques",
+        "d": "Markers around the base naming the city’s barangays."
+      },
+      {
+        "t": "City Hall landscaping",
+        "d": "Set within the manicured civic grounds."
+      },
+      {
+        "t": "Signature photo spot",
+        "d": "The classic backdrop for “I was in Calamba” snapshots."
+      }
+    ],
+    "hoursWeek": [
+      {
+        "d": "Grounds",
+        "t": "Open 24 hours"
+      },
+      {
+        "d": "Best viewing",
+        "t": "Daylight hours"
+      },
+      {
+        "d": "Night",
+        "t": "Lit display"
+      }
+    ],
+    "amenities": [
+      "Public parking",
+      "Open grounds",
+      "Photo spot",
+      "Near restrooms",
+      "Accessible"
+    ],
+    "gettingThere": "On the Calamba City Hall grounds in Poblacion, a short walk from the plaza and church. Easily combined with a town-center heritage stroll.",
+    "tip": "Pair it with the adjacent plaza and church for a compact one-hour walking tour of the historic town center.",
+    "phone": "(049) 545-1234",
+    "fb": "fb.com/CalambaCityGov"
+  },
+  {
+    "id": "makiling",
+    "name": "Mount Makiling",
+    "tag": "Nature",
+    "image": "/mount-makiling.webp",
+    "photo": "MT. MAKILING · PHOTO",
+    "rating": "4.6",
+    "reviews": "3.8K",
+    "area": "Makiling Forest Reserve",
+    "address": "Mt. Makiling Forest Reserve, Calamba – Los Baños",
+    "admission": "Permit fee",
+    "duration": "Full day",
+    "bestTime": "Dry season AM",
+    "distance": "10 km",
+    "hoursShort": "Daylight",
+    "blurb": "A forest reserve and dormant volcano steeped in legend.",
+    "overview": "A protected forest reserve and dormant volcano rising over Calamba, famed for its biodiversity and the legend of the guardian fairy Maria Makiling. Managed for conservation by UPLB, it offers a strenuous eco-trail to the peak and gentler nature walks through the botanic gardens at its base.",
+    "highlights": [
+      {
+        "t": "Eco-trail to the peak",
+        "d": "A challenging guided ascent through rainforest to the summit."
+      },
+      {
+        "t": "Makiling Botanic Gardens",
+        "d": "Accessible nature trails and native-tree collections at the base."
+      },
+      {
+        "t": "Rich flora & fauna",
+        "d": "Endemic birds, ferns, and the giant rafflesia in season."
+      },
+      {
+        "t": "Legend of Maria Makiling",
+        "d": "The mountain’s storied guardian fairy of local folklore."
+      }
+    ],
+    "hoursWeek": [
+      {
+        "d": "Trail entry",
+        "t": "6:00 AM – 10:00 AM"
+      },
+      {
+        "d": "Last descent",
+        "t": "By 5:00 PM"
+      },
+      {
+        "d": "Permit",
+        "t": "Register at UPLB"
+      }
+    ],
+    "amenities": [
+      "Registration",
+      "Trail guides",
+      "Picnic areas",
+      "Botanic gardens",
+      "Restrooms"
+    ],
+    "gettingThere": "The reserve entrance is reached via UPLB in Los Baños, about 25 minutes from the city center. Trail hikes require advance registration and an accredited guide; the botanic gardens are open to walk-in visitors.",
+    "tip": "Start the peak trail at dawn and register a guide in advance — the full traverse takes most of the day and gates close mid-morning.",
+    "phone": "(049) 536-3603",
+    "fb": "fb.com/MakilingCenter"
+  },
+  {
+    "id": "bucal",
+    "name": "Bucal Bypass Food Bazaar",
+    "tag": "Food",
+    "photo": "BUCAL BAZAAR · PHOTO",
+    "rating": "4.5",
+    "reviews": "2.7K",
+    "area": "Brgy. Bucal · Bypass Road",
+    "address": "Calamba Bypass Road, Brgy. Bucal",
+    "admission": "Free entry",
+    "duration": "1–2 hrs",
+    "bestTime": "Evenings",
+    "distance": "5 km",
+    "hoursShort": "Nightly",
+    "blurb": "A sprawling open-air night market of food stalls along the Bucal bypass.",
+    "overview": "One of Calamba’s liveliest evening hangouts — a long strip of open-air stalls lining the Bucal bypass road, serving grilled street food, milk teas, ramen, sizzling plates, and local desserts. Strings of lights, communal tables, and weekend live acoustic sets make it a nightly draw for students, families, and barkadas.",
+    "highlights": [
+      {
+        "t": "Grilled street-food row",
+        "d": "Isaw, barbecue, takoyaki, and sizzling plates down the strip."
+      },
+      {
+        "t": "Milk tea & coffee stalls",
+        "d": "Dozens of drink kiosks for after-dinner sips."
+      },
+      {
+        "t": "Communal dining tents",
+        "d": "Shared long tables under fairy lights."
+      },
+      {
+        "t": "Weekend live acoustic",
+        "d": "Local performers on Friday and Saturday nights."
+      }
+    ],
+    "hoursWeek": [
+      {
+        "d": "Mon – Thu",
+        "t": "4:00 PM – 12:00 MN"
+      },
+      {
+        "d": "Fri – Sun",
+        "t": "4:00 PM – 2:00 AM"
+      },
+      {
+        "d": "Stalls",
+        "t": "Vary nightly"
+      }
+    ],
+    "amenities": [
+      "Parking",
+      "Communal seating",
+      "Restrooms",
+      "Live music",
+      "Cashless options"
+    ],
+    "gettingThere": "Along the Bucal bypass road, about 15 minutes from the city center. Tricycles and jeepneys pass the strip; parking is available along the service lanes.",
+    "tip": "Go hungry and arrive after 7 PM when every stall is open and the live music starts — bring small bills for the smaller kiosks.",
+    "phone": "—",
+    "fb": "fb.com/BucalFoodBazaar"
+  },
+  {
+    "id": "jenel",
+    "name": "Jenel Subd. Food Bazaar “Sa Bukid”",
+    "tag": "Food",
+    "photo": "SA BUKID · PHOTO",
+    "rating": "4.4",
+    "reviews": "1.3K",
+    "area": "Jenel Subd. · Brgy. Bucal",
+    "address": "Jenel Subdivision, Brgy. Bucal, Calamba",
+    "admission": "Free entry",
+    "duration": "1–2 hrs",
+    "bestTime": "Evenings",
+    "distance": "6 km",
+    "hoursShort": "Evenings",
+    "blurb": "A laid-back countryside food park tucked inside Jenel Subdivision.",
+    "overview": "A relaxed “sa bukid” (in the fields) food park set against open lots and greenery in Jenel Subdivision — a quieter, breezier alternative to the bypass bazaar. Wooden stalls and fairy-lit nipa seating serve sizzling plates, pulutan, and cold drinks in an easygoing provincial setting.",
+    "highlights": [
+      {
+        "t": "Open-field nipa seating",
+        "d": "Bamboo huts and long tables scattered across the lot."
+      },
+      {
+        "t": "Sizzling & pulutan plates",
+        "d": "Hearty group fare made for sharing."
+      },
+      {
+        "t": "Cold beer & shakes",
+        "d": "Ice-cold drinks for warm Laguna nights."
+      },
+      {
+        "t": "Wide-open parking",
+        "d": "Plenty of space — easy to come by car."
+      }
+    ],
+    "hoursWeek": [
+      {
+        "d": "Tue – Sun",
+        "t": "4:00 PM – 12:00 MN"
+      },
+      {
+        "d": "Monday",
+        "t": "Closed",
+        "off": true
+      },
+      {
+        "d": "Stalls",
+        "t": "Vary nightly"
+      }
+    ],
+    "amenities": [
+      "Ample parking",
+      "Open-air seating",
+      "Restrooms",
+      "Pet-friendly",
+      "Group tables"
+    ],
+    "gettingThere": "Inside Jenel Subdivision off the Bucal area, about 20 minutes from the center. Best reached by car or tricycle as it sits within the residential streets.",
+    "tip": "Quieter and breezier than the bypass strip — ideal for a relaxed group dinner. Bring a light jacket on cool nights.",
+    "phone": "—",
+    "fb": "fb.com/JenelSaBukid"
+  },
+  {
+    "id": "eightwaves",
+    "name": "8 Waves Waterpark & Hotel",
+    "tag": "Leisure",
+    "photo": "8 WAVES · PHOTO",
+    "rating": "4.2",
+    "reviews": "8.9K",
+    "area": "Brgy. Bucal · National Highway",
+    "address": "San Juan, Brgy. Bucal, Calamba",
+    "admission": "Entrance fee",
+    "duration": "Half / full day",
+    "bestTime": "Weekday AM",
+    "distance": "5 km",
+    "hoursShort": "Daily",
+    "blurb": "A wave-pool waterpark and hotel resort in Bucal.",
+    "overview": "A family waterpark built around its signature wave pool, with slides, lap and kiddie pools, cabanas, and an on-site hotel. It blends Calamba’s spring-fed water tradition with modern resort amenities — a popular day-trip and staycation spot for groups and families.",
+    "highlights": [
+      {
+        "t": "Signature wave pool",
+        "d": "The park’s headline attraction with timed wave sessions."
+      },
+      {
+        "t": "Water slides",
+        "d": "A cluster of slides for kids and thrill-seekers."
+      },
+      {
+        "t": "Kiddie pools & cabanas",
+        "d": "Shaded family areas and rentable cabanas."
+      },
+      {
+        "t": "On-site hotel rooms",
+        "d": "Overnight stays for an easy staycation."
+      }
+    ],
+    "hoursWeek": [
+      {
+        "d": "Day swim",
+        "t": "8:00 AM – 5:00 PM"
+      },
+      {
+        "d": "Night swim",
+        "t": "6:00 PM – 10:00 PM"
+      },
+      {
+        "d": "Hotel",
+        "t": "Open 24 hours"
+      }
+    ],
+    "amenities": ["Parking", "Locker rooms", "Restaurants", "Cabanas", "Hotel"],
+    "gettingThere": "Along the National Highway in Bucal, about 15 minutes from the city center; accessible by car, jeepney, or tricycle.",
+    "tip": "Buy tickets online for weekday slots to skip the queue and get the lowest rates.",
+    "phone": "(049) 530-1888",
+    "fb": "fb.com/8WavesResort"
+  },
+  {
+    "id": "botanic",
+    "name": "Makiling Botanic Gardens",
+    "tag": "Nature",
+    "photo": "BOTANIC GARDENS · PHOTO",
+    "rating": "4.6",
+    "reviews": "1.9K",
+    "area": "UPLB · Makiling foothills",
+    "address": "Makiling Botanic Gardens, UPLB, Los Baños",
+    "admission": "Minimal fee",
+    "duration": "2–3 hrs",
+    "bestTime": "Dry-season AM",
+    "distance": "9 km",
+    "hoursShort": "Daily AM",
+    "blurb": "Accessible nature trails and native-tree collections at Makiling’s base.",
+    "overview": "A managed botanic reserve at the foot of Mount Makiling, run by UPLB for conservation and research. Shaded paved and dirt trails wind past labeled native trees, a flower garden, and a cool mountain stream — an easy nature escape for families and casual hikers who don’t want the full peak climb.",
+    "highlights": [
+      {
+        "t": "Labeled native-tree trail",
+        "d": "An educational loop through Philippine forest species."
+      },
+      {
+        "t": "Flower garden",
+        "d": "Cultivated beds near the entrance."
+      },
+      {
+        "t": "Mountain stream & picnic spots",
+        "d": "Cool, shaded rest stops along the way."
+      },
+      {
+        "t": "Birdwatching",
+        "d": "A quiet spot for endemic forest birds at dawn."
+      }
+    ],
+    "hoursWeek": [
+      {
+        "d": "Mon – Sun",
+        "t": "8:00 AM – 4:00 PM"
+      },
+      {
+        "d": "Last entry",
+        "t": "3:00 PM"
+      },
+      {
+        "d": "Permit",
+        "t": "Register on site"
+      }
+    ],
+    "amenities": [
+      "Parking",
+      "Trails",
+      "Picnic areas",
+      "Restrooms",
+      "Guided walks"
+    ],
+    "gettingThere": "Reached through the UPLB campus in Los Baños, about 20 minutes from the center; register at the gate before entering.",
+    "tip": "Wear closed shoes and bring water — the upper loop is a gentle but sweaty climb, best done in the cool morning.",
+    "phone": "(049) 536-2229",
+    "fb": "fb.com/MakilingCenter"
+  },
+  {
+    "id": "market",
+    "name": "Calamba Public Market & Bagsakan",
+    "tag": "Food",
+    "photo": "PALENGKE · PHOTO",
+    "rating": "4.1",
+    "reviews": "740",
+    "area": "Poblacion · Burgos St.",
+    "address": "Calamba Public Market, Burgos St., Poblacion",
+    "admission": "Free",
+    "duration": "30–60 min",
+    "bestTime": "Early AM",
+    "distance": "0.5 km",
+    "hoursShort": "Daily AM",
+    "blurb": "The city’s bustling palengke for fresh produce, seafood, and local eats.",
+    "overview": "Calamba’s main public market — a lively palengke where farmers and traders sell fresh Laguna produce, lake fish, native delicacies, and street eats. The bagsakan (drop-off) section moves wholesale volumes of vegetables and fruit at dawn, while carinderias serve hot, cheap meals all day.",
+    "highlights": [
+      {
+        "t": "Fresh produce & lake fish",
+        "d": "Laguna vegetables and catch from the bay."
+      },
+      {
+        "t": "Native kakanin & delicacies",
+        "d": "Local rice cakes, sweets, and snacks."
+      },
+      {
+        "t": "Wholesale bagsakan at dawn",
+        "d": "Bulk produce trading in the early hours."
+      },
+      {
+        "t": "Carinderia food row",
+        "d": "Home-style cooking at budget prices."
+      }
+    ],
+    "hoursWeek": [
+      {
+        "d": "Daily",
+        "t": "4:00 AM – 7:00 PM"
+      },
+      {
+        "d": "Bagsakan",
+        "t": "3:00 AM – 8:00 AM"
+      },
+      {
+        "d": "Wet section",
+        "t": "Mornings best"
+      }
+    ],
+    "amenities": [
+      "Parking nearby",
+      "Carinderias",
+      "ATMs",
+      "Loading bays",
+      "Restrooms"
+    ],
+    "gettingThere": "In the Poblacion near the plaza; walkable from the town center and served by all market-bound jeepneys.",
+    "tip": "Come at dawn for the freshest catch and the lowest prices at the bagsakan section.",
+    "phone": "(049) 545-1234",
+    "fb": "fb.com/CalambaCityGov"
+  },
+  {
+    "id": "lakeshore",
+    "name": "Lecheria Lakeshore & Sunset Deck",
+    "tag": "Nature",
+    "photo": "LAGUNA LAKESHORE · PHOTO",
+    "rating": "4.3",
+    "reviews": "610",
+    "area": "Brgy. Lecheria · Laguna de Bay",
+    "address": "Lecheria shoreline, Laguna de Bay, Calamba",
+    "admission": "Free",
+    "duration": "30–60 min",
+    "bestTime": "Sunset",
+    "distance": "4 km",
+    "hoursShort": "Open daily",
+    "blurb": "A breezy stretch of Laguna de Bay shoreline known for its sunsets.",
+    "overview": "Where Calamba meets Laguna de Bay — a low-key lakeshore in Brgy. Lecheria with open views of the water, fishing boats, and Mount Makiling on the horizon. A favorite spot for evening strolls, sunset photos, and fresh-from-the-lake meals at the nearby eateries.",
+    "highlights": [
+      {
+        "t": "Laguna de Bay sunset views",
+        "d": "Wide open water and golden-hour light."
+      },
+      {
+        "t": "Fishing-boat harbor",
+        "d": "Working bancas and the daily catch coming in."
+      },
+      {
+        "t": "Lakeside eateries",
+        "d": "Fresh tilapia and grilled fare by the water."
+      },
+      {
+        "t": "Open promenade",
+        "d": "A breezy stretch for evening walks."
+      }
+    ],
+    "hoursWeek": [
+      {
+        "d": "Shoreline",
+        "t": "Open 24 hours"
+      },
+      {
+        "d": "Best light",
+        "t": "Late afternoon"
+      },
+      {
+        "d": "Eateries",
+        "t": "10 AM – 9 PM"
+      }
+    ],
+    "amenities": [
+      "Street parking",
+      "Lakeside eateries",
+      "Benches",
+      "Photo spots",
+      "Open air"
+    ],
+    "gettingThere": "Along the Lecheria shoreline, about 10 minutes from the center by car or tricycle.",
+    "tip": "Arrive about an hour before sunset for the best light over the lake and Mount Makiling.",
+    "phone": "—",
+    "fb": "fb.com/CalambaCityGov"
+  }
+]

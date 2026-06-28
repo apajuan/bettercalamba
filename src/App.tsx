@@ -39,6 +39,9 @@ const ServicesLayout = lazy(() => import('@/pages/services/layout'));
 const Services = lazy(() => import('@/pages/services'));
 const ServiceDetail = lazy(() => import('@/pages/services/[service]'));
 
+// Tourism Module
+const TourismPage = lazy(() => import('@/pages/tourism'));
+
 // Government Directory
 const GovernmentRootLayout = lazy(() => import('@/pages/government/layout'));
 const ElectedOfficialsLayout = lazy(
@@ -194,6 +197,8 @@ function AppContent() {
             <Route index element={<Services />} />
             <Route path=':service' element={<ServiceDetail />} />
           </Route>
+
+          <Route path='/tourism' element={<TourismPage />} />
 
           {/* Government Directory Hub */}
           <Route path='/government' element={<GovernmentRootLayout />}>

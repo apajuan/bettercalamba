@@ -30,7 +30,8 @@ export type LandmarkCategory =
   | 'Civic'
   | 'Leisure'
   | 'Landmark'
-  | 'Nature';
+  | 'Nature'
+  | 'Food';
 
 export const landmarkCategoryColors: Record<LandmarkCategory, BadgeColor> = {
   Heritage: { bg: '#eef3fc', fg: '#0032a0', bd: '#acc8ef' },
@@ -38,6 +39,7 @@ export const landmarkCategoryColors: Record<LandmarkCategory, BadgeColor> = {
   Leisure: { bg: '#fff9ed', fg: '#c45a0a', bd: '#ffe3a9' },
   Landmark: { bg: '#fce7ee', fg: '#bf0d3e', bd: '#f3c6d5' },
   Nature: { bg: '#effef5', fg: '#0b7f42', bd: '#b6fcd5' },
+  Food: { bg: '#fdf0e3', fg: '#a8540a', bd: '#f6d8b6' },
 };
 
 /* ------------------------------------------------------------------ */

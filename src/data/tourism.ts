@@ -1,67 +1,91 @@
 import type { LandmarkCategory } from './homepage-constants';
+import destinationsData from './tourism/destinations.json';
 
 export type { LandmarkCategory };
 
-/** A Calamba tourism landmark shown on the homepage Tourism Highlights. */
-export interface Landmark {
+/** A single "What to see & do" highlight shown in the detail modal. */
+export interface DestinationHighlight {
+  /** Highlight title. */
+  t: string;
+  /** Supporting description. */
+  d: string;
+}
+
+/** One weekly opening-hours row in the detail modal. */
+export interface DestinationHours {
+  /** Day or range label, e.g. "Tue – Sun". */
+  d: string;
+  /** Time text, e.g. "8:00 AM – 5:00 PM" or "Closed". */
+  t: string;
+  /** When true, the time renders in alert red (closed/unavailable). */
+  off?: boolean;
+}
+
+/**
+ * A Calamba tourism destination. Single shared source for the homepage
+ * Tourism Highlights section, the All Destinations page, and the detail modal.
+ */
+export interface Destination {
+  /** Slug, e.g. "rizal". */
   id: string;
   name: string;
   /** Category key — drives badge color via `landmarkCategoryColors`. */
   tag: LandmarkCategory;
-  /** Public-path photo. When omitted, a striped placeholder is shown instead. */
+  /**
+   * Public-path photo. When omitted, a striped placeholder captioned with
+   * `photo` is shown instead.
+   */
   image?: string;
+  /** Placeholder caption shown over the striped placeholder, e.g. "RIZAL SHRINE · PHOTO". */
+  photo: string;
+  rating: string;
+  reviews: string;
+  /** Short location, e.g. "Poblacion · J.P. Rizal St." */
+  area: string;
+  /** Full address, shown in the modal header. */
+  address: string;
+  /** "Free", "Varies", "Entrance fee", "Permit fee". */
+  admission: string;
+  /** Suggested visit length, e.g. "1–2 hrs", "Full day". */
+  duration: string;
+  bestTime: string;
+  /** Distance from city center, e.g. "City center", "6 km". */
+  distance: string;
+  /** Compact hours shown on the card, e.g. "Tue–Sun", "Nightly". */
+  hoursShort: string;
+  /** One-line card description. */
   blurb: string;
-  /** When true, this landmark is rendered as the full-bleed hero card. */
-  featured?: boolean;
+  /** Full overview paragraph (modal). */
+  overview: string;
+  /** "What to see & do" list (modal). */
+  highlights: DestinationHighlight[];
+  /** Weekly opening-hours rows (modal). */
+  hoursWeek: DestinationHours[];
+  /** Amenity chip labels. */
+  amenities: string[];
+  /** "Getting there" paragraph (modal). */
+  gettingThere: string;
+  /** "Insider tip" paragraph (modal). */
+  tip: string;
+  /** Contact phone, "(049) 545-1880" or "—". */
+  phone: string;
+  /** Facebook handle, e.g. "fb.com/RizalShrineNHCP". */
+  fb: string;
 }
 
-export const tourismLandmarks: Landmark[] = [
-  {
-    id: 'rizal-shrine',
-    name: 'Rizal Shrine',
-    tag: 'Heritage',
-    image: '/rizal-shrine.webp',
-    blurb:
-      'The reconstructed birthplace of national hero Dr. José Rizal, set in a quiet heritage garden in the heart of the city.',
-    featured: true,
-  },
-  {
-    id: 'city-plaza-hall',
-    name: 'Calamba City Plaza & Hall',
-    tag: 'Civic',
-    image: '/city-plaza-hall.webp',
-    blurb:
-      'The seat of city government fronting the historic town plaza and fountain.',
-  },
-  {
-    id: 'st-john-parish',
-    name: 'St. John the Baptist Parish',
-    tag: 'Heritage',
-    image: '/st-john-parish.webp',
-    blurb:
-      'The centuries-old stone church where José Rizal was baptized in 1861.',
-  },
-  {
-    id: 'pansol-resorts',
-    name: 'Pansol Hot-Spring Resorts',
-    tag: 'Leisure',
-    blurb:
-      'Natural thermal springs at the foot of Mount Makiling — the city’s leisure heart.',
-  },
-  {
-    id: 'calamba-banga',
-    name: 'The Calamba “Banga”',
-    tag: 'Landmark',
-    image: '/calamba-banga.webp',
-    blurb:
-      'The world’s largest clay jar — Calamba’s iconic monument to its pottery heritage.',
-  },
-  {
-    id: 'mount-makiling',
-    name: 'Mount Makiling',
-    tag: 'Nature',
-    image: '/mount-makiling.webp',
-    blurb:
-      'A forest reserve and dormant volcano steeped in the legend of Maria Makiling.',
-  },
-];
+/**
+ * Canonical destination directory — all 12 Calamba destinations.
+ *
+ * Content lives in `./tourism/destinations.json` (version-controlled static
+ * data, per the project's data-layer convention); this module owns the
+ * `Destination` type and is the seam where a real CMS/API call would later
+ * replace the JSON import. The cast is safe because the JSON is hand-curated
+ * to match the type.
+ */
+export const destinations = destinationsData as Destination[];
+
+/**
+ * The homepage Tourism Highlights section features the first 6 destinations:
+ * Rizal Shrine, City Plaza & Hall, St. John Parish, Pansol, the Banga, Makiling.
+ */
+export const tourismHighlights: Destination[] = destinations.slice(0, 6);
