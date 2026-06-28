@@ -1,1 +1,3952 @@
-[]
+[
+  {
+    "service": "Aplikasyon para sa Adoption (Regular na kaso)",
+    "slug": "aplikasyon-para-sa-adoption-regular-na-kaso",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "22",
+    "officeDivision": "City Social Services Department - Special Social Services Division",
+    "classification": "Highly Technical",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Petitioner na hindi bababa sa edad na 25 years old at may kakayahang maibigay ang legal na karapatan ng isang bata",
+    "officeSlug": [
+      "city-social-welfare-and-development-office"
+    ],
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Certificate of Attendance / Participation",
+        "where_to_secure": "Regional Alternative Child Care Office (RACCO)"
+      },
+      {
+        "requirement": "Application and Undertaking Form",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Authenticated or SECPA copy of the birth record of the applicant/s",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Authenticated or SECPA copy of the Marriage Certificate and/or Certificate of No Marriage (CENOMAR) in SECPA form, in case of termination of marriage, Authenticated Divorce papers with copy of court decision and Certificate of Finality, Declaration of Nullity, or legal Separation Documents of Filipino applicant",
+        "where_to_secure": "Philippine Statistics Office (PSA)"
+      },
+      {
+        "requirement": "Written consent from the appropriate person/s",
+        "where_to_secure": "Applicant"
+      },
+      {
+        "requirement": "Medical evaluation form with test results and Medical Certification by a duly licensed physician. The Certification should indicate that the applicant has no medical condition that prevents him or her in acting or assuming parental responsibilities and taken at least six months from the time of preparation of the Home Study Report.",
+        "where_to_secure": "Licensed Physician"
+      },
+      {
+        "requirement": "Psychological evaluation report on the applicant/s, as recommended by the social worker.",
+        "where_to_secure": "Agency / Institution conducting Psychological evaluation"
+      },
+      {
+        "requirement": "NBI or Police Clearance or Court Clearance issued within one year before filing of the application.",
+        "where_to_secure": "NBI/PNP/COURT"
+      },
+      {
+        "requirement": "Latest Income Tax Return (ITR) of any document showing financial capacity.",
+        "where_to_secure": "BIR"
+      },
+      {
+        "requirement": "Letters attesting to the character and general reputation of the PAP/s from at least three non-related character references of one preferably from an employer or supervisor or with whom the adoptive applicant/s have business dealings. The contact dealings of the person attesting and the date of its signing must be indicated in the letter",
+        "where_to_secure": "Applicant"
+      },
+      {
+        "requirement": "5r sized photos of the applicant/s, his or her immediate family members, and their home, taken within the last six (months from the date of submission of application; all photos must be dated",
+        "where_to_secure": "Applicant"
+      },
+      {
+        "requirement": "Certificate of Finality (if with a previously adopted child)",
+        "where_to_secure": "RACCO"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Dumalo sa Pre-Adoption Online Forum",
+        "agencyAction": "Ibigay ang link para sa Pre-Adoption Online Forum na galing RACCO",
+        "processing_time": "3 oras"
+      },
+      {
+        "step": 2,
+        "action": "Kumpletuhin ang lahat na kinakailangan dokumento at isumite sa Tanggapan ng RACCO",
+        "agencyAction": "Asistehan ang Petitioner sa pagkumpleto ng mga kinakailangan na dokumento",
+        "processing_time": "Walang eksaktong araw o oras"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Hintayin ang sulat na manggagaling sa RACCO na nagsasabing maari ng simulan gawin ang Home Study Report"
+      },
+      {
+        "step": 4,
+        "action": "Processing...",
+        "agencyAction": "Isagawa ang home visitation, interview at counselling, at iprepara ang home study report",
+        "processing_time": "30 araw"
+      },
+      {
+        "step": 5,
+        "action": "Processing...",
+        "agencyAction": "Isumite ang Home Study Report sa Tanggapan ng RACCO"
+      },
+      {
+        "step": 6,
+        "action": "Sundin ang mga rekomendasyon o komento ng RACCO",
+        "agencyAction": "Hintayin ang Letter o Memorandum na naglalaman ng mga komento patungkol sa aplikasyon at mga dokumentong ipinasa",
+        "processing_time": "15 araw"
+      },
+      {
+        "step": 7,
+        "action": "Processing...",
+        "agencyAction": "Asistehan ang petitioner na maibigay o makumpleto ang mga hinihinging dokumento ng RACCO"
+      },
+      {
+        "step": 8,
+        "action": "Magtungo sa Tanggapan ng RACCO at isumite ang aplikasyon",
+        "agencyAction": "Samahan ang petitioner sa Tanggapan ng RACCO",
+        "processing_time": "Ayon sa Schedule na ibinigay ng RACCO"
+      },
+      {
+        "step": 9,
+        "action": "Processing...",
+        "agencyAction": "Hintayin ang sulat na naglalaman ng desisyon patungkol sa aplikasyon"
+      },
+      {
+        "step": 10,
+        "action": "Processing...",
+        "agencyAction": "Humingi ng kopya ng mga dokumento na isinumite kasama ang sulat galing RACCO"
+      }
+    ],
+    "processingTime": "Walang eksaktong araw o oras",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Social Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Note: Sa prosesong ito ay walang eksaktong araw o oras at tagal sapagkat ito ay nakadepende sa tagal o bilis ng kliyente na makompleto ang mga kailangang dokumento at mga prosesong isinasagawa sa Regional Alternative Child Care Office (RACCO)."
+  },
+  {
+    "service": "Aplikasyon para sa Step-Parent, Relative and Adult Adoption",
+    "slug": "aplikasyon-para-sa-step-parent-relative-and-adult-adoption",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "23",
+    "officeDivision": "City Social Services Department - Special Social Services Division",
+    "classification": "Highly Technical",
+    "typeOfTransaction": "G2C-Government to Citizen;",
+    "whoMayAvail": "Petitioner na hindi bababa sa edad na 25 years old at may kakayahang maibigay ang legal na Karapatan ng isang bata",
+    "officeSlug": [
+      "city-social-welfare-and-development-office"
+    ],
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Certificate of Attendance / Participation",
+        "where_to_secure": "Regional Alternative Child Care Office (RACCO)"
+      },
+      {
+        "requirement": "Child Case Study Report and Home Case Study Report or Social Case Study Report, whichever is applicable under the circumstances.",
+        "where_to_secure": "City Social Service Office"
+      },
+      {
+        "requirement": "Copies of the birth record of the PAP/s and the child",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Copies of the Marriage Certificate and/or Certificate of No Marriage (CENOMAR). In case of termination of marriage, Authenticated Divorce papers with a copy of the court decision and Certificate of Finality by their Consulate, if foreign applicant; Decree of Annulment, Decree of Nullity of Marriage, or Decree of Legal Separation or the PSA copy of the Certificate of Marriage with annotation of the annulment of marriage, declaration of Nullity of marriage or legal separation for Filipino applicant",
+        "where_to_secure": "Philippine Statistics Office (PSA)"
+      },
+      {
+        "requirement": "NBI or Police Clearance or Court Clearances; if foreign national, clearance from police authorities where he or she has lived for more than 12 months any time in the past 15 years.",
+        "where_to_secure": "NBI/PNP/COURT"
+      },
+      {
+        "requirement": "Copy of the Death Certificate of the child's biological parents, if applicable",
+        "where_to_secure": "Philippine Statistics Office (PSA)"
+      },
+      {
+        "requirement": "Written consent of the child 10 years of age or over",
+        "where_to_secure": "Applicant"
+      },
+      {
+        "requirement": "Written consent of marital and adopted children of PAP/s, ten years of age or over",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Written consent of non-marital children, ten years of age or over, of whom the PAP/s is living with or over whom PAP/s exercises parental authority.",
+        "where_to_secure": "Applicant"
+      },
+      {
+        "requirement": "Written consent of the biological father or mother of the marital child or of the biological mother of the non-marital child, or the person/s exercising substitute parental authority over such child, to be adopted. This is not required when the adoptee is already an adult.",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Result of the recent medical evaluation pf the child and PAP/s prepared within six months prior to application. This requirement may be waived when the adoptee is already an adult.",
+        "where_to_secure": "Medical Institution / Hospital"
+      },
+      {
+        "requirement": "Psychological evaluation of the PAP/s prepared within two years based on the date of the report.",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Psychological evaluation of the child, for children five years old and above prepared within two years based on the date of the report, as recommended by the social worker especially when the adoptee is already an adult.",
+        "where_to_secure": "Any Psychological Testing Center"
+      },
+      {
+        "requirement": "Letter attesting to the character to the and general reputation of the PAP/s from at least three non-related character references of one preferably from an employer or supervisor or with whom the PAP/s have business dealings. The contact dealings of the person attesting and the date when the letter was prepared must be indicated in the document.",
+        "where_to_secure": "Applicant"
+      },
+      {
+        "requirement": "Recent 5r close-up and whole-body pictures of the adoptee and the PAP/s taken within the last six months; The date when the photo was taken must be indicated.",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Documents showing the financial capacity of the PAP/s",
+        "where_to_secure": "BIR / Previous Company"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Dumalo sa Online Pre-Adoption Forum",
+        "agencyAction": "Ibigay ang Link ng Pre-Adoption Forum galing sa RACCO",
+        "processing_time": "3 oras"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Kung Relative Adoption: Gagawa ng paraan para mahanap ang biological na mga magulang sa pamamagitan ng Tri-Media posting at sulat naman kung may exact address upang hingin ang kanilang pahintulot sa mangyayaring adoption. Kapag nahanap ang magulang ay magsasagawa ng Parenting Capabiltiy Assessment. Kung may kakayahan na alagaan ang bata: Itu-turn over sa byolohikal na pamilya ang bata. Kung walang kakayahan na alagaan ang bata: Tuloy ang petisyon",
+        "processing_time": "Walang eksaktong araw o oras"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Gawin ang Social Case Study Report",
+        "processing_time": "30 araw"
+      },
+      {
+        "step": 4,
+        "action": "Isumite ang aplikasyon kasama ang mga kinakailangang dokumento",
+        "agencyAction": "Asistehan ang petitioner sa pagkumpleto ng mga kinakailangang dokumento at pag susumite sa RACCO",
+        "processing_time": "Walang eksaktong araw o oras"
+      },
+      {
+        "step": 5,
+        "action": "Processing...",
+        "agencyAction": "Hintayin ang resulta ng aplikasyon"
+      },
+      {
+        "step": 6,
+        "action": "Processing...",
+        "agencyAction": "Humingi ng kopya ng mga dokumento na isinumite kasama ang sulat galing RACCO"
+      }
+    ],
+    "processingTime": "N/A",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Social Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Note: Sa prosesong ito ay walang eksaktong oras at tagal sapagkat ito ay nakadepende sa tagal o bilis ng kliyente na makompleto ang mga kailangang dokumento at mga prosesong isinasagawa sa Regional Alternative Child Care Office (RACCO)."
+  },
+  {
+    "service": "Aplikasyon sa Programang Pabahay at Palupa",
+    "slug": "aplikasyon-sa-programang-pabahay-at-palupa",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "3",
+    "officeDivision": "Housing and Settlements Department",
+    "classification": "Complex",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Lahat ng residente ng Lungsod ng Calamba na may edad 18-55 taong gulang at walang pag-aaring sariling lupa",
+    "officeSlug": [
+      "city-social-welfare-and-development-office"
+    ],
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Notaryadong application form para sa pabahay at palupa (1 orihinal na kopya, 5 photocopy)",
+        "where_to_secure": "Housing and Settlements Department"
+      },
+      {
+        "requirement": "Pinakabagong 3R family picture nakumple-to ang mga miyembro ng kasama sa apply (2 orihinal na kopya, 1 photocopy)",
+        "where_to_secure": "Kliyente"
+      },
+      {
+        "requirement": "Birth Certificate ng Aplikante (1orihinal na kopya, 2 photocopy)",
+        "where_to_secure": "Philippine Statistics Authority o Civil Registry Office kung saan ipinanganak"
+      },
+      {
+        "requirement": "2x2 ID Picture ng Aplikante (2 orihinal na kopya, 1 photocopy)",
+        "where_to_secure": "Kliyente"
+      },
+      {
+        "requirement": "1x1 ID Picture ng Aplikante (2 orihinal na kopya, 1 photocopy)",
+        "where_to_secure": "Kliyente"
+      },
+      {
+        "requirement": "Certification of Non-Ownership (1 orihinal na kopya, 1 photocopy)",
+        "where_to_secure": "City Assessment Office"
+      },
+      {
+        "requirement": "Barangay Clearance para sa Apply ng Pabahay Ownership (1 orihinal na kopya)",
+        "where_to_secure": "Barangay na kasalukuyang tinitirhan"
+      },
+      {
+        "requirement": "1 Valid ID ng Aplikante (2 photocopy)",
+        "where_to_secure": "BIR, Post Office, DFA, PSA, SSS, GSIS, Pag-IBIG, Philhealth, PRC, COMELEC, kompanyang pinagtatrabahuhan"
+      },
+      {
+        "requirement": "White folder na long (2 piraso)",
+        "where_to_secure": "Tindahan"
+      },
+      {
+        "requirement": "Kung sakaling ang aplikante ay single (head of the family): Certificate of No Marriage o CENOMAR (1 orihinal na kopya, 2 photocopy)",
+        "where_to_secure": "Philippine Statistics Authority"
+      },
+      {
+        "requirement": "Kung sakaling ang aplikante ay kasal sa kinakasama niya: Marriage Contract (1 orihinal na kopya, 2 photocopy)",
+        "where_to_secure": "Philippine Statistics Authority o Civil Registry Office kung saan ikinasal"
+      },
+      {
+        "requirement": "Birth Certificate ng Asawa (1 orihinal na kopya na ipe-present lamang para sa beripikasyon, 1 photocopy na ipapasa)",
+        "where_to_secure": "Philippine Statistics Authority o Civil Registry Office kung saan ikinasal"
+      },
+      {
+        "requirement": "1 Valid ID ng Asawa (2 photocopy)",
+        "where_to_secure": "BIR, Post Office, DFA, PSA, SSS, GSIS, Pag-IBIG, Philhealth, PRC, COMELEC, OSCA, kompanyang pinagtatrabahuhan"
+      },
+      {
+        "requirement": "Kung sakalingang aplikante ay may ka-live in (pero isa sakanila ay kasal sa unang asawa): Marriage Contract ng kasal sa unang asawa (1 orihinal na kopya na ipe-present lamang para sa beripikasyon, 1 photocopy na ipapasa)",
+        "where_to_secure": "Philippine Statistics Authority o Civil Registry Office kung saanikinasal"
+      },
+      {
+        "requirement": "Certificate of No Marriage o CENOMAR ng single sa magka-live in (1 orihinal na kopya na ipe-present lamang para sa beripikasyon, 1 photocopy na ipapasa)",
+        "where_to_secure": "Philippine Statistics Authority"
+      },
+      {
+        "requirement": "Notarized Affidavit of Abandonment (1 orihinal na kopya)",
+        "where_to_secure": "Notaryo Publiko"
+      },
+      {
+        "requirement": "Notarized Affidavit of Cohabitation (1 orihinal na kopya)",
+        "where_to_secure": "Housing and Settlements Department at NotaryoPubliko"
+      },
+      {
+        "requirement": "1 Valid ID ng ka-live in (2 photocopy)",
+        "where_to_secure": "BIR, Post Office, DFA, PSA, SSS, GSIS, Pag-IBIG, Philhealth, PRC, COMELEC, OSCA, kompanyang pinagtatrabahuhan"
+      },
+      {
+        "requirement": "Kung sakaling ang aplikante ay may ka-live in (pero pareho silang kasal sa unang asawa): Marriage Contract ng aplikante (1 orihinal na kopya na ipe-present lamang para sa beripikasyon, 1 photocopy na ipapasa)",
+        "where_to_secure": "Philippine Statistics Authority o Civil Registry Office kung saan ikinasal"
+      },
+      {
+        "requirement": "Marriage contract ng ka-live in (1 orihinal na kopya na ipe-present lamang para sa beripikasyon, 1 photocopy na ipapasa)",
+        "where_to_secure": "Philippine Statistics Authority o Civil Registry Office kung saan ikinasal"
+      },
+      {
+        "requirement": "Notarized Affidavit of Abandonment ng aplikante (1 orihinal na kopya)",
+        "where_to_secure": "Notaryo Publiko"
+      },
+      {
+        "requirement": "Notarized Affidavit of Abandonment ng ka-live (1 orihinal na kopya)",
+        "where_to_secure": "Notaryo Publiko"
+      },
+      {
+        "requirement": "Notarized Affidavit of Cohabitation (1 orihinal na kopya)",
+        "where_to_secure": "Housing and Settlements Department at Notaryo Publiko"
+      },
+      {
+        "requirement": "Any Valid ID ng ka-live in (2 photocopy)",
+        "where_to_secure": "BIR, Post Office, DFA, PSA, SSS, GSIS, Pag-IBIG, Philhealth, PRC, COMELEC, OSCA, kompanyang pinagtatrabahuhan"
+      },
+      {
+        "requirement": "Kung sakaling ang aplikante ay balo: Marriage Contract ng aplikante (1 orihinal na kopya na ipe-present lamang para sa beripikasyon, 1 photocopy na ipapasa)",
+        "where_to_secure": "Philippine Statistics Authority o Civil Registry Office kung saan ikinasal"
+      },
+      {
+        "requirement": "Death Certificate ng asawa (1 orihinal na kopya na ipe-present lamang para sa beripikasyon, 1 photocopy na ipapasa)",
+        "where_to_secure": "Philippine Statistics Authority o Civil Registry Office kung saan nirehistro ang pagkamatay ng asawa"
+      },
+      {
+        "requirement": "Kung sakalingangaplikante ay regular naempleyado (pribado o gobyerno): Income Tax Return (1 photocopy) o Certificate of Compensation (1 orihinal na kopya)",
+        "where_to_secure": "Kompanyang pinagtatrabahuhan"
+      },
+      {
+        "requirement": "Kung sakaling ang aplikante ay kontraktwal na empleyado (pribado o gobyerno): Certificate of Compensation (1 orihinal na kopya) o Notarized Affidavit of Income (1 orihinal na kopya)",
+        "where_to_secure": "Kompanyang pinagtatrabahuhan o Housing and Settlements Department o Notary Public"
+      },
+      {
+        "requirement": "Kung sakaling ang aplikante ay self-employed o may sarilingnegosyo: Notarized Affidavit of Income (1 orihinal na kopya)",
+        "where_to_secure": "Housing and Settlements Department o Notary Public"
+      },
+      {
+        "requirement": "Kung sakaling ang aplikante ay walang sariling pinagkakakitaan: Notarized Affidavit of Support ng sumusuportang pinansyal sa aplikante (1 orihinal na kopya)",
+        "where_to_secure": "Housing and Settlements Department o Notary Public"
+      },
+      {
+        "requirement": "1 Valid ID ng sumusuporta (2 photocopy)",
+        "where_to_secure": "BIR, Post Office, DFA, PSA, SSS, GSIS, Pag-IBIG, Philhealth, PRC, COMELEC, LTO, kompanyang pinagtatrabahuhan"
+      },
+      {
+        "requirement": "Kung sakaling may mali sa birth certificate o ID ng aplikante o miyembro ng pamilya: Notarized Affidavit of Discrepancy (1 orihinal na kopya)",
+        "where_to_secure": "Housing and Settlements Department o Notary Public"
+      },
+      {
+        "requirement": "Kung sakaling ang aplikante ay may mga anak at iba pang kamag-anak na kapisan sa bahay at kasama sa apply: Birth Certificate ng bawat isa (1 orihinal na kopya na ipe-present lamang para sa beripikasyon, 1 photocopy na ipapasa)",
+        "where_to_secure": "Philippine Statistics Authority o Civil Registry Office kung saan ipinanganak"
+      },
+      {
+        "requirement": "Kung sakaling ang pabahay na ina-apply-an ay pag-aari ng Pamahalaang Lungsod: Notarized Affidavit (Pabahay at Palupa sa Lungsod ng Calamba) (1 orihinal na kopya)",
+        "where_to_secure": "Housing and Settlements Department o Notary Public"
+      },
+      {
+        "requirement": "Kung sakaling ang pabahay na ina-apply-an ay pag-aari ng ibang ahensya ng gobyerno: Notarized Affidavit (Apply sa Pabahay, Walang sariling pag-aaring bahay, Hindi Awardee ng Pabahay ng gobyerno) (1 orihinal na kopya)",
+        "where_to_secure": "Housing and Settlements Department, ahensya ng gobyernong nangangasiwa sa pabahay o Notary Public"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Magtanong o mag-inquire kung paano magkaroon ng pabahay",
+        "agencyAction": "Alamin kung may record o census na ang aplikante Kung wala pa: Kunin ang profile ng aplikante at ibigay ang checklist ng mga requirement o kaila-ngang dokumento Kapag may record na: Ibigay ang checklist ng mga requirement o kailangang dokumento",
+        "processing_time": "15 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Isumite ang mga kinakai-langang dokumento",
+        "agencyAction": "Tanggapin at suriin ang mga dokumento Kung kumpleto: Tuloy ang proseso Hindi kumpleto: Ibalik sa Kliyente ang mga dokumento at ipaliwanag ang resulta",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Isagawa ang evaluation ng aplikasyon ayon sa kwalipikasyon",
+        "processing_time": "15 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Processing...",
+        "agencyAction": "Ihanda ang shortlist ng mga aplikanteng magkakaroon ng housing award",
+        "processing_time": "15 minuto"
+      },
+      {
+        "step": 5,
+        "action": "Processing...",
+        "agencyAction": "Makipag-ugnayan sa aplikante kung makakasama sa shortlist ng kwalipikadong aplikasyon at bigyan ng application form at iba pang form",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 6,
+        "action": "Ipanotaryo at isumite ang mga karadagang form",
+        "agencyAction": "Tanggapin at suriin ang mga dokumento Kung kumpleto: Tuloy ang proseso Hindi kumpleto: Ibalik sa Kliyente ang mga dokumento at ipaliwanag ang resulta",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 7,
+        "action": "Processing...",
+        "agencyAction": "liskedyul ang aplikante para sa gaganaping Orientation",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 8,
+        "action": "Dumalo sa Orientation at tanggapin ang Certificate of Housing Award at susi ng bahay",
+        "agencyAction": "Isagawa ang Orientation hinggil sa mga panuntunan ng paninirahan sa pabahay ng gobyerno at ibigay ang Certificate of Housing Award at susi ng bahay",
+        "processing_time": "4 oras"
+      },
+      {
+        "step": 9,
+        "action": "Kung Pag-aari ng aplikanteng informal settler ang kasalukuyang tinitirhan: 1. Magpa-schedule ng boluntaryong paggiba ng bahay na kasalukuyang tinitirhan",
+        "agencyAction": "Imonitor ang isasagawang pag-giba ng nabanggit na bahay",
+        "processing_time": "2 araw"
+      },
+      {
+        "step": 10,
+        "action": "Kung hindi Pag-aari ng Pamahalaang Panlungsod ang Pabahay: 1. Pumunta at makipag-ugnayan sa National Housing Authority o ahensya ng gobyernong nangangasiwa ang pabahay",
+        "agencyAction": "I-endorso ang isang kopya ng mga dokumento sa National Housing Authority o ahensya ng gobyernong siyang nangangasiwa ng pabahay",
+        "processing_time": "1 araw"
+      },
+      {
+        "step": 11,
+        "action": "Processing...",
+        "agencyAction": "Ipaalam sa kliyente na pumunta at makipag-ugnayan sa nabanggit na ahensya",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 12,
+        "action": "Kung wala pang available na bahay/lote para i-award: N/A",
+        "agencyAction": "Ipaalam sa aplikante ang estado ng aplikasyon at availability ng housing unit",
+        "processing_time": "5 minuto"
+      }
+    ],
+    "processingTime": "5 oras at 20 minuto",
+    "fees": {
+      "amount": "Walang Babayaran",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "HOUSING AND SETTLEMENTS DEPARTMENT Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Paalala: Ang Pag-award ng pabahay ay aabutin ng hanggang apat (4) na araw sapagkat ito ay dadaan pa sa review at evaluation."
+  },
+  {
+    "service": "Certificate Authentication and Verification (CAV)",
+    "slug": "certificate-authentication-and-verification-cav",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "28",
+    "officeDivision": "Manpower Development Division",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen;",
+    "whoMayAvail": "Graduates of CMDC",
+    "officeSlug": [
+      "city-social-welfare-and-development-office"
+    ],
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "For Other Documents: 1. Valid ID",
+        "where_to_secure": "Kliyente"
+      },
+      {
+        "requirement": "3 Photocopies and 1 Original Copy of the ff. documents: -Certificate of Training and Transcript of Competencies",
+        "where_to_secure": "CMDC"
+      },
+      {
+        "requirement": "For request made thru Representative: 1. Photocopy/Original Valid ID of Representative",
+        "where_to_secure": "Client"
+      },
+      {
+        "requirement": "Photocopy/Original Valid ID of the Owner",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Original/Digitized Copy of Authorization Letter",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "3 Photocopies and 1 Original copy of the ff. documents -Certificate of Training and Transcript of Competencies",
+        "where_to_secure": "CMDC"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Punan ang request form at isumite ang mga kailangan dokumento",
+        "agencyAction": "Tanggapin at suriin ang mga dokumento",
+        "processing_time": "20 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Beripikahin ang records sa enrollment / terminal reports at sa T2MIS"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "I-prepara ang dokumento at iprint ang request letter at certification para isumite sa TESDA Provincial Office",
+        "processing_time": "10 minuto"
+      }
+    ],
+    "processingTime": "30 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Social Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Competency Assessment",
+    "slug": "competency-assessment",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "31",
+    "officeDivision": "Manpower Development Division",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Graduates of CMDC, Industry Workers / OFW / College Graduates / Skilled Workers",
+    "officeSlug": [
+      "city-social-welfare-and-development-office"
+    ],
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Passport Size picture (Chemical print, white background with nametag)",
+        "where_to_secure": "Client"
+      },
+      {
+        "requirement": "Result of Self-Assessment Guide (SAG)",
+        "where_to_secure": "CMDC"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Candidates inquire for Competency Assessment (CA) and accomplish Self-Assessment Guide (SAG)",
+        "agencyAction": "Give the Self-Assessment Guide (SAG)",
+        "processing_time": "60 minutes"
+      },
+      {
+        "step": 2,
+        "action": "If qualified, the candidate pays the competency assessment fee and presents the proof of payment",
+        "agencyAction": "Receive the payment"
+      },
+      {
+        "step": 3,
+        "action": "The candidate accomplishes the application form and submits for evaluation",
+        "agencyAction": "Issue the admission slip and schedule the assessment",
+        "processing_time": "5 minutes"
+      }
+    ],
+    "processingTime": "65 minutes",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Social Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Employment Assistance Request",
+    "slug": "employment-assistance-request",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "27",
+    "officeDivision": "Manpower Development Division",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Graduates of Skills Training of Calamba Manpower Development Center.",
+    "officeSlug": [
+      "city-social-welfare-and-development-office"
+    ],
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Employment Request Slip",
+        "where_to_secure": "Kliyente"
+      },
+      {
+        "requirement": "Certificate of Training",
+        "where_to_secure": "CMDC"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Punan ang request form",
+        "agencyAction": "Suriin at Iprepara ang Indorsement / Recommendation letter at isumite sa Department Head / Division Chief para lagdaan",
+        "processing_time": "20 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Tanggapin ang Indorsement Letter",
+        "agencyAction": "Ibigay ang Indorsement Letter"
+      }
+    ],
+    "processingTime": "20 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Social Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Enrollment in Technical-Vocational Education and Training (TVET) Programs",
+    "slug": "enrollment-in-technical-vocational-education-and-training-tvet-programs",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "26",
+    "officeDivision": "Manpower Development Division",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Individuals who are residents of Calamba City who wants to enroll",
+    "officeSlug": [
+      "city-social-welfare-and-development-office"
+    ],
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Birth Certificate",
+        "where_to_secure": "City Civil Registry Office"
+      },
+      {
+        "requirement": "Proof of Residency (Voter's ID of applicant and Immediate Family Member's / Voter's ID of Lessor or Photocopy of Real Property Tax",
+        "where_to_secure": "Barangay / Comelec"
+      },
+      {
+        "requirement": "Diploma / Transcript of Records / ALS Certificate / Form 137/Form 138",
+        "where_to_secure": "School"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Mag-inquire sa Tanggapan ng Opisina",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Mag-apply at punan ang registration form",
+        "agencyAction": "Ibigay ang Registration Form"
+      },
+      {
+        "step": 3,
+        "action": "Magtungo sa Calamba Manpower Development Center Office para sa aptitude test ang pagkumpleto ng proseso ng enrollment at isumite ang mga kinakailangan dokumento",
+        "agencyAction": "Tanggapin at suriin ang mga dokumento"
+      },
+      {
+        "step": 4,
+        "action": "Processing...",
+        "agencyAction": "Isagawa ang Aptitude Test",
+        "processing_time": "1 oras at 15 minuto"
+      },
+      {
+        "step": 5,
+        "action": "Processing...",
+        "agencyAction": "Kumpletuhin ang Proseso ng Enrollment"
+      }
+    ],
+    "processingTime": "1 hour and 25 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Social Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Implementasyon ng Aftercare Program",
+    "slug": "implementasyon-ng-aftercare-program",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "24",
+    "officeDivision": "City Social Services Department - Special Social Services Division",
+    "classification": "Highly Technical",
+    "typeOfTransaction": "G2C-Government to Citizen; G2G-Government to Government",
+    "whoMayAvail": "Discharged clients from residential care facilities",
+    "officeSlug": [
+      "city-social-welfare-and-development-office"
+    ],
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Letter of Request for PCAR",
+        "where_to_secure": "Requesting Social Welfare Agency"
+      },
+      {
+        "requirement": "Parenting Capability Assessment Report",
+        "where_to_secure": "City Social Services Department"
+      },
+      {
+        "requirement": "Court Order",
+        "where_to_secure": "Court"
+      },
+      {
+        "requirement": "Discharge Slip",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Transfer Documents",
+        "where_to_secure": "Requesting Social Welfare Agency"
+      },
+      {
+        "requirement": "Aftercare Contract",
+        "where_to_secure": "City Social Services Department"
+      },
+      {
+        "requirement": "Previous documents from Rehabilitation Center (if any, for Tahanan ng Kabataan ng Laguna clients only)",
+        "where_to_secure": "Kliyente"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Magpadala ng Referral Letter (LGU and other Social Welfare Agency)",
+        "agencyAction": "Tanggapin at suriin ang Referral Letter",
+        "processing_time": "2 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Ihanda ang Aftercare Contract",
+        "processing_time": "2 oras"
+      },
+      {
+        "step": 3,
+        "action": "Lagdaan ang Aftercare Contract",
+        "agencyAction": "Ipaliwanag ang nilalaman ng Aftercare Contract at palagdaan sa mga kalahok sa programa",
+        "processing_time": "2 oras"
+      },
+      {
+        "step": 4,
+        "action": "Aktibong pagtupad sa kontrata",
+        "agencyAction": "Isagawa ang Aftercare Program",
+        "processing_time": "6 buwan hanggang 24 buwan"
+      },
+      {
+        "step": 5,
+        "action": "Processing...",
+        "agencyAction": "I-monitor at i-evaluate ang aftercare program sa pamamagitan ng home visitation at interview",
+        "processing_time": "Kada 3 buwan"
+      },
+      {
+        "step": 6,
+        "action": "Processing...",
+        "agencyAction": "Kung ayon sa assessment ay hindi nakamit ang layunin ng programa: Maaring i-extend ang implementtasyon ng program Kung matagumpay na nakamit: Tatapusin na ang programa",
+        "processing_time": "Walang eksaktong araw o oras"
+      },
+      {
+        "step": 7,
+        "action": "Processing...",
+        "agencyAction": "Ihanda ang Termination Report",
+        "processing_time": "2 oras"
+      }
+    ],
+    "processingTime": "Walang eksaktong araw o oras",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Social Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Note: Sa prosesong ito ay walang eksaktong oras at tagal sapagkat ito ay nakadepende sa kooperasyon o compliance ng kliyente at pamilya sa programa."
+  },
+  {
+    "service": "Issuance of 2nd Copy of Training Certificates",
+    "slug": "issuance-of-2nd-copy-of-training-certificates",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "30",
+    "officeDivision": "Manpower Development Division",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Graduates of CMDC",
+    "officeSlug": [
+      "city-social-welfare-and-development-office"
+    ],
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Affidavit of Loss",
+        "where_to_secure": "Any Legal Office"
+      },
+      {
+        "requirement": "Request slip for the replacement of Training Certificates",
+        "where_to_secure": "CMDC"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Punan ang request slip para sa 2nd copy of Training Certificates",
+        "agencyAction": "Tanggapin at beripikahin ang record ng trainees sa Terminal Reports / T2MIS",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Iprepara at lagdaan ang Training Certificates",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Ipadala sa City Social Services Office para lagdaan ng Hepe",
+        "processing_time": "1 araw"
+      },
+      {
+        "step": 4,
+        "action": "Tanggapin ang dokumento",
+        "agencyAction": "Ibigay ang Training Certificates",
+        "processing_time": "3 minuto"
+      }
+    ],
+    "processingTime": "1 araw at 18 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Social Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Issuance of Certificate of Final Electrical Inspection (CFEI)(BP220)",
+    "slug": "issuance-of-certificate-of-final-electrical-inspection-cfeibp220",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "2",
+    "officeDivision": "Housing and Settlements Department",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Lahat ng magpapakabit ng kuryente sa Lungsod ng Calamba para sa istrukturang klasipikadong low-cost housing, economic housing o socialized housing",
+    "officeSlug": [
+      "city-social-welfare-and-development-office"
+    ],
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Barangay Clearance (Photocopy)",
+        "where_to_secure": "Barangay"
+      },
+      {
+        "requirement": "MERALCO Service Application Form (Photocopy)",
+        "where_to_secure": "MERALCO"
+      },
+      {
+        "requirement": "Occupancy Permit (Photocopy)",
+        "where_to_secure": "Sariling kopya o sa developer"
+      },
+      {
+        "requirement": "Kung sakaling ang aplikante ang rehistradong may-ari ng lupa o lote: Transfer Certificate of Title (photocopy)",
+        "where_to_secure": "Register of Deeds"
+      },
+      {
+        "requirement": "Kung sakaling ang aplikante ay hindi rehistradong may-ari ng lupa o lote: Deed of Sale o Contract to Sell o Lease Purchase Agreement (photocopy)",
+        "where_to_secure": "Bangko, Pag-IBIG, taong nagbenta ng lupa, o ahensya ng gobyernong nag-award"
+      },
+      {
+        "requirement": "Notaryadong Undertaking (photocopy)",
+        "where_to_secure": "MERALCO at Notaryo Publiko"
+      },
+      {
+        "requirement": "Kung sakaling ang lupa o lote o istruktura ay ini-award ng HSD o iba pang ahensya ng gobyerno: Certified True Copy ng Certification of Award (Photocopy)",
+        "where_to_secure": "Housing and Settlements Department o sa ahensya ng gobyernong nag-award"
+      },
+      {
+        "requirement": "Kung hindi ang may-ari ang mag-aasikaso ng aplikasyon: Authorization letter o Special Power of Attorney (Original)",
+        "where_to_secure": "May-ari ng lupa o NotaryoPubliko"
+      },
+      {
+        "requirement": "Valid ID ng Authorized Representative (Photocopy)",
+        "where_to_secure": "BIR, Post Office, DFA, PSA, SSS, GSIS, Pag-IBIG, Philhealth, PRC, COMELEC, OSCA, kompanyangpinagtatrabahuhan"
+      },
+      {
+        "requirement": "Valid ID ng may-ari ng lupa (Photocopy)",
+        "where_to_secure": "BIR, Post Office, DFA, PSA, SSS, GSIS, Pag-IBIG, Philhealth, PRC, COMELEC, OSCA, kompanyangpinagtatrabahuhan"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang mga kinaka-ilangang dokumento",
+        "agencyAction": "Tanggapin at isagawa ang inisyal na pagsusuri ng mga dokumento at plano Kung kumpleto: liskedyul ang inspeksyon Hindi kumpleto: Ibalik sa Kliyente ang mga dokumento at ipaliwanag ang resulta",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Aktuwal na Inspeksyon ng electrical wiring ng instraktura at paggawa ng report",
+        "processing_time": "1 araw"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Isagawa ang evaluation at pagsasaayos ng mga dokumento at plano",
+        "processing_time": "2 oras"
+      },
+      {
+        "step": 4,
+        "action": "Processing...",
+        "agencyAction": "Gawan ng rekomendasyon batay sa resulta ng evaluation at inspeksyon",
+        "processing_time": "2 oras"
+      },
+      {
+        "step": 5,
+        "action": "Alamin ang resulta ng inspeksyon at evaluation",
+        "agencyAction": "Approved: Bigyan ng Order of payment Disapproved: Ibalik sa Kliyente ang mga dokumento at ipaliwanag ang resulta",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 6,
+        "action": "Magbayad ng kaukulang halaga",
+        "agencyAction": "Tanggapin ang kaukulang halaga at bigyan ng opisyal na resibo",
+        "processing_time": "2 minuto",
+        "fee": "PHP 150 + P30 para sa documenta-ry stamp"
+      },
+      {
+        "step": 7,
+        "action": "Alamin ang estado ng endorsement ng CFEI",
+        "agencyAction": "Iproseso ang CFEI",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 8,
+        "action": "Processing...",
+        "agencyAction": "Aprubahan at pirmahan ang CFEI",
+        "processing_time": "2 minuto"
+      },
+      {
+        "step": 9,
+        "action": "Processing...",
+        "agencyAction": "Ipaalam sa kliyente na ie-endorso na ang CFEI sa Meralco",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 10,
+        "action": "Processing...",
+        "agencyAction": "lendorso ang CFEI sa Meralco",
+        "processing_time": "4 oras"
+      }
+    ],
+    "processingTime": "2 araw at 34 minuto",
+    "fees": {
+      "amount": "PHP 150 + P30 para sa documenta-ry stamp",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "HOUSING AND SETTLEMENTS DEPARTMENT Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Paalala: Ang pagkuha ng CFEI ay aabutin ng hanggang apat (4) na araw sapagkat ito ay dadaan pa sa inspection at evaluation bago maiendorso sa Meralco."
+  },
+  {
+    "service": "Issuance of Transcript of Competencies",
+    "slug": "issuance-of-transcript-of-competencies",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "29",
+    "officeDivision": "Manpower Development Division",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Graduates of Skills Training of Calamba Manpower Development Center",
+    "officeSlug": [
+      "city-social-welfare-and-development-office"
+    ],
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Request slip for the Issuance of Transcript of Competencies",
+        "where_to_secure": "CMDC"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Punan ang request form",
+        "agencyAction": "Tanggapin at suriin ang request from",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Beripikahin ang records sa Terminal Reports at T2MIS",
+        "processing_time": "15 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Iprepara at lagdaan ang Transcript of Competencies",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Tanggapin ang dokumento",
+        "agencyAction": "Ibigay ang Transcript of Competencies",
+        "processing_time": "2 minuto"
+      }
+    ],
+    "processingTime": "27 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Social Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Kahilingan para sa Available na materials (Photos, Reports, significant Cultural Heritage profile and Inventory of Cultural Properties) I-accomodate ang mga katanungan at magbigay ng dokumentaryong impormasyon",
+    "slug": "kahilingan-para-sa-available-na-materials-photos-reports-significant-cultural-heritage-profile-and-inventory-of-cultural-properties-i-accomodate-ang-mga-katanungan-at-magbigay-ng-dokumentaryong-impormasyon",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "2",
+    "officeDivision": "Cultural Affairs, Tourism & Sports Development Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen, G2B-Government to Business, G2G - Government to Government",
+    "whoMayAvail": "Mamamayan at Estudyante",
+    "officeSlug": [
+      "city-tourism-office"
+    ],
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Valid ID",
+        "where_to_secure": "Sa opisina ng Cultural Affairs, Tourism & Sports Development Office"
+      },
+      {
+        "requirement": "Unified Request Form",
+        "where_to_secure": "Sa opisina ng Cultural Affairs, Tourism & Sports Development Office"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang unified request form at iprisinta ang valid id",
+        "agencyAction": "Suriin ang unified request form",
+        "processing_time": "1 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Tanggapin ang mga dokumento o materyales.",
+        "agencyAction": "Ibigay o ipadala sa pamamagitan ng Email ang mga hinihinging dokumento o materyales",
+        "processing_time": "3 araw"
+      }
+    ],
+    "processingTime": "3 araw at 1 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "Cultural Affairs, Tourism & Sports Development Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Kahilingan para sa Paggawa ng Certificate of Indigence (Correction of Name)",
+    "slug": "kahilingan-para-sa-paggawa-ng-certificate-of-indigence-correction-of-name",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "7.1",
+    "officeDivision": "City Social Services Department - Family & Community Welfare Division",
+    "classification": "Complex",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan",
+    "officeSlug": [
+      "city-social-welfare-and-development-office"
+    ],
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Barangay Certificate/Clearance",
+        "where_to_secure": "Barangay Hall"
+      },
+      {
+        "requirement": "Certificate of Indigency",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Birth Certificate (photocopy)",
+        "where_to_secure": "City Civil Registry Office"
+      },
+      {
+        "requirement": "Pagpapatunay o Sertipiko na walang pag-aari ng lupa/bahay o yaman",
+        "where_to_secure": "City Assessment Office"
+      },
+      {
+        "requirement": "Valid ID o Voter's ID / Voter's Certificate",
+        "where_to_secure": "Sarili / Comelec"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang mga kinakailangang dokumento",
+        "agencyAction": "Suriin ang mga dokumento at pagkuha ng mga impormasyon gamit ang intake sheet at bigyan ng claim stub",
+        "processing_time": "20 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Isagawa ang pagbisita base sa nakalap na impormasyon",
+        "processing_time": "20 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Iproseso ang Certificate of Indigence",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Ibigay ang Certificate of Indigence",
+        "agencyAction": "Tanggapin ang dokumento",
+        "processing_time": "3 minuto"
+      }
+    ],
+    "processingTime": "53 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Social Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Note: Ang Certificate of Indigence ay makukuha ng hindi hihigit sa loob ng pitong (7) araw sapagka't dadaan pa ito sa sa evaluation at pagbisita sa bahay."
+  },
+  {
+    "service": "Kahilingan para sa Paggawa ng Certificate of Indigence (Libreng Pangangailangang Legal)",
+    "slug": "kahilingan-para-sa-paggawa-ng-certificate-of-indigence-libreng-pangangailangang-legal",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "7.2",
+    "officeDivision": "City Social Services Department - Family & Community Welfare Division",
+    "classification": "Complex",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan",
+    "officeSlug": [
+      "city-social-welfare-and-development-office"
+    ],
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Barangay Certificate/Clearance",
+        "where_to_secure": "Barangay Hall"
+      },
+      {
+        "requirement": "Certificate of Indigency",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Court Case Record",
+        "where_to_secure": "Trial Court"
+      },
+      {
+        "requirement": "Proof of Income",
+        "where_to_secure": "Employer"
+      },
+      {
+        "requirement": "Pagpapatunay o Sertipiko na walang pag-aari ng lupa/bahay o yaman",
+        "where_to_secure": "City Assessment Office"
+      },
+      {
+        "requirement": "Valid ID o Voter's ID / Voter's Certificate (photocopy)",
+        "where_to_secure": "Sarili / Comelec"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang mga kinakailangang dokumento",
+        "agencyAction": "Suriin ang mga dokumento at pagkuha ng mga impormasyon gamit ang intake sheet at bigyan ng claim stub",
+        "processing_time": "20 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Isagawa ang pagbisita base sa nakalap na impormasyon",
+        "processing_time": "20 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Iproseso ang Certificate of Indigence",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Ibigay ang Certificate of Indigence",
+        "agencyAction": "Tanggapin ang dokumento",
+        "processing_time": "3 minuto"
+      }
+    ],
+    "processingTime": "53 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Social Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Note: Ang Certificate of Indigence ay makukuha ng hindi hihigit sa loob ng pitong (7) araw sapagka't dadaan pa ito sa sa evaluation at pagbisita sa bahay."
+  },
+  {
+    "service": "Kahilingan para sa Paggawa ng Social Case Study Report (Tulong Hospitalization)",
+    "slug": "kahilingan-para-sa-paggawa-ng-social-case-study-report-tulong-hospitalization",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "8.2",
+    "officeDivision": "City Social Services Department - Family & Community Welfare Division",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan",
+    "officeSlug": [
+      "city-social-welfare-and-development-office"
+    ],
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Barangay Certificate/Clearance",
+        "where_to_secure": "Hospital"
+      },
+      {
+        "requirement": "Certificate of Indigency",
+        "where_to_secure": "Barangay Hall"
+      },
+      {
+        "requirement": "Valid ID o Voter's ID / Voter's Certificate",
+        "where_to_secure": "Kliyente / Comelec"
+      },
+      {
+        "requirement": "Original o Certified True Copy of Medical Certitificate / Clinical Abstract",
+        "where_to_secure": "Hospital"
+      },
+      {
+        "requirement": "Original o Certified True Copy ng Promissory Note",
+        "where_to_secure": "N/A"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang mga kinakailangang dokumento",
+        "agencyAction": "Suriin ang mga dokumento at pagkuha ng mga impormasyon gamit ang intake sheet",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Isagawa ang Interview at iproseso ang dokumento",
+        "processing_time": "30 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Lagdaan ang Social Case Study Report",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Tanggapin ang dokumento",
+        "agencyAction": "Ibigay sa kliyente ang Social Case Study Report",
+        "processing_time": "3 minuto"
+      }
+    ],
+    "processingTime": "43 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Social Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Kahilingan para sa Paggawa ng Social Case Study Report (Tulong Medikal - Matagalang Gamutan)",
+    "slug": "kahilingan-para-sa-paggawa-ng-social-case-study-report-tulong-medikal-matagalang-gamutan",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "8.1",
+    "officeDivision": "City Social Services Department - Family & Community Welfare Division",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan",
+    "officeSlug": [
+      "city-social-welfare-and-development-office"
+    ],
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Barangay Certificate/Clearance",
+        "where_to_secure": "Barangay Hall"
+      },
+      {
+        "requirement": "Certificate of Indigency",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Valid ID o Voter's ID / Voter's Certificate",
+        "where_to_secure": "Kliyente / Comelec"
+      },
+      {
+        "requirement": "Original o Certified True Copy of Medical Certitificate / Clinical Abstract",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Original o Certified True Copy of Laboratory Test Result (CT scan, MRI, Dialysis, Radiation o iba pang may kaugnayan sa laboratory)",
+        "where_to_secure": "N/A"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang mga kinakailangang dokumento",
+        "agencyAction": "Suriin ang mga dokumento at pagkuha ng mga impormasyon gamit ang intake sheet",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Isagawa ang Interview at iproseso ang dokumento",
+        "processing_time": "30 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Lagdaan ang Social Case Study Report",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Tanggapin ang dokumento",
+        "agencyAction": "Ibigay sa kliyente ang Social Case Study Report",
+        "processing_time": "3 minuto"
+      }
+    ],
+    "processingTime": "43 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Social Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Kahilingan para sa Paglilibot o Pagbisita sa Lungsod ng Calamba Pagpapa-angat ng Turismo at Kulturang Lungsod",
+    "slug": "kahilingan-para-sa-paglilibot-o-pagbisita-sa-lungsod-ng-calamba-pagpapa-angat-ng-turismo-at-kulturang-lungsod",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "1",
+    "officeDivision": "Cultural Affairs, Tourism & Sports Development Office / Tourism and Cultural Affairs Division",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen, G2B-Government to Business, G2G - Government to Government",
+    "whoMayAvail": "Mamamayan (Lokal at Dayuhan)",
+    "officeSlug": [
+      "city-tourism-office"
+    ],
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Valid ID",
+        "where_to_secure": "Cultural Affairs, Tourism & Sports Development Office"
+      },
+      {
+        "requirement": "Unified Request Form",
+        "where_to_secure": "Cultural Affairs, Tourism & Sports Development Office"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang Unified Request Form o mag-fill up sa online (Kasama na dito ang mga pagpili ng nais na Itinerarya)",
+        "agencyAction": "Suriin ang unified request form at pagkuha ng Valid ID",
+        "processing_time": "1 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Makipag-ugnayan sa mga establisi-mentong bibisitahin at ikumpirma sa kahilingan.",
+        "processing_time": "1 araw"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Ihanda ang talaan ng paglilibot"
+      },
+      {
+        "step": 4,
+        "action": "Processing...",
+        "agencyAction": "Isagawa ang Paglilibot ayon sa iskedyul."
+      }
+    ],
+    "processingTime": "1 araw at 1 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "Cultural Affairs, Tourism & Sports Development Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Kahilingan sa Paggawa ng Certificate of Financial Incapability para sa Universal Health Card ng Philhealth",
+    "slug": "kahilingan-sa-paggawa-ng-certificate-of-financial-incapability-para-sa-universal-health-card-ng-philhealth",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "10",
+    "officeDivision": "City Social Services Department - Family & Community Welfare Division",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan",
+    "officeSlug": [
+      "city-social-welfare-and-development-office"
+    ],
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Barangay Certificate/Clearance",
+        "where_to_secure": "Barangay Hall"
+      },
+      {
+        "requirement": "Certificate of Indigency",
+        "where_to_secure": "Sarili / Comelec"
+      },
+      {
+        "requirement": "Valid ID o Voter's ID / Voter's Certificate",
+        "where_to_secure": "Hospital"
+      },
+      {
+        "requirement": "Original o Certified True Copy of Medical Certificate / Clinical Abstract",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Original o Certified True Copy of Laboratory Test Result (CT scan, MRI, Dialysis, Radiation o iba pang may kaugnayan sa laboratory)",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Original o Certified True Copy of Hospital bill",
+        "where_to_secure": "N/A"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang mga kinakailangang dokumento",
+        "agencyAction": "Suriin ang mga dokumento at pagkuha ng mga impormasyon gamit ang intake sheet",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Isagawa ang Pagbisita / Interview sa kliyente at iproseso ang dokumento",
+        "processing_time": "30 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Lagdaan ang Social Case Study Report",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Tanggapin ang dokumento",
+        "agencyAction": "Itala sa logbook at ibigay sa kliyente",
+        "processing_time": "3 minuto"
+      }
+    ],
+    "processingTime": "43 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Social Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Note: Ang Certificate of Indigence ay makukuha ng hindi hihigit sa loob ng tatlong (3) araw sapagka't dadaan pa ito sa sa evaluation at pagbisita sa bahay."
+  },
+  {
+    "service": "Kahilingan sa paggawa ng Komprehensibong Social Case Study Report para sa Rehabilitasyon sa mga gumagamit ng ipinagbabawal na gamot",
+    "slug": "kahilingan-sa-paggawa-ng-komprehensibong-social-case-study-report-para-sa-rehabilitasyon-sa-mga-gumagamit-ng-ipinagbabawal-na-gamot",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "12",
+    "officeDivision": "City Social Services Department - Family & Community Welfare Division",
+    "classification": "Complex",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan",
+    "officeSlug": [
+      "city-social-welfare-and-development-office"
+    ],
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Para sa admission sa Rehabilitation Center: 1. Barangay Clearance / Certificate",
+        "where_to_secure": "Barangay Hall"
+      },
+      {
+        "requirement": "Certificate of Indigency",
+        "where_to_secure": "Barangay Hall"
+      },
+      {
+        "requirement": "Valid ID o Voter's ID / Voter's Certificate",
+        "where_to_secure": "Sarili / Comelec"
+      },
+      {
+        "requirement": "Birth Certificate",
+        "where_to_secure": "City Civil Registry Office"
+      },
+      {
+        "requirement": "Mayor's Referral",
+        "where_to_secure": "Mayor's Office"
+      },
+      {
+        "requirement": "Sulat mula sa Center Manager ng Rehabilitation Center na nakaadmit and kliyenteng drug user na kailangan ng social case study report mula sa social worker ng calamba",
+        "where_to_secure": "Rehabilitation Center"
+      },
+      {
+        "requirement": "Original Certificate ng Resulta ng Drug Test",
+        "where_to_secure": "Drug Testing Center"
+      },
+      {
+        "requirement": "Laboratory Test: CBC, Urinalysis, Chest X-ray, Hepa Screening, ECG para sa edad 35 pataas",
+        "where_to_secure": "Hospital / Clinic"
+      },
+      {
+        "requirement": "Whole Body Picture",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Drug Defendency Certificate",
+        "where_to_secure": "JP Rizal Hospital, Calamba"
+      },
+      {
+        "requirement": "Blotter ng Barangay o Police Clearance",
+        "where_to_secure": "Police Station"
+      },
+      {
+        "requirement": "Court Clearance",
+        "where_to_secure": "RTC Calamba"
+      },
+      {
+        "requirement": "Petition for voluntary commitment",
+        "where_to_secure": "Dangerous Drug Board, QC."
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang mga kinakailangang dokumento",
+        "agencyAction": "Suriin ang mga dokumento at pagkuha ng impormasyon gamit ang intake sheet.",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Isagawa ang pagbisita",
+        "processing_time": "1 oras"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Iproseso ang dokumento at ipasa sa Court",
+        "processing_time": "20 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Hintayin ang abiso",
+        "agencyAction": "Abisuhan ang kliyente ng desisyon ng korte.",
+        "processing_time": "5 minuto"
+      }
+    ],
+    "processingTime": "1 oras at 40 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Social Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Note: Ang programang ito ay natutupad sa pakikipagtulungan ng mga ahensya ng Gobyerno at makukuha ang hinihinging dokumento ng hindi hihigit sa pitong (7) araw."
+  },
+  {
+    "service": "Kahilingin para sa Paggawa ng Komprehensibong Social Case Study Report",
+    "slug": "kahilingin-para-sa-paggawa-ng-komprehensibong-social-case-study-report",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "9",
+    "officeDivision": "City Social Services Department - Family & Community Welfare Division",
+    "classification": "Complex",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan",
+    "officeSlug": [
+      "city-social-welfare-and-development-office"
+    ],
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Barangay Clearance",
+        "where_to_secure": "Barangay Hall"
+      },
+      {
+        "requirement": "Certificate of Indigency",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Valid ID o Voter's ID/Voter's Certificate",
+        "where_to_secure": "Sarili / Comelec"
+      },
+      {
+        "requirement": "Original o Certified True Copy of Medical Certitificate / Clinical Abstract",
+        "where_to_secure": "Hospital"
+      },
+      {
+        "requirement": "Original o Certified True Copy of Laboratory Test Result (CT Scan, MRI, Dialysis, Radiation o iba pang may kaugnayan sa laboratory)",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Original o Certified True Copy of Hospital bill",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Certificate of Ownership of Property / No Property",
+        "where_to_secure": "City Assessment Office"
+      },
+      {
+        "requirement": "Latest payslip/Certificate of Employment of patient/family member (any proof of income)",
+        "where_to_secure": "Employment Office"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang mga kinakailangang dokumento",
+        "agencyAction": "Tanggapin at suriin ang mga dokumento at pagkuha ng mga impormasyon gamit ang intake sheet",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Isagawa ang Pagbisita / Interview sa kliyente at iproseso ang dokumento",
+        "processing_time": "30 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Lagdaan ang Social Case Study Report",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Tanggapin ang dokumento",
+        "agencyAction": "Ibigay sa kliyente ang Social Case Study Report",
+        "processing_time": "3 minuto"
+      }
+    ],
+    "processingTime": "43 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Social Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Note: Ang Certificate of Indigence ay makukuha ng hindi hihigit sa loob ng pitong (7) araw sapagka't dadaan pa ito sa sa evaluation at pagbisita sa bahay."
+  },
+  {
+    "service": "Pag-aasikaso ng Foster Care Application",
+    "slug": "pag-aasikaso-ng-foster-care-application",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "21",
+    "officeDivision": "City Social Services Department - Special Social Services Division",
+    "classification": "Highly Technical",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Petitioner/s na nagnanais maging isang Foster Care Parent / Family",
+    "officeSlug": [
+      "city-social-welfare-and-development-office"
+    ],
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Certificate of Attendance / Participation",
+        "where_to_secure": "Regioanl Alternative Child Care Office (RACCO)"
+      },
+      {
+        "requirement": "Certificate of Live Birth",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Marriage Certificate or Divorce, Declaration of Nullity of Marriage or Legal separation documents",
+        "where_to_secure": "PSA"
+      },
+      {
+        "requirement": "Medical Certificate issued within six (6) months from the time of application",
+        "where_to_secure": "Licensed Physician"
+      },
+      {
+        "requirement": "Latest Income Tax Return or Certificate of Employment or any document top show proof of income",
+        "where_to_secure": "Bureau of Internal Revenue"
+      },
+      {
+        "requirement": "Original Copy of NBI / Police Clearance issued at least within a year from the date of application",
+        "where_to_secure": "NBI/PNP"
+      },
+      {
+        "requirement": "Original Copy of Barangay Certificate stating that the applicant is a resident of the Barangay, the length of their residence therein and that they are of good moral character",
+        "where_to_secure": "Barangay Hall"
+      },
+      {
+        "requirement": "Whole Body Picture of the applicant taken at least six (6) months from the date of application; The date when the photo was taken must be indicated.",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Photograph of Interior and Exterior of the applicant's house",
+        "where_to_secure": "Applicant"
+      },
+      {
+        "requirement": "Philhealth ID (Photocopy) and copy of updated Members Data Record or Health Maintenance Organization (HMO) record when said HMO allows it principal members to declare a foster child as a dependent",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Written consent of biological children, age 10 years and above, if living in the household",
+        "where_to_secure": "Biological Children"
+      },
+      {
+        "requirement": "Signed Undertaking on Child Protection Code and Code of Conduct of Foster Parents",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Certificate of Attendance at Foster Care Forum (Digital copy is accepted)",
+        "where_to_secure": "Regional Alternative Child Care Office (RACCO)"
+      },
+      {
+        "requirement": "Original copy of letters from three (3) non-relative Character References who have known the applicants for at least three years",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Such other documents that the NACС, or LGU may require",
+        "where_to_secure": "СРА"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Dumalo sa Online Forum (kliyente/petitioner)",
+        "agencyAction": "Ibigay ang link ng Online Forum galing RACCO",
+        "processing_time": "3 oras"
+      },
+      {
+        "step": 2,
+        "action": "Punan ang Application at Undertaking Form",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Ipasuri ang mga kinakailangang dokumento bago isumite sa RACCO",
+        "agencyAction": "Suriin ang mga dokumento at asistehan ang kliyente / petitioner sa pagkumpleto ng mga dokumento",
+        "processing_time": "Sa loob ng 5 araw"
+      },
+      {
+        "step": 4,
+        "action": "Processing...",
+        "agencyAction": "Isagawa ang home visitation at interview kapag natanggap na ang sulat galing sa RACCO para makakalap ng impormasyon na kakailanganin para makagawa ng Home Study Report",
+        "processing_time": "20 araw"
+      },
+      {
+        "step": 5,
+        "action": "Processing...",
+        "agencyAction": "Iprepara ang Foster Care Home Study Report at isumite sa RACCO",
+        "processing_time": "1 araw"
+      },
+      {
+        "step": 6,
+        "action": "Processing...",
+        "agencyAction": "Magtungo sa Tanggapan ng RACCO at isumite ang Foster Care Application",
+        "processing_time": "Walang eksaktong araw o oras"
+      },
+      {
+        "step": 7,
+        "action": "Processing...",
+        "agencyAction": "Hintayin ang resulta ng RACCO at humingi ng kopya ng mga dokumento na isinumite kasama ang sulat rekomendasyon"
+      },
+      {
+        "step": 8,
+        "action": "Hintayin ang resulta ng aplikasyon",
+        "agencyAction": "Kung aprubado ang aplikasyon: Ibibigay ng RACCO ang Foster Care License at Identification Card Maaring mag-file ng Motion for Reconsideration Kung hindi aprubado ang aplikasyon: Asistehan ang petitioner sa pagkumpleto ng mga requirements ayon sa rekomendasyon ng RACCO",
+        "processing_time": "Walang eksaktong araw o oras"
+      }
+    ],
+    "processingTime": "Walang eksaktong araw o oras",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Social Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Note: Sa prosesong ito ay walang eksaktong oras at tagal sapagkat ito ay nakadepende sa tagal o bilis ng kliyente na makompleto ang mga kailangang dokumento at mga prosesong isinasagawa sa Regional Alternative Child Care Office (RACCO)."
+  },
+  {
+    "service": "Pag-aasikaso ng kaso ng mga babae at kanilang anak na biktima ng pang-aabuso na saklaw ng RA 9262",
+    "slug": "pag-aasikaso-ng-kaso-ng-mga-babae-at-kanilang-anak-na-biktima-ng-pang-aabuso-na-saklaw-ng-ra-9262",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "16",
+    "officeDivision": "City Social Services Department - Special Social Services Division",
+    "classification": "Highly Technical",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mga kababaihan at kanilang anak na biktima ng pang-aabuso o pananakit na saklaw ng RA 9262",
+    "officeSlug": [
+      "city-social-welfare-and-development-office"
+    ],
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Birth Certificate",
+        "where_to_secure": "City Civil Registry Office"
+      },
+      {
+        "requirement": "Marriage Certificate (if married)",
+        "where_to_secure": "City Civil Registry Office"
+      },
+      {
+        "requirement": "Tawag sa telepono o sulat mula sa mga partner agency or iba pang Social Welfare Agency",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Valid ID",
+        "where_to_secure": "Kliyente"
+      },
+      {
+        "requirement": "Medico-Legal / Genital Examination Result",
+        "where_to_secure": "Any Medical Institution / Hospital"
+      },
+      {
+        "requirement": "Blotter Report",
+        "where_to_secure": "PNP / Barangay"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Magtungo sa Tanggapan ng City Social Services Department at idulog ang suliranin"
+      },
+      {
+        "step": 2,
+        "action": "Ibigay ang Intake Sheet na galing sa barangay o galing sa PNP",
+        "agencyAction": "Tanggapin at suriin ang dokumento",
+        "processing_time": "2 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Isagawa ang paunang intake interview gamit ang WCPU intake sheet at risk and safety assessment",
+        "processing_time": "30 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Magtungo sa Tanggapan ng PNP para sa pagsasagawa ng Medico-Legal / Genital Examination o sa isang Psychologist para sa pagsasagawa ng Psychological Assessment",
+        "agencyAction": "Samahan sa Tanggapan ng PNP para sa pagsasagawa ng Medico-Legal / Genital Examination. Kung nangangailangan sumailalim sa Psychological Assessment ay irefer sa isang Psychologist",
+        "processing_time": "Walang eksaktong oras"
+      },
+      {
+        "step": 5,
+        "action": "Magtungo sa Tanggapan ng PNP at Office of the Clerk of Court kasama ang Social Worker",
+        "agencyAction": "Ibigay ang angkop na intervention ayon sa pangangailangan ng biktima.",
+        "processing_time": "Walang eksaktong oras"
+      },
+      {
+        "step": 6,
+        "action": "Processing...",
+        "agencyAction": "Kung ayaw magsampa ng kaso: Tulungan mabigyan ng Protection Order ang biktima Kung nais naman magsampa ng kaso: Samahan sa Tanggapan ng PNP para sa pagkuha ng sinumpaang salaysay at sa Office of the Clerk of Court para sa pagsasampa ng kaso.",
+        "processing_time": "Walang eksaktong oras"
+      },
+      {
+        "step": 7,
+        "action": "Processing...",
+        "agencyAction": "Kung nangangailangan ng protective custody: Iproseso ang mga dokumento na kailangan para madala sa residential care facilty",
+        "processing_time": "Sa loob ng isang araw"
+      },
+      {
+        "step": 8,
+        "action": "Processing...",
+        "agencyAction": "Kung nais naman na bumalik sa kanyang pamilya / kamag-anak: Isagawa ang Reintegration at Makipag-ugnayan sa C/MSWDO ng kaniyang lugar upang matukoy ang eksaktong tirahan ng pamilya / kamag-anak at humingi ng PCAR para sa posibleng reunification ng biktima. Kung ang pamilya ay walang kakayahan sagutin ang travel expenses siya ay irerefer sa financial assistance ng opisina.",
+        "processing_time": "Sa loob ng isang araw"
+      },
+      {
+        "step": 9,
+        "action": "Processing...",
+        "agencyAction": "Magbigay ng karagdagang assistance kung kinakailangan"
+      },
+      {
+        "step": 10,
+        "action": "Processing...",
+        "agencyAction": "Kumuha ng feedback sa ibang Social Welfare Agency kung ang biktima ay ini-refer sa ibang LGU",
+        "processing_time": "Walang eksaktong araw o oras"
+      }
+    ],
+    "processingTime": "Walang eksaktong araw o oras",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Social Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Note: Sa prosesong ito ay hindi maibibigay ang eksaktong oras sapagkat ito ay nakadepende sa mga prosesong isinasagawa sa ibang ahensya o institutusyon na pinagdalhan ng biktima para sa pagsasagawa ng eksaminasyon o pagsasampa ng kaso, sa uri ng kaso at intervention na gagawin."
+  },
+  {
+    "service": "Pag-aasikaso sa batang napulot (foundling), pinabayaan (abandoned), boluntaryo / hindi boluntaryong ipinaubayang bata (voluntary / involuntary committed)",
+    "slug": "pag-aasikaso-sa-batang-napulot-foundling-pinabayaan-abandoned-boluntaryo-hindi-boluntaryong-ipinaubayang-bata-voluntary-involuntary-committed",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "17",
+    "officeDivision": "City Social Services Department - Special Social Services Division",
+    "classification": "Highly Technical",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mga batang napulot, pinabayaan o boluntaryo / hindi boluntaryong ipinaubayang bata",
+    "officeSlug": [
+      "city-social-welfare-and-development-office"
+    ],
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Blotter Report",
+        "where_to_secure": "Barangay / PNP"
+      },
+      {
+        "requirement": "Deed of Voluntary Commitment",
+        "where_to_secure": "Kliyente"
+      },
+      {
+        "requirement": "Personal na Salaysay ng pagkakapulot",
+        "where_to_secure": "Taong Nakapulot"
+      },
+      {
+        "requirement": "Foundling Certificate",
+        "where_to_secure": "City Civil Registry Office"
+      },
+      {
+        "requirement": "Medical Report",
+        "where_to_secure": "Any Medical Institution / Hospital"
+      },
+      {
+        "requirement": "Birth Certificate",
+        "where_to_secure": "City Civil Registry Office"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Magtungo sa Tanggapan ng City Social Services Office at idulog ang suliranin"
+      },
+      {
+        "step": 2,
+        "action": "Ibigay ang Intake Sheet na galing sa barangay o galing sa PNP",
+        "agencyAction": "Tanggapin at suriin ang dokumento at itala sa Logbook",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Isagawa ang paunang Intake Interview gamit ang WCPU Intake Sheet",
+        "processing_time": "20 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Processing...",
+        "agencyAction": "Ireport sa Barangay o PNP para sa Blotter Report",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 5,
+        "action": "Processing...",
+        "agencyAction": "Iproseso ang mga requirements na kailangan para madala pansamantala sa residential care facility. Kung ang bata ay voluntary committed / surrendered / neglected or abandoned, ay kailangan muna humingi ng Deed of Voluntary Commitment (DVC)",
+        "processing_time": "30 minuto"
+      },
+      {
+        "step": 6,
+        "action": "Processing...",
+        "agencyAction": "Iproseso ang mga dokumento na kailangan para agad mailipat ang bata sa isang Child Caring / Child Placing Agency (CCA/CPA)",
+        "processing_time": "1 araw"
+      },
+      {
+        "step": 7,
+        "action": "Processing...",
+        "agencyAction": "Patuloy na pakikipag-ugnayan sa CCA/CPA para makumpleto ang lahat ng mga requirements na kailangan.",
+        "processing_time": "Walang eksaktong araw o oras"
+      }
+    ],
+    "processingTime": "Walang eksaktong araw o oras",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Social Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Note: Sa prosesong ito ay walang eksaktong oras at tagal sapagkat ito ay nakadepende sa availability ng Child Caring/Child Placing Agency na maaaring paglipatan ng biktima at tagal ng pagproseso ng iba't-ibang requirements na maaaring hingin ng CCA o CPA."
+  },
+  {
+    "service": "Pag-bibigay ng Occupancy Certification",
+    "slug": "pag-bibigay-ng-occupancy-certification",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "4",
+    "officeDivision": "Housing and Settlements Department",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "A) Lahat ng awardee ng pabahay ng Pamahalaang Panlungsod ng Calamba na nagnanais magpakabit ng bago o reconnection lang ng linya ng kuryente o tubig at B) mga informal settler family na na-census ng HSD ngunit reconnection lang ng linya ng kuryente o tubig ang ia-apply",
+    "officeSlug": [
+      "city-social-welfare-and-development-office"
+    ],
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Barangay Clearance (photocopy)",
+        "where_to_secure": "Barangay na kasalukuyang tinitirhan"
+      },
+      {
+        "requirement": "Any Valid ID ng aplikante (photocopy)",
+        "where_to_secure": "Kliyente"
+      },
+      {
+        "requirement": "Para sa mga informal settler family na na-census ng HSD: Building Permit (BP220) (photocopy)",
+        "where_to_secure": "Housing and Settlements Department"
+      },
+      {
+        "requirement": "Kung ang istrukturang inia-apply ay may extension: Extension Permit (photocopy)",
+        "where_to_secure": "Housing and Settlements Department"
+      },
+      {
+        "requirement": "Kung hindi ang may-ari ang magpapasa ng mga requirement: Authorization letter (orihinal)",
+        "where_to_secure": "May-ari ng istruktura"
+      },
+      {
+        "requirement": "Valid ID ng magpapasa ng mga requirement (photocopy)",
+        "where_to_secure": "Kliyente"
+      },
+      {
+        "requirement": "Valid ID ng may-ari ng istruktura (photocopy)",
+        "where_to_secure": "N/A"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Sumangguni tungkol sa proseso ng pag-aapply para sa Occupancy Certification",
+        "agencyAction": "Ipaliwanag ang mga panuntunan at proseso ng pagkuha ng sertipikasyon",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Beripikahin ang pangalan ng aplikante kung nasa listahan ng mga awardee ng pabahay ng Pamaha-laang Panlungsod ng Calamba o sa listahan ng mga na-census ng HSD Kung nasa listahan ng mga awardee: Isasagawa ang pagsusuri ng mga dokumentong dati nang naipasa Kung nasa listahan ng mga na-census ng HSD: Tuloy ang proseso Kung wala sa alinmang listahan: Ipaliwanag sa kliyente kung bakit hindi ito maaaring isyuhan ng Occupancy Certification",
+        "processing_time": "15 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "I-schedule ang inspeksyon",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Processing...",
+        "agencyAction": "Aktuwal na Inspeksyon ng istruktura at occupancy status nito at paggawa ng report",
+        "processing_time": "1 araw"
+      },
+      {
+        "step": 5,
+        "action": "Alamin ang resulta ng inspeksyon",
+        "agencyAction": "Approved: Tuloy ang proseso Disapproved: Ipaliwanag sa kliyente ang resulta",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 6,
+        "action": "Isumite ang mga kinakailangang dokumento",
+        "agencyAction": "Suriin ang mga dokumento Kung kumpleto: Bigyan ng Order of Payment Hindi kumpleto: Ibalik sa Kliyente ang mga dokumento at ipaliwanag ang resulta",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 7,
+        "action": "Processing...",
+        "agencyAction": "Gawan ng rekomendasyon batay sa resulta ng evaluation at inspeksyon",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 8,
+        "action": "Tanggapin ang Occupancy Certification",
+        "agencyAction": "Ibigay ang Occupancy Certification at itala ang pagtanggap ng aplikante.",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 9,
+        "action": "Magbayad sa Treasury Office",
+        "agencyAction": "Bigyan ng Opisyal na Resibo",
+        "processing_time": "2 minuto",
+        "fee": "PHP 60.00 + P30 para sa documenta-ry stamp"
+      },
+      {
+        "step": 10,
+        "action": "Tanggapin ang Occupancy Certification",
+        "agencyAction": "Iproseso ang Occupancy Certification",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 11,
+        "action": "Processing...",
+        "agencyAction": "Aprubahan at pirmahan ang Occupancy Certification",
+        "processing_time": "2 minuto"
+      },
+      {
+        "step": 12,
+        "action": "Processing...",
+        "agencyAction": "Ibigay ang Occupancy Certification at itala ang pagtanggap ng aplikante",
+        "processing_time": "10 minuto"
+      }
+    ],
+    "processingTime": "1 araw, 1 oras at 19 minuto",
+    "fees": {
+      "amount": "PHP 90.00",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "HOUSING AND SETTLEMENTS DEPARTMENT Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Paalala: Ang pagkuha ng Occupancy Certification ay aabutin ng hanggang tatlong (3) araw sapagkat ito ay dadaan pa sa inspection bago ang pag-isyu."
+  },
+  {
+    "service": "Pag-issue ng Building Permit (BP220)",
+    "slug": "pag-issue-ng-building-permit-bp220",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "1",
+    "officeDivision": "Housing and Settlements Department",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Lahat ng may pag-aari ng lupa sa Lungsod ng Calamba na magpapagawa ng istrukturang klasipikado ng low-cost housing",
+    "officeSlug": [
+      "city-social-welfare-and-development-office"
+    ],
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Application form para sa hinihiling na BP220 (original copy)",
+        "where_to_secure": "Housing and Settlements Department"
+      },
+      {
+        "requirement": "HSD Form No. 1 (1 orihinal na kopya)",
+        "where_to_secure": "Housing and Settlements Department"
+      },
+      {
+        "requirement": "Plano ng disenyo, spesipikasyon, listahan ng materyales, at ibang nakahandang dokumento na nilagdaan at tinatakan ng mga taong lisensyado at rehistradong may propesyon gayun din naman ang may-ari / aplikante (3 orihinal na set)",
+        "where_to_secure": "Draftsman, Architect, Civil Engineer, Professional Electrical Engineer, Sanitary Engineer, Master Plumber"
+      },
+      {
+        "requirement": "Valid Professional Regulation Commission (PRC) ID and Professional Tax Receipt (PTR) (1 photocopy)",
+        "where_to_secure": "Draftsman, Architect, Civil Engineer, Professional Electrical Engineer, Sanitary Engineer, Master Plumber"
+      },
+      {
+        "requirement": "Tax Declaration (photocopy)",
+        "where_to_secure": "City Assessment Office"
+      },
+      {
+        "requirement": "Resibo ng Real Property Tax (photocopy)",
+        "where_to_secure": "City Assessment Office"
+      },
+      {
+        "requirement": "Barangay Clearance (photocopy)",
+        "where_to_secure": "Barangay kung saan ipapagawa ang istruktura"
+      },
+      {
+        "requirement": "Bill of materials and specification (2 original sets)",
+        "where_to_secure": "Licensed Civil Engineer"
+      },
+      {
+        "requirement": "Certificate of Locational Clearance Exemption (photocopy)",
+        "where_to_secure": "City Planning and Development Office"
+      },
+      {
+        "requirement": "Fire Clearance (photocopy)",
+        "where_to_secure": "Bureau of Fire Protection"
+      },
+      {
+        "requirement": "Kung sakaling ang aplikante ang rehistradong may-ari ng lupa o lote: Transfer Certificate of Title (photocopy)",
+        "where_to_secure": "Register of Deeds"
+      },
+      {
+        "requirement": "Kung sakaling ang aplikante ay hindi rehistradong may-ari ng lupa o lote: Transfer Certificate of Title (photocopy)",
+        "where_to_secure": "Register of Deeds"
+      },
+      {
+        "requirement": "Deed of Sale o Contract to Sell o Lease Purchase Agreement (photocopy)",
+        "where_to_secure": "Bangko, Pag-IBIG, taong nagbenta ng lupa, o ahensya ng gobyernong nag-award"
+      },
+      {
+        "requirement": "Kung sakaling ang lupa o lote o istruktura ay ini-award ng HSD o iba pang ahensya ng gobyerno: Certified True Copy ng Certification of Award (photocopy)",
+        "where_to_secure": "Housing and Settlements Department o sa ahensya ng gobyernong nag-award"
+      },
+      {
+        "requirement": "Kung hindi ang may-ari ang mag-aasikaso ng aplikasyon: Authorization letter o Special Power of Attorney (original)",
+        "where_to_secure": "May-ari ng lupa o Notaryo Publiko"
+      },
+      {
+        "requirement": "Any Valid ID ng mag-aasikaso (photocopy)",
+        "where_to_secure": "Authorized Representative"
+      },
+      {
+        "requirement": "Any Valid ID ng may-ari ng lupa (photocopy)",
+        "where_to_secure": "Kliyente"
+      },
+      {
+        "requirement": "Para sa mga istrukturang 2-storey pataas: Structural Analysis (2 orihinal na set)",
+        "where_to_secure": "Licensed Civil Engineer"
+      },
+      {
+        "requirement": "Para sa mga istrukturang 3-storey pataas: Boring Test (2 orihinal na set)",
+        "where_to_secure": "Licensed Geologist"
+      },
+      {
+        "requirement": "Para sa mga home improvement o extension: Occupancy Permit (1 photocopy)",
+        "where_to_secure": "Sariling kopya o sa developer"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang application form at mga kinakailangan dokumento",
+        "agencyAction": "Tanggapin at isagawa ang inisyal na pagsu-suri ng mga dokumento at plano Kung kumpleto: liskedyul ang inspeksyon Hindi kumpleto: Ibalik sa Kliyente ang mga dokumento at ipaliwanag ang resulta",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Aktuwal na Inspeksyon ng area at istruktura at status nito at paggawa ng report",
+        "processing_time": "1 araw"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Isagawa ang evaluation at pagsasaayos ng mga dokumento at plano",
+        "processing_time": "2 oras"
+      },
+      {
+        "step": 4,
+        "action": "Processing...",
+        "agencyAction": "Gawan ng rekomendasyon batay sa resulta ng evaluation at inspeksyon",
+        "processing_time": "2 oras"
+      },
+      {
+        "step": 5,
+        "action": "Alamin ang resulta ng inspeksyon at evaluation",
+        "agencyAction": "Approved: Bigyan ng Order of Payment Disapproved: Ibalik sa kliyente ang mga dokumento ipaliwanag ang resulta",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 6,
+        "action": "Magbayad ng kaukulang halaga",
+        "agencyAction": "Tanggapin ang kaukulang halaga at bigyan ng opisyal na resibo",
+        "processing_time": "2 minuto",
+        "fee": "Batay sa National Building Code Fees Php30.00 para sa document-tary stamp"
+      },
+      {
+        "step": 7,
+        "action": "Tanggapin ang Building Permit",
+        "agencyAction": "Iproseso ang Building Permit",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 8,
+        "action": "Processing...",
+        "agencyAction": "Aprubahan at lagdaan ang Building Permit",
+        "processing_time": "2 minuto"
+      },
+      {
+        "step": 9,
+        "action": "Processing...",
+        "agencyAction": "Ibigay ang Building Permit at itala ang pag-tanggap ng aplikante",
+        "processing_time": "10 minuto"
+      }
+    ],
+    "processingTime": "1 araw, 4 oras at 39 minuto",
+    "fees": {
+      "amount": "Batay sa National Building Code Fees Php30.00 para sa document-tary stamp",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "HOUSING AND SETTLEMENTS DEPARTMENT Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Paalala: Ang pagkuha ng Building Permit ay aabutin ng hanggang apat (4) na araw sapagkat ito ay dadaan pa sa inspection at evaluation bago ang pag-isyu. National Building Code Fees and Computations: Line and grade - Php 120.00, Electrical Fee - Php 200.00, Bilang ng CR x Php 100.00, Linear meter ng Fence x Php 7.00, Bilang ng metro kwadrado ng floor area x Php 7.20"
+  },
+  {
+    "service": "Pagbibigay ng Occupancy Permit",
+    "slug": "pagbibigay-ng-occupancy-permit",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "5",
+    "officeDivision": "Housing and Settlements Department",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Lahat ng may pag-aaring lupa sa Lungsod ng Calamba na magpapagawa ng istrukturang klasipikadong low-cost housing",
+    "officeSlug": [
+      "city-social-welfare-and-development-office"
+    ],
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Certificate of Building Completion (HSD Form No. 3) (3 orihinal na kopya)",
+        "where_to_secure": "Housing and Settlements Department"
+      },
+      {
+        "requirement": "Aprubadong plano ng disenyo, spesipikasyon, listahan ng materyales, at ibang nakahandang dokumento na nilagdaan at tinatakan ng mga taong lisensyado at rehistradong may propesyon gayundin naman ang may-ari/aplikante (photocopy)",
+        "where_to_secure": "Draftsman, Architect, Civil Engineer, Professional Electrical Engineer, Sanitary Engineer, Master Plumber"
+      },
+      {
+        "requirement": "Professional Regulation Commission (PRC) ID (photocopy)",
+        "where_to_secure": "Draftsman, Architect, Civil Engineer, Professional Electrical Engineer, Sanitary Engineer, Master Plumber"
+      },
+      {
+        "requirement": "Approved Building Permit 220 (photocopy)",
+        "where_to_secure": "Housing and Settlements Department"
+      },
+      {
+        "requirement": "Mga larawan ng tapos nang itayong istruk-tura (harap, likod, kanan at kaliwang bahagi) (photocopy bawat isa)",
+        "where_to_secure": "Sariling kopya"
+      },
+      {
+        "requirement": "Kung hindi ang may-ariang mag-aasikaso ng aplikasyon: Authorization letter o Special Power of Attorney (1 orihinal)",
+        "where_to_secure": "May-ari ng lupa o Notaryo Publiko"
+      },
+      {
+        "requirement": "Valid ID ng mag-aasikaso (photocopy)",
+        "where_to_secure": "BIR, Post Office, DFA, PSA, SSS, GSIS, Pag-IBIG, Philhealth, PRC, COMELEC, OSCA, kompanyang pinagtatrabahuhan"
+      },
+      {
+        "requirement": "Valid ID ng may-ari ng lupa (photocopy)",
+        "where_to_secure": "BIR, Post Office, DFA, PSA, SSS, GSIS, Pag-IBIG, Philhealth, PRC, COMELEC, OSCA, kompanyang pinagtatrabahuhan"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Punan at Isumite ang Certificate of Building Completion form kasama ang iba pang mga nakalistang hinihinging dokumento",
+        "agencyAction": "Tanggapin at isagawa ang inisyal na pagsusuri ng mga dokumento at plano Kung kumpleto: liskedyul ang inspeksyon Hindi kumpleto: Ibalik sa Kliyente ang mga dokumento at ipaliwanag ang resulta",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Aktuwal na Inspeksyon ng istruktura kung nakasunod sa aprubadong plano at paggawa ng report",
+        "processing_time": "1 araw"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Isagawa ang evaluation at pagsasaayos ng mga dokumento at plano",
+        "processing_time": "2 oras"
+      },
+      {
+        "step": 4,
+        "action": "Processing...",
+        "agencyAction": "Gawan ng rekomendasyon batay sa resulta ng evaluation at inspeksyon",
+        "processing_time": "2 oras"
+      },
+      {
+        "step": 5,
+        "action": "Alamin ang resulta ng inspeksyon at evaluation",
+        "agencyAction": "Approved: Bigyan ng Order of payment Disapproved: Ibalik sa Kliyente ang mga dokumento at ipaliwanag ang resulta",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 6,
+        "action": "Magbayad ng kaukulang halaga",
+        "agencyAction": "Tanggapin ang kaukulang halaga at bigyan ng opisyal na resibo",
+        "processing_time": "5 minuto",
+        "fee": "Batay sa National Building Code 2 minuto + P30 para sa documenta-ry stamp"
+      },
+      {
+        "step": 7,
+        "action": "Tanggapin ang Occupancy Permit",
+        "agencyAction": "Iproseso ang Occupancy Permit",
+        "processing_time": "2 minuto"
+      },
+      {
+        "step": 8,
+        "action": "Processing...",
+        "agencyAction": "Aprubahan at pirmahan ang Occupancy Permit",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 9,
+        "action": "Processing...",
+        "agencyAction": "Ibigay ang Occupancy Permit at itala ang pagtanggap ng aplikante"
+      }
+    ],
+    "processingTime": "1 araw, 4 oras, 39 minuto",
+    "fees": {
+      "amount": "Batay sa National Building Code + P30 para sa documenta-ry stamp",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "HOUSING AND SETTLEMENTS DEPARTMENT Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Paalala: Ang pagkuha ng Occupancy Permit ay aabutin ng hanggang tatlong (4) araw sapagkat ito ay dadaan pa sa inspection at evaluation bago ang pag-isyu. National Building Code Fees and Computations: Batay sa halaga ng bracket na sasakop sa kompyutasyon para sa Floor area x php 10,000 Php 150,000.00 and below - Php100.00 Php 150,001.00 - 400,000.00 - Php 200.00 Php 400,001.00 - 850,000.00 - Php 400.00 Php 850,001.00 - 1,200,000.00 - Php 800.00 (Additional Php 800.00 sa bawat dagdag na milyon o bahagi nitong sosobra)"
+  },
+  {
+    "service": "Paggawa at Pagbibigay ng Solo Parent Identification Card (New)",
+    "slug": "paggawa-at-pagbibigay-ng-solo-parent-identification-card-new",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "11.1",
+    "officeDivision": "City Social Services Department - Family & Community Welfare Division",
+    "classification": "Complex",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan",
+    "officeSlug": [
+      "city-social-welfare-and-development-office"
+    ],
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Solo Parent Application Form",
+        "where_to_secure": "CSSO"
+      },
+      {
+        "requirement": "Barangay Clearance / Certificate",
+        "where_to_secure": "Barangay Hall"
+      },
+      {
+        "requirement": "1x1 ID picture white background (1pc)",
+        "where_to_secure": "Kliyente"
+      },
+      {
+        "requirement": "Certificate of Employement (if employed)",
+        "where_to_secure": "Employer"
+      },
+      {
+        "requirement": "Sketch ng Bahay",
+        "where_to_secure": "Kliyente"
+      },
+      {
+        "requirement": "Photocopy ng mga sumusunod: Voter's ID/Voter's Certificate or any valid ID, Birth Certificate ng mga anak (if minor), PWD ID ng anak",
+        "where_to_secure": "Kliyente / Comelec, City Civil Registry Office / PSA, PDAO"
+      },
+      {
+        "requirement": "School Registration form/Assessment kung ang anak ay nasa edad 18 pataas",
+        "where_to_secure": "School"
+      },
+      {
+        "requirement": "Income Tax Return (ITR) (if employed), Death Certificate (if widow/widower)",
+        "where_to_secure": "BIR, City Civil Regsitry Office / PSA"
+      },
+      {
+        "requirement": "Original Copy ng mga sumusunod (depende sa katatayuan): 1. Affidavit of Guardianship, 2. Affidavit of Abandonment, 3. Affidavit of Non-Marital, 4. Declaration of Legal Separation, 5. Declaration of Nullity or Annulment of Marriage, 6. Certificate of Detention /Resolution, 7. Medical Certificate kung ang asawa ay PWD",
+        "where_to_secure": "Any Legal Office, Hospital"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang mga kinakailangang dokumento",
+        "agencyAction": "Suriin ang mga dokumento at isagawa ang Pre-assessment upang malaman kung qualified o hindi.",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Isagawa ang pagbisita Approved: Tuloy ang proseso Disapproved: May kinakasama, walang minor o buntis",
+        "processing_time": "1 oras"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Iproseso ang solo parent ID.",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Tanggapin ang Solo Parent ID",
+        "agencyAction": "Abisuhan ang kliyente sa pamamagitan ng text o tawag.",
+        "processing_time": "5 minuto"
+      }
+    ],
+    "processingTime": "1 oras at 50 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Social Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Note: Makukuha ang Solo Parent ID ng hindi hihigit sa loob ng dalawampung (20) araw sapagkat dadaaan pa ito sa pre-assessent, evaluation at pagbisita sa bahay."
+  },
+  {
+    "service": "Paggawa at Pagbibigay ng Solo Parent Identification Card (Renewal)",
+    "slug": "paggawa-at-pagbibigay-ng-solo-parent-identification-card-renewal",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "11.2",
+    "officeDivision": "City Social Services Department - Family & Community Welfare Division",
+    "classification": "Complex",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan",
+    "officeSlug": [
+      "city-social-welfare-and-development-office"
+    ],
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Solo Parent Application Form",
+        "where_to_secure": "City Social Services Office"
+      },
+      {
+        "requirement": "Old Solo Parent ID (photocopy)",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "1x1 ID picture white background (1pc)",
+        "where_to_secure": "Kliyente"
+      },
+      {
+        "requirement": "Birth Certificate (if minor) (photocopy)",
+        "where_to_secure": "City Civil Registry Office / PSA"
+      },
+      {
+        "requirement": "Certificate of Employment",
+        "where_to_secure": "Employer"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang mga kinakailangang dokumento",
+        "agencyAction": "Suriin ang mga dokumento at isagawa ang Pre-assessment upang malaman kung qualified o hindi.",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Isagawa ang pagbisita Approved: Tuloy ang proseso Disapproved: May kinakasama, walang minor o buntis",
+        "processing_time": "1 oras"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Iproseso ang solo parent ID.",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Tanggapin ang Solo Parent ID",
+        "agencyAction": "Abisuhan ang kliyente sa pamamagitan ng text o tawag.",
+        "processing_time": "5 minuto"
+      }
+    ],
+    "processingTime": "1 oras at 50 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Social Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Note: Makukuha ang Solo Parent ID ng hindi hihigit sa loob ng dalawampung (20) araw sapagkat dadaaan pa ito sa pre-assessent, evaluation at pagbisita sa bahay."
+  },
+  {
+    "service": "Paghawak ng kaso ng mga bata na biktima ng iba't-ibang uri ng pang-aabuso",
+    "slug": "paghawak-ng-kaso-ng-mga-bata-na-biktima-ng-ibat-ibang-uri-ng-pang-aabuso",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "14",
+    "officeDivision": "City Social Services Department - Special Social Services Division",
+    "classification": "Highly Technical",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Bata na biktima ng iba't-ibang pang-aabuso, pananamantala o trafficking na saklaw ng RA 7610 at iba pang katulad na batas",
+    "officeSlug": [
+      "city-social-welfare-and-development-office"
+    ],
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Blotter Report",
+        "where_to_secure": "Barangay"
+      },
+      {
+        "requirement": "Personal na Salaysay",
+        "where_to_secure": "Kliyente"
+      },
+      {
+        "requirement": "Birth Certificate",
+        "where_to_secure": "Kliyente"
+      },
+      {
+        "requirement": "Medico-legal / genital examination result",
+        "where_to_secure": "PNP"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Magtungo sa Tanggapan ng City Social Services Department at idulog ang suliranin"
+      },
+      {
+        "step": 2,
+        "action": "Ibigay ang Intake Sheet na galing sa Barangay o galing sa Philippine National Police (PNP)",
+        "agencyAction": "Tanggapin at suriin ang dokumento at itala sa logbook",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Isagawa ang paunang Intake Interview gamit ang Women & Children Protection Unit (WCPU) Intake Sheet",
+        "processing_time": "20 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Processing...",
+        "agencyAction": "Isagawa ang risk at safety assessment para malaman ang angkop na intervention at kailangan na maibigay sa biktima Ang mga sumusunod na intervention na maaring gawin: a. I-refer sa PNP para sa pagsasagawa ng medico-legal/genital examination (kung ito ay sekswal / pisikal na naabuso at sa isang Psychologist (kung sikolohikal na naabuso)",
+        "processing_time": "1 araw"
+      },
+      {
+        "step": 5,
+        "action": "Processing...",
+        "agencyAction": "b. Samahan sa Tanggapan ng PNP para sa pagsasampa ng kaso. Ang pagtulong na gagawin ay hanggang sa maibigay ng korte ang Resolusyon ng kaso."
+      },
+      {
+        "step": 6,
+        "action": "Pumunta sa Tanggapan ng City Social Services Department para sa Protective Custody o Reintegration Facility",
+        "agencyAction": "Iproseso ang mga dokumento na kailangan Residential Care - Kung ang assessment ng social worker ay makakabuti na madala ang bata / biktima sa residential care facility. Reintegration - Kung ang bata / biktima ay ligtas na maibabalik sa kustodiya ng mga magulang /kamag-anak ay isasagawa ang Reintegration.",
+        "processing_time": "1 araw"
+      },
+      {
+        "step": 7,
+        "action": "Processing...",
+        "agencyAction": "Gawain at ihanda ang community-based treatment plan.",
+        "processing_time": "30 minuto"
+      },
+      {
+        "step": 8,
+        "action": "Dumalo sa Case Conference kasama ang Pamilya / Kamag-anak",
+        "agencyAction": "Isagawa ang Case Conference",
+        "processing_time": "3 oras"
+      },
+      {
+        "step": 9,
+        "action": "Processing...",
+        "agencyAction": "Isagawa ang community-based treatment plan",
+        "processing_time": "6 buwan hanggang 1 taon"
+      },
+      {
+        "step": 10,
+        "action": "Processing...",
+        "agencyAction": "I-monitor at i-evaluate ang nasabing treatment plan",
+        "processing_time": "Kada buwan"
+      },
+      {
+        "step": 11,
+        "action": "Processing...",
+        "agencyAction": "Magsagawa ng Case Conference",
+        "processing_time": "3 oras"
+      },
+      {
+        "step": 12,
+        "action": "Processing...",
+        "agencyAction": "I-prepara at ihanda ang Terminal Report",
+        "processing_time": "4 oras"
+      }
+    ],
+    "processingTime": "Walang eksaktong araw o oras",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Social Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Note: Sa prosesong ito ay hindi maibibigay ang eksaktong oras sapagkat ito ay nakadepende sa mga prosesong isinasagawa sa ibang ahensya o institutusyon na pinagdalhan ng biktima para sa pagsasagawa ng pisikal, sekswal or sikolohikal na eksaminasyon o pagsasampa ng kaso, sa uri ng kaso at intervention na gagawin, at kooperasyon ng biktima at pamilya sa treatment plan."
+  },
+  {
+    "service": "Paghingi ng Parenting Capability Assessment Report (PCAR)",
+    "slug": "paghingi-ng-parenting-capability-assessment-report-pcar",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "25",
+    "officeDivision": "City Social Services Department - Special Social Services Division",
+    "classification": "Highly Technical",
+    "typeOfTransaction": "G2G-Government to Government; G2C-Government to Citizen",
+    "whoMayAvail": "LGU o iba pang Social Welfare Agency",
+    "officeSlug": [
+      "city-social-welfare-and-development-office"
+    ],
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "PCAR Request Letter",
+        "where_to_secure": "LGU o iba pang Social Welfare Agency"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang PCAR request sa Tanggapan ng City Social Services Department",
+        "agencyAction": "Tanggapin at suriin ang PCAR Request Letter",
+        "processing_time": "2 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Isagawa ang home visit, interview at community assessment",
+        "processing_time": "15 araw"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "I-prepara ang Parenting Capability Assessment Report"
+      },
+      {
+        "step": 4,
+        "action": "Tanggapin ang Parenting Capabiltiy Assessment Report at isumite sa LGU o Social Welfare Agency",
+        "agencyAction": "Ibigay ang resulta ng isinagawang Parenting Capability Assessment o pwede din ipadala sa pamamagitan ng courier or via email sa LGU or Social Welfare Agency",
+        "processing_time": "2 minuto"
+      }
+    ],
+    "processingTime": "N/A",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Social Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Paghingi ng tulong para sa Psychosocial Support",
+    "slug": "paghingi-ng-tulong-para-sa-psychosocial-support",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "18",
+    "officeDivision": "City Social Services Department - Special Social Services Division",
+    "classification": "Highly Technical",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mga bata o kababaihan na nangangailangan ng psychosocial support na saklaw ng \"Clientele Category ng opisina",
+    "officeSlug": [
+      "city-social-welfare-and-development-office"
+    ],
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Intake Sheet Form",
+        "where_to_secure": "Women & Child Protection Unit"
+      },
+      {
+        "requirement": "Medical History",
+        "where_to_secure": "Hospital / Clinic"
+      },
+      {
+        "requirement": "Birth Certificate",
+        "where_to_secure": "City Civil Registry Office"
+      },
+      {
+        "requirement": "Blotter Report",
+        "where_to_secure": "Barangay / PNP"
+      },
+      {
+        "requirement": "PWD ID (if any)",
+        "where_to_secure": "Persons with Disability Affairs Office (City Hall)"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Magtungo sa Tanggapan ng City Social Services Office para ilahad ang kahilingang sumailalim sa isang psychosocial intervention o counseling",
+        "agencyAction": "Isagawa ang paunang Intake Interview",
+        "processing_time": "20 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Isagawa ang initial Assessment. Kung Kailangan: Irefer sa Clinical Psychologist o Psychometrician para sa Psychological Test Kung hindi Kailangan: Tasahin ang sitwasyon ng kliyente upang malaman ang nararapat na intervention",
+        "processing_time": "30 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Isagawa ang nirekomendang intervention ayon sa initial Assessment Report (Kung sa kalagitnaan ng session ay nakitaan ang kliyente ng serious behavioral manifestation, papayuhan ang pasyente na humingi ng karagdagang medical intervention mula sa ibang institution)",
+        "processing_time": "Ayon sa schedule na ibinigay at pinagkasunduan, 1 oras bawat session"
+      },
+      {
+        "step": 4,
+        "action": "Processing...",
+        "agencyAction": "Bigyan ng Certificate of Completion at gawan ng Terminal Report kapag maayos na ang Behavioral Condition ng Bata at tatapusin na ang Counselling Sessions",
+        "processing_time": "20 minuto"
+      }
+    ],
+    "processingTime": "Walang eksaktong araw o oras",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Social Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Paghingi ng tulong para sa pag-uusap kaugnay ng suliranin sa pinansyal na suporta o kustodiya ng mga bata (Mediation Dialogue) o pag-uusap kaugnay ng hindi pagkakasundo sa loob ng isang pamilya (Family Conference).",
+    "slug": "paghingi-ng-tulong-para-sa-pag-uusap-kaugnay-ng-suliranin-sa-pinansyal-na-suporta-o-kustodiya-ng-mga-bata-mediation-dialogue-o-pag-uusap-kaugnay-ng-hindi-pagkakasundo-sa-loob-ng-isang-pamilya-family-conference",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "15",
+    "officeDivision": "City Social Services Department - Special Social Services Division",
+    "classification": "Highly Technical",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mga mag-asawa (kasal o hindi) na napagdesisyunanang maghiwalay at humingi ng tulong pinansyal mula sa dating kinakasama o kaya naman mga mag-asawa na mayroong hindi pagkakasundo patungkol sa kustodiya ng kanilang anak / mga anak. Kahit sinong miyembro ng isang pamilya na nagnanais na magkaroon ng kaayusan o kasunduan upang maayos ang problemang kinakaharap ng kanyang / kanilang pamliya",
+    "officeSlug": [
+      "city-social-welfare-and-development-office"
+    ],
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Letter of Invitation",
+        "where_to_secure": "CSSC-WCPU"
+      },
+      {
+        "requirement": "Kopya ng Mediation na ginawa sa barangay",
+        "where_to_secure": "Barangay"
+      },
+      {
+        "requirement": "Kopya ng Kasunduan sa Barangay",
+        "where_to_secure": "Barangay"
+      },
+      {
+        "requirement": "Blotter Report",
+        "where_to_secure": "PNP / Barangay"
+      },
+      {
+        "requirement": "Birth Certificate ng mga anak (if available)",
+        "where_to_secure": "City Civil Registry Office"
+      },
+      {
+        "requirement": "Marriage Certificate (if married)",
+        "where_to_secure": "City Civil Registry Office"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Pumunta sa Tanggapan ng City Social Services Department at idulog ang suliranin",
+        "agencyAction": "Isagawa ang paunang Intake interview gamit ang WCPU intake Sheet",
+        "processing_time": "20 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Tasahin o I-assess ang suliranin",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Ibigay ang nais na Schedule na pag-uusap",
+        "agencyAction": "Ihanda at ibigay ang Letter of Invitation",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Ipadala ang Letter of Invitation sa inirereklamo"
+      },
+      {
+        "step": 5,
+        "action": "Magtungo sa Tanggapan ng City Social Services Department ayon sa itinakdang schdedule ng pag-uusap",
+        "agencyAction": "Isagawa ang pag-uusap ng dalawang panig",
+        "processing_time": "2 oras"
+      },
+      {
+        "step": 6,
+        "action": "Lumagda sa kasunduan",
+        "agencyAction": "Ihanda ang kasunduan at muling ipaliwanag ang nilalaman ng resulta ng pag-uusap at lumagda ang dalawag panig",
+        "processing_time": "20 minuto"
+      },
+      {
+        "step": 7,
+        "action": "Processing...",
+        "agencyAction": "I-monitor at i-evaluate ang pagtupad ng magkabilang panig ayon sa kasunduan"
+      },
+      {
+        "step": 8,
+        "action": "Processing...",
+        "agencyAction": "Tatawagan ang magkabilang panig makalipas ang isang at isasagawa ang home visit pagkaraan ng tatlong buwan"
+      },
+      {
+        "step": 9,
+        "action": "Processing...",
+        "agencyAction": "Gawain ang Progress Report",
+        "processing_time": "2 oras"
+      },
+      {
+        "step": 10,
+        "action": "KAPAG WALANG KASUNDUANG NAGANAP AT NAIS MAGSAMPA NG KASO 6. Antayin ang referral letter na ibibigay ng Social Worker",
+        "agencyAction": "Ihanda at ibigay ang Referral Letter para dalhin sa Public Attorney's Office",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 11,
+        "action": "Tanggapin ang Refferal Letter at dalhin sa Public Attorney's Office",
+        "processing_time": "Walang eksaktong araw o oras"
+      }
+    ],
+    "processingTime": "Walang eksaktong araw o oras",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Social Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Note: Sa prosesong ito ay walang maibibigay na eksaktong oras sapagkat ito ay nakadepende kung kelan maibibigay ng kliyente ang Letter of Invitation sa inirereklamo, maging ang kooperasyon ng inirereklamo at nagrereklamo sa kasunduang napag-usapan."
+  },
+  {
+    "service": "Pagsasagawa ng Agarang Reach-Out Operation",
+    "slug": "pagsasagawa-ng-agarang-reach-out-operation",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "20",
+    "officeDivision": "City Social Services Department - Special Social Services Division",
+    "classification": "Highly Technical",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mga Bata o kakabaihang biktima ng pang-aabuso o pananakit na saklaw ng RA 7610, RA 9262 at iba pang katulad na batas.",
+    "officeSlug": [
+      "city-social-welfare-and-development-office"
+    ],
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Tawag sa telepono o sulat mula sa mga partner agency or ibang pang Social Welfare Agency",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Blotter Report",
+        "where_to_secure": "Barangay / PNP"
+      },
+      {
+        "requirement": "Marriage Certificate",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Birth Certificate",
+        "where_to_secure": "City Civil Registry Office"
+      },
+      {
+        "requirement": "Valid ID",
+        "where_to_secure": "Kliyente"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Tumawag or Magtungo sa Tanggapan ng City Social Services Office at idulog ang kahilingan para sa Agarang Rescue",
+        "agencyAction": "Sagutin ang tawag o alamin ang idinulog na kahilingan.",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Tanggapin at suriin ang mga dokumento",
+        "processing_time": "45 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Isagawa ang Risk and Safety Assessment"
+      },
+      {
+        "step": 4,
+        "action": "Processing...",
+        "agencyAction": "Kung ayon sa assessment ay hindi naman nanganganib ang buhay ng bata: Isagawa ang naayong intervention ayon sa pangangailangan ng bata/biktima. Kung ang assessment ay nangangailangan maisagawa ang reach out operation: Isagawa ang reach out operation",
+        "processing_time": "Walang eksaktong oras"
+      },
+      {
+        "step": 5,
+        "action": "Processing...",
+        "agencyAction": "Isagawa ang paunang Intake Interview sa nailigtas na bata / biktima",
+        "processing_time": "20 minuto"
+      },
+      {
+        "step": 6,
+        "action": "Processing...",
+        "agencyAction": "Kung ang bata / biktima ay kailangan sumailalim sa Medico-Legal / Physical Examination: Irefer sa PNP para sumailalim sa eksaminasyon Kung ang bata / biktima ay hindi kailangan sumailalim sa Medico-Legal / Physical Examination: Iproseso ang mga dokumento na kailangan para madala ang bata / biktima sa isang residential care facility at mabigyan ng protective custody. Kalakip nito ay gagawa ng After Reach-Out Operation Report at Social Case Study Report.",
+        "processing_time": "1 oras"
+      },
+      {
+        "step": 7,
+        "action": "Processing...",
+        "agencyAction": "Samahan ang biktima sa Tanggapan ng PNP para sa proseso ng pagsasampa ng kaso"
+      }
+    ],
+    "processingTime": "N/A",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Social Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Note: Sa prosesong ito ay walang eksaktong oras at tagal sapagkat ito ay nakadepende sa uri at bigat ng sitwasyon o kaso ng biktima at layo ng lugar na kinaroroonan nito."
+  },
+  {
+    "service": "Pagtanggap ng Reklamo na may kaugnayan sa Turismo (Private, Public Resorts at Establisimento)",
+    "slug": "pagtanggap-ng-reklamo-na-may-kaugnayan-sa-turismo-private-public-resorts-at-establisimento",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "3",
+    "officeDivision": "Cultural Affairs, Tourism & Sports Development Office",
+    "classification": "Highly Technical",
+    "typeOfTransaction": "G2C - Government to Citizen",
+    "whoMayAvail": "Mamamayan",
+    "officeSlug": [
+      "city-tourism-office"
+    ],
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Unified Request Form",
+        "where_to_secure": "Cultural Affairs, Tourism & Sports Development Office"
+      },
+      {
+        "requirement": "Valid ID",
+        "where_to_secure": "Kliyente"
+      },
+      {
+        "requirement": "Complaint Letter",
+        "where_to_secure": "Kliyente"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang Sulat Reklamo at mga kaukulang dokumento o ebidensya patungkol sa reklamo",
+        "agencyAction": "Suriin ang sulat reklamo at iba pang mga dokumento",
+        "processing_time": "1 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Beripikahin ang mga dokumentong isinumite",
+        "processing_time": "20 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Iproseso ang reklamo",
+        "processing_time": "15 Araw"
+      }
+    ],
+    "processingTime": "15 araw",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "Cultural Affairs, Tourism & Sports Development Office Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Note: Ang Resolusyon / Rekomendasyon hinggil sa reklamo ay matatanggap makalipas ang labinlimang (15) araw ng pagtatrabaho sapagka't bibigyan ng pagkakataon na sumagot ang inirereklamo."
+  },
+  {
+    "service": "Pagtulong sa Pag-aasikaso sa mga batang nanganganib na magkaroon ng suliranin sa batas (Child-at-Risk) at batang may suliranin sa batas (Children in Conflict with the Law o CCL)",
+    "slug": "pagtulong-sa-pag-aasikaso-sa-mga-batang-nanganganib-na-magkaroon-ng-suliranin-sa-batas-child-at-risk-at-batang-may-suliranin-sa-batas-children-in-conflict-with-the-law-o-ccl",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "19",
+    "officeDivision": "City Social Services Department - Special Social Services Division",
+    "classification": "Highly Technical",
+    "typeOfTransaction": "G2G-Government to Government; G2C - Government to Citizen",
+    "whoMayAvail": "PNP, Barangay o iba pang ahensya na may kustodiya sa CICL o magulang / guardian ng bata.",
+    "officeSlug": [
+      "city-social-welfare-and-development-office"
+    ],
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Birth Certificate",
+        "where_to_secure": "City Civil Registry Office"
+      },
+      {
+        "requirement": "Barangay Blotter",
+        "where_to_secure": "Barangay"
+      },
+      {
+        "requirement": "Sworn Statement from PNP",
+        "where_to_secure": "PNP"
+      },
+      {
+        "requirement": "Case Information from the City Prosecutor's Office",
+        "where_to_secure": "Prosecutor's Office"
+      },
+      {
+        "requirement": "Assessment on Discernment Note: Kapag Child at Risk, Barangay Blotter lang",
+        "where_to_secure": "City Social Services Department"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Magtungo sa Tanggapan ng City Social Services Department at idulog ang suliranin. (Barangay / BWCPD)",
+        "agencyAction": "Tanggapin at suriin ang mga dokumento",
+        "processing_time": "2 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Isagawa ang paunang Intake Interview at ipaliwanag ang resulta ng nagawang paglabag ng CICL sa batas.",
+        "processing_time": "1 oras"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Isagawa ang risk and safety assessment upang malaman kung kailangan i-refer ang bata sa residential care facility o ibalik sa kustodiya ng kanyang pamilya",
+        "processing_time": "1 oras at 30 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Processing...",
+        "agencyAction": "Tasahin ang sitwasyon at alamin ang mga angkop na intervention para sa bata.",
+        "processing_time": "1 oras at 30 minuto"
+      },
+      {
+        "step": 5,
+        "action": "Processing...",
+        "agencyAction": "Isagawa ang proceeding kaugnay ng community-based o center-based treatment plan at ihanda ang kopya ng kontrata",
+        "processing_time": "15 minuto"
+      },
+      {
+        "step": 6,
+        "action": "Lagdaan ang Kontrata",
+        "agencyAction": "Ipaliwanag ang nilalaman ng kontrata at palagdaan sa mga kalahok ang nasabing kontrata."
+      },
+      {
+        "step": 7,
+        "action": "Aktibong makilahok sa mga Intervention",
+        "agencyAction": "Isagawa ang Intervention Program",
+        "processing_time": "6 buwan hanggang 1 taon o maaring humigit pa depende sa assessment"
+      },
+      {
+        "step": 8,
+        "action": "Processing...",
+        "agencyAction": "Subaybayan ang nasabing Intervention Program sa pamamagitan ng pagsasagawa ng case review, case conference, at home visitation",
+        "processing_time": "2 oras"
+      },
+      {
+        "step": 9,
+        "action": "Processing...",
+        "agencyAction": "Iprepara ang Progress Report",
+        "processing_time": "(Tuwing ika-tatlong buwan)"
+      },
+      {
+        "step": 10,
+        "action": "Processing...",
+        "agencyAction": "Gawin ng Letter of Request para sa PCAR kung nakamit ang layunin ng program at isumite sa Person-in-Charge o sa ibang Social Welfare Agency.",
+        "processing_time": "Sa loob ng isang buwan bago ang itinakdang petsa ng conference"
+      },
+      {
+        "step": 11,
+        "action": "Processing...",
+        "agencyAction": "Isagawa ang follow-up para sa resulta ng PCAR"
+      },
+      {
+        "step": 12,
+        "action": "Dumalo sa Case Conference",
+        "agencyAction": "Isagawa ang Case Conference para sa pagtatasa ng progress ng bata.",
+        "processing_time": "3 oras"
+      },
+      {
+        "step": 13,
+        "action": "Processing...",
+        "agencyAction": "Isagawa Exit Conference at iprepara ang mga dokumentasyon ng nasabing proseso",
+        "processing_time": "3 oras"
+      },
+      {
+        "step": 14,
+        "action": "Processing...",
+        "agencyAction": "Iprepara ang Termination Report",
+        "processing_time": "4 oras"
+      }
+    ],
+    "processingTime": "Walang eksaktong araw o oras",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Social Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Note: Sa prosesong ito ay walang eksaktong oras at tagal sapagkat ito ay nakadepende sa uri ng intervention na gagawin, at kooperasyon o compliance ng kliyente at ng kanyang pamilya sa treatment plan na isasagawa."
+  },
+  {
+    "service": "Special Assistance Tulong Pinansyal sa Distress / Repatriated OFW at ibang nangangailangan ng pagkakakitaan",
+    "slug": "special-assistance-tulong-pinansyal-sa-distress-repatriated-ofw-at-ibang-nangangailangan-ng-pagkakakitaan",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "5",
+    "officeDivision": "City Social Services Department - Family & Community Welfare Division",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan",
+    "officeSlug": [
+      "city-social-welfare-and-development-office"
+    ],
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Barangay Certificate/Clearance",
+        "where_to_secure": "Barangay Hall"
+      },
+      {
+        "requirement": "Certificate of Indigency",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Valid ID o Voter's ID / Voter's Certificate (photocopy)",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Para sa distressed/repatriated OFW: Photocopy ng travel documents/pasa porte o bansa nanggaling, Work contract",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Para sa nangangailangan ng panimulang puhunan: Personal na sulat kahilingan na nagpapakita ng kalalagayan sa buhay, Kalakip ang planong paggagamitan ng tulong pinansyal",
+        "where_to_secure": "N/A"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang mga kinakailangang dokumento",
+        "agencyAction": "Suriin ang mga dokumento at kunin ang mga impormasyon gamit ang intake sheet.",
+        "processing_time": "20 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Isagawa ang pagbisita base sa nakalap na impormasyon",
+        "processing_time": "1 oras"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Iproseso ang dokumento at bigyan ng claim stub.",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Kuhanin ang Tulong Pinansyal sa Treasury Office"
+      }
+    ],
+    "processingTime": "1 oras at 35 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Social Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Note: Ang tulong pinansyal ay makukuha ng hindi hihigit sa loob ng dalawampung (20) araw sapagka't dadaan pa ito sa mga sumusunod na tanggapan Mayor's Office, Budget, Accounting at Treasury Office para iproseso."
+  },
+  {
+    "service": "Supervised Industry Training (SIT) / Supervised Industry Learning (SIL) / On the Job Training (OJT)",
+    "slug": "supervised-industry-training-sit-supervised-industry-learning-sil-on-the-job-training-ojt",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "32",
+    "officeDivision": "Manpower Development Division",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Students",
+    "officeSlug": [
+      "city-social-welfare-and-development-office"
+    ],
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "OJT Request Slip",
+        "where_to_secure": "CMDC"
+      },
+      {
+        "requirement": "Copy of Grades",
+        "where_to_secure": "N/A"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Punan ang Request Form para sa SIT/SIL/OJT Referra",
+        "agencyAction": "Iprepara ang Indorsement Letter and isumite sa Department Head / Division Head para lagdaan",
+        "processing_time": "15 minuto"
+      }
+    ],
+    "processingTime": "15 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Social Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Tulong Pinansyal (Guarantee Letter) Pagtulong para mabawasan ang bayarin sa pagamutan",
+    "slug": "tulong-pinansyal-guarantee-letter-pagtulong-para-mabawasan-ang-bayarin-sa-pagamutan",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "13",
+    "officeDivision": "City Social Services Department - Family & Community Welfare Division",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mga nasa pagamutan / nakalabas na pero may naiwang bayarin sa pagamutan",
+    "officeSlug": [
+      "city-social-welfare-and-development-office"
+    ],
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Orihinal na panayam gamit ang intake sheet",
+        "where_to_secure": "Sa kawani ng CSSO na nasa unahang serbisyo."
+      },
+      {
+        "requirement": "Orihinal/Katibayang nagmula sa orihinal - Clinical Abstract o sulat kamay ng doktor para sa laboratoryo o kwenta ng bayarin sa pagamutan o laboratoryo.",
+        "where_to_secure": "Pagamutan pirmado / Doktor may PTC at numero ng lisensya"
+      },
+      {
+        "requirement": "Orohinal/Katibayang nagmula sa orihinal - Barangay clearance / Sertipiko ng karukhaan",
+        "where_to_secure": "Bahay Pamahalaan ng Barangay - dapat pirmado ng Kapitan ng Barangay"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite at ipatasa ang kinakailangang mga dokumento",
+        "agencyAction": "Suriin at Tasahin ang dokumento kung tama at naayon sa hinihinging tulong",
+        "processing_time": "20 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Aktuwal na pagkausap o interview",
+        "processing_time": "20 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Iproseso ang dokumento",
+        "processing_time": "40 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Tanggapin ang Guarantee Letter",
+        "agencyAction": "Ibigay ang Guarantee Letter",
+        "processing_time": "2 minuto"
+      }
+    ],
+    "processingTime": "1 oras 22 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Social Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Tulong Pinansyal para sa Balik Probinsya",
+    "slug": "tulong-pinansyal-para-sa-balik-probinsya",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "1",
+    "officeDivision": "City Social Services Department - Family & Community Welfare Division",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan",
+    "officeSlug": [
+      "city-social-welfare-and-development-office"
+    ],
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Barangay Certificate/Clearance",
+        "where_to_secure": "Barangay Hall"
+      },
+      {
+        "requirement": "Certificate of Indigency",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Kompirmadong Halaga ng pamasahe",
+        "where_to_secure": "Bus Company o kung saan sasakay pauwi ng probinsya"
+      },
+      {
+        "requirement": "Valid ID o Voter's ID / Voter's Certificate (photocopy)",
+        "where_to_secure": "Comelec"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang mga kinakailangang dokumento at kunin ang mga impormasyon gamit ang intake sheet.",
+        "agencyAction": "Tanggapin at suriin ang mga dokumento",
+        "processing_time": "20 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Isagawa ang pagbisita base sa nakalap na impormasyon",
+        "processing_time": "1 oras"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Iproseso ang dokumento at bigyan ng Claim Stub.",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Kuhanin ang Tulong Pinansyal sa Treasury Office"
+      }
+    ],
+    "processingTime": "1 oras at 25 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Social Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Note: Ang tulong pinansyal ay makukuha ng hindi hihigit sa loob ng dalawampung (20) araw sapagka't dadaan pa ito sa mga sumusunod na tanggapan: Mayor's Office, Budget, Accounting at Treasury Office para iproseso."
+  },
+  {
+    "service": "Tulong Pinansyal para sa Nasunugan o Naapektuhan ng Kalamidad",
+    "slug": "tulong-pinansyal-para-sa-nasunugan-o-naapektuhan-ng-kalamidad",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "6",
+    "officeDivision": "City Social Services Department - Family & Community Welfare Division",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan",
+    "officeSlug": [
+      "city-social-welfare-and-development-office"
+    ],
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Barangay Certificate/Clearance",
+        "where_to_secure": "Barangay Hall"
+      },
+      {
+        "requirement": "Certificate of Indigency",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Photo copy ng valid ID o Voter's ID/ o Sertipiko ng Botante, pasyente o kamag-anak",
+        "where_to_secure": "Kliyente / Comelec"
+      },
+      {
+        "requirement": "Para sa nasunugan ng bahay: Original na kopya o Certified True copy ng BFP fire report, Barangay blotter/Affidavit of damaged/burnt possession",
+        "where_to_secure": "BFP office / Sarili"
+      },
+      {
+        "requirement": "Para sa naapektuhan ng kalamidad: Personal na sulat kahilingan na nagpapakita ng kalalagayan sa buhay at epekto ng kalamidad sa kabuhayan, Larawan bilang patunay na naapektuhan sa kalamidad (totally damaged/partially damaged)",
+        "where_to_secure": "N/A"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang mga kinakailangang dokumento",
+        "agencyAction": "Tanggapin at suriin ang mga dokumento at pagkuha ng mga impormasyon gamit ang intake sheet.",
+        "processing_time": "20 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Isagawa ang pagbisita base sa nakalap na impormasyon",
+        "processing_time": "1 oras"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Iproseso ang dokumento at bigyan ng claim stub.",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Kuhanin ang Tulong Pinansyal sa Treasury Office"
+      }
+    ],
+    "processingTime": "1 oras at 30 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Social Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Note: Ang tulong pinansyal ay makukuha ng hindi hihigit sa loob ng dalawampung (20) araw sapagka't dadaan pa ito sa mga sumusunod na tanggapan Mayor's Office, Budget, Accounting at Treasury Office para iproseso."
+  },
+  {
+    "service": "Tulong Pinansyal para sa Serbisyong \"Hospitalisasyon\"",
+    "slug": "tulong-pinansyal-para-sa-serbisyong-hospitalisasyon",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "3",
+    "officeDivision": "City Social Services Department - Family & Community Welfare Division",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan",
+    "officeSlug": [
+      "city-social-welfare-and-development-office"
+    ],
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Barangay Certificate/Clearance",
+        "where_to_secure": "Barangay Hall"
+      },
+      {
+        "requirement": "Certificate of Indigency",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Orihinal / Certified True Copy ng Hospital Bill/Promissory Note/ Treatment Protocol or diagnostic request.",
+        "where_to_secure": "Hospital"
+      },
+      {
+        "requirement": "Original/Certified True Copy ng Rehistro ng Medikal o Medical Abstract",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Valid ID o Voter's ID / Voter's Certificate (photocopy)",
+        "where_to_secure": "Sarili / Comelec"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang mga kinakailangang dokumento",
+        "agencyAction": "Suriin ang mga dokumento at kunin ang mga impormasyon gamit ang intake sheet.",
+        "processing_time": "20 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Iproseso ang dokumento at bigyan ng claim stub",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Kuhanin ang Tulong Pinansyal sa Treasury Office"
+      }
+    ],
+    "processingTime": "25 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Social Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Note: Ang tulong pinansyal ay makukuha ng hindi hihigit sa loob ng dalawampung (20) araw sapagka't dadaan pa ito sa mga sumusunod na tanggapan: Mayor's Office, Budget, Accounting at Treasury Office para iproseso."
+  },
+  {
+    "service": "Tulong Pinansyal para sa Serbisyong Medikal",
+    "slug": "tulong-pinansyal-para-sa-serbisyong-medikal",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "4",
+    "officeDivision": "City Social Services Department - Family & Community Welfare Division",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamayan",
+    "officeSlug": [
+      "city-social-welfare-and-development-office"
+    ],
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Barangay Certificate/Clearance",
+        "where_to_secure": "Barangay Hall"
+      },
+      {
+        "requirement": "Certificate of Indigency",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Original/Certified True Copy ng Rehistro ng Medikal o Medical Abstract",
+        "where_to_secure": "Hospital / Clinic"
+      },
+      {
+        "requirement": "Original/Certified True Copy ng Latest Doctors Prescription",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Valid ID o Voter's ID/Voter's Certificate (photocopy)",
+        "where_to_secure": "Sarili"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang mga kinakailangang dokumento",
+        "agencyAction": "Suriin ang mga dokumento at kunin ang mga impormasyon gamit ang intake sheet.",
+        "processing_time": "20 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Iproseso ang dokumento at bigyan ng claim stub.",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Kuhanin ang Tulong Pinansyal sa Treasury Office"
+      }
+    ],
+    "processingTime": "25 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Social Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Note: Ang tulong pinansyal ay makukuha ng hindi hihigit sa loob ng dalawampung (20) araw sapagka't dadaan pa ito sa mga sumusunod na tanggapan Mayor's Office, Budget, Accounting at Treasury Office para iproseso."
+  },
+  {
+    "service": "Tulong Pinansyal para sa Serbisyong Pagpapalibing",
+    "slug": "tulong-pinansyal-para-sa-serbisyong-pagpapalibing",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "2",
+    "officeDivision": "City Social Services Department - Family & Community Welfare Division",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan",
+    "officeSlug": [
+      "city-social-welfare-and-development-office"
+    ],
+    "category": {
+      "name": "Social Services & Assistance",
+      "slug": "social-services-assistance"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Barangay Certificate/Clearance",
+        "where_to_secure": "Barangay Hall"
+      },
+      {
+        "requirement": "Certificate of Indigency",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Orihinal / Certified True Copy ng Kontrata sa Punerarya",
+        "where_to_secure": "Funeral Service"
+      },
+      {
+        "requirement": "Original / Certified True Copy ng Rehistro ng Kamatayan",
+        "where_to_secure": "City Civil Registry Office"
+      },
+      {
+        "requirement": "Valid ID o Voter's ID / Voter's Certificate (photocopy)",
+        "where_to_secure": "Kliyente / Comelec"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang mga kinakailangang dokumento",
+        "agencyAction": "Suriin ang mga dokumento at kunin ang mga impormasyon gamit ang intake sheet.",
+        "processing_time": "20 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Isagawa ang pagbisita base sa nakalap na impormasyon",
+        "processing_time": "1 oras"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Iproseso ang dokumento at bigyan ng claim stub.",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Kuhanin ang Tulong Pinansyal sa Treasury Office"
+      }
+    ],
+    "processingTime": "1 oras at 25 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Social Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Note: Ang tulong pinansyal ay makukuha ng hindi hihigit sa loob ng dalawampung (20) araw sapagka't dadaan pa ito sa mga sumusunod na tanggapan: Mayor's Office, Budget, Accounting at Treasury Office para iproseso."
+  }
+]

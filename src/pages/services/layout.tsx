@@ -10,9 +10,11 @@ import SearchInput from '@/components/ui/SearchInput';
 
 import ServicesSidebar from './components/ServicesSidebar';
 
+import type { TransactionTypeFilter } from '@/types/servicesTypes';
+
 // Additional filter types
 export type ServiceSource = 'citizens-charter' | 'community' | 'all';
-export type ClassificationFilter = 'Simple' | 'Complex' | 'all';
+export type ClassificationFilter = 'Simple' | 'Complex' | 'Highly Technical' | 'all';
 
 export interface ServicesOutletContext {
   searchQuery: string;
@@ -20,9 +22,11 @@ export interface ServicesOutletContext {
   selectedOfficeDivision: string;
   selectedSource: ServiceSource;
   selectedClassification: ClassificationFilter;
+  selectedTransactionType: TransactionTypeFilter;
   setOfficeDivision: (division: string) => void;
   setSource: (source: ServiceSource) => void;
   setClassification: (classification: ClassificationFilter) => void;
+  setTransactionType: (transactionType: TransactionTypeFilter) => void;
 }
 
 export default function ServicesLayout() {
@@ -57,6 +61,8 @@ export default function ServicesLayout() {
   const [selectedSource, setSelectedSource] = useState<ServiceSource>('all');
   const [selectedClassification, setSelectedClassification] =
     useState<ClassificationFilter>('all');
+  const [selectedTransactionType, setSelectedTransactionType] =
+    useState<TransactionTypeFilter>('G2C');
 
   return (
     <SidebarLayout
@@ -101,9 +107,11 @@ export default function ServicesLayout() {
           selectedOfficeDivision,
           selectedSource,
           selectedClassification,
+          selectedTransactionType,
           setOfficeDivision: setSelectedOfficeDivision,
           setSource: setSelectedSource,
           setClassification: setSelectedClassification,
+          setTransactionType: setSelectedTransactionType,
         }}
       />
     </SidebarLayout>

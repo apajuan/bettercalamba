@@ -21,6 +21,7 @@ import Ticker from '@/components/ui/Ticker';
 // --- Lazy-loaded Pages ---
 const Home = lazy(() => import('@/pages/Home'));
 const AboutPage = lazy(() => import('@/pages/about'));
+const CitizensCharterPage = lazy(() => import('@/pages/about/citizens-charter'));
 const ContactUs = lazy(() => import('@/pages/ContactUs'));
 const AccessibilityPage = lazy(() => import('@/pages/accessibility'));
 const SearchPage = lazy(() => import('@/pages/Search'));
@@ -179,6 +180,7 @@ function AppContent() {
           {/* Standard Global Pages */}
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<AboutPage />} />
+          <Route path='/about/citizens-charter' element={<CitizensCharterPage />} />
           <Route path='/contact' element={<ContactUs />} />
           <Route path='/accessibility' element={<AccessibilityPage />} />
           <Route path='/search' element={<SearchPage />} />

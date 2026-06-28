@@ -166,6 +166,10 @@ export const footerNavigation = {
           href: config.lgu.provinceWebsite,
           target: '_blank',
         },
+        {
+          label: "About ARTA & Citizen's Charter",
+          href: '/about/citizens-charter',
+        },
         // { label: 'Privacy Policy', href: '/privacy' },
         // { label: 'Accessibility', href: '/accessibility' },
       ],

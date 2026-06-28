@@ -13,7 +13,7 @@
     "test:coverage": "vitest --coverage",
     "test:e2e": "playwright test",
     "merge:services": "python3 scripts/merge_citizens_charter.py && npm run merge:data && npx prettier --write src/data/citizens-charter/*.json",
-    "merge:data": "python3 scripts/merge_services.py",
+    "merge:data": "python3 scripts/merge_services.py && python3 scripts/clean_services.py",
     "flag:sessions": "python3 scripts/flag_sessions_for_review.py",
     "openlgu:collect-website": "node scripts/openlgu/collect-website-source-records.cjs",
     "openlgu:collect-facebook": "node scripts/openlgu/collect-facebook-posts.cjs",

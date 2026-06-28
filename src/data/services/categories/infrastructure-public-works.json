@@ -1,1 +1,1550 @@
-[]
+[
+  {
+    "service": "Application for Preliminary Approval-Locational Clearance (PALC) and Development Permit (DP).",
+    "slug": "application-for-preliminary-approval-locational-clearance-palc-and-development-permit-dp",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "3",
+    "officeDivision": "CPDO - Planning, Land Use, & Zoning Division",
+    "classification": "Highly Technical",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Licensed Land Developers",
+    "officeSlug": [
+      "city-planning-and-development-office"
+    ],
+    "category": {
+      "name": "Infrastructure & Public Works",
+      "slug": "infrastructure-public-works"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "a. Duly accomplished Zoning Administration (ZA) form/s for PALC and DP (6 sets of each). a. ZA Forms for PALC: a. No. 7-Residential Subd. b. No. 13-Cemetery / Memorial Park c. No. 15- Commercial and Industrial d. No. 17- Farm Lot Subd. b. ZA Forms for DP: a. No. 8-Residential Subd. b. No. 14-Cemetery / Memorial Park c. No. 16- Commercial / Industrial d. No. 18- Farm Lot Subd. 1.3 ZA Form for Alteration - No. 9",
+        "where_to_secure": "CPDO;"
+      },
+      {
+        "requirement": "b. Subdivision Plans with engineering plan details (6 sets. Signed and sealed);",
+        "where_to_secure": "Applicant's file;"
+      },
+      {
+        "requirement": "c. Certified Copy of Transfer Certificate of Title (TCT), Tax Declaration (TD), and Current Tax Receipt of property (2 sets each);",
+        "where_to_secure": "Registry of Deeds (RD), City Assessor's Office, and City Treasury & Management Office;"
+      },
+      {
+        "requirement": "d. Approved Survey Plan (2 sets), as described in TCT;",
+        "where_to_secure": "Geodetic Engineer;"
+      },
+      {
+        "requirement": "e. Conversion or Exemption Clearance from DAR (2 sets), if applicable;",
+        "where_to_secure": "Department of Agrarian Reform (DAR) office;"
+      },
+      {
+        "requirement": "f. Access to the property or ROW;",
+        "where_to_secure": "Applicant's file;"
+      },
+      {
+        "requirement": "g. Barangay Resolution (2 sets);",
+        "where_to_secure": "Sangguniang Barangay;"
+      },
+      {
+        "requirement": "h. Project Study/Profile (2 sets);",
+        "where_to_secure": "Applicant's file;"
+      },
+      {
+        "requirement": "i. NWRB Permit (2 sets), if applicable;",
+        "where_to_secure": "National Water Resources Board (NWRB);"
+      },
+      {
+        "requirement": "j. Environmental Compliance Certificate (ECC. 2 sets);",
+        "where_to_secure": "Department of Environment and Natural Resources (DENR);"
+      },
+      {
+        "requirement": "k. Traffic Impact Assessment (TIA. 2 sets);",
+        "where_to_secure": "Transportation Engineer"
+      },
+      {
+        "requirement": "l. Financial Statement (2 sets);",
+        "where_to_secure": "Applicant's file;"
+      },
+      {
+        "requirement": "m. Land Specifications and Cost Estimates (2 sets);",
+        "where_to_secure": "Applicant's file;"
+      },
+      {
+        "requirement": "n. Photocopy of PRC IDs/PTRs of signing engineers, architects, and environmental planners (2 sets);",
+        "where_to_secure": "Professionals who signed the plans;"
+      },
+      {
+        "requirement": "o. For Alterations:. 1. (6 sets) subdivision plans showing the alterations, signed and sealed; 2. (2 sets) copy of Approved Subdivision Plans; 3. written explanation for alteration; 4. Sworn Statement that affected lots have not been sold; 5. Written conformity of the Homeowners' Association, if applicable; 6. Brgy. Resolution; and, 7. Certified True Copy of TCT.",
+        "where_to_secure": "Applicant's file."
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang notaryadong Application Form at mga kinakailangang dokumento",
+        "agencyAction": "Suriin ang Application Form at ang mga dokumento. Kapag kumpleto: Tatakan ng \"Received\" at isumite sa Sanggunian Panlungsod. Kapag hindi kumpleto: Ibalik sa kliyente ang lahat ng dokumento at sabihan na kailangang kumpletuhin muna ang lahat ng dokumentong kailangan bago ibalik muli sa CPDO.",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Humingi ng kopya ng Resolusyon sa Sangguniang Panlungsod",
+        "agencyAction": "Tanggapin ang kopya ng Resolusyon at Ordinansa (for filing and recording). 2.2. Bigyan ng Order of Payment.",
+        "processing_time": "13 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Iproseso ang clearance (PALC) at permit (DP)",
+        "processing_time": "13 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Magbayad sa Treasury Office at isumite ang photocopy ng resibo",
+        "agencyAction": "Bigyan ng Opisyal na Resibo",
+        "processing_time": "2 minuto",
+        "fee": "Ayon sa schedule of Fees"
+      },
+      {
+        "step": 5,
+        "action": "Ibigay at palagdaan ang kopya ng PALC at DP kasama ang Approved Subdivision Plans.",
+        "agencyAction": "Tanggapin ang PALC at DP",
+        "processing_time": "5 minuto",
+        "fee": "Ayon sa schedule of Fees"
+      }
+    ],
+    "processingTime": "25 minuto",
+    "fees": {
+      "amount": "Ayon sa schedule of Fees",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "CITY PLANNING & DEVELOPMENT OFFICE Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Pagproseso ng aplikasyon para sa PALC at DP ng mga subdivision developments."
+  },
+  {
+    "service": "Computer Repair",
+    "slug": "computer-repair",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "7",
+    "officeDivision": "CPDO - Information and Communications Technology",
+    "classification": "Simple",
+    "typeOfTransaction": "G2E-Government to Goverment",
+    "whoMayAvail": "Empleyado ng Pamahalaang Lungsod",
+    "officeSlug": [
+      "city-planning-and-development-office"
+    ],
+    "category": {
+      "name": "Infrastructure & Public Works",
+      "slug": "infrastructure-public-works"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Computer Repair Form",
+        "where_to_secure": "ICT Division"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Tumawag para sa pagkumpuni ng sirang computer",
+        "agencyAction": "Tanggapin ang tawag at punan ang Computer Repair Form.",
+        "processing_time": "1 araw at 2 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Iproseso ang Pagkumpuni sa Computer",
+        "processing_time": "1 araw at 2 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Kuhanin ang nakumpuning Computer",
+        "agencyAction": "Tawagan ang Kliyente at ipaalam na nagawa na ang computer.",
+        "processing_time": "2 minuto"
+      }
+    ],
+    "processingTime": "1 araw at 4 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "CITY PLANNING & DEVELOPMENT OFFICE Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Pagkukumpuni ng mga Computer"
+  },
+  {
+    "service": "Demolisyon ng mga Nakatayong Iligal na Istraktura sa Road-Right-of-Way (RROW) at Lumang Gusali ng mga Paaralan",
+    "slug": "demolisyon-ng-mga-nakatayong-iligal-na-istraktura-sa-road-right-of-way-rrow-at-lumang-gusali-ng-mga-paaralan",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "8",
+    "officeDivision": "Tanggapan ng Inhinyeriyang Panlungsod at Tagapagsulong ng Imprastraktura",
+    "classification": "Simple",
+    "typeOfTransaction": "G2G-Government to Government",
+    "whoMayAvail": "Barangay Officials at DepEd",
+    "officeSlug": [
+      "city-engineer"
+    ],
+    "category": {
+      "name": "Infrastructure & Public Works",
+      "slug": "infrastructure-public-works"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Liham ng Kahilingan",
+        "where_to_secure": "Kliyente"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Magbigay ng liham para sa demolisyon ng mga nakatayong istraktura na sumasakop sa lupang pagmamay-ari ng gobyerno o lumang gusali ng paaralan",
+        "agencyAction": "Tatanggapin at itatala ng nakatalagang tauhan ang lahat ng liham ng kahilingan at ito ay ipapasa sa Punong Inhinyero.",
+        "processing_time": "3 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Susuriin ng Punong Inhinyero ang nasabing kahilingan at ito ay ipapadala sa Dibisyon ng Pagsasaayos at Pagpapanatili.",
+        "processing_time": "3 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Isasaayos ang iskedyul ng demolisyon na nakasaad sa kahilingan",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Processing...",
+        "agencyAction": "a Kung iligal na istraktura na nakatayo sa lupang pagmamay-ari ng gobyerno o sa RROW, isasagawa ang pagsusukat ng parsela ng lote upang maging basehan ng idedemolish na istraktura",
+        "processing_time": "2 oras"
+      },
+      {
+        "step": 5,
+        "action": "Processing...",
+        "agencyAction": "b Kung lumang gusali ng paaralan, ihahanda ng liham kahilingan para Certitficate for Existing Records ng naturang gusali mula sa Tanggapan ng Accounting",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 6,
+        "action": "Processing...",
+        "agencyAction": "Pakikipag-ugnayan sa mga opisyal ng barangay at mga maapektuhan ng demolisyon at sa punongguro ng paaralan (kung kinakailangan)",
+        "processing_time": "2 oras"
+      },
+      {
+        "step": 7,
+        "action": "Processing...",
+        "agencyAction": "Pagsasagawa ng demolisyon sa mga nakatayong istraktura",
+        "processing_time": "2 araw (depende sa lawak ng gawain)"
+      }
+    ],
+    "processingTime": "2 araw, 2 oras at 16 na minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "CITY ENGINEERING SERVICES & INFRASTRUCTURE DEVELOPMENT DEPARTMENT Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Infrastructure Project Inspection",
+    "slug": "infrastructure-project-inspection",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "5",
+    "officeDivision": "CPDO - Planning, Land Use, & Zoning Division",
+    "classification": "Complex",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Registered Landowners of Lots in Calamba City",
+    "officeSlug": [
+      "city-planning-and-development-office"
+    ],
+    "category": {
+      "name": "Infrastructure & Public Works",
+      "slug": "infrastructure-public-works"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Request for Inspection Form, signed by the Contractor or duly authorized representative;",
+        "where_to_secure": "CPDO"
+      },
+      {
+        "requirement": "Construction Plans and Program of Works.",
+        "where_to_secure": "City Engineering and Infrastructure Development Department;"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Punan ang Request for Inspection Form at isumite kalakip ang kopya ng aprubadong plano at Program of Works",
+        "agencyAction": "Suriin ang Request for Inspection Form at mga kalakip na dokumento.",
+        "processing_time": "1 oras at 37 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Magtungo sa lugar ng proyekto at suriin ang mga natapos na bahagi ng kontruksyon at kung naayon sa aprubadong plano at Program of Works.",
+        "processing_time": "1 oras at 37 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Gawin ang Project Evaluation Report at palagdaan ang kopya ng pagtanggap.",
+        "processing_time": "1 oras at 37 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Tanggapin ang ang kopya ng Project Evaluation Report",
+        "agencyAction": "Bigyan ng kopya ang contractor o authorized representative.",
+        "processing_time": "2 minuto"
+      }
+    ],
+    "processingTime": "1 oras at 39 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "CITY PLANNING & DEVELOPMENT OFFICE Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Pagproseso ng pagsisiyasat ng mga proyektong pang-imprastruktura ng Pamahalaang Lungsod ng Calamba"
+  },
+  {
+    "service": "Issuance of Locational Clearance (LC) and Certificate of Exemption from Locational Clearance (LC-Ex)",
+    "slug": "issuance-of-locational-clearance-lc-and-certificate-of-exemption-from-locational-clearance-lc-ex",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "6",
+    "officeDivision": "CPDO - Planning, Land Use, & Zoning Division",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Landowners or Lessees of Lots in Calamba City",
+    "officeSlug": [
+      "city-planning-and-development-office"
+    ],
+    "category": {
+      "name": "Infrastructure & Public Works",
+      "slug": "infrastructure-public-works"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "• ZA Form No. 1, duly accomplished, signed, and notarized (for LC) / ZA Form No. 3 (for LC-Ex);",
+        "where_to_secure": "CPDO;"
+      },
+      {
+        "requirement": "• Any of the following Proof of Ownership / right to use: Transfer Certificate of Title (TCT); TCT & Notarized Deed of Absolute Sale or Notarized Contract to Sell; TCT & notarized Lease Agreement or notarized Contract of Lease; TCT & Affidavit of Consent.",
+        "where_to_secure": "Registry of Deeds (RD); RD and Notary Public; RD and Notary Public; RD and Notary Public."
+      },
+      {
+        "requirement": "• Tax Declaration and Current Tax Receipt of lot;",
+        "where_to_secure": "City Assessor's Office and City Treasury & Management Office;"
+      },
+      {
+        "requirement": "• Brgy. Clearance for Building/Construction Permit;",
+        "where_to_secure": "Brgy. Hall;"
+      },
+      {
+        "requirement": "• Building Plans (2 sets, signed and sealed). Project Cost/Bill of Materials. Technical Specifications (signed and sealed). Copy of PRC ID & PTR;",
+        "where_to_secure": "Licensed Civil Engineers, Architects, Mechanical Engineers, Electrical Engineers, and Sanitary Engineers;"
+      },
+      {
+        "requirement": "• Special Power of Attorney (SPA);",
+        "where_to_secure": "Applicant's file;"
+      },
+      {
+        "requirement": "• Secretary's Certificate;",
+        "where_to_secure": "Applicant's file;"
+      },
+      {
+        "requirement": "ADDITIONAL REQUIREMENTS (as may be needed): • Traffic Impact Assessment (TIA);",
+        "where_to_secure": "• Licensed Transportation Engineer;"
+      },
+      {
+        "requirement": "• Environmental Compliance Certificate (ECC) / Certificate of Non-Coverage (CNC);",
+        "where_to_secure": "• Department of Environment and Natural Resources (DENR);"
+      },
+      {
+        "requirement": "• Homeowners' Association's Board Resolution;",
+        "where_to_secure": "• Homeowners' Association;"
+      },
+      {
+        "requirement": "• Barangay Resolution;",
+        "where_to_secure": "• Brgy. Hall;"
+      },
+      {
+        "requirement": "• Neighborhood Consent;",
+        "where_to_secure": "• Applicant's file, with signature from neighbours;"
+      },
+      {
+        "requirement": "• Cost and Specifications of machineries and equipment;",
+        "where_to_secure": "• Applicant's file;"
+      },
+      {
+        "requirement": "• Certified true copy of Provisional Authority or Certificate of Public Convenience and Necessity;",
+        "where_to_secure": "• National Telecommunications Commission (NTC);"
+      },
+      {
+        "requirement": "• Height Clearance;",
+        "where_to_secure": "• Air Transportation Office (ATO);"
+      },
+      {
+        "requirement": "• Radiation Protection Evaluation Report;",
+        "where_to_secure": "• Department of Health;"
+      },
+      {
+        "requirement": "• Site Clearance;",
+        "where_to_secure": "• City Health Services Office;"
+      },
+      {
+        "requirement": "• DAR Conversion/Exemption Clearance;",
+        "where_to_secure": "• Department of Agrarian Reform (DAR);"
+      },
+      {
+        "requirement": "• City Engineer's Certification;",
+        "where_to_secure": "• City Engineering and Infrastructure Development Department;"
+      },
+      {
+        "requirement": "• Certification / Clearance from DPWH",
+        "where_to_secure": "• Department of Public Works and Highways (DPWH);"
+      },
+      {
+        "requirement": "• Proof of Payment of fees / Official Receipt",
+        "where_to_secure": "• 21. City Treasury and Management Office."
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang notaryadong Zoning Application Form No. 1 o 3 at mga kailangang dokumento",
+        "agencyAction": "Tanggapin at suriiin ang Zoning Application Form kasama ang lahat ng mga kailangang dokumento.",
+        "processing_time": "17 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Bigyan ng Order of Payment.",
+        "processing_time": "17 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Iproseso ang Locational Clearance (LC) o Certificate of Exemption from Locational Clearance (LC-Ex)",
+        "processing_time": "17 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Magbayad sa Treasury Office at isumite ang photocopy ng Resibo",
+        "agencyAction": "Bigyan ng Opisyal na Resibo",
+        "processing_time": "2 minuto",
+        "fee": "Ayon sa Schedule of Fees"
+      },
+      {
+        "step": 5,
+        "action": "Tanggapin ang Locational Clearance (LC) o Certificate of Exemption from Locational Clearance (LC-Ex)",
+        "agencyAction": "Ibigay ang Locational Clearance (LC) o Certificate of Exemption from Locational Clearance (LC-Ex) kasama ang approved plans.",
+        "processing_time": "2 minuto"
+      }
+    ],
+    "processingTime": "21 minuto",
+    "fees": {
+      "amount": "Ayon sa Schedule of Fees",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "CITY PLANNING & DEVELOPMENT OFFICE Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Pagproseso ng pagpapalabas ng LC at LC Ex. SCHEDULE OF FEES for LC:\n\n- Residential (single dwelling): First 30 sq.m. PhP 500.00, For every sq.m. in excess PhP 5.00\n    \n- Apartment/Townhouse/Rowhouse/Dormitories: First 50 sq.m. PhP 600.00, For every sq.m. in excess PhP 10.00\n    \n- Private Resort: First 50 sq.m. PhP 1,000.00, For every sq.m. in excess PhP 30.00\n    \n- Non-Profit Institutional: First 100 sq.m. PhP 500.00, For every sq.m. in excess PhP 5.00\n    \n- Profitable Institution: First 100 sq.m. PhP 1,000.00, For every sq.m. in excess PhP 15.00\n    \n- Commercial and Industrial: Fist 20 sq.m. PhP 1,000.00, For every sq.m. in excess PhP 20.00\n    \n- Other Projects: First PhP50,000 of Project Cost PhP500.00, For every PhP50K in excess PhP50.00\n    \n- UPLR Fee: 1% of total\n    \n- Processing and Filing Fees: PhP100.00\n    \n\nSCHEDULE OF FEES for LC-Ex:\n\n- LC-Ex: PhP8.00/sq.m.\n    \n- Processing and Filing Fees: PhP100.00"
+  },
+  {
+    "service": "Issuance of Zoning Certificate",
+    "slug": "issuance-of-zoning-certificate",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "4",
+    "officeDivision": "CPDO - Planning, Land Use, & Zoning Division",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Registered Landowners of Lots in Calamba City",
+    "officeSlug": [
+      "city-planning-and-development-office"
+    ],
+    "category": {
+      "name": "Infrastructure & Public Works",
+      "slug": "infrastructure-public-works"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Duly accomplished Zoning Certificate Application Form (ZA Form No. 5);",
+        "where_to_secure": "• CPDO;"
+      },
+      {
+        "requirement": "Authority of the requesting party, if other than registered landowner;",
+        "where_to_secure": "• Applicant's file;"
+      },
+      {
+        "requirement": "Transfer Certificate of Title (TCT), Tax Declaration (TD), and Current Tax Receipt of property;",
+        "where_to_secure": "• Registry of Deeds (RD), City Assessor's Office, and City Treasury & Management Office;"
+      },
+      {
+        "requirement": "Survey Plan and Vicinity Map;",
+        "where_to_secure": "• Licensed Geodetic Engineer;"
+      },
+      {
+        "requirement": "Additional Requirements (as needed): 5. Affidavit of Non-Tenancy;",
+        "where_to_secure": "• Notary Public;"
+      },
+      {
+        "requirement": "Waiver of Tenant;",
+        "where_to_secure": "• Notary Public;"
+      },
+      {
+        "requirement": "Neighborhood Consent;",
+        "where_to_secure": "• Applicant's file, with signature from neighbors;"
+      },
+      {
+        "requirement": "Barangay Clearance.",
+        "where_to_secure": "• Barangay Hall;"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "isumite ang application form kalakip ang mga kailangang dokumento.",
+        "agencyAction": "Suriin ang Zoning Application kasama ang mga kailangang dokumento.",
+        "processing_time": "20 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Bigyan ng Order of Payment.",
+        "processing_time": "20 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Iproseso ang Zoning Certificate.",
+        "processing_time": "20 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Magbayad sa Treasury Office at isumite ang photocopy ng resibo",
+        "agencyAction": "Bigyan ng Opisyal na Resibo",
+        "processing_time": "2 minuto",
+        "fee": "Ayon sa Schedule ng Zoning Certificate Fees"
+      },
+      {
+        "step": 5,
+        "action": "Tanggapin Zoning Certificate",
+        "agencyAction": "Ibigay at palagdaan ang kopya ng Zoning Certificate",
+        "processing_time": "1 minuto",
+        "fee": "Ayon sa Zoning Certificate Fees"
+      }
+    ],
+    "processingTime": "26 minuto",
+    "fees": {
+      "amount": "Ayon sa Zoning Certificate Fees",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "CITY PLANNING & DEVELOPMENT OFFICE Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Pagproseso ng pagpapalabas ng Zoning Certificate. SCHEDULE OF FEES for Zoning Certificate: Below 1 ha.: PhP0.02/sq.m. 1 ha, or more: PhP0.04/sq.m. Processing and Filing Fees: PhP100.00"
+  },
+  {
+    "service": "Kahilingan para sa pagkumpuni at pangangalaga ng mga kagamitan sa ibang Ahensya. Pagkukumpuni at Pangangalaga ng mga kagamitan sa ibang Ahensya",
+    "slug": "kahilingan-para-sa-pagkumpuni-at-pangangalaga-ng-mga-kagamitan-sa-ibang-ahensya-pagkukumpuni-at-pangangalaga-ng-mga-kagamitan-sa-ibang-ahensya",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "4",
+    "officeDivision": "GSO - Building Maintenance Section",
+    "classification": "Simple",
+    "typeOfTransaction": "G2G-Government to Government",
+    "whoMayAvail": "Other Agency",
+    "officeSlug": [
+      "city-general-services-office"
+    ],
+    "category": {
+      "name": "Infrastructure & Public Works",
+      "slug": "infrastructure-public-works"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Request Form",
+        "where_to_secure": "GSO/ Building Maintenance Section"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Punan ang Request Form",
+        "agencyAction": "Tanggapin at suriin ang Request Form",
+        "processing_time": "15 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Pag-apruba sa kagamitan na ipapagawa If Personnel is a Available: Lagyan ng \"APPROVED\" ang Request Form If not Available: Bigyan ng bagong schedule para sa pagkumpuni",
+        "processing_time": "15 minuto"
+      }
+    ],
+    "processingTime": "15 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City General Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "N/A\\"
+  },
+  {
+    "service": "Land Use Reclassification",
+    "slug": "land-use-reclassification",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "2",
+    "officeDivision": "CPDO - Planning, Land Use, & Zoning Division",
+    "classification": "Complex",
+    "typeOfTransaction": "G2C - Government to Citizen",
+    "whoMayAvail": "Registered Landowners of Lots in Calamba City",
+    "officeSlug": [
+      "city-planning-and-development-office"
+    ],
+    "category": {
+      "name": "Infrastructure & Public Works",
+      "slug": "infrastructure-public-works"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Letter Request, addressed to City Mayor thru CPDO;",
+        "where_to_secure": "Applicant's personal file"
+      },
+      {
+        "requirement": "Authority of the requesting party, if other than registered lot owner",
+        "where_to_secure": "Applicant's file"
+      },
+      {
+        "requirement": "Transfer Certificate of Title (TCT), Tax Declaration (TD), and Current Tax Receipt of property;",
+        "where_to_secure": "Registry of Deeds (RD), City Assessor's Office, and City Treasury & Management Office"
+      },
+      {
+        "requirement": "Survey Plan and Vicinity Map",
+        "where_to_secure": "Licensed Geodetic Engineer"
+      },
+      {
+        "requirement": "Clearance from Municipal Agrarian Reform Office (MARO)",
+        "where_to_secure": "MARO/PARO"
+      },
+      {
+        "requirement": "Certification from the National Irrigation Authority (NIA)",
+        "where_to_secure": "NIA"
+      },
+      {
+        "requirement": "Barangay Resolution (endorsing the re-classification)",
+        "where_to_secure": "Barangay Hall"
+      },
+      {
+        "requirement": "Certification from the Barangay Agrarian Reform Council (BARC) Chairman",
+        "where_to_secure": "Barangay Hall"
+      },
+      {
+        "requirement": "Affidavit of Non-Tenancy or Waiver of Tenant.",
+        "where_to_secure": "Applicant's file, duly notarized by a Notary Public."
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang sulat kahilingan para sa re-classification ng lupa at mga kinakailangang dokumento",
+        "agencyAction": "Suriin ang mga dokumento. Kapag kumpleto: Tatakan ng \"Received\" at Isumite sa Sanggunian Panlungsod. Kapag hindi kumpleto: Ibalik sa kliyente at tatakan ng \"For Completion / Correction,\"",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Isagawa ang Inspeksyon at gawaan ng Inspection Report",
+        "processing_time": "1 araw"
+      },
+      {
+        "step": 3,
+        "action": "Humingi ng kopya ng Ordinansa sa Sanggunian Panlungsod at isumite",
+        "agencyAction": "Tanggapin ang kopya ng Resolusyon at Ordinansa (for filing and recording)",
+        "processing_time": "1 minuto"
+      }
+    ],
+    "processingTime": "1 araw at 11 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "CITY PLANNING & DEVELOPMENT OFFICE Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Pagproseso ng pagre-reclassify ng mga lupaing sakop ng Agriculture and Fisheries Modernization Act (AFMA). Ang resolusyon at ordinansa na manggagaling sa Sanggunian Panlungsod ay tatagal ng higit isang (1) buwan."
+  },
+  {
+    "service": "Paghahanda Ng Programa sa Paggawa Ng Mga Proyektong Imprastraktura",
+    "slug": "paghahanda-ng-programa-sa-paggawa-ng-mga-proyektong-imprastraktura",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "1",
+    "officeDivision": "Tanggapan ng Inhinyeriyang Panlungsod at Tagapagsulong ng Imprastraktura",
+    "classification": "Complex",
+    "typeOfTransaction": "G2G-Government to Government",
+    "whoMayAvail": "Barangay Officials, DepEd",
+    "officeSlug": [
+      "city-engineer"
+    ],
+    "category": {
+      "name": "Infrastructure & Public Works",
+      "slug": "infrastructure-public-works"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Liham ng kahilingan o Resolusyon ng Barangay na nagsasaad ng kailangang serbisyo",
+        "where_to_secure": "Kliyente"
+      },
+      {
+        "requirement": "Liham ng kahilingan ng DepEd kalakip ang PPMP na nagsasaad ng budget para sa kanilang serbisyo",
+        "where_to_secure": "Kliyente"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Magbigay ng liham ng kahilingan sa nakatalang tauhan",
+        "agencyAction": "Tatanggapin at itatala ng nakatalagang tauhan ang lahat ng liham ng kahilingan o resolusyon at ito ay ibibigay sa Punong Inhinyero.",
+        "processing_time": "3 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Susuriin ng Punong Inhinyero ang nasabing kahilingan o resolusyon at ito ay ipapasa sa nakatalagang dibisyon..",
+        "processing_time": "3 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Pag-aaralan ng hepe ng dibisyon ang kahilingang ito at magtatala ng iskedyul ng inspeksyon sa lugar.",
+        "processing_time": "3 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Processing...",
+        "agencyAction": "Ang nakatalagang mga Inhinyero/Arkitekto ay makiki-pag-usap sa tauhan ng opisyal ng DepEd/Barangay upang maisagawa ang inspeksyon sa lugar at magprepara nang sketch plan.",
+        "processing_time": "2 oras"
+      },
+      {
+        "step": 5,
+        "action": "Processing...",
+        "agencyAction": "Pagsusukat ng lupa at paghahanda ng plano para: a. Matiyak ang tamang sukat na nakasaad mula sa titulo ng lote na pagtatayuan ng proyekto b. Malaman kung mayroong ibang istraktura o pagmamay-ari na maapektuhan ng isasagawang proyekto",
+        "processing_time": "1-2 araw"
+      },
+      {
+        "step": 6,
+        "action": "Processing...",
+        "agencyAction": "Kung ang apektado ay pribadong pagmamay-ari, ihahanda ang mga legal na dokumento para sa pagbili ng matatamaang bahagi ng property. Kung ilegal na istraktura ang apektado, makikipag-ugnayan sa kinauukulang ahensya at indibidwal para sa isasagawang demolisyon (sumangguni sa #8 ng lathaling ito)",
+        "processing_time": "1-1 1/2 buwan"
+      },
+      {
+        "step": 7,
+        "action": "Processing...",
+        "agencyAction": "Pagsisiyasat at pagprepara ng istruktural na disenyo ayon sa resulta ng pagsusuri ng lupa. (kung kinakailangan lamang)",
+        "processing_time": "3 araw (vertical)"
+      },
+      {
+        "step": 8,
+        "action": "Processing...",
+        "agencyAction": "Paghahanda ng detalyadong plano. (kung kinakailangan lamang)",
+        "processing_time": "2 araw (horizontal) 5 araw (vertical) 1 buwan (Special Project)"
+      },
+      {
+        "step": 9,
+        "action": "Processing...",
+        "agencyAction": "Paghahanda ng Programa sa Paggawa kasama na ang listahan ng mga materyales, detalye, iskedyul ng konstruksyon, pinagtibay na badyet para sa kontrata.",
+        "processing_time": "2 araw (horizontal) 5 araw (vertical) 10 araw (Special Project)"
+      },
+      {
+        "step": 10,
+        "action": "Processing...",
+        "agencyAction": "Paghahanda nang teknikal na pagtutukoy sa bawat programa sa paggawa.",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 11,
+        "action": "Processing...",
+        "agencyAction": "Susuriin ng hepe ng dibisyon at irerekomenda ng Punong Inhinyero ang mga detalyadong plano at dokumento ng programa sa paggawa bago ito pagtibayin ng Punong Lungsod o ng Kapitan ng Barangay.",
+        "processing_time": "30 minuto"
+      },
+      {
+        "step": 12,
+        "action": "Processing...",
+        "agencyAction": "Ipapadala ang nasabing dokumento sa Punong Lungsod o Kapitan ng Barangay para sa pagpapatibay.",
+        "processing_time": "1-2 araw"
+      },
+      {
+        "step": 13,
+        "action": "Processing...",
+        "agencyAction": "Ang aprubadong Programa sa Paggawa ay isusumite sa Tanggapan ng Pananalapi, Tanggapan ng Accounting at Tanggapan ng Tresurero para sa Sertipiko ng Pondo o Certificate of Availability of Fund (CAF).",
+        "processing_time": "3 minuto"
+      },
+      {
+        "step": 14,
+        "action": "Processing...",
+        "agencyAction": "Pagsusumite ng mga nasabing plano at programa sa paggawa (POW) kalakip ang CAF sa Komite ng Pagtatawad at Gawad o Bids and Awards Committee (BAC).",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 15,
+        "action": "Processing...",
+        "agencyAction": "Ang lahat ng detalyadong plano at dokumento ng programa sa paggawa ay itatala ng nakatalagang tauhan sa opisina para sa maayos na pagtabi.",
+        "processing_time": "5 minuto (Horizontal) 8 araw, 3 oras at 7 minuto (Vertical) 17 araw, 3 oras At 7 minuto (Special Project)"
+      }
+    ],
+    "processingTime": "1 buwan, 10 araw, 3 oras at 7 minuto",
+    "fees": {
+      "amount": "Walang Babayaran",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "CITY ENGINEERING SERVICES & INFRASTRUCTURE DEVELOPMENT DEPARTMENT Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Karagdagan: 1-1 1½ buwan kung may apektadong istraktura sa lokasyon ng proyekto"
+  },
+  {
+    "service": "Pagkukumpuni at pagsasaayos ng daluyan ng tubig gaya ng kanal, sapa at iba pa (Repair, Clearing and Desilting of Drainage Canal etc.)",
+    "slug": "pagkukumpuni-at-pagsasaayos-ng-daluyan-ng-tubig-gaya-ng-kanal-sapa-at-iba-pa-repair-clearing-and-desilting-of-drainage-canal-etc",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "6",
+    "officeDivision": "Tanggapan ng Inhinyeriyang Panlungsod at Tagapagsulong ng Imprastraktura",
+    "classification": "Simple",
+    "typeOfTransaction": "G2G-Government to Government",
+    "whoMayAvail": "Barangay Officials",
+    "officeSlug": [
+      "city-engineer"
+    ],
+    "category": {
+      "name": "Infrastructure & Public Works",
+      "slug": "infrastructure-public-works"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Liham ng Kahilingan",
+        "where_to_secure": "Kliyente"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Magbigay ng liham ng kahilingan para sa pagkukumpuni at pagsasaayos ng daluyan ng tubig gaya ng kanal, sapa at iba pa (Repair, Clearing and Desilting of Drainage Canal, etc.)",
+        "agencyAction": "Tatanggapin at itatala ng nakatalagang tauhan ang lahat ng liham ng kahilingan at ito ay ipapasa sa Punong Inhinyero.",
+        "processing_time": "3 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Susuriin ng Punong Inhinyero ang nasabing kahilingan at ito ay ipapadala sa Dibisyon ng Pagsasaayos at Pagpapanatili.",
+        "processing_time": "3 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Isasaayos ang iskedyul ng kahilingan na nakaayon sa first come, first serve basis o sa agarang pangangailangan (base sa inspeksyon na isasagawa ng nakatalagang dibisyon)",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Processing...",
+        "agencyAction": "Pagsasagawa ng kahilingan ayon sa iskedyul na nakatakda.",
+        "processing_time": "1-2 araw Depende sa lawig ng gawain"
+      }
+    ],
+    "processingTime": "2 araw at 11 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "CITY ENGINEERING SERVICES & INFRASTRUCTURE DEVELOPMENT DEPARTMENT Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pagkukumpuni ng pagpapailaw sa kalsada (Streetlight Repair)",
+    "slug": "pagkukumpuni-ng-pagpapailaw-sa-kalsada-streetlight-repair",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "5",
+    "officeDivision": "Tanggapan ng Inhinyeriyang Panlungsod at Tagapagsulong ng Imprastraktura",
+    "classification": "Simple",
+    "typeOfTransaction": "G2G-Government to Government",
+    "whoMayAvail": "Barangay Officials",
+    "officeSlug": [
+      "city-engineer"
+    ],
+    "category": {
+      "name": "Infrastructure & Public Works",
+      "slug": "infrastructure-public-works"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Liham ng Kahilingan",
+        "where_to_secure": "Kliyente"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Magbigay ng liham ng kahilingan para sa pagkukumpuni ng pagpapailaw sa kalsada- (Streetlight Repair).",
+        "agencyAction": "Tatanggapin at itatala ng nakatalagang tauhan ang lahat ng liham ng kahilingan at ito ay ipapasa sa Punong Inhinyero..",
+        "processing_time": "3 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Susuriin ng Punong Inhinyero ang nasabing kahilingan at ito ay ipapadala sa Dibisyon ng Pagsasaayos at Pagpapanatili.",
+        "processing_time": "3 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Isasaayos ang iskedyul ng pagkukumpuni ng ilaw sa kalsada",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Processing...",
+        "agencyAction": "Pagkukumpuni ng ilaw sa kalsada. (Streetlight Repair)",
+        "processing_time": "4 oras"
+      }
+    ],
+    "processingTime": "4 oras at 11 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "CITY ENGINEERING SERVICES & INFRASTRUCTURE DEVELOPMENT DEPARTMENT Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pagpapahiram ng Medical Transporter (Ambulance) Paghatid o pagsundo ng pasyente sa ospital",
+    "slug": "pagpapahiram-ng-medical-transporter-ambulance-paghatid-o-pagsundo-ng-pasyente-sa-ospital",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "1",
+    "officeDivision": "GSO - Administrative Division",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "All Calambeños with voter's ID",
+    "officeSlug": [
+      "city-general-services-office"
+    ],
+    "category": {
+      "name": "Infrastructure & Public Works",
+      "slug": "infrastructure-public-works"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Request Form",
+        "where_to_secure": "GSO/Administrative Division"
+      },
+      {
+        "requirement": "Medical Abstract / Certificate (photocopy)",
+        "where_to_secure": "Hospital"
+      },
+      {
+        "requirement": "Endorsement Letter",
+        "where_to_secure": "Barangay"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Punan ang Request Form at isumite ang mga kailangan dokumento",
+        "agencyAction": "Tanggapin at suriin ang mga dokumento.",
+        "processing_time": "15 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Pag-apruba sa hiling na Medical Transporter (Ambulance) If Available: Tatakan ng \"APPROVED\" ang Request Form If Not Available: Abisuhan ang kliyente na sa Brgy. na lang humiram at bibigyan na lang ng Gas Slip",
+        "processing_time": "15 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Ipahiram ang Medical Transporter (Ambulance)",
+        "processing_time": "2 minuto"
+      }
+    ],
+    "processingTime": "17 minuto",
+    "fees": {
+      "amount": "Walang babayaran",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City General Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pagpapahiram ng Pansamantalang Entablado, Sasakyan at Heavy Equipment ng Pamahalaang Lungsod",
+    "slug": "pagpapahiram-ng-pansamantalang-entablado-sasakyan-at-heavy-equipment-ng-pamahalaang-lungsod",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "4",
+    "officeDivision": "Tanggapan ng Inhinyeriyang Panlungsod at Tagapagsulong ng Imprastraktura",
+    "classification": "Simple",
+    "typeOfTransaction": "G2G-Government to Government, G2C-Government to Citizens",
+    "whoMayAvail": "Barangay Officials, DepEd, Citizens",
+    "officeSlug": [
+      "city-engineer"
+    ],
+    "category": {
+      "name": "Infrastructure & Public Works",
+      "slug": "infrastructure-public-works"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Liham ng Kahilingan",
+        "where_to_secure": "Kliyente"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Magbigay ng liham ng kahilingan sa panghihiram ng pansamantalang entablado o paghiram ng sasakyan ng pamahalaang lungsod.",
+        "agencyAction": "Tatanggapin at itatala ng nakatalagang tauhan ang lahat ng liham ng kahilingan at ito ay ipapasa sa Punong Inhinyero.",
+        "processing_time": "3 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Susuriin ng Punong Inhinyero ang nasabing kahilingan at ito ay ipapadala sa Dibisyon ng Pagsasaayos at Pagpapanatili.",
+        "processing_time": "3 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Isasaayos ang iskedyul ng paghiram ng pansamantalang entablado at sasakyan ng pamahalaang lungsod.",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Processing...",
+        "agencyAction": "Pakikipag-ugnayan sa mga taong humiling, opisyal ng barangay o DepEd ukol sa hinihiram na pansamantalang entablado, sasakyan at heavy equipment at isasakatuparan ang naturang hiling. (Pagtatayo o pagtatanggal ng pansamantalang entablado sa mga lugar na nakatakda; Pagbibigay ng permiso para makabiyahe ang mga sasakyang panggobyerno.)",
+        "processing_time": "4 oras"
+      }
+    ],
+    "processingTime": "4 oras at 11 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "CITY ENGINEERING SERVICES & INFRASTRUCTURE DEVELOPMENT DEPARTMENT Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pagpapahiram ng Serbisyong Sasakyan (FB / Bus / Coaster) Pagpapahiram ng Serbisyong Sasakyan",
+    "slug": "pagpapahiram-ng-serbisyong-sasakyan-fb-bus-coaster-pagpapahiram-ng-serbisyong-sasakyan",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "3",
+    "officeDivision": "GSO-Transportation Maintenance Section",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Government Offices, Private Organizations, Schools, Churches, Barangays in Calamba",
+    "officeSlug": [
+      "city-general-services-office"
+    ],
+    "category": {
+      "name": "Infrastructure & Public Works",
+      "slug": "infrastructure-public-works"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Sulat ng kahilingan",
+        "where_to_secure": "Kliyente"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang sulat ng kahilingan",
+        "agencyAction": "Tanggapin at suriin ang sulat kahilingan",
+        "processing_time": "2 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "I-beripika kung mayroong available na sasakyan sa nakasaad na petsa. If Available: Lagyan ng \"APPROVED\" ang Sulat Kahilingan If not Available: Gamit ang lahat ng sasakyan o bigyan ng bagong schedule",
+        "processing_time": "30 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": ". Ipahiram ang Serbisyong Sasakyan"
+      }
+    ],
+    "processingTime": "32 minuto",
+    "fees": {
+      "amount": "Walang babayaran",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City General Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pagpapahiram ng Tolda, Mesa at Upuan Paghiram ng tolda, lamesa at upuan",
+    "slug": "pagpapahiram-ng-tolda-mesa-at-upuan-paghiram-ng-tolda-lamesa-at-upuan",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "2",
+    "officeDivision": "GSO - Building Maintenance Section",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Private Organizations, Schools, Churches, Barangays in Calamba",
+    "officeSlug": [
+      "city-general-services-office"
+    ],
+    "category": {
+      "name": "Infrastructure & Public Works",
+      "slug": "infrastructure-public-works"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Sulat ng kahilingan",
+        "where_to_secure": "Kliyente"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang sulat ng kahilingan",
+        "agencyAction": "Tanggapin at suriin ang sulat kahilingan.",
+        "processing_time": "4 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "I-beripika kung mayroong available na tolda, mesa o upuan sa nakasaad na petsa. If Available: Lagyan ng \"APPROVED\" ang sulat kahilingan If not Available: Walang Available na Tolda, Mesa at Upuan",
+        "processing_time": "4 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Kuhanin ang hiniram na Tolda, Lamesa at Upuan",
+        "agencyAction": "Ibigay ang hinihiram na Tolda, Mesa at Upuan",
+        "processing_time": "10 minuto"
+      }
+    ],
+    "processingTime": "14 minuto",
+    "fees": {
+      "amount": "Walang babayaran",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City General Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pagpapanatili ng kaayusan ng Sewerage Treatment Plant (STP)",
+    "slug": "pagpapanatili-ng-kaayusan-ng-sewerage-treatment-plant-stp",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "7",
+    "officeDivision": "Tanggapan ng Inhinyeriyang Panlungsod at Tagapagsulong ng Imprastraktura",
+    "classification": "Simple",
+    "typeOfTransaction": "G2G-Government to Government",
+    "whoMayAvail": "City Hall, Tanggapan ng BJMP, Mercado de Calamba",
+    "officeSlug": [
+      "city-engineer"
+    ],
+    "category": {
+      "name": "Infrastructure & Public Works",
+      "slug": "infrastructure-public-works"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Tala ng pagmomonito",
+        "where_to_secure": "Tanggapan ng Engineering"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Ilalahad ang tala o report liham ng kahilingan para sa pagpapanatili ng kaayusan ng Sewerage Treatment Plant (STP).",
+        "agencyAction": "Tatanggapin at itatala ng nakatalagang tauhan ang lahat ng liham ng kahilingan at ito ay ipapasa sa Punong Inhinyero.",
+        "processing_time": "3 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Susuriin ng Punong Inhinyero ang nasabing kahilingan at ito ay ipapadala sa Dibisyon ng Pagsasaayos at Pagpapanatili.",
+        "processing_time": "3 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Isasaayos ang iskedyul ng pagpapanatili ng kaayusan ng Sewerage Treatment Plant (STP).",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Processing...",
+        "agencyAction": "Pagpapanatili ng kaayusan ng Sewerage Treatment Plant (STP).",
+        "processing_time": "4 oras"
+      }
+    ],
+    "processingTime": "4 oras at 11 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "CITY ENGINEERING SERVICES & INFRASTRUCTURE DEVELOPMENT DEPARTMENT Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pagsasaayos at Pagpapanatili ng Imprastraktura / Gusali",
+    "slug": "pagsasaayos-at-pagpapanatili-ng-imprastraktura-gusali",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "3",
+    "officeDivision": "Tanggapan ng Inhinyeriyang Panlungsod at Tagapagsulong ng Imprastraktura",
+    "classification": "Simple",
+    "typeOfTransaction": "G2G-Government to Government",
+    "whoMayAvail": "Barangay Officials, DepEd, Citizens",
+    "officeSlug": [
+      "city-engineer"
+    ],
+    "category": {
+      "name": "Infrastructure & Public Works",
+      "slug": "infrastructure-public-works"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Liham ng Kahilingan",
+        "where_to_secure": "Kliyente"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Magbigay ng liham ng kahilingan sa nakatalagang tauhan.",
+        "agencyAction": "Tatanggapin at itatala ng nakatalagang tauhan ang lahat ng liham ng kahilingan at ito ay ipapasa sa Punong Inhinyero.",
+        "processing_time": "3 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Susuriin ng Punong Inhinyero ang nasabing liham at ito ay ipapadala sa Dibisyon ng Pagsasaayos at Pagpapanatili.",
+        "processing_time": "3 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Ang nakatalagang mga inhinyero ay makikipag-ugnayan sa taong humiling o sa mga opisyales ng barangay o DepEd at magsasagawa ng inspeksyon sa lugar",
+        "processing_time": "2 oras"
+      },
+      {
+        "step": 4,
+        "action": "Processing...",
+        "agencyAction": "Paghahanda ng ulat ng pagsisiyasat. i. Sketch plan kalakip ang listahan nang materyales na gagamitin para sa pagsasaayos at pagpapanatili (kung kinakailangan lamang) ii. Rekomendasyon para sa angkop na paggawa",
+        "processing_time": "1 araw (horizontal) 3 araw (vertical)"
+      },
+      {
+        "step": 5,
+        "action": "Processing...",
+        "agencyAction": "Susuriin ng Punong Inhinyero ang ulat ng pagsisiyasat na may rekomendasyon para sa angkop napagsasagawa kasunod ng pagtitibay ng Punong Lungsod.",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 6,
+        "action": "Processing...",
+        "agencyAction": "Pagsasagawa ng hiniling na pagsasa-ayos o pagpapanatili ng proyektong imprastraktura o gusali.",
+        "processing_time": "Depende sa lawig o lawak ng aayusin o gawain. (Horizontal) 1 araw, 2 oras, 16 minuto (Vertical) 3 araw, 2 oras, 16 minuto"
+      }
+    ],
+    "processingTime": "(Horizontal) 1 araw, 2 oras, 16 minuto (Vertical) 3 araw, 2 oras, 16 minuto",
+    "fees": {
+      "amount": "Walang Babayaran",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "CITY ENGINEERING SERVICES & INFRASTRUCTURE DEVELOPMENT DEPARTMENT Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Karagdagan: Aktwal na pagsasagawa ay nakadepende sa lawig ng gawain"
+  },
+  {
+    "service": "Pagsubaybay sa Pagsasagawa ng mga Proyektong Imprastraktura / Gusali",
+    "slug": "pagsubaybay-sa-pagsasagawa-ng-mga-proyektong-imprastraktura-gusali",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "2",
+    "officeDivision": "Tanggapan ng Inhinyeriyang Panlungsod at Tagapagsulong ng Imprastraktura",
+    "classification": "Complex",
+    "typeOfTransaction": "G2B-Government to Business",
+    "whoMayAvail": "Contractors",
+    "officeSlug": [
+      "city-engineer"
+    ],
+    "category": {
+      "name": "Infrastructure & Public Works",
+      "slug": "infrastructure-public-works"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Liham ng Kahilingan",
+        "where_to_secure": "Contractors"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Magbibigay ng liham ang kontratista nang kahilingan kaugnay sa isinasagawang proyekto sa nakatalagang tauhan ng Tanggapan ng Punong Inhinyero. Tulad ng: a. Pagsisiyasat para sa paglalagay ng istaka at sukat upang masimulan ang proyekto. b. Pagsisiyasat sa paghuhukay k. Pagsisiyasat sa pagbabakal d. Pagsisiyasat sa pagkakabit ng linya ng kuryente at tubig e. Pagsisiyasat sa pagbubuhos ng konkreto g. Pagsisiyasat sa pagtatapos ng proyekto h. Listahan ng napunang pagawain i. Sertipiko na tapos na ang proyekto l. Progreso sa pagsingil",
+        "agencyAction": "Magsasagawa ng inspeksyon ang grupo ng pagsisiyasat sa isinasagawang proyekto ayon sa kahilingan ng kontratista",
+        "processing_time": "2 oras 10 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Paghahanda ng Pahayag ayon sa pagsisiyasat o katayuan ng proyekto.",
+        "processing_time": "2 oras 20 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Kapag ang nasabing proyekto ay 90% nang kumpleto, ang grupo ng pagsisiyasat ay magsasagawa na ng inspeksyon at listahan para sa pagwa-wasto at pagkumpuni sa mga gawang depektibo sa proyekto."
+      },
+      {
+        "step": 4,
+        "action": "Processing...",
+        "agencyAction": "Kapag ang nasabing proyekto ay 100% na, magsusumite ang contractor ng aktwal na pagkakagawa (as-built plan)."
+      },
+      {
+        "step": 5,
+        "action": "Processing...",
+        "agencyAction": "Pagsusuri at pag-apruba ng as-built plan na isinumite ng kontraktor."
+      },
+      {
+        "step": 6,
+        "action": "Processing...",
+        "agencyAction": "Paghahanda ng detalyadong pagtatantya base sa aktwal na pagkakagawa (kung kinakailangan lamang)",
+        "processing_time": "3 araw"
+      },
+      {
+        "step": 7,
+        "action": "Processing...",
+        "agencyAction": "Pagsusuri at pag-abruba ng detalyadong pagtatanya ng as-built plan.",
+        "processing_time": "20 minuto"
+      },
+      {
+        "step": 8,
+        "action": "Processing...",
+        "agencyAction": "Paghahanda ng huling pahayag ng naisagawang gawain.",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 9,
+        "action": "Processing...",
+        "agencyAction": "Paghahanda ng Sertipiko ng Pagtatapos para makasingil ang Kontratista.",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 10,
+        "action": "Processing...",
+        "agencyAction": "Paghahanda at pagsusumite ng liham ng kahilingan sa Tanggapan ng Tagasuri para sa kanilang huling inspekyon sa Proyekto at mga dokumento para sa pagsingil na isusumite sa Accounting Department.",
+        "processing_time": "10 minuto"
+      }
+    ],
+    "processingTime": "5 oras at 20 minuto",
+    "fees": {
+      "amount": "Walang Babayaran",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "CITY ENGINEERING SERVICES & INFRASTRUCTURE DEVELOPMENT DEPARTMENT Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Karagdagan: 3 araw kung kinakailangan"
+  },
+  {
+    "service": "Researching Data Information (Pagkalap ng mga Datos at iba pang Impormasyon)",
+    "slug": "researching-data-information-pagkalap-ng-mga-datos-at-iba-pang-impormasyon",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "1",
+    "officeDivision": "CPDO - Research, Monitoring and Evaluation Division",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan",
+    "officeSlug": [
+      "city-planning-and-development-office"
+    ],
+    "category": {
+      "name": "Infrastructure & Public Works",
+      "slug": "infrastructure-public-works"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Valid School o Company Identification Card (ID)",
+        "where_to_secure": "School / Kliyente"
+      },
+      {
+        "requirement": "Sulat-kahilingan na ipinangalan sa Punong Lungsod sa pamamagitan ng City Planning and Development Coordinator na nakasaad ang bagay ng pagsasaliksik at ang layunin nito",
+        "where_to_secure": "Kliyente"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "**Para sa mga Student Researchers:** 1. Isumite ang sulat kahilingan at mag presinta ng ID at Itanong kung ang kailangang datos ay makukuha.",
+        "agencyAction": "Itala sa logbook ang mga impormasyon ng researcher at pakay nila.",
+        "processing_time": "17 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Ibigay ang mga reference materials.",
+        "processing_time": "17 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Ibigay ang listahan ng mga pahina na kokopyahin at ipa-photocopy",
+        "agencyAction": "Kunin ang ID bago irelease ang mga reference materials",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Ibalik ang hiniram na mga reference materials.",
+        "agencyAction": "Tanggapin ang mga reference materials.",
+        "processing_time": "15 minuto"
+      },
+      {
+        "step": 5,
+        "action": "**Para sa mga hindi estudyanteng nagsasaliksik:** 1. Isumite ang sulat kahilingan at mag presinta ng ID at Itanong kung ang kailangang datos ay makukuha.",
+        "agencyAction": "Suriin ang Sulat Kahilingan at itala ang impormasyon ng kliyente.",
+        "processing_time": "17 minuto"
+      },
+      {
+        "step": 6,
+        "action": "Processing...",
+        "agencyAction": "Ibigay ang mga reference materials",
+        "processing_time": "17 minuto"
+      },
+      {
+        "step": 7,
+        "action": "Ibigay ang listahan ng mga pahina na kokopyahin",
+        "agencyAction": "Kunin ang ID bago irelease ang mga reference materials at bigyan ng Order of Payment",
+        "processing_time": "15 minuto",
+        "fee": "Php2.00 bawat pahina"
+      },
+      {
+        "step": 8,
+        "action": "Magbayad sa Treasury Office",
+        "agencyAction": "Bigyan ng Opisyal na Resibo",
+        "processing_time": "2 minuto"
+      },
+      {
+        "step": 9,
+        "action": "Ipresinta ang Opisyal na Resibo at ipa-photocopy ang reference materials",
+        "agencyAction": "Beripikahin ang resibo at ibigay ang mga reference materials",
+        "processing_time": "2 minuto"
+      },
+      {
+        "step": 10,
+        "action": "Ibalik ang mga reference materials",
+        "agencyAction": "Tanggapin ang mga reference materials.",
+        "processing_time": "15 minuto"
+      },
+      {
+        "step": 11,
+        "action": "**Online / Email:** 1. Isumite ang pormal na sulat kahilingan sa cpdo@calambacity.gov.ph cc: cpdo.rme@gmail.com (nagsasaad ng kadahilanan kung bakit kailangan o saan gagamitin ang mga impormasyon o datos na hinihingi. Ang liham ay dapat mayroong lagda at iba pang contact details).",
+        "agencyAction": "Pagpapadala ng automatic reply bilang tanda na ang kanilang sulat ay natanggap na ng opisina (acknowledging receipt). 1.2. I-endorso ang nasabing sulat sa kinauukulang division.",
+        "processing_time": "2 araw at 55 minuto"
+      },
+      {
+        "step": 12,
+        "action": "Processing...",
+        "agencyAction": "Suriin at isangguni ang sulat para sa mga kinakailangang datos o impormasyon.",
+        "processing_time": "2 araw at 55 minuto"
+      },
+      {
+        "step": 13,
+        "action": "Processing...",
+        "agencyAction": "Ihanda ang sagot o mga datos at impormasyong kinakailangan",
+        "processing_time": "2 araw at 55 minuto"
+      },
+      {
+        "step": 14,
+        "action": "Pagsagot o pagpapadala ng kinakailangang datos o impormasyong hinihingi sa pamamagitan ng email",
+        "agencyAction": "Ibigay ng sagot o impormasyong kinakailangan",
+        "processing_time": "15 minuto"
+      }
+    ],
+    "processingTime": "2 araw, 2 oras at 15 minuto (Maximum para sa Online/Email)",
+    "fees": {
+      "amount": "Php 2.00 bawat pahina (Para sa mga hindi estudyanteng nagsasaliksik)",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "CITY PLANNING & DEVELOPMENT OFFICE Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Provide Data Information ukol sa lungsod, ang nakaraan nito, socio-economic at physical profile lalo na ang development thrusts, comprehensive land use and plan, comprehensive development plan, local climate change adaption plan at iba pa."
+  }
+]

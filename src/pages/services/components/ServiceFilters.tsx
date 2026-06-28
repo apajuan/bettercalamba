@@ -5,7 +5,7 @@ import { getAllOfficeDivisions } from '@/lib/services';
 
 // Types
 export type ServiceSource = 'citizens-charter' | 'community' | 'all';
-export type ClassificationFilter = 'Simple' | 'Complex' | 'all';
+export type ClassificationFilter = 'Simple' | 'Complex' | 'Highly Technical' | 'all';
 
 interface ServiceFiltersProps {
   selectedOfficeDivision: string;
@@ -59,9 +59,23 @@ export default function ServiceFilters({
       <div>
         <div className='mb-3 flex items-center gap-2'>
           <Layers className='text-kapwa-text-disabled h-4 w-4' />
-          <h4 className='text-kapwa-text-strong text-xs font-bold uppercase tracking-wider'>
-            Classification
-          </h4>
+          <div className='group relative flex items-center gap-1.5'>
+            <h4 className='text-kapwa-text-strong text-xs font-bold uppercase tracking-wider'>
+              Classification
+            </h4>
+            <div className='text-kapwa-text-disabled hover:text-kapwa-text-brand flex h-4 w-4 cursor-help items-center justify-center rounded-full border border-current text-[9px] font-bold transition-colors'>
+              i
+            </div>
+            {/* Option B Popover */}
+            <div className='bg-kapwa-bg-surface-raised border-kapwa-border-weak pointer-events-none absolute top-full left-0 z-50 mt-2 w-64 translate-y-2 opacity-0 shadow-lg transition-all group-hover:pointer-events-auto group-hover:translate-y-0 group-hover:opacity-100 rounded-xl border p-4'>
+              <h5 className='text-kapwa-text-strong mb-2 text-[10px] font-bold uppercase tracking-widest'>ARTA Classifications</h5>
+              <ul className='text-kapwa-text-support space-y-2 text-xs'>
+                <li><span className='text-kapwa-text-brand font-bold'>Simple:</span> Max 3 days</li>
+                <li><span className='text-kapwa-text-brand font-bold'>Complex:</span> Max 7 days</li>
+                <li><span className='text-kapwa-text-brand font-bold'>Highly Technical:</span> Max 20 days</li>
+              </ul>
+            </div>
+          </div>
         </div>
         <div className='flex flex-wrap gap-2'>
           <ClassificationBadge
@@ -71,13 +85,21 @@ export default function ServiceFilters({
           />
           <ClassificationBadge
             classification='Simple'
+            title='Maximum of 3 days processing time'
             selected={selectedClassification === 'Simple'}
             onClick={() => onClassificationChange('Simple')}
           />
           <ClassificationBadge
             classification='Complex'
+            title='Maximum of 7 days processing time'
             selected={selectedClassification === 'Complex'}
             onClick={() => onClassificationChange('Complex')}
+          />
+          <ClassificationBadge
+            classification='Highly Technical'
+            title='Maximum of 20 days processing time'
+            selected={selectedClassification === 'Highly Technical'}
+            onClick={() => onClassificationChange('Highly Technical')}
           />
         </div>
       </div>
@@ -159,17 +181,22 @@ interface ClassificationBadgeProps {
   classification: ClassificationFilter;
   selected: boolean;
   onClick: () => void;
-}
-
 function ClassificationBadge({
   classification,
   selected,
   onClick,
-}: ClassificationBadgeProps) {
+  title,
+}: {
+  classification: ClassificationFilter;
+  selected: boolean;
+  onClick: () => void;
+  title?: string;
+}) {
   return (
     <button
       type='button'
       onClick={onClick}
+      title={title}
       className={`transition-all ${
         selected
           ? 'border-kapwa-border-brand bg-kapwa-bg-brand-weak text-kapwa-text-brand'

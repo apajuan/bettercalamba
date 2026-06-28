@@ -35,13 +35,13 @@ OFFICE_MAP = {
     "housing and settlements":         ("social-services-assistance",      "Social Services & Assistance",   "city-social-welfare-and-development-office"),
     "city agricultural":               ("agriculture-economic-development","Agriculture & Economic Development","city-agriculture-office"),
     "city veterinary":                 ("agriculture-economic-development","Agriculture & Economic Development","city-veterinary-office"),
-    "cooperatives and livelihood":     ("agriculture-economic-development","Agriculture & Economic Development","city-agriculture-office"),
+    "cooperatives":                    ("agriculture-economic-development","Agriculture & Economic Development","city-agriculture-office"),
     "city environment":                ("environment-natural-resources",   "Environment & Natural Resources","city-environment-and-natural-resources-office"),
-    "public order and safety":         ("public-safety-security",          "Public Safety & Security",       "city-disaster-risk-reduction-and-management-office"),
+    "public order":                    ("public-safety-security",          "Public Safety & Security",       "city-disaster-risk-reduction-and-management-office"),
     "business permits":                ("business-trade-investment",       "Business, Trade & Investment",   "business-permit-and-licensing-office"),
-    "information investment":          ("business-trade-investment",       "Business, Trade & Investment",   "city-information-office"),
+    "information, investment":         ("business-trade-investment",       "Business, Trade & Investment",   "city-information-office"),
     "city population":                 ("certificates-vital-records",      "Certificates & Vital Records",   "city-civil-registrar"),
-    "city human resources":            ("certificates-vital-records",      "Certificates & Vital Records",   "human-resource-management-office"),
+    "city human resource":             ("certificates-vital-records",      "Certificates & Vital Records",   "human-resource-management-office"),
     "city legal":                      ("certificates-vital-records",      "Certificates & Vital Records",   "city-administrator"),
     "city general services":           ("infrastructure-public-works",     "Infrastructure & Public Works",  "city-general-services-office"),
     "city administration":             ("certificates-vital-records",      "Certificates & Vital Records",   "city-administrator"),
@@ -101,15 +101,25 @@ def strip_num(text: str) -> str:
 
 
 def split_cell_actions(text: str) -> list[str]:
-    # Strip leading numbering like "1.", "1.1", "1.2", "N/A" from each line
     parts = []
-    for l in text.splitlines():
-        l = l.strip()
-        if not l or l.upper() == "N/A":
+    # Split by newlines first
+    for line in text.splitlines():
+        line = line.strip()
+        if not line or line.upper() == "N/A":
             continue
-        l = re.sub(r"^[\d]+\.[\d.]*\s*", "", l).strip()
-        if l:
-            parts.append(l)
+            
+        # Split by inline numbering like "1.1 " or "4.12 "
+        # We use a lookahead to split right before the number
+        for raw_part in re.split(r"(?=(?:^|\s)\d+\.\d+(?:\.\d+)?\s+)", line):
+            l = raw_part.strip()
+            if not l or l.upper() == "N/A":
+                continue
+            
+            # Strip the leading number like "1.", "1.1", "4.12"
+            l = re.sub(r"^[\d]+\.[\d.]*\s*", "", l).strip()
+            if l:
+                parts.append(l)
+                
     if not parts and text.strip().upper() not in ("N/A", ""):
         return [text.strip()] if text.strip() else []
     return parts
@@ -133,19 +143,20 @@ def parse_steps_table(table_raw: str) -> list[dict]:
         agency_parts = split_cell_actions(agency_raw) if agency_raw else []
         time_parts   = split_cell_actions(time_raw)   if time_raw   else []
 
-        # Skip rows where the citizen has no action (N/A) — pure internal agency steps
-        if not client_parts:
+        max_len = max(len(client_parts), len(agency_parts))
+        if max_len == 0:
             continue
 
-        for i in range(len(client_parts)):
-            c = client_parts[i]
-            a = agency_parts[i] if i < len(agency_parts) else (agency_parts[0] if agency_parts else "")
-            t = time_parts[i]   if i < len(time_parts)   else (time_parts[0]   if time_parts   else "")
+        for i in range(max_len):
+            # If there's a missing client action, we just leave it blank instead of N/A so it renders properly as an agency-only step
+            c = client_parts[i] if i < len(client_parts) else ""
+            a = agency_parts[i] if i < len(agency_parts) else (agency_parts[-1] if agency_parts else "")
+            t = time_parts[i]   if i < len(time_parts)   else (time_parts[-1]   if time_parts   else "")
 
             if not c and not a:
                 continue
 
-            step: dict = {"step": step_counter, "action": c or a}
+            step: dict = {"step": step_counter, "action": c or "Processing..."} # Default client action if empty
             if a:
                 step["agencyAction"] = a
             if person_raw:
@@ -200,11 +211,14 @@ def assemble_service(title, svc_num, office_div, classification, txn_type,
 
 def parse_format_a(text: str, profile: dict, cat_slug, cat_name, office_slug) -> list[dict]:
     services = []
-    for block in re.split(r"(?=\n## \d+\.)", text):
-        hm = re.match(r"\n## (\d+)\.\s*(.+?)(?:\n|$)", block)
+    for block in re.split(r"(?=\n## \d+(?:\.[A-Za-z\d]+)*\.?\s)", text):
+        hm = re.match(r"\n## (\d+(?:\.[A-Za-z\d]+)*\.?)\s+(.+?)(?:\n|$)", block)
         if not hm:
             continue
-        svc_num, title = hm.group(1), hm.group(2).strip()
+        svc_num, title = hm.group(1).strip("."), hm.group(2).strip()
+        
+        # In case the title still has some leading numbering, strip it
+        title = re.sub(r"^\d+(?:\.[A-Za-z\d]+)*\.?\s*", "", title).strip()
 
         # Metadata: bold **Key:** Value pairs
         meta_lines, capturing = [], False
@@ -219,9 +233,17 @@ def parse_format_a(text: str, profile: dict, cat_slug, cat_name, office_slug) ->
             m = re.search(rf"\*\*{key}:\*\*\s*([^\*\n]+)", text)
             return m.group(1).strip() if m else ""
 
+        def clean_classification(c: str):
+            if not c: return None
+            c_low = c.lower()
+            if "highly" in c_low: return "Highly Technical"
+            if "complex" in c_low: return "Complex"
+            if "simple" in c_low: return "Simple"
+            return c.split()[0] if c else None
+
         meta_text = " ".join(meta_lines)
         office_div     = bold_meta("Office/Division", meta_text)
-        classification = bold_meta("Classification", meta_text).split()[0] if bold_meta("Classification", meta_text) else None
+        classification = clean_classification(bold_meta("Classification", meta_text))
         txn_type       = bold_meta("Transaction Type", meta_text) or bold_meta("Transaction type", meta_text)
         who_may_avail  = bold_meta("Who May Avail", meta_text) or bold_meta("Who may avail", meta_text)
 
@@ -259,7 +281,7 @@ def parse_format_a(text: str, profile: dict, cat_slug, cat_name, office_slug) ->
 
 def parse_format_b(text: str, profile: dict, cat_slug, cat_name, office_slug) -> list[dict]:
     # Find where the actual services begin — first line matching "N. ... Office/Division:"
-    first_m = re.search(r"(?m)^(\d+)\.\s+.{0,500}?Office/Division:", text)
+    first_m = re.search(r"(?m)^(\d+(?:\.[A-Za-z\d]+)*\.?)\s+.{0,500}?Office/Division:", text)
     if not first_m:
         return []
 
@@ -268,7 +290,7 @@ def parse_format_b(text: str, profile: dict, cat_slug, cat_name, office_slug) ->
     # Find all service start positions by scanning for "^\d+. " lines that have
     # "Office/Division:" within the next 600 chars
     starts = []
-    for m in re.finditer(r"(?m)^(\d+)\.\s+", services_text):
+    for m in re.finditer(r"(?m)^(\d+(?:\.[A-Za-z\d]+)*\.?)\s+", services_text):
         vicinity = services_text[m.start(): m.start() + 600]
         if "Office/Division:" in vicinity:
             starts.append(m.start())
@@ -281,19 +303,29 @@ def parse_format_b(text: str, profile: dict, cat_slug, cat_name, office_slug) ->
         block = services_text[starts[i]: starts[i + 1]]
 
         # Title = text before "Office/Division:" on the first line
-        hm = re.match(r"^(\d+)\.\s+(.+?)(?=\s+Office/Division:)", block)
+        hm = re.match(r"^(\d+(?:\.[A-Za-z\d]+)*\.?)\s+(.+?)(?=\s+Office/Division:)", block)
         if not hm:
             continue
-        svc_num, title = hm.group(1), hm.group(2).strip()
+        svc_num, title = hm.group(1).strip("."), hm.group(2).strip()
+        
+        # In case the title still has some leading numbering, strip it
+        title = re.sub(r"^\d+(?:\.[A-Za-z\d]+)*\.?\s*", "", title).strip()
 
         # Inline metadata (plain text, no bold markers)
         def plain_meta(key, text):
             m = re.search(rf"{re.escape(key)}:\s*([^\n]+?)(?=\s+(?:Classification|Transaction Type|Who May Avail)|$)", text[:600])
             return m.group(1).strip() if m else ""
 
+        def clean_classification(c: str):
+            if not c: return None
+            c_low = c.lower()
+            if "highly" in c_low: return "Highly Technical"
+            if "complex" in c_low: return "Complex"
+            if "simple" in c_low: return "Simple"
+            return c.split()[0] if c else None
+
         office_div    = plain_meta("Office/Division", block)
-        classification_raw = plain_meta("Classification", block)
-        classification = classification_raw.split()[0] if classification_raw else None
+        classification = clean_classification(plain_meta("Classification", block))
         txn_type      = plain_meta("Transaction Type", block)
         who_may_avail = re.search(r"Who May Avail:\s*([^\n]+)", block[:600])
         who_may_avail = who_may_avail.group(1).strip() if who_may_avail else ""

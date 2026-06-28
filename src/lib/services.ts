@@ -105,6 +105,13 @@ export function filterServices(options: ServiceFilterOptions): Service[] {
     );
   }
 
+  // Filter by transaction type
+  if (options.transactionType && options.transactionType !== 'all') {
+    services = services.filter(s =>
+      s.typeOfTransaction?.includes(options.transactionType as string)
+    );
+  }
+
   // Search filter
   if (options.search) {
     const lowerQuery = options.search.toLowerCase();

@@ -14,6 +14,8 @@ export type ServiceType = 'transaction' | 'information';
 // Service source type
 export type ServiceSource = 'citizens-charter' | 'community';
 
+export type TransactionTypeFilter = 'G2C' | 'G2B' | 'G2G' | 'all';
+
 export interface QuickInfo {
   processingTime?: string;
   fee?: string;
@@ -136,6 +138,9 @@ export interface Service {
 
   // NEW: Plain language name (user-friendly version)
   plainLanguageName?: string; // Simplified name following UK GOV.UK plain language principles
+  
+  // NEW: Filipino translation for the service title
+  serviceFilipino?: string;
 
   // NEW: Fee schedule for services that are lists of fees
   feeSchedule?: FeeItem[];
@@ -151,6 +156,7 @@ export interface ServiceFilterOptions {
   officeDivision?: string;
   source?: ServiceSource | 'all';
   classification?: 'Simple' | 'Complex';
+  transactionType?: TransactionTypeFilter;
   search?: string;
 }
 

@@ -1,1 +1,1388 @@
-[]
+[
+  {
+    "service": "Application for Clearance for Graduating Students",
+    "slug": "application-for-clearance-for-graduating-students",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "15",
+    "officeDivision": "CCC - Office of the College Registrar",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Estudyanteng Mamamayan ng Calamba",
+    "officeSlug": [
+      "city-college-of-calamba"
+    ],
+    "category": {
+      "name": "Education & Scholarship",
+      "slug": "education-scholarship"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Application for Graduation Stub",
+        "where_to_secure": "Registrar's Office"
+      },
+      {
+        "requirement": "2 pcs Documentary Stamp",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Birth Certificate",
+        "where_to_secure": "Philippine Statistics Office"
+      },
+      {
+        "requirement": "Prospectus",
+        "where_to_secure": "N/A"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Punan ang online application form para sa graduation",
+        "agencyAction": "Magbigay ng schedule of appointment.",
+        "personResponsible": "Registrar I",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Ipasa ang mga kinakailangang dokumento",
+        "agencyAction": "Ipunin ang mga ipinasang dokumento",
+        "personResponsible": "Registrar I",
+        "processing_time": "5 minuto"
+      }
+    ],
+    "processingTime": "10 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City College of Calamba Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Application for Late Enrollment, Re-Admission and Shifting",
+    "slug": "application-for-late-enrollment-re-admission-and-shifting",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "14",
+    "officeDivision": "CCC - Office of the College Registrar",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Estudyanteng Mamamayan ng Calamba",
+    "officeSlug": [
+      "city-college-of-calamba"
+    ],
+    "category": {
+      "name": "Education & Scholarship",
+      "slug": "education-scholarship"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Evaluation Form",
+        "where_to_secure": "Registrar's Office"
+      },
+      {
+        "requirement": "2x2 picture (Shiftee)",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Official Receipt",
+        "where_to_secure": "Cashier's Office"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Punan ang Form",
+        "agencyAction": "Bigyan ng Opisyal na Resibo",
+        "personResponsible": "Administrative Assistant II",
+        "processing_time": "5 minuto",
+        "fee": "PHP 50.00"
+      },
+      {
+        "step": 2,
+        "action": "Magbayad ng kauukulang halaga sa Cashier's Office",
+        "agencyAction": "Bigyan ng Opisyal na Resibo",
+        "personResponsible": "Administrative Assistant II",
+        "processing_time": "5 minuto",
+        "fee": "PHP 50.00"
+      },
+      {
+        "step": 3,
+        "action": "Isumite ang request form at opisyal na resibo at tanggapin ang shifting form",
+        "agencyAction": "Ibigay ang shifting form.",
+        "personResponsible": "Registrar I",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Punan ang form at isumite.",
+        "agencyAction": "Tanggapin at Ipunin ang Form",
+        "personResponsible": "Registrar I",
+        "processing_time": "5 minuto"
+      }
+    ],
+    "processingTime": "15 minuto",
+    "fees": {
+      "amount": "PHP 50.00",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City College of Calamba Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Application for Temporary ID",
+    "slug": "application-for-temporary-id",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "21",
+    "officeDivision": "CCC - Office of the Student Affairs",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Students",
+    "officeSlug": [
+      "city-college-of-calamba"
+    ],
+    "category": {
+      "name": "Education & Scholarship",
+      "slug": "education-scholarship"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Request Form",
+        "where_to_secure": "Office of the Student Affairs"
+      },
+      {
+        "requirement": "Letter",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "1 x 1 picture",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Filled out forms ID (photocopy guardian)",
+        "where_to_secure": "N/A"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Punan ang request form at isumite ang mga kailangang dokumento",
+        "agencyAction": "Suriin ang dokumento",
+        "personResponsible": "Administrative Aide VI",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Iproseso ang Temporary ID",
+        "personResponsible": "Administrative Aide VI",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Tanggapin ang Temporary ID",
+        "agencyAction": "Ibigay ang Temporary ID",
+        "personResponsible": "Administrative Aide VI",
+        "processing_time": "2 minuto"
+      }
+    ],
+    "processingTime": "12 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City College of Calamba Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Authentication of Documents",
+    "slug": "authentication-of-documents",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "11",
+    "officeDivision": "CCC - Office of the College Registrar",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Estudyanteng Mamamayan ng Calamba",
+    "officeSlug": [
+      "city-college-of-calamba"
+    ],
+    "category": {
+      "name": "Education & Scholarship",
+      "slug": "education-scholarship"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Request Form",
+        "where_to_secure": "Office of the College Registrar"
+      },
+      {
+        "requirement": "Original Copy of the Document",
+        "where_to_secure": "Kliyente"
+      },
+      {
+        "requirement": "Photocopy of the Document to be authenticated",
+        "where_to_secure": "Kliyente"
+      },
+      {
+        "requirement": "Official Receipt",
+        "where_to_secure": "Cashier"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Punan ang request form at magbayad sa Cashier's Office",
+        "agencyAction": "Bigyan ng Opisyal na Resibo",
+        "personResponsible": "Administrative Assistant II",
+        "processing_time": "5 minuto",
+        "fee": "Php 30.00 / document"
+      },
+      {
+        "step": 2,
+        "action": "Ipakita ang request form at opisyal na resibo at antayin ang dokumento.",
+        "agencyAction": "Iproseso at ibigay ang dokumento",
+        "personResponsible": "Registrar I",
+        "processing_time": "5 minuto"
+      }
+    ],
+    "processingTime": "10 minuto",
+    "fees": {
+      "amount": "Php 30.00 / document",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City College of Calamba Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Dropping of Subjects",
+    "slug": "dropping-of-subjects",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "7",
+    "officeDivision": "CCC - Office of the College Registrar",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Estudyanteng Mamamayan ng Calamba",
+    "officeSlug": [
+      "city-college-of-calamba"
+    ],
+    "category": {
+      "name": "Education & Scholarship",
+      "slug": "education-scholarship"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Dropping Form",
+        "where_to_secure": "Registrar's Office"
+      },
+      {
+        "requirement": "Official Receipt",
+        "where_to_secure": "Cashier"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Punan ang dropping form",
+        "agencyAction": "Suriin ang dropping form",
+        "personResponsible": "Registrar I",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Approved: Proceed to Cashier's Office",
+        "personResponsible": "Registrar I",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Disapproved: Consultation with the Dean",
+        "personResponsible": "Registrar I",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Magbayad ng kaukulang halaga sa Cashier's Office",
+        "agencyAction": "Bigyan ng Opisyal na Resibo",
+        "personResponsible": "Administrative Assistant II",
+        "processing_time": "5 minuto",
+        "fee": "Php 25.00 / Subject"
+      },
+      {
+        "step": 5,
+        "action": "Isumite ang nakumpletong dropping form",
+        "agencyAction": "Tanggapin at ipunin ang mga dropping form.",
+        "personResponsible": "Registrar I",
+        "processing_time": "5 minuto"
+      }
+    ],
+    "processingTime": "20 minuto",
+    "fees": {
+      "amount": "Php 25.00 / Subject",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City College of Calamba Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Enrollment for Irregular and Transferee Students",
+    "slug": "enrollment-for-irregular-and-transferee-students",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "2",
+    "officeDivision": "CCC - Office of the College Registrar",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Estudyanteng Mamamayan ng Calamba",
+    "officeSlug": [
+      "city-college-of-calamba"
+    ],
+    "category": {
+      "name": "Education & Scholarship",
+      "slug": "education-scholarship"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Student ID",
+        "where_to_secure": "Previous School"
+      },
+      {
+        "requirement": "Comp Cards",
+        "where_to_secure": "Previous School"
+      },
+      {
+        "requirement": "Transcript of Records (Transferee)",
+        "where_to_secure": "Previous School"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Sagutan ang Online Pre-Registration.",
+        "agencyAction": "Isumite ang listahan ng mga nagpa rehistro sa Office of the Director.",
+        "personResponsible": "College Registrar, Assistant / Associate Professor",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Magtungo sa Office of the Director para sa evaluation at adding of subject",
+        "agencyAction": "I-evaluate ang estudyante at bigyan ng study load.",
+        "personResponsible": "College Registrar, Assistant / Associate Professor",
+        "processing_time": "15 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Kunin ang Registration Form.",
+        "agencyAction": "I-encode ang study load at i-print ang registration from.",
+        "personResponsible": "Registrar I",
+        "processing_time": "5 minuto"
+      }
+    ],
+    "processingTime": "25 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City College of Calamba Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Enrollment for Regular and Freshmen Students",
+    "slug": "enrollment-for-regular-and-freshmen-students",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "1",
+    "officeDivision": "CCC - Office of the College Registrar",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C - Government to Citizen",
+    "whoMayAvail": "Estudyanteng Mamamayan ng Calamba",
+    "officeSlug": [
+      "city-college-of-calamba"
+    ],
+    "category": {
+      "name": "Education & Scholarship",
+      "slug": "education-scholarship"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Registration Form",
+        "where_to_secure": "Office of College Registrar"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Sagutan ang Online Pre-Registration",
+        "agencyAction": "I-enrol ang estudyanteng nagparehistro",
+        "personResponsible": "College Registrar",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Kuhanin ang Registration Form",
+        "agencyAction": "Iprint at ibigay ang Registration Form.",
+        "personResponsible": "Registrar I",
+        "processing_time": "20 minuto"
+      }
+    ],
+    "processingTime": "25 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City College of Calamba Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Exit Clearance or Returning Clearance",
+    "slug": "exit-clearance-or-returning-clearance",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "9",
+    "officeDivision": "CCC - Office of the College Registrar",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Estudyanteng Mamamayan ng Calamba",
+    "officeSlug": [
+      "city-college-of-calamba"
+    ],
+    "category": {
+      "name": "Education & Scholarship",
+      "slug": "education-scholarship"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Leave of Absence Form (for returning clearance)",
+        "where_to_secure": "Registrar's Office"
+      },
+      {
+        "requirement": "Dropping Form (If Applicable)",
+        "where_to_secure": "N/A"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Kumuha ng Exit or Returning clearance, pirmahan at kumpletuhin ang form.",
+        "agencyAction": "Magbigay ng exit clearance o returning clearance",
+        "personResponsible": "Registrar's Staff",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Isumite ang form at hintayin ang kopya",
+        "agencyAction": "Tanggapin at ipunin ang mga Clearance",
+        "personResponsible": "Registrar's Staff",
+        "processing_time": "5 minuto"
+      }
+    ],
+    "processingTime": "10 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City College of Calamba Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Filing of Student Leave of Absence (LOA)",
+    "slug": "filing-of-student-leave-of-absence-loa",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "8",
+    "officeDivision": "CCC - Office of the College Registrar",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Estudyanteng Mamamayan ng Calamba",
+    "officeSlug": [
+      "city-college-of-calamba"
+    ],
+    "category": {
+      "name": "Education & Scholarship",
+      "slug": "education-scholarship"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Leave of Absence Form",
+        "where_to_secure": "Registrar's Office"
+      },
+      {
+        "requirement": "Dropping Form",
+        "where_to_secure": "Registrar's Office"
+      },
+      {
+        "requirement": "Official Receipt",
+        "where_to_secure": "Cashier"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Kumuha ng Leave of Absence at dropping forms.",
+        "agencyAction": "Magbigay ng Leave of Absence form.",
+        "personResponsible": "Registrar I",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Sagutan at pirmahan ang form.",
+        "agencyAction": "Magbigay ng Leave of Absence form.",
+        "personResponsible": "Registrar I",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Magbayad ng kaukulang halaga sa Cashier's Office.",
+        "agencyAction": "Bigyan ng Opisyal na Resibo",
+        "personResponsible": "Administrative Assistant II",
+        "processing_time": "5 minuto",
+        "fee": "Php 25.00 / subject"
+      },
+      {
+        "step": 4,
+        "action": "Isumite ang nakumpletong forms",
+        "agencyAction": "Tanggapin at ipunin ang mga forms",
+        "personResponsible": "Registrar I",
+        "processing_time": "5 minuto"
+      }
+    ],
+    "processingTime": "15 minuto",
+    "fees": {
+      "amount": "Php 25.00 / subject",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City College of Calamba Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Hardware / Software / Network Maintenance and Troubleshooting",
+    "slug": "hardware-software-network-maintenance-and-troubleshooting",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "19",
+    "officeDivision": "CCC - Management Information System Department",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "CCC Students and Teachers",
+    "officeSlug": [
+      "city-college-of-calamba"
+    ],
+    "category": {
+      "name": "Education & Scholarship",
+      "slug": "education-scholarship"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Client Log, Service Request Form",
+        "where_to_secure": "Management Information System Department"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Punan ang Service Request Form",
+        "agencyAction": "Suriin ang Service Request Form",
+        "personResponsible": "Administrative Assistant I",
+        "processing_time": "2 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Isagawa ang maintenance at troubleshooting sa hardware / software / network",
+        "personResponsible": "Administrative Assistant I",
+        "processing_time": "30 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Hintayin ang abiso tungkol sa Status ng Repair",
+        "agencyAction": "Abisuhan ang kliyente tungkol sa Status ng Repair",
+        "personResponsible": "Administrative Assistant I",
+        "processing_time": "3 minuto"
+      }
+    ],
+    "processingTime": "35 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City College of Calamba Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Ang Hardware / Software / Network Maintenance and Troubleshooting ay pwedeng tumagal ng higit sa 30 minuto."
+  },
+  {
+    "service": "Issuance of Certificates (Enrollment, GWA, Medium of Certifications, Graduation, Completion)",
+    "slug": "issuance-of-certificates-enrollment-gwa-medium-of-certifications-graduation-completion",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "6",
+    "officeDivision": "CCC - Office of the College Registrar",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Estudyanteng Mamamayan ng Calamba",
+    "officeSlug": [
+      "city-college-of-calamba"
+    ],
+    "category": {
+      "name": "Education & Scholarship",
+      "slug": "education-scholarship"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Documentary Stamp",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Official Receipt",
+        "where_to_secure": "Cashier"
+      },
+      {
+        "requirement": "Request Form",
+        "where_to_secure": "Office of the College Registrar"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Punan ang request form at magtungo sa Cashier's Office",
+        "agencyAction": "Bigyan ng Opisyal na Resibo",
+        "personResponsible": "Administrative Assistant II",
+        "processing_time": "5 minuto",
+        "fee": "Php 50.00 / page"
+      },
+      {
+        "step": 2,
+        "action": "Magbayad ng kaukulang halaga",
+        "agencyAction": "Bigyan ng Opisyal na Resibo",
+        "personResponsible": "Administrative Assistant II",
+        "processing_time": "5 minuto",
+        "fee": "Php 50.00 / page"
+      },
+      {
+        "step": 3,
+        "action": "Iprisinta ang Request Form at Opisyal na Resibo",
+        "agencyAction": "Bigyan ng Claim Stub",
+        "personResponsible": "Administrative Assistant II",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Tanggapin ang Certificate sa araw na itinakda",
+        "agencyAction": "Ibigay ang dokumento.",
+        "personResponsible": "Registrar I",
+        "processing_time": "15 minuto"
+      }
+    ],
+    "processingTime": "25 minuto",
+    "fees": {
+      "amount": "Php 50.00 / page",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City College of Calamba Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Learning Management System (LMS) Queries and Concerns",
+    "slug": "learning-management-system-lms-queries-and-concerns",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "18",
+    "officeDivision": "CCC - Management Information System Department",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "CCC Students and Teachers",
+    "officeSlug": [
+      "city-college-of-calamba"
+    ],
+    "category": {
+      "name": "Education & Scholarship",
+      "slug": "education-scholarship"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "User Requirements, Logic Design and System Update Manual, Client Query Form",
+        "where_to_secure": "Management Information System Department"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Sagutan ang Client Query Form (Email)",
+        "agencyAction": "Suriin at siyasatin ang Query",
+        "personResponsible": "Associate Professor",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Hintayin ang abiso tungkol sa status ng query.",
+        "agencyAction": "Abisuhan ang kliyente tungkol sa Status ng Query",
+        "personResponsible": "Associate Professor",
+        "processing_time": "4 minuto"
+      }
+    ],
+    "processingTime": "9 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City College of Calamba Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pagbibigay ng Certificate of Good Moral Character",
+    "slug": "pagbibigay-ng-certificate-of-good-moral-character",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "17",
+    "officeDivision": "CCC - Guidance, Counselling, Testing and Career Development Center",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Students",
+    "officeSlug": [
+      "city-college-of-calamba"
+    ],
+    "category": {
+      "name": "Education & Scholarship",
+      "slug": "education-scholarship"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Requisition Form",
+        "where_to_secure": "Guidance, Counselling, Testing and Career Development Center"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Magtungo sa Registrar's Office at kumuha ng Request Form",
+        "agencyAction": "Bigyan ng Opisyal na Resibo",
+        "personResponsible": "Administrative Assistant II",
+        "processing_time": "2 minuto",
+        "fee": "Php 30.00"
+      },
+      {
+        "step": 2,
+        "action": "Magbayad ng kauukulang halaga sa Cashier's Office",
+        "agencyAction": "Bigyan ng Opisyal na Resibo",
+        "personResponsible": "Administrative Assistant II",
+        "processing_time": "2 minuto",
+        "fee": "Php 30.00"
+      },
+      {
+        "step": 3,
+        "action": "Isumite ang request form at Iprisinta ang Opisyal na Resibo",
+        "agencyAction": "Beripikahin at iproseso ang dokumento.",
+        "personResponsible": "Guidance Service Specialist I",
+        "processing_time": "15 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Tanggapin ang dokumento",
+        "agencyAction": "Ibigay ang Certificate of Good Moral Character",
+        "personResponsible": "Guidance Service Specialist I",
+        "processing_time": "3 minuto"
+      }
+    ],
+    "processingTime": "20 minuto",
+    "fees": {
+      "amount": "Php 30.00",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City College of Calamba Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Petition of Opening of Subject",
+    "slug": "petition-of-opening-of-subject",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "10",
+    "officeDivision": "CCC - Office of the College Registrar",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Estudyanteng Mamamayan ng Calamba",
+    "officeSlug": [
+      "city-college-of-calamba"
+    ],
+    "category": {
+      "name": "Education & Scholarship",
+      "slug": "education-scholarship"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Petition Form",
+        "where_to_secure": "Office of the College Registrar"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Kumuha ng petition form.",
+        "agencyAction": "Magbigay ng Petition Form.",
+        "personResponsible": "Registrar I",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Punan, pirmahan at isumite ang petition form.",
+        "agencyAction": "Tanggapin at ipunin ang petition form.",
+        "personResponsible": "Registrar I",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Approved: The course will be offered",
+        "personResponsible": "Registrar I",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Processing...",
+        "agencyAction": "Disapproved: For Consultation with the Dean",
+        "personResponsible": "Registrar I",
+        "processing_time": "5 minuto"
+      }
+    ],
+    "processingTime": "10 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City College of Calamba Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pre-Registration for Entering Freshmen and Transferee",
+    "slug": "pre-registration-for-entering-freshmen-and-transferee",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "3",
+    "officeDivision": "CCC - Office of the College Registrar",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Estudyanteng Mamamayan ng Calamba",
+    "officeSlug": [
+      "city-college-of-calamba"
+    ],
+    "category": {
+      "name": "Education & Scholarship",
+      "slug": "education-scholarship"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Form 138 / Transcript of Record (Transferee)",
+        "where_to_secure": "Previous School"
+      },
+      {
+        "requirement": "Form 137/Copy of Grades (Transferee)",
+        "where_to_secure": "Previous School"
+      },
+      {
+        "requirement": "Honorable Dismissal",
+        "where_to_secure": "Previous School"
+      },
+      {
+        "requirement": "Admission Slip",
+        "where_to_secure": "Previous School"
+      },
+      {
+        "requirement": "Good Moral Character",
+        "where_to_secure": "Previous School"
+      },
+      {
+        "requirement": "Birth Certificate",
+        "where_to_secure": "Philippine Statistics Authority (PSA)"
+      },
+      {
+        "requirement": "Personal Information Sheet",
+        "where_to_secure": "Office of the College Registrar"
+      },
+      {
+        "requirement": "Brgy. Clearance",
+        "where_to_secure": "Barangay"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Sagutan ang online pre-registration mula sa CCCRegs FB Page para makatanggap ng schedule para sa pagpasa ng mga requirements.",
+        "agencyAction": "Magbigay ng schedule para sa pagpapasa ng mga dokumento",
+        "personResponsible": "College Registrar",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Isumite ang lahat ng requirements para makatanggap ng ID number at enrollment stub.",
+        "agencyAction": "Tanggapin at suriin ang lahat ng isinumiteng dokumento.",
+        "personResponsible": "Registrar I",
+        "processing_time": "10 minuto"
+      }
+    ],
+    "processingTime": "15 minutes",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City College of Calamba Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Request for Change of Grades",
+    "slug": "request-for-change-of-grades",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "16",
+    "officeDivision": "CCC-Office of the College Registrar",
+    "classification": "Highly Technical",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Teachers or Students",
+    "officeSlug": [
+      "city-college-of-calamba"
+    ],
+    "category": {
+      "name": "Education & Scholarship",
+      "slug": "education-scholarship"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Letter for change of grade",
+        "where_to_secure": "Estudyante or Teacher"
+      },
+      {
+        "requirement": "Supporting Documents",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Request Form",
+        "where_to_secure": "Office of the College Registrar"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Magpasa ng letter for change of grade/s ng hindi hihigit sa isang (1) buwan pagkatapos maisumite ang mga grades kasama ang mga supporting document/s",
+        "agencyAction": "I-review ang supporting document/s at magrequest ng audience with the Academic Personnel Council kung kinakailangan.",
+        "personResponsible": "College Registrar",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Tanggapin ang kopya ng resolution.",
+        "agencyAction": "Paglalabas ng Resolution sa mga kinauukulan na guro at/o mag-aaral.",
+        "personResponsible": "College Registrar",
+        "processing_time": "5 minuto"
+      }
+    ],
+    "processingTime": "10 minutes",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City College of Calamba Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Ang Deliberation ay tatagal ng isang (1) buwan o higit pa."
+  },
+  {
+    "service": "Request for Completion Form",
+    "slug": "request-for-completion-form",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "13",
+    "officeDivision": "CCC - Office of the College Registrar",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Estudyanteng Mamamayan ng Calamba",
+    "officeSlug": [
+      "city-college-of-calamba"
+    ],
+    "category": {
+      "name": "Education & Scholarship",
+      "slug": "education-scholarship"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Request Form",
+        "where_to_secure": "Registrar's Office"
+      },
+      {
+        "requirement": "Documentary Stamp (Diploma)",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Official Receipt",
+        "where_to_secure": "Cashier"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Punan ang request form",
+        "agencyAction": "Bigyan ng Opisyal na Resibo",
+        "personResponsible": "Administrative Assistant II",
+        "processing_time": "5 minuto",
+        "fee": "PHP 50.00"
+      },
+      {
+        "step": 2,
+        "action": "Magbayad ng kaukulang halaga sa Cashier's Office",
+        "agencyAction": "Bigyan ng Opisyal na Resibo",
+        "personResponsible": "Administrative Assistant II",
+        "processing_time": "5 minuto",
+        "fee": "PHP 50.00"
+      },
+      {
+        "step": 3,
+        "action": "Iprisinta ang request form at Opisyal na Resibo at tanggapin ang dokumento.",
+        "agencyAction": "Ibigay ang dokumento",
+        "personResponsible": "Registrar I",
+        "processing_time": "5 minuto"
+      }
+    ],
+    "processingTime": "10 minuto",
+    "fees": {
+      "amount": "PHP 50.00",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City College of Calamba Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Request for Retrieval of Document",
+    "slug": "request-for-retrieval-of-document",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "20",
+    "officeDivision": "CCC - Records Management Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Teachers and Non Teaching Staff",
+    "officeSlug": [
+      "city-college-of-calamba"
+    ],
+    "category": {
+      "name": "Education & Scholarship",
+      "slug": "education-scholarship"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Request Form",
+        "where_to_secure": "Records Management Office"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Punan ang request form",
+        "agencyAction": "Suriin ang request form",
+        "personResponsible": "Administrative Officer III",
+        "processing_time": "3 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Iproseso ang dokumento",
+        "personResponsible": "Administrative Officer III",
+        "processing_time": "30 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Tanggapin ang dokumento",
+        "agencyAction": "Ibigay ang hinihinging dokumento.",
+        "personResponsible": "Administrative Officer III",
+        "processing_time": "5 minuto"
+      }
+    ],
+    "processingTime": "38 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City College of Calamba Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Request for Second Copy (Registration Form, Comp Card & Diploma)",
+    "slug": "request-for-second-copy-registration-form-comp-card-diploma",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "12",
+    "officeDivision": "CCC - Office of the College Registrar",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Estudyanteng Mamamayan ng Calamba",
+    "officeSlug": [
+      "city-college-of-calamba"
+    ],
+    "category": {
+      "name": "Education & Scholarship",
+      "slug": "education-scholarship"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Request Form",
+        "where_to_secure": "Office of the College Registrar"
+      },
+      {
+        "requirement": "If Request for 2nd Copy of Diploma submit affidavit of loss",
+        "where_to_secure": "Any Legal Office"
+      },
+      {
+        "requirement": "Official Receipt",
+        "where_to_secure": "Cashier"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Punan ang request form",
+        "agencyAction": "Bigyan ng Opisyal na Resibo",
+        "personResponsible": "Administrative Assistant II",
+        "processing_time": "5 minuto",
+        "fee": "PHP 100.00 (Registration Form)<br><br>  <br><br>PHP 50.00 (Comp. Card)<br><br>  <br><br>PHP 300.0 (Diploma)"
+      },
+      {
+        "step": 2,
+        "action": "Magbayad sa Cashier's Office",
+        "agencyAction": "Bigyan ng Opisyal na Resibo",
+        "personResponsible": "Administrative Assistant II",
+        "processing_time": "5 minuto",
+        "fee": "PHP 100.00 (Registration Form)<br><br>  <br><br>PHP 50.00 (Comp. Card)<br><br>  <br><br>PHP 300.0 (Diploma)"
+      },
+      {
+        "step": 3,
+        "action": "Iprisinta ang request form at opisyal na resibo at tanggapin ang dokumento",
+        "agencyAction": "Iproseso at ibigay ang dokumento",
+        "personResponsible": "Registrar I",
+        "processing_time": "10 minuto (Registration Form & Comp Card)"
+      }
+    ],
+    "processingTime": "15 minuto (Registration Form & Comp Card), 14 araw (Diploma)",
+    "fees": {
+      "amount": "PHP 100 (Registration Form), PHP 50 (Comp. Card), PHP 300 (Diploma)",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City College of Calamba Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Makukuha ang kopya ng Diploma sa loob ng labing-apat (14) na araw sapagka't ipapagawa pa ito sa printing press"
+  },
+  {
+    "service": "Request of Copy of Grades",
+    "slug": "request-of-copy-of-grades",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "4",
+    "officeDivision": "CCC - Office of the College Registrar",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Estudyanteng Mamamayan ng Calamba",
+    "officeSlug": [
+      "city-college-of-calamba"
+    ],
+    "category": {
+      "name": "Education & Scholarship",
+      "slug": "education-scholarship"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Documentary Stamp",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Official Receipt",
+        "where_to_secure": "Cashier"
+      },
+      {
+        "requirement": "Request Form",
+        "where_to_secure": "Office of the College Registrar"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Punan ang request form at magtungo sa Cashier's Office",
+        "agencyAction": "Bigyan ng Opisyal na Resibo",
+        "personResponsible": "Administrative Assistant II",
+        "processing_time": "5 minuto",
+        "fee": "Php 30.00"
+      },
+      {
+        "step": 2,
+        "action": "Magbayad ng kaukulang halaga",
+        "agencyAction": "Bigyan ng Opisyal na Resibo",
+        "personResponsible": "Administrative Assistant II",
+        "processing_time": "5 minuto",
+        "fee": "Php 30.00"
+      },
+      {
+        "step": 3,
+        "action": "Iprisinta ang Request Form at Opisyal na Resibo",
+        "agencyAction": "Bigyan ng Claim Stub",
+        "personResponsible": "Administrative Assistant II",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Tanggapin ang Copy of Grades sa araw na itinakda",
+        "agencyAction": "Ibigay ang dokumento.",
+        "personResponsible": "Registrar I",
+        "processing_time": "2 minuto"
+      }
+    ],
+    "processingTime": "12 minuto",
+    "fees": {
+      "amount": "Php 30.00",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City College of Calamba Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Matatanggap ang Copy of Grades sa loob ng pitong (7) araw ng pagtatrabaho base sa City College of Calamba Registrar's Manual of Operation."
+  },
+  {
+    "service": "Request of Transcript of Records",
+    "slug": "request-of-transcript-of-records",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "5",
+    "officeDivision": "CCC - Office of the College Registrar",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Estudyanteng Mamamayan ng Calamba",
+    "officeSlug": [
+      "city-college-of-calamba"
+    ],
+    "category": {
+      "name": "Education & Scholarship",
+      "slug": "education-scholarship"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Documentary Stamp",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Official Receipt",
+        "where_to_secure": "Cashier"
+      },
+      {
+        "requirement": "Request Form",
+        "where_to_secure": "Office of the College Registrar"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Punan ang request form at magtungo sa Cashier's Office",
+        "agencyAction": "Bigyan ng Opisyal na Resibo",
+        "personResponsible": "Administrative Assistant II",
+        "processing_time": "5 minuto",
+        "fee": "Php 50.00 / page"
+      },
+      {
+        "step": 2,
+        "action": "Magbayad ng kaukulang halaga",
+        "agencyAction": "Bigyan ng Opisyal na Resibo",
+        "personResponsible": "Administrative Assistant II",
+        "processing_time": "5 minuto",
+        "fee": "Php 50.00 / page"
+      },
+      {
+        "step": 3,
+        "action": "Iprisinta ang Request Form at Opisyal na Resibo",
+        "agencyAction": "Bigyan ng Claim Stub",
+        "personResponsible": "Administrative Assistant II",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Tanggapin ang Transcript of Records sa araw na itinakda",
+        "agencyAction": "Ibigay ang dokumento.",
+        "personResponsible": "Registrar I",
+        "processing_time": "2 minuto"
+      }
+    ],
+    "processingTime": "12 minuto",
+    "fees": {
+      "amount": "Php 50.00 / page",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City College of Calamba Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Matatanggap ang Copy of Grades sa loob ng pitong (7) araw ng pagtatrabaho base sa City College of Calamba Registrar's Manual of Operation."
+  }
+]

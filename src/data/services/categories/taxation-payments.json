@@ -1,1 +1,2206 @@
-[]
+[
+  {
+    "service": "Certificate of No Improvement",
+    "slug": "certificate-of-no-improvement",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "4",
+    "officeDivision": "City Assessment Office -Appraisal Division",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen, G2B - Government to Business Entity, G2G - Government to Government",
+    "whoMayAvail": "All Property Owners / Administrators in Calamba City",
+    "officeSlug": [
+      "city-assessor"
+    ],
+    "category": {
+      "name": "Taxation & Payments",
+      "slug": "taxation-payments"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Liham ng Kahilingan/ Authorization Letter with Valid ID",
+        "where_to_secure": "Kliyente o Authorized Representative"
+      },
+      {
+        "requirement": "Tax Receipt of request",
+        "where_to_secure": "City Treasury Office"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang sulat kahilingan",
+        "agencyAction": "Tanggapin at suriin ang dokumento at bigyan ng Order of Payment.",
+        "processing_time": "5 minuto, 2 araw"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Isagawa inspection, review and assessment",
+        "processing_time": "5 minuto, 2 araw"
+      },
+      {
+        "step": 3,
+        "action": "Magbayad ng kaukulang halaga",
+        "agencyAction": "Tanggapin ang kaukulang halaga at bigyan ng opisyal na resibo",
+        "processing_time": "2 minuto",
+        "fee": "Php 30.00 per request"
+      },
+      {
+        "step": 4,
+        "action": "Ipresinta ang opisyal na resibo at tanggapin ang sertipikadong dokumento",
+        "agencyAction": "Ibigay ang Sertipikadong kopya ng Dokumento",
+        "processing_time": "5 minuto"
+      }
+    ],
+    "processingTime": "2 araw at 12 minuto",
+    "fees": {
+      "amount": "Php 30.00 per request",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Assessment Office Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Paalala: Makukuha ang dokumento ng hindi hihigit sa tatlong (3) araw ng pagtatrabaho sapagka't dadaan pa ito sa review at inspection ng mga kinauukulan."
+  },
+  {
+    "service": "Issuance of Barangay Jurisdiction",
+    "slug": "issuance-of-barangay-jurisdiction",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "7",
+    "officeDivision": "City Assessment Office - Tax Mapping Operations Division",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen, G2B - Government to Business Entity, G2G - Government to Government",
+    "whoMayAvail": "All Property Owners / Administrators in Calamba City",
+    "officeSlug": [
+      "city-assessor"
+    ],
+    "category": {
+      "name": "Taxation & Payments",
+      "slug": "taxation-payments"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Kopya ng Titulo",
+        "where_to_secure": "Registry of Deeds"
+      },
+      {
+        "requirement": "Request Form",
+        "where_to_secure": "City Assessment Office"
+      },
+      {
+        "requirement": "Authorization Letter with Valid ID's",
+        "where_to_secure": "Property Owner"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Punan ang request form at isumite ang mga kaukulang dokumento",
+        "agencyAction": "Tanggapin at suriin ang mga dokumento at bigyan ng Order of Payment.",
+        "processing_time": "5 minuto, 10 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Iproseso ang dokumento",
+        "processing_time": "5 minuto, 10 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Magbayad ng kaukulang halaga",
+        "agencyAction": "Tanggapin ang kaukulang bayad at bigyan ng opisyal na resibo",
+        "processing_time": "5 minuto",
+        "fee": "Php 50.00"
+      },
+      {
+        "step": 4,
+        "action": "Ipresinta ang opisyal na resibo at tanggapin ang dokumento",
+        "agencyAction": "Ibigay ang mga Sertipikadong kopya ng dokumento",
+        "processing_time": "5 minuto"
+      }
+    ],
+    "processingTime": "25 minuto",
+    "fees": {
+      "amount": "Php 50.00",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Assessment Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Issuance of Certified True Copy of Tax Declaration / Certificate of Aggregate Land Holdings / Certificate of No Property",
+    "slug": "issuance-of-certified-true-copy-of-tax-declaration-certificate-of-aggregate-land-holdings-certificate-of-no-property",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "3",
+    "officeDivision": "City Assessment Office - Appraisal & Assessment Division",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen, G2B - Government to Business Entity, G2G - Government to Government",
+    "whoMayAvail": "All Property Owners / Administrators in Calamba City",
+    "officeSlug": [
+      "city-assessor"
+    ],
+    "category": {
+      "name": "Taxation & Payments",
+      "slug": "taxation-payments"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Authorization Letter with valid ID",
+        "where_to_secure": "Kliyente o Authorized Representative"
+      },
+      {
+        "requirement": "Tax Receipt or Land Title",
+        "where_to_secure": "City Treasury Office or Registry of Deeds"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang kahilingan at ang kaukulang dokumento",
+        "agencyAction": "Tanggapin at suriin ang kahilingan at bigyan ng Order of Payment.",
+        "processing_time": "5 minuto, 8 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Iproseso ang kahilingan at lagyan ng Anotasyon ng mga selyo.",
+        "processing_time": "5 minuto, 8 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Magbayad ng kaukulang halaga",
+        "agencyAction": "Tanggapin ang kaukulang halaga at bigyan ng opisyal na resibo",
+        "processing_time": "2 minuto",
+        "fee": "Php 30.00 per request"
+      },
+      {
+        "step": 4,
+        "action": "Ipresinta ang opisyal na resibo at tanggapin ang dokumento",
+        "agencyAction": "Ibigay ang mga Sertipikadong kopya ng Dokumento",
+        "processing_time": "3 minuto"
+      }
+    ],
+    "processingTime": "18 minuto",
+    "fees": {
+      "amount": "Php 30.00 per request",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Assessment Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Issuance of Certified True Copy of Tax Map",
+    "slug": "issuance-of-certified-true-copy-of-tax-map",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "8",
+    "officeDivision": "City Assessment Office - Tax Mapping Operations Division",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen, G2B - Government to Business Entity, G2G - Government to Government",
+    "whoMayAvail": "All Property Owners / Administrators in Calamba City",
+    "officeSlug": [
+      "city-assessor"
+    ],
+    "category": {
+      "name": "Taxation & Payments",
+      "slug": "taxation-payments"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Kopya ng Titulo",
+        "where_to_secure": "Registry of Deeds"
+      },
+      {
+        "requirement": "Authorization Letter with Valid ID's",
+        "where_to_secure": "Property Owner"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang mga kaukulang dokumento",
+        "agencyAction": "Tanggapin at suriin ang mga dokumento at bigyan ng Order of Payment.",
+        "processing_time": "5 minuto, 10 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Iproseso ang dokumento",
+        "processing_time": "5 minuto, 10 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Magbayad ng kaukulang halaga",
+        "agencyAction": "Tanggapin ang kaukulang halaga at bigyan ng opisyal na resibo",
+        "processing_time": "5 minuto",
+        "fee": "Php 100.00"
+      },
+      {
+        "step": 4,
+        "action": "Ipresinta ang opisyal na resibo at tanggapin ang dokumento",
+        "agencyAction": "Ibigay ang mga Sertipikadong kopya ng Dokumento",
+        "processing_time": "5 minuto"
+      }
+    ],
+    "processingTime": "25 minuto",
+    "fees": {
+      "amount": "Php 100.00",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Assessment Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Issuance of New Tax Declaration for General Purposes",
+    "slug": "issuance-of-new-tax-declaration-for-general-purposes",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "2",
+    "officeDivision": "City Assessment Office - Appraisal & Assessment Division",
+    "classification": "Complex",
+    "typeOfTransaction": "G2C-Government to Citizen, G2B - Government to Business Entity, G2G - Government to Government",
+    "whoMayAvail": "All Property Owners / Administrators in Calamba City",
+    "officeSlug": [
+      "city-assessor"
+    ],
+    "category": {
+      "name": "Taxation & Payments",
+      "slug": "taxation-payments"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Liham ng Kahilingan / Authorization Letter with Valid ID",
+        "where_to_secure": "Kliyente o Authorized Representative"
+      },
+      {
+        "requirement": "Building Permit/Occupancy Permit/Building Plan/Bill of Materials/Certificate of Completion",
+        "where_to_secure": "Building Regulatory Office"
+      },
+      {
+        "requirement": "Zoning Certificate / Clearance",
+        "where_to_secure": "City Planning & Development Office (CPDO)"
+      },
+      {
+        "requirement": "List of Machinery (Acquisition & Installation Cost and Date)",
+        "where_to_secure": "Kliyente"
+      },
+      {
+        "requirement": "Authorization / SPA /Secretary Certificate with Ids",
+        "where_to_secure": "Abogado, Naglalakad ng papel"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang photocopy ng mga kinakailangang dokumento at iprisinta ang mga orihinal na dokumento.",
+        "agencyAction": "Tanggapin at suriin ang mga dokumento. Kung kumpleto: Bigyan ng Order of Payment at iproseso ang dokumento. Kung hindi kumpleto: Ibalik sa kliyente ang mga dokumento.",
+        "processing_time": "20 minuto, 3 araw"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Isagawa inspection, review and assessment",
+        "processing_time": "20 minuto, 3 araw"
+      },
+      {
+        "step": 3,
+        "action": "Magbayad ng kaukulang halaga",
+        "agencyAction": "Tanggapin ang kaukulang bayad at bigyan ng opisyal na resibo",
+        "processing_time": "5 minuto",
+        "fee": "Php 30.00 per request"
+      },
+      {
+        "step": 4,
+        "action": "Ipresinta ang opisyal na resibo at tanggapin ang dokumento",
+        "agencyAction": "Ibigay ang Bagong Tax Declaration",
+        "processing_time": "5 minuto"
+      }
+    ],
+    "processingTime": "3 araw at 30 minuto",
+    "fees": {
+      "amount": "Php 30.00 per request",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Assessment Office Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Paalala: Makukuha ang dokumento ng hindi hihigit sa Pitong (7) araw ng pagtatrabaho sapagka't dadaan pa ito sa inspection, review and assessment ng mga kinauukulan."
+  },
+  {
+    "service": "Pag-rerelease ng Tseke para sa Financial Assistance, Supplier / Contractor at Land Acquisition",
+    "slug": "pag-rerelease-ng-tseke-para-sa-financial-assistance-supplier-contractor-at-land-acquisition",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "23",
+    "officeDivision": "City Treasury Management Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2G- Government to Citizen",
+    "whoMayAvail": "Stakeholders",
+    "officeSlug": [
+      "city-treasurer"
+    ],
+    "category": {
+      "name": "Taxation & Payments",
+      "slug": "taxation-payments"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Para sa Financial Assistance: 1. Valid ID ng Payee / claimant",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Authorization",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "ID of Representative (immediate family only)",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Claim Stub (kapag ang FA ay mula sa City Officials)",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Para sa FA ng Homeowners (Resibo ng HOA)",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Para sa mga Supplier/Contractor: 1. Special Power of Attorney mula sa may ari ng kumpanya",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "I.D. ng May ari ng kumpanya",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "I.D. of Representative",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Opisyal na Resibo",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Para sa Land Acquisition: 1. Original Title",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Valid ID ng may ari",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Authorization ID ng Representative (immediate family only)",
+        "where_to_secure": "N/A"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang mga kinakailangan dokumento at mag-presinta ng valid na ID",
+        "agencyAction": "Tanggapin at suriin ang mga isinumiteng dokumento at valid ID",
+        "processing_time": "15 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Palagdaan sa claimant ang disbursement voucher at itala sa logbook"
+      },
+      {
+        "step": 3,
+        "action": "Magsumite ng resibo ang supplier / contractor / HOA at irelease ang tseke.",
+        "agencyAction": "Tanggapin ang Tseke"
+      }
+    ],
+    "processingTime": "15 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Treasury Management Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pagbibigay ng Certified True Copy ng Opisyal na Resibo",
+    "slug": "pagbibigay-ng-certified-true-copy-ng-opisyal-na-resibo",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "22",
+    "officeDivision": "City Treasury Management Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Stakeholders / Taxpayers",
+    "officeSlug": [
+      "city-treasurer"
+    ],
+    "category": {
+      "name": "Taxation & Payments",
+      "slug": "taxation-payments"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Owner's ID",
+        "where_to_secure": "Kliyente"
+      },
+      {
+        "requirement": "Authorization Letter",
+        "where_to_secure": "Kliyente"
+      },
+      {
+        "requirement": "ID of Representative",
+        "where_to_secure": "Kliyente"
+      },
+      {
+        "requirement": "Letter Request",
+        "where_to_secure": "Kliyente"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Ipresinta ang mga kaukulang dokumento",
+        "agencyAction": "Tanggapin at suriin ang mga dokumento",
+        "processing_time": "3 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Magbayad ng kaukulang halaga.",
+        "agencyAction": "Tanggapin ang kaukulang halaga at bigyan ng opisyal na resibo",
+        "processing_time": "30 minuto",
+        "fee": "Php 30.00"
+      },
+      {
+        "step": 3,
+        "action": "Ipresinta ang opisyal na resibo at tanggapin ang dokumento",
+        "agencyAction": "Ibigay ang Certified True Copy na resibo",
+        "processing_time": "2 minuto"
+      }
+    ],
+    "processingTime": "35 minuto",
+    "fees": {
+      "amount": "Php 30.00",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Treasury Management Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pagbibigay ng Community Tax Certificate (Cedula)",
+    "slug": "pagbibigay-ng-community-tax-certificate-cedula",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "8",
+    "officeDivision": "City Treasury Management Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Stakeholders / Taxpayers",
+    "officeSlug": [
+      "city-treasurer"
+    ],
+    "category": {
+      "name": "Taxation & Payments",
+      "slug": "taxation-payments"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Income Tax Return",
+        "where_to_secure": "BIR"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "I-presinta ang Income Tax Return (ITR)",
+        "agencyAction": "Tanggapin at suriin ang ang Income Tax Return (ITR)",
+        "processing_time": "3 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Magbayad ng kaukulang halaga.",
+        "agencyAction": "Tanggapin ang kaukulang halaga at bigyan ng opisyal na resibo",
+        "processing_time": "1 minuto",
+        "fee": "Individual: PHP1.00 sa bawat PHP 1,000 plus PHP 5.00 (hindi lalagpas sa PHP 5,000). Corporation: PHP 2.00 sa bawat PHP 5,000 plus PHP 500 (hindi lalagpas sa PHP 10,000)"
+      },
+      {
+        "step": 3,
+        "action": "Tanggapin ang Community Tax Certificate (Cedula)",
+        "agencyAction": "Ibigay ang Community Tax Certificate (Cedula)"
+      }
+    ],
+    "processingTime": "4 minuto",
+    "fees": {
+      "amount": "Depende sa Kokolektahin Bayad",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Treasury Management Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pagbibigay ng Money Accountability Clearance",
+    "slug": "pagbibigay-ng-money-accountability-clearance",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "25",
+    "officeDivision": "City Treasury Management Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C Government to Citizen",
+    "whoMayAvail": "Stakeholders / Taxpayers",
+    "officeSlug": [
+      "city-treasurer"
+    ],
+    "category": {
+      "name": "Taxation & Payments",
+      "slug": "taxation-payments"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Kopya ng ID",
+        "where_to_secure": "Kliyente"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Ipresinta ang kopya ng ID",
+        "agencyAction": "Tanggapin at suriin ang kopya ng ID at iproseso ang dokumento",
+        "processing_time": "30 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Magbayad ng kaukulang halaga.",
+        "agencyAction": "Tanggapin ang kaukulang halaga at bigyan ng opisyal na resibo",
+        "processing_time": "3 minuto",
+        "fee": "Php 30.00"
+      },
+      {
+        "step": 3,
+        "action": "Tanggapin ang dokumento",
+        "agencyAction": "Ibigay ang kopya ng Money Accountability Clearance",
+        "processing_time": "1 minuto"
+      }
+    ],
+    "processingTime": "34 minuto",
+    "fees": {
+      "amount": "Php 30.00",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Treasury Management Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pagbibigay ng Opisyal na Resibo para sa 2% PEZA Share",
+    "slug": "pagbibigay-ng-opisyal-na-resibo-para-sa-2-peza-share",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "2",
+    "officeDivision": "City Treasury Management Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Stakeholders / Taxpayers",
+    "officeSlug": [
+      "city-treasurer"
+    ],
+    "category": {
+      "name": "Taxation & Payments",
+      "slug": "taxation-payments"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Income Tax Return / Financial Statement",
+        "where_to_secure": "BIR"
+      },
+      {
+        "requirement": "PEZA registration / PEZA Certification",
+        "where_to_secure": "PEZA"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang Income Tax Return / Financial Statement",
+        "agencyAction": "Tanggapin at suriin ang dokumento at I-prepara ang Statement of Account (SOA)",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Magbayad ng kaukulang halaga.",
+        "agencyAction": "Tanggapin ang kaukulang halaga at bigyan ng opisyal na resibo",
+        "fee": "2% ng Gross Sales"
+      }
+    ],
+    "processingTime": "10 minuto",
+    "fees": {
+      "amount": "2% ng Gross Sales",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Treasury Management Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pagbibigay ng Opisyal na Resibo para sa Amusement Tax",
+    "slug": "pagbibigay-ng-opisyal-na-resibo-para-sa-amusement-tax",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "3",
+    "officeDivision": "City Treasury Management Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C Government to Citizen",
+    "whoMayAvail": "Stakeholders / Taxpayers",
+    "officeSlug": [
+      "city-treasurer"
+    ],
+    "category": {
+      "name": "Taxation & Payments",
+      "slug": "taxation-payments"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Gross Receipts",
+        "where_to_secure": "Ticket Checker"
+      },
+      {
+        "requirement": "Report from Ticket Checker",
+        "where_to_secure": "N/A"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Ipresinta ang Gross Receipts at report mula sa ticket checker",
+        "agencyAction": "Tanggapin at suriin ang Gross Receipts at report",
+        "processing_time": "3 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Magbayad ng kaukulang halaga.",
+        "agencyAction": "Tanggapin ang kaukulang halaga at bigyan ng opisyal na resibo",
+        "fee": "10% ng Gross Receipts"
+      }
+    ],
+    "processingTime": "3 minuto",
+    "fees": {
+      "amount": "10% ng Gross Sales",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Treasury Management Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pagbibigay ng Opisyal na Resibo para sa Annual Fixed Tax (AFT)",
+    "slug": "pagbibigay-ng-opisyal-na-resibo-para-sa-annual-fixed-tax-aft",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "4",
+    "officeDivision": "City Treasury Management Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C Government to Citizen",
+    "whoMayAvail": "Stakeholders / Taxpayers",
+    "officeSlug": [
+      "city-treasurer"
+    ],
+    "category": {
+      "name": "Taxation & Payments",
+      "slug": "taxation-payments"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Official Receipts (OR)",
+        "where_to_secure": "Land Transportation Office (LTO)"
+      },
+      {
+        "requirement": "Certificate of Registration (CR)",
+        "where_to_secure": "Land Transportation Office (LTO)"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Ipresinta ang Official Receipts (OR) at Certification of Registration (CR)",
+        "agencyAction": "Tanggapin at suriin ang Official Receipts (OR) at Certification of Registration (CR)",
+        "processing_time": "3 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Magbayad ng kaukulang halaga.",
+        "agencyAction": "Tanggapin ang kaukulang halaga at bigyan ng opisyal na resibo",
+        "fee": "Php 700.00"
+      }
+    ],
+    "processingTime": "3 minuto",
+    "fees": {
+      "amount": "Php 700.00",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Treasury Management Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pagbibigay ng Opisyal na Resibo para sa Beripikasyon, Inspeksyon at Sealing ng Weighing Scale",
+    "slug": "pagbibigay-ng-opisyal-na-resibo-para-sa-beripikasyon-inspeksyon-at-sealing-ng-weighing-scale",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "14",
+    "officeDivision": "City Treasury Management Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C - Government to Citizen",
+    "whoMayAvail": "Stakeholders / Taxpayers",
+    "officeSlug": [
+      "city-treasurer"
+    ],
+    "category": {
+      "name": "Taxation & Payments",
+      "slug": "taxation-payments"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Weighing Scale",
+        "where_to_secure": "N/A"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Ipresinta ang Weighing Scale",
+        "agencyAction": "Isailalim sa pag-susuri. Kung accurate ang timbang: Lagyan ng Selyo at bigyan ng Order of Payment. Kung Hindi accurate: Kumpiskahin ang Weighing Scale",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Magbayad ng kaukulang halaga.",
+        "agencyAction": "Tanggapin ang kaukulang halaga at bigyan ng opisyal na resibo",
+        "fee": "Php 150.00"
+      }
+    ],
+    "processingTime": "5 minuto",
+    "fees": {
+      "amount": "Php 150.00",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Treasury Management Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pagbibigay ng Opisyal na Resibo para sa Birth Fee",
+    "slug": "pagbibigay-ng-opisyal-na-resibo-para-sa-birth-fee",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "5",
+    "officeDivision": "City Treasury Management Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Stakeholders / Taxpayers",
+    "officeSlug": [
+      "city-treasurer"
+    ],
+    "category": {
+      "name": "Taxation & Payments",
+      "slug": "taxation-payments"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Case Number",
+        "where_to_secure": "City Health Office"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Ipresinta ang Case Number na galing sa City Health Office",
+        "agencyAction": "Suriin ang Case Number",
+        "processing_time": "3 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Magbayad ng kaukulang halaga.",
+        "agencyAction": "Tanggapin ang kaukulang halaga at bigyan ng opisyal na resibo",
+        "fee": "Php 3,500.00"
+      }
+    ],
+    "processingTime": "3 minuto",
+    "fees": {
+      "amount": "Php 3,500.00",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Treasury Management Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pagbibigay ng Opisyal na Resibo para sa Business Tax",
+    "slug": "pagbibigay-ng-opisyal-na-resibo-para-sa-business-tax",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "1",
+    "officeDivision": "City Treasury Management Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C Government to Citizen",
+    "whoMayAvail": "Stakeholders / Taxpayers",
+    "officeSlug": [
+      "city-treasurer"
+    ],
+    "category": {
+      "name": "Taxation & Payments",
+      "slug": "taxation-payments"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Application Form",
+        "where_to_secure": "Business Permits & Tricycle Franchising Office"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Ipresinta ang Business Application Form",
+        "agencyAction": "Suriin kung ang idineklarang kabuuang benta ay ayon sa isinumiteng dokumento tulad / gaya ng di limitado sa mga sumusunod: Audited Financial Statement Income Tax return, Point of Sale, Summary Report, Certification of Sale",
+        "processing_time": "2 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Pag-apruba ng idineklarang kabuuang kita",
+        "processing_time": "3 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Pagtatasa ng babayaran",
+        "processing_time": "1 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Processing...",
+        "agencyAction": "Pagbibigay ng Statement of Account"
+      },
+      {
+        "step": 5,
+        "action": "Magbayad ng kaukulang halaga.",
+        "agencyAction": "Tanggapin ang kaukulang halaga at bigyan ng opisyal na resibo",
+        "processing_time": "3 minuto",
+        "fee": "Ayon sa sinasaad ng City Ordinance 371-2006"
+      }
+    ],
+    "processingTime": "10 minuto",
+    "fees": {
+      "amount": "Ayon sa sinasaad ng City Ordinance 371-2006",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Treasury Management Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pagbibigay ng Opisyal na Resibo para sa Civil Registry Fees",
+    "slug": "pagbibigay-ng-opisyal-na-resibo-para-sa-civil-registry-fees",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "19.3",
+    "officeDivision": "City Treasury Management Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C Government to Citizen",
+    "whoMayAvail": "Stakeholders / Taxpayers",
+    "officeSlug": [
+      "city-treasurer"
+    ],
+    "category": {
+      "name": "Taxation & Payments",
+      "slug": "taxation-payments"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Order of Payment",
+        "where_to_secure": "City Civil Registry Office"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Ipresinta ang Order of Payment",
+        "agencyAction": "Tanggapin at suriin ang Order of Payment"
+      },
+      {
+        "step": 2,
+        "action": "Magbayad ng kaukulang halaga.",
+        "agencyAction": "Tanggapin ang kaukulang halaga at bigyan ng opisyal na resibo",
+        "processing_time": "3 minuto",
+        "fee": "Ayon sa sinasaad ng City Ordinance 371-2006"
+      }
+    ],
+    "processingTime": "3 minuto",
+    "fees": {
+      "amount": "Depende sa kokolektahin bayad",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Treasury Management Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pagbibigay ng Opisyal na Resibo para sa Franchise Tax",
+    "slug": "pagbibigay-ng-opisyal-na-resibo-para-sa-franchise-tax",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "9",
+    "officeDivision": "City Treasury Management Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C Government to Citizen",
+    "whoMayAvail": "Stakeholders / Taxpayers",
+    "officeSlug": [
+      "city-treasurer"
+    ],
+    "category": {
+      "name": "Taxation & Payments",
+      "slug": "taxation-payments"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Income Tax Receipt",
+        "where_to_secure": "BIR"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang Gross ng Annual Receipts",
+        "agencyAction": "Tanggapin at suriin ang Gross Annual Receipts",
+        "processing_time": "3 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Magbayad ng kaukulang halaga.",
+        "agencyAction": "Tanggapin ang kaukulang halaga at bigyan ng opisyal na resibo",
+        "fee": "65% of 1%ng Gross Annual Receipts"
+      }
+    ],
+    "processingTime": "3 minuto",
+    "fees": {
+      "amount": "65% of 1%ng Gross Annual Receipts",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Treasury Management Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pagbibigay ng Opisyal na Resibo para sa Market Fees",
+    "slug": "pagbibigay-ng-opisyal-na-resibo-para-sa-market-fees",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "10",
+    "officeDivision": "City Treasury Management Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Stakeholders / Taxpayers",
+    "officeSlug": [
+      "city-treasurer"
+    ],
+    "category": {
+      "name": "Taxation & Payments",
+      "slug": "taxation-payments"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Order of Payment",
+        "where_to_secure": "City Agriculture Officer / City Veterinary Office"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "I-presinta ng Order of Payment",
+        "agencyAction": "Tanggapin at suriin ang Order of Payment",
+        "processing_time": "3 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Magbayad ng kaukulang halaga.",
+        "agencyAction": "Tanggapin ang kaukulang halaga at bigyan ng opisyal na resibo",
+        "fee": "Ayon sa sinasaad ng naipasang Market Code"
+      }
+    ],
+    "processingTime": "3 minuto",
+    "fees": {
+      "amount": "Ayon sa sinasaad ng naipasang Market Code",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Treasury Management Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pagbibigay ng Opisyal na Resibo para sa Miscellaneous Fees ng iba't ibang opisina",
+    "slug": "pagbibigay-ng-opisyal-na-resibo-para-sa-miscellaneous-fees-ng-ibat-ibang-opisina",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "18",
+    "officeDivision": "City Treasury Management Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C- Government to Citizen",
+    "whoMayAvail": "Stakeholders / Taxpayers",
+    "officeSlug": [
+      "city-treasurer"
+    ],
+    "category": {
+      "name": "Taxation & Payments",
+      "slug": "taxation-payments"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Order of Payment",
+        "where_to_secure": "City Assessor's Office (Tax Declaration, Cert of No. Improvement, Cert of Land Holdings, Cert of No. Property, Tax Map, Brgy Jurisdiction, Issuance of New Tax Declaration, & Transfer of Tax Declaration)"
+      },
+      {
+        "requirement": "Order of Payment",
+        "where_to_secure": "City Planning & Development Office (Zoning Permit)"
+      },
+      {
+        "requirement": "Order of Payment",
+        "where_to_secure": "Building Regulatory Services Office (Building / Electrical / Occupancy Permit PD1096)"
+      },
+      {
+        "requirement": "Order of Payment",
+        "where_to_secure": "City Health Services Office (Sanitary / Health Permit)"
+      },
+      {
+        "requirement": "Order of Payment",
+        "where_to_secure": "Housing & Settlements Department (Electrical / Occupancy BP220)"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Ipresinta ang Order of Payment",
+        "agencyAction": "Tanggapin at suriin ang Order of Payment",
+        "processing_time": "3 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Magbayad ng kaukulang halaga.",
+        "agencyAction": "Tanggapin ang kaukulang halaga at bigyan ng opisyal na resibo",
+        "fee": "Base sa Order of Payment ng Iba't-ibang Opisina"
+      }
+    ],
+    "processingTime": "3 minuto",
+    "fees": {
+      "amount": "Base sa Order of Payment ng Iba't-ibang Opisina",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Treasury Management Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pagbibigay ng Opisyal na Resibo para sa Police, Court at Mayor's Permit Fee",
+    "slug": "pagbibigay-ng-opisyal-na-resibo-para-sa-police-court-at-mayors-permit-fee",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "11",
+    "officeDivision": "City Treasury Management Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C - Government to Citizen",
+    "whoMayAvail": "Stakeholders / Taxpayers",
+    "officeSlug": [
+      "city-treasurer"
+    ],
+    "category": {
+      "name": "Taxation & Payments",
+      "slug": "taxation-payments"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Order of Payment",
+        "where_to_secure": "IIPESO"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "I-presinta ng Order of Payment",
+        "agencyAction": "Tanggapin at suriin ang Order of Payment",
+        "processing_time": "3 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Magbayad ng kaukulang halaga.",
+        "agencyAction": "Tanggapin ang kaukulang halaga at bigyan ng opisyal na resibo",
+        "fee": "Base sa Schedule of Fees"
+      }
+    ],
+    "processingTime": "3 minuto",
+    "fees": {
+      "amount": "Base sa Schedule of Fees",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Treasury Management Office Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Schedule of Fees: Php 50.00 - Employment, scholarship study grant Php 100.00 - Change of name Php 500.00 - Application for Filipino Citizenship Php 150.00 - Passport and visa application Php 200.00 - Firearms permit application Php 50.00 - Court Clearance / other purposes PHP 20.00 - Mayor's Clearance / PLEB Clearance"
+  },
+  {
+    "service": "Pagbibigay ng Opisyal na Resibo para sa Professional Tax Receipt Fees",
+    "slug": "pagbibigay-ng-opisyal-na-resibo-para-sa-professional-tax-receipt-fees",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "20",
+    "officeDivision": "City Treasury Management Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Stakeholders / Taxpayers",
+    "officeSlug": [
+      "city-treasurer"
+    ],
+    "category": {
+      "name": "Taxation & Payments",
+      "slug": "taxation-payments"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Valid PRC ID",
+        "where_to_secure": "PRC"
+      },
+      {
+        "requirement": "Insurance ID / Certification",
+        "where_to_secure": "Insurance Company"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Ipresinta ang PRC ID",
+        "agencyAction": "Tanggapin at suriin ang validity ng ID"
+      },
+      {
+        "step": 2,
+        "action": "Magbayad ng kaukulang halaga.",
+        "agencyAction": "Tanggapin ang kaukulang halaga at bigyan ng opisyal na resibo",
+        "processing_time": "3 minuto",
+        "fee": "Base sa Schedule of Fees"
+      }
+    ],
+    "processingTime": "3 minuto",
+    "fees": {
+      "amount": "Base sa Schedule of Fees",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Treasury Management Office Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Schedule of Fees: Php 300.00: Lawyers / Medical Practitioners / Architects / Interior Decorators / CPA / Engineers (Civil / Electrical / Chemical / Mechanical / Sanitary / Mining) / Pharmacists / Medical Technologists / Insurance Agents / Insurance Sub-agents /Custom Brokers / Marine Surveyors / Actuaries / Reg Master Plumbers / Registered Technicians / Veterinaries / Dentists / Optometrists / Opticians/Commercial Aviators / Prof Appraisers or Cannoiseur of tobacco and other domestic and foreign products / Licensed Ship Masters / Marine Chief Engineers / Mech Plate Engineer / Junior Mechanical Engineer, Certified Plant Mechanics unless they are Professional Mechanical Engineers and have paid the corresponding occupation tax for Mechanical Engineers / Agricultural Engineers /Geodetic Engineers / Electrical & Comm Engineers /Chief Motor Engineers / Master Mariners / Naval Architects / Sugar Technologists /Real Estate Brokers /Stock Brokers PHP 250.00: Land Surveyors / Geodetic Engineer / Chief Master / Marine Second Engineer / Registered Nurse / Chiropodists / Tatooers / Masseurs / Pelotaris Jockeys / Professional Actors and Actress Stage Performers / Hostesses Statisticians / Commercial Stewards / Stewardess / Flight Attendants / Insurance Adjusters / Dieticians / Embalmers (Sec 12 LTC) Foresters & Geologists / Midwives unless he or she is a registered nurse and has paid the corresponding occupation tax as registered nurse / Chemists unless he or she is a registered Chemical Engineer and has paid the corresponding occupation tax as Chemical Engineer / Associate and Assistant Electrical Engineers unless he or she is a prof Electrical Engineer and has paid the corresponding occupation tax as Electrical Engineer / Marine Officers unless he is a Marine Engineers or Second Engineer and has paid the corresponding occupation tax for Marine Engineers or Second Engineers / Therapists, unless he, or she is a registered nurse and has paid the corresponding occupation tax for nurse"
+  },
+  {
+    "service": "Pagbibigay ng Opisyal na Resibo para sa Pump Verification Testing and Sealing",
+    "slug": "pagbibigay-ng-opisyal-na-resibo-para-sa-pump-verification-testing-and-sealing",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "7",
+    "officeDivision": "City Treasury Management Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C - Government to Citizen",
+    "whoMayAvail": "Stakeholders / Gasoline Station",
+    "officeSlug": [
+      "city-treasurer"
+    ],
+    "category": {
+      "name": "Taxation & Payments",
+      "slug": "taxation-payments"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Business Permit",
+        "where_to_secure": "Business Permits & Tricycle Franchising Office"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Ipresinta ang Business Permit",
+        "agencyAction": "Tanggapin at suriin ang Business Permit. Kung meron permit: Simulan ang Verification. Kung walang Permit: I-refer sa Business Permits Office",
+        "processing_time": "15 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Isailalim sa pag-susuri ang gasoline pump at selyuhan kung wasto at ayon sa pamantayan ng Department of Science and Technology, kung hindi naman ay bigyan ng Notice of Defective Pump, I seal ang pump"
+      },
+      {
+        "step": 3,
+        "action": "Magbayad ng kaukulang halaga",
+        "agencyAction": "Kolektahin ang Bayad (penalty kung defective) at bigyan ng Opisyal na Resibo",
+        "fee": "Php 150.00"
+      }
+    ],
+    "processingTime": "15 minuto",
+    "fees": {
+      "amount": "Php 150.00",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Treasury Management Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pagbibigay ng Opisyal na Resibo para sa Real Property Tax",
+    "slug": "pagbibigay-ng-opisyal-na-resibo-para-sa-real-property-tax",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "15",
+    "officeDivision": "City Treasury Management Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C- Government to Citizen",
+    "whoMayAvail": "Stakeholders / Taxpayers",
+    "officeSlug": [
+      "city-treasurer"
+    ],
+    "category": {
+      "name": "Taxation & Payments",
+      "slug": "taxation-payments"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Tax declaration",
+        "where_to_secure": "City Assessment Office"
+      },
+      {
+        "requirement": "Land Title",
+        "where_to_secure": "Registry of Deeds"
+      },
+      {
+        "requirement": "Previous Receipt",
+        "where_to_secure": "City Treasury Management Office"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Ipresinta ang tax declaration, land title or previous receipt",
+        "agencyAction": "Tanggapin at suriin ang mga dokumento",
+        "processing_time": "3 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Iprepara ng Statement of Account"
+      },
+      {
+        "step": 3,
+        "action": "Magbayad ng kaukulang halaga.",
+        "agencyAction": "Tanggapin ang kaukulang halaga at bigyan ng opisyal na resibo",
+        "processing_time": "3 minuto",
+        "fee": "1% Basic 1% SEF ngAssessed Value. 1½ of 1% ng Assessed Value para sa Idle Lands"
+      }
+    ],
+    "processingTime": "6 minuto",
+    "fees": {
+      "amount": "Depende sa kokolektahin bayad",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Treasury Management Office Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Note: Kung ang magrerequest ng Statement of Account (SOA) ng Real Property ay Developmer or Individual na Taxpayer na may dalang mahigit na tatlumpung (30) Tax Declaration / Previous Receipt / Land Title ito ay babalikan sa napagkasunduang petsa."
+  },
+  {
+    "service": "Pagbibigay ng Opisyal na Resibo para sa Real Property Tax (Online Payment)",
+    "slug": "pagbibigay-ng-opisyal-na-resibo-para-sa-real-property-tax-online-payment",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "16",
+    "officeDivision": "City Treasury Management Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C - Government to Citizen",
+    "whoMayAvail": "Stakeholders / Taxpayers",
+    "officeSlug": [
+      "city-treasurer"
+    ],
+    "category": {
+      "name": "Taxation & Payments",
+      "slug": "taxation-payments"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Tax declaration",
+        "where_to_secure": "City Assessment Office"
+      },
+      {
+        "requirement": "Land Title",
+        "where_to_secure": "Registry of Deeds"
+      },
+      {
+        "requirement": "Previous Receipt",
+        "where_to_secure": "City Treasury Management Office"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Magrequest ng Statement of Account (SOA) via email or facebook messenger ng tanggapan",
+        "agencyAction": "Tasahan ang babayarang amilyar at ipadala sa taxpayer ang Statement of Account (SOA) sa pamamagitan ng email / facebook messenger",
+        "processing_time": "3 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Magbayad ng kaukulang halaga sa pamamagitan ng Landbank Linkbiz Portal",
+        "agencyAction": "Suriin kung pumasok na ang bayad gamit ang Snap Shot galing Landbank at Mag-issue ng Opisyal na Resibo (Maaring Ipadala ang resibo sa pamama-gitan ng rehistradong sulat o personal na kunin ng taxpayer sa tangga-pan ng Ingat-Yaman)",
+        "processing_time": "17 minuto",
+        "fee": "1% Basic 1% SEF ngAssessed Value. 1½ of 1% ng Assessed Value para sa Idle Lands"
+      }
+    ],
+    "processingTime": "20 minuto",
+    "fees": {
+      "amount": "Depende sa kokolektahin bayad",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Treasury Management Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pagbibigay ng Opisyal na Resibo para sa Slaughter and Coral Fees",
+    "slug": "pagbibigay-ng-opisyal-na-resibo-para-sa-slaughter-and-coral-fees",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "12",
+    "officeDivision": "City Treasury Management Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Stakeholders / Taxpayers",
+    "officeSlug": [
+      "city-treasurer"
+    ],
+    "category": {
+      "name": "Taxation & Payments",
+      "slug": "taxation-payments"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Order of Payment",
+        "where_to_secure": "City Veterinary Services Office"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Ipresinta ang Order of Payment",
+        "agencyAction": "Tanggapin at suriin ang Order of Payment",
+        "processing_time": "3 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Magbayad ng kaukulang halaga.",
+        "agencyAction": "Tanggapin ang kaukulang halaga at bigyan ng opisyal na resibo",
+        "fee": "Permit to slaughter per head: Large Cattle, hogs, goats, sheep and others- PHP 150. Slaughter fee/head For Public Consumption: largecattle, hogs,goats, sheeps and others - PHP 120. For Home Consumption:large cattle, hogs,goats, sheeps and others - PHP 130. Corral Fee/head /day fraction thereof: large cattle,hogs,goats, sheeps and others - PHP 100. Post Mortem Inspection fee - PHP 100. Dressed Meat and Poultry per kilo - PHP 0.10"
+      }
+    ],
+    "processingTime": "3 minuto",
+    "fees": {
+      "amount": "Depende sa kokolektahin bayad",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Treasury Management Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pagbibigay ng Opisyal na Resibo para sa Traffic Violation Fees",
+    "slug": "pagbibigay-ng-opisyal-na-resibo-para-sa-traffic-violation-fees",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "13",
+    "officeDivision": "City Treasury Management Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Stakeholders / Taxpayers",
+    "officeSlug": [
+      "city-treasurer"
+    ],
+    "category": {
+      "name": "Taxation & Payments",
+      "slug": "taxation-payments"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Order of Payment",
+        "where_to_secure": "Public Order & Safety Office (POSO)"
+      },
+      {
+        "requirement": "Traffic Citation Ticket (TCT)",
+        "where_to_secure": "Public Order & Safety Office (POSO)"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "I-presinta ng Order of Payment at TCT",
+        "agencyAction": "Tanggapin at suriin ang Order of Payment at TCT",
+        "processing_time": "3 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Magbayad ng kaukulang halaga.",
+        "agencyAction": "Tanggapin ang kaukulang halaga at bigyan ng opisyal na resibo",
+        "fee": "Base sa Order of Payment at ayon sa sinasaad ng naipasang Traffic Violation Code"
+      }
+    ],
+    "processingTime": "3 minuto",
+    "fees": {
+      "amount": "Depende sa kokolektahin bayad",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Treasury Management Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pagbibigay ng Opisyal na Resibo para sa Transfer Tax na may kasama Tax Clearance (Extra Judicial Settlement)",
+    "slug": "pagbibigay-ng-opisyal-na-resibo-para-sa-transfer-tax-na-may-kasama-tax-clearance-extra-judicial-settlement",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "19.2",
+    "officeDivision": "City Treasury Management Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C - Government to Citizen",
+    "whoMayAvail": "Stakeholders / Taxpayers",
+    "officeSlug": [
+      "city-treasurer"
+    ],
+    "category": {
+      "name": "Taxation & Payments",
+      "slug": "taxation-payments"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Extra Judicial Adjudication / Settlement",
+        "where_to_secure": "Any Legal Office / N/A"
+      },
+      {
+        "requirement": "Birth Certificate (photocopy / certified true copy for Self)",
+        "where_to_secure": "City Civil Registry Office"
+      },
+      {
+        "requirement": "Tax Declaration (updated)",
+        "where_to_secure": "City Assessment Office"
+      },
+      {
+        "requirement": "Tax Declaration (time of death)",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "ID of Heirs",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "ID of Representative",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Death Certificate of registered owner",
+        "where_to_secure": "City Civil Registry Office"
+      },
+      {
+        "requirement": "Special Power of Attorney (SPA) / Notarized Authorization Letter",
+        "where_to_secure": "Any Legal Office"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Ipresinta ang mga kailangan na dokumento",
+        "agencyAction": "Tanggapin, suriin at Beripikahin ang kakumpletuhan ng mga requirements at iprepara ang SOA",
+        "processing_time": "15 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Magbayad ng kaukulang halaga.",
+        "agencyAction": "Tanggapin ang kaukulang halaga at bigyan ng opisyal na resibo",
+        "processing_time": "3 minuto",
+        "fee": "65% of 1% ng total napagkakabili ng ari-arian o ang fair market value kung alin ang mataas"
+      }
+    ],
+    "processingTime": "18 minuto",
+    "fees": {
+      "amount": "Depende sa kokolektahin bayad",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Treasury Management Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pagbibigay ng Opisyal na Resibo para sa Transfer Tax na may kasama Tax Clearance (Sale/Donation)",
+    "slug": "pagbibigay-ng-opisyal-na-resibo-para-sa-transfer-tax-na-may-kasama-tax-clearance-saledonation",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "19.1",
+    "officeDivision": "City Treasury Management Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C - Government to Citizen",
+    "whoMayAvail": "Stakeholders / Taxpayers",
+    "officeSlug": [
+      "city-treasurer"
+    ],
+    "category": {
+      "name": "Taxation & Payments",
+      "slug": "taxation-payments"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Deed of Conveyance",
+        "where_to_secure": "Kliyente"
+      },
+      {
+        "requirement": "Tax Declaration",
+        "where_to_secure": "City Assessment Office"
+      },
+      {
+        "requirement": "Mode of Transfer (Sale, Donation, among others)",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Buyer & Seller's ID",
+        "where_to_secure": "Kliyente"
+      },
+      {
+        "requirement": "Buyer & Seller's Authorization Letter",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "ID of representative",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Secretary's Certificate (if company owned)",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Valid ID of Corporate Secretary",
+        "where_to_secure": "N/A"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Ipresinta ang mga kailangan na dokumento",
+        "agencyAction": "Tanggapin, suriin at Beripikahin ang kakumpletuhan ng mga requirements at iprepara ang SOA",
+        "processing_time": "15 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Magbayad ng kaukulang halaga.",
+        "agencyAction": "Tanggapin ang kaukulang halaga at bigyan ng opisyal na resibo",
+        "processing_time": "3 minuto",
+        "fee": "65% of 1% ng total napagkakabili ng ari-arian o ang fair market value kung alin ang mataas"
+      }
+    ],
+    "processingTime": "18 minuto",
+    "fees": {
+      "amount": "Depende sa kokolektahin bayad",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Treasury Management Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pagbibigay ng Opisyal na Resibo para sa Tricycle Franchise",
+    "slug": "pagbibigay-ng-opisyal-na-resibo-para-sa-tricycle-franchise",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "21",
+    "officeDivision": "City Treasury Management Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C Government to Citizen",
+    "whoMayAvail": "Stakeholders / Taxpayers",
+    "officeSlug": [
+      "city-treasurer"
+    ],
+    "category": {
+      "name": "Taxation & Payments",
+      "slug": "taxation-payments"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Order of Payment",
+        "where_to_secure": "Business Permits & Tricycle Franchising Office"
+      },
+      {
+        "requirement": "Official Receipts (OR)",
+        "where_to_secure": "Land Transportation Office (LTO)"
+      },
+      {
+        "requirement": "Certificate of Registration (CR)",
+        "where_to_secure": "Land Transportation Office (LTO)"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Ipresinta ang Order of Payment, OR at CR",
+        "agencyAction": "Tanggapin at suriin ang Order of Payment, OR at CR"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Suriin ang motor number"
+      },
+      {
+        "step": 3,
+        "action": "Magbayad ng kaukulang halaga.",
+        "agencyAction": "Tanggapin ang kaukulang halaga at bigyan ng opisyal na resibo",
+        "processing_time": "3 minuto",
+        "fee": "PHP 1,170 plus 2% (penalty kada buwan hanggang 6 na buwan lamang)"
+      }
+    ],
+    "processingTime": "3 minuto",
+    "fees": {
+      "amount": "Depende sa kokolektahin bayad",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Treasury Management Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pagbibigay ng Opisyal na Resibo para sa Tuition Fee at ibang bayarin",
+    "slug": "pagbibigay-ng-opisyal-na-resibo-para-sa-tuition-fee-at-ibang-bayarin",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "6",
+    "officeDivision": "City Treasury Management Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C - Government to Citizen",
+    "whoMayAvail": "Stakeholders / Calamba City College (CCC) Students",
+    "officeSlug": [
+      "city-treasurer"
+    ],
+    "category": {
+      "name": "Taxation & Payments",
+      "slug": "taxation-payments"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Registration Form",
+        "where_to_secure": "City College of Calamba Registrar's Office"
+      },
+      {
+        "requirement": "Assessment Form",
+        "where_to_secure": "City College of Calamba Registrar's Office"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Ipresinta ang Student Registration at Assessment Form",
+        "agencyAction": "Tanggapin at suriin ang Student Registration at Assessment Form",
+        "processing_time": "3 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Magbayad ng kaukulang halaga.",
+        "agencyAction": "Tanggapin ang kaukulang halaga at bigyan ng opisyal na resibo",
+        "fee": "Base sa Schedule of Fees"
+      }
+    ],
+    "processingTime": "3 minuto",
+    "fees": {
+      "amount": "Base sa Schedule of Fees",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Treasury Management Office Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Schedule of Fees: Addition / Change of Subject Fee - Php 50.00 Completion Form - Php 30.00 Lost Comp Card - Php 30.00 / page Authentication - Php 25.00 / subject Certificate of Completion - Php 200.00 Certificate of Enrollment Certificate of Good Moral Copy of Graders Endorsement Letter Honorable Dismissal Other Certification Course Description Dropping Fee Entrance Exam Fee Entrance Exam for Transferee- Php 300.00 Lost Diploma (2nd copy) Php 300.00 Lost ID - Php 100.00 Lost Registration Form - Php 100.00 Shifting Course Fee Php 100.00 Transcript of Records - Php 50.00 Lost Exam Permit Php 10.00"
+  },
+  {
+    "service": "Pagbibigay ng Tax Clearance",
+    "slug": "pagbibigay-ng-tax-clearance",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "17",
+    "officeDivision": "City Treasury Management Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C Government to Citizen",
+    "whoMayAvail": "Stakeholders / Taxpayers",
+    "officeSlug": [
+      "city-treasurer"
+    ],
+    "category": {
+      "name": "Taxation & Payments",
+      "slug": "taxation-payments"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Updated Tax Declaration / Previous OR",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Owner's ID",
+        "where_to_secure": "Property Owner"
+      },
+      {
+        "requirement": "Birth Certificate (photocopy / certified true copy)",
+        "where_to_secure": "Philippine Statistics Office (PSA) / Civil Registry Office"
+      },
+      {
+        "requirement": "Death Certificate of registered owner / Extrajudicial Settlement (photocopy / certified true copy)",
+        "where_to_secure": "Philippine Statistics Office (PSA) / Civil Registry Office"
+      },
+      {
+        "requirement": "Consularized / Red Ribbon / Apostil (if abroad)",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "If the requesting party is not the owner: Special Power of Attorney (SPA) / Notarized Authorization Letter",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Valid ID of Representative",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Notarized Secretary's Certificate (if company owned)",
+        "where_to_secure": "Company Board"
+      },
+      {
+        "requirement": "ID of Corporate Secretary",
+        "where_to_secure": "N/A"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Ipresinta ang mga kaukulang dokumento",
+        "agencyAction": "Tanggapin at suriin ang mga kaukulang dokumento.",
+        "processing_time": "3 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Magbayad ng kaukulang halaga.",
+        "agencyAction": "Tanggapin ang kaukulang halaga at bigyan ng opisyal na resibo",
+        "processing_time": "3 minuto",
+        "fee": "Php 30.00"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Iprepara ang Tax Clearance",
+        "processing_time": "30 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Ipresinta ang opisyal na resibo at tanggapin ang dokumento",
+        "agencyAction": "Ibigay ang kopya sa kliyente",
+        "processing_time": "1 minuto"
+      }
+    ],
+    "processingTime": "37 minuto",
+    "fees": {
+      "amount": "Php 30.00",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Treasury Management Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pagrerelease ng Financial Assistance (FA)",
+    "slug": "pagrerelease-ng-financial-assistance-fa",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "24",
+    "officeDivision": "City Treasury Management Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan ng Calamba",
+    "officeSlug": [
+      "city-treasurer"
+    ],
+    "category": {
+      "name": "Taxation & Payments",
+      "slug": "taxation-payments"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Valid ID",
+        "where_to_secure": "Kliyente"
+      },
+      {
+        "requirement": "Authorization Letter at ID",
+        "where_to_secure": "Authorized Representative"
+      },
+      {
+        "requirement": "Representative's ID (Immediate Family Only)",
+        "where_to_secure": "Authorized Representative"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang mga dokumento at mag-presinta ng valid na ID",
+        "agencyAction": "Tanggapin at suriin ang mga isinumiteng dokumento at ID",
+        "processing_time": "3 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Lagdaan ang Disbursement Voucher / Payroll",
+        "agencyAction": "Suriin ang pirma mula sa mga ID's, payroll, DV at authorization letter"
+      },
+      {
+        "step": 3,
+        "action": "Tanggapin ang Pera o Tseke",
+        "agencyAction": "Ibigay ang Pera o Tseke"
+      }
+    ],
+    "processingTime": "3 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Treasury Management Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Request for Cancellation of Records",
+    "slug": "request-for-cancellation-of-records",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "5",
+    "officeDivision": "City Assessment Office -Appraisal Division",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen, G2B - Government to Business Entity, G2G - Government to Government",
+    "whoMayAvail": "All Property Owners / Administrators in Calamba City",
+    "officeSlug": [
+      "city-assessor"
+    ],
+    "category": {
+      "name": "Taxation & Payments",
+      "slug": "taxation-payments"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Authorization Letter with Valid ID's",
+        "where_to_secure": "Kliyente o Authorized Representative"
+      },
+      {
+        "requirement": "Liham ng kahilingan para mapakansela ang nakatalang improvement o makina",
+        "where_to_secure": "Kliyente o Authorized Representative"
+      },
+      {
+        "requirement": "Katunayan ng cancellation of Real estate Property",
+        "where_to_secure": "Kliyente o Authorized Representative"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang sulat kahilingan ng kanselasyon ng improvement o makina kasama ang mga kaukulang mga dokumento",
+        "agencyAction": "Tanggapin at suriin ang mga dokumento.",
+        "processing_time": "5 minuto, 2 araw"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Iproseso ang dokumento (review, inspection, and assessment)",
+        "processing_time": "5 minuto, 2 araw"
+      },
+      {
+        "step": 3,
+        "action": "Tanggapin ang Inspection at Cancellation report",
+        "agencyAction": "Ibigay ang Inspection at Cancellation report.",
+        "processing_time": "5 minuto"
+      }
+    ],
+    "processingTime": "2 araw at 10 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Assessment Office Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Paalala: Makukuha ang dokumento ng hindi hihigit sa Pitong (7) araw ng pagtatrabaho sapagka't dadaan pa ito sa review, inspection and assessment ng mga kinauukulan."
+  },
+  {
+    "service": "Updating and Issuance of Tax Declaration from Transferred Properties",
+    "slug": "updating-and-issuance-of-tax-declaration-from-transferred-properties",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "1",
+    "officeDivision": "City Assessment Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen, G2B - Government to Business Entity, G2G - Government to Government",
+    "whoMayAvail": "All Property Owners / Administrators in Calamba City",
+    "officeSlug": [
+      "city-assessor"
+    ],
+    "category": {
+      "name": "Taxation & Payments",
+      "slug": "taxation-payments"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Kasalukuyang Titulo ng Lupa (Sertipikadong kopya o kopya mula sa Orihinal na Titulo)",
+        "where_to_secure": "Registry of Deeds"
+      },
+      {
+        "requirement": "Notaryadong Kasunduan (Bentahan/Ekstrahudisyal/Adhudikasyon/Donasyon o Pagkakaloob/Hatian o Pagbubuo, etc) kasama ang Mga Salaysay na notaryado",
+        "where_to_secure": "Property Owner"
+      },
+      {
+        "requirement": "Transfer Tax Receipt",
+        "where_to_secure": "City Treasury Office"
+      },
+      {
+        "requirement": "Issuance of Tax Declaration Receipt, Certificate Authorizing Registration (CAR)",
+        "where_to_secure": "Bureau of Internal Revenue (BIR)"
+      },
+      {
+        "requirement": "Special Power of Attorney / Authorization Letter / Secretary Certificate / Board Resolution kasama IDs",
+        "where_to_secure": "Abogado, Naglalakad ng papel"
+      },
+      {
+        "requirement": "Aprobadong Plano ng Pagkakahati/ Pagkakabuo (kapag may pagbabago sa sukat ng lupa) (Conditional)",
+        "where_to_secure": "Department of Environment and Natural Resources (DENR) / Provincial Environment and Natural Resources Office (PENRO)"
+      },
+      {
+        "requirement": "Business Permit/ License (If Commercial / Business Establishment / Businessman / Seller and / or Developer) (Conditional)",
+        "where_to_secure": "Business Permits and License Office"
+      },
+      {
+        "requirement": "Department of Agrarian Reform (DAR) Certificate (if Agricultural Land)/ National Irrigation Administration (NIA) Clearance (if irrigated farm lot) (Conditional)",
+        "where_to_secure": "Department of Agrarian Reform (DAR)/ National Irrigation Administration (NIA)"
+      },
+      {
+        "requirement": "Affidavit of Non-tenancy (if agricultural lot) (Conditional)",
+        "where_to_secure": "Abogado, Naglalakad ng papel"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang photocopy ng mga kinakailangan dokumento at iprisinta ang mga orihinal na dokumento",
+        "agencyAction": "Tanggapin at suriin ang mga dokumento. Kung kumpleto: Bigyan ng Order of Payment at iproseso ang dokumento. Kung hindi kumpleto: Ibalik sa kliyente ang mga dokumento.",
+        "processing_time": "15 minuto, 2 araw"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Isagawa ang Inspection, review and assessment",
+        "processing_time": "15 minuto, 2 araw"
+      },
+      {
+        "step": 3,
+        "action": "Magbayad ng kaukulang halaga",
+        "agencyAction": "Tanggapin ang kaukulang halaga at bigyan ng opisyal na resibo",
+        "processing_time": "5 minuto",
+        "fee": "Php 30.00 per request"
+      },
+      {
+        "step": 4,
+        "action": "Ipresinta ang opisyal na resibo at tanggapin ang dokumento",
+        "agencyAction": "Ibigay ang kopya ng Bagong Tax Declaration",
+        "processing_time": "2 minuto"
+      }
+    ],
+    "processingTime": "2 araw at 22 minuto",
+    "fees": {
+      "amount": "Php 30.00 per request",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Assessment Office Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Paalala: Makukuha ang dokumento ng hindi hihigit sa tatlong (3) araw ng pagtatrabaho sapagka't dadaan pa ito sa review and assessment ng mga kinauukulan. If the subject property is to be consolidated/subdivided/segregated the processing time will proceed to the service \"Issuance of New Tax Declaration for general purposes\"."
+  },
+  {
+    "service": "Verification and Location of Property",
+    "slug": "verification-and-location-of-property",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "6",
+    "officeDivision": "City Assessment Office - Tax Mapping Operations Division",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen, G2B - Government to Business Entity, G2G - Government to Government",
+    "whoMayAvail": "All Property Owners / Administrators in Calamba City",
+    "officeSlug": [
+      "city-assessor"
+    ],
+    "category": {
+      "name": "Taxation & Payments",
+      "slug": "taxation-payments"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Authorization Letter with Valid ID's",
+        "where_to_secure": "Kliyente o Authorized Representative"
+      },
+      {
+        "requirement": "Kopya ng Titulo",
+        "where_to_secure": "Registry of Deeds"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Ipabatid ang kahilingan",
+        "agencyAction": "Beripikahin ang lokasyon ng property.",
+        "processing_time": "5 minuto, 5 minuto kada lote"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Ipresinta ang nahanap na property",
+        "processing_time": "5 minuto, 5 minuto kada lote"
+      }
+    ],
+    "processingTime": "10 minuto kada lote",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Assessment Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  }
+]

@@ -1,1 +1,1319 @@
-[]
+[
+  {
+    "service": "Adult Counselling",
+    "slug": "adult-counselling",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "19",
+    "officeDivision": "City Health Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan",
+    "officeSlug": [
+      "city-health-office"
+    ],
+    "category": {
+      "name": "Health & Wellness",
+      "slug": "health-wellness"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Kumpirmasyon ng schedule",
+        "where_to_secure": "Mental Health hotline number o sa City of Calamba - Mental Health program page."
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Magpatala o magparehistro",
+        "agencyAction": "Beripikahin ang impormasyon ng pasyente.",
+        "processing_time": "1 oras at 5 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Pagsusuri sa kinakailangang pagpapayo sa kliyente at pagsasagawa ng psycho-therapy kung kinakailangan.",
+        "processing_time": "1 oras at 5 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Pagsusuri ng resulta",
+        "processing_time": "1 oras at 5 minuto"
+      }
+    ],
+    "processingTime": "1 oras at 5 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Health Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Adult Psychiatric Consultation",
+    "slug": "adult-psychiatric-consultation",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "18",
+    "officeDivision": "City Health Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan",
+    "officeSlug": [
+      "city-health-office"
+    ],
+    "category": {
+      "name": "Health & Wellness",
+      "slug": "health-wellness"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Kumpirmasyon ng schedule",
+        "where_to_secure": "Mental Health hotline number o sa City of Calamba - Mental Health program page."
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Magpatala o magparehistro",
+        "agencyAction": "Beripikahin ang impormasyon ng pasyente.",
+        "processing_time": "50 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Pagbibigay impormasyon sa Coordinator na kumpirmado ang iskedyul at pagsumite ng mga kailangan dokumento. 1.3. Bigyan ng request slip kung sakaling kinakailangan ng pasyente ang agarang laboratory test.",
+        "processing_time": "50 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Pagkuha ng history, assessment at angkop na pamamaraan / gamutan.",
+        "processing_time": "50 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Tanggapin ang gamot",
+        "agencyAction": "Bigyan ng libreng gamot ang pasyente",
+        "processing_time": "5 minuto"
+      }
+    ],
+    "processingTime": "55 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Health Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Certified Death Certificate (Medico Legal Cases) Pagpirma sa Sertipiko ng pagpanaw",
+    "slug": "certified-death-certificate-medico-legal-cases-pagpirma-sa-sertipiko-ng-pagpanaw",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "1",
+    "officeDivision": "City Health Services Office - Sanitation and Information Section",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan",
+    "officeSlug": [
+      "city-health-office"
+    ],
+    "category": {
+      "name": "Health & Wellness",
+      "slug": "health-wellness"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Sertipiko ng Pagpanaw",
+        "where_to_secure": "Hospital"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang Sertipiko ng Pagpanaw",
+        "agencyAction": "Suriin ang Sertipiko ng pagpanaw.",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Beripikahin at Lagdaan ang Sertipiko ng pagpanaw",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Tanggapin ang Sertipiko ng Pagpanaw at magtungo sa Tanggapan ng Civil Registry Office para magparehistro.",
+        "agencyAction": "Itala at ibigay ang Sertipiko ng Pagpanaw",
+        "processing_time": "1 minuto"
+      }
+    ],
+    "processingTime": "11 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Health Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Exhumation Permit (Pahintulot sa paghukay muli sa inilibing)",
+    "slug": "exhumation-permit-pahintulot-sa-paghukay-muli-sa-inilibing",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "4",
+    "officeDivision": "City Health Services Office - Sanitation and Information Section",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan",
+    "officeSlug": [
+      "city-health-office"
+    ],
+    "category": {
+      "name": "Health & Wellness",
+      "slug": "health-wellness"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Request Form",
+        "where_to_secure": "CHO Sanitation and Information Section"
+      },
+      {
+        "requirement": "Sertipiko ng Pagpanaw",
+        "where_to_secure": "City Civil Registry Office"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Punan ang request form at isumite ang mga kinakailangang dokumento",
+        "agencyAction": "Kapanayamin at iproseso ang dokumento",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Tanggapin ang dokumento",
+        "agencyAction": "Lagdaan at Ibigay ang Exhumation Permit",
+        "processing_time": "2 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Magtungo sa Tanggapan ng Civil Registry Office para sa Order of Payment"
+      }
+    ],
+    "processingTime": "7 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Health Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Gamutan para sa mga Nakagat ng Hayop",
+    "slug": "gamutan-para-sa-mga-nakagat-ng-hayop",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "17",
+    "officeDivision": "City Health Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan",
+    "officeSlug": [
+      "city-health-office"
+    ],
+    "category": {
+      "name": "Health & Wellness",
+      "slug": "health-wellness"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Brgy. Investigation Report",
+        "where_to_secure": "Barangay"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Magpatala ng pangalan at isumite ang Barangay Investigation Report",
+        "agencyAction": "Kapanayamin at Itala ang impormasyon ng pasyente.",
+        "processing_time": "1 oras at 25 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Pagbibigay ng impormasyon pangkalusugan at schedule ng turukan.",
+        "processing_time": "1 oras at 25 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Pagtuturok ng anti-rabies.",
+        "processing_time": "1 oras at 25 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Processing...",
+        "agencyAction": "Pagtuturok ng Equine Rabies Immunoglobulin (ERIG) para sa category III",
+        "processing_time": "1 oras at 25 minuto"
+      }
+    ],
+    "processingTime": "1 oras at 25 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Health Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Issuance of Pink Card",
+    "slug": "issuance-of-pink-card",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "20",
+    "officeDivision": "City Health Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan",
+    "officeSlug": [
+      "city-health-office"
+    ],
+    "category": {
+      "name": "Health & Wellness",
+      "slug": "health-wellness"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "VDRL Laboratory Result",
+        "where_to_secure": "Hospital/Clinic"
+      },
+      {
+        "requirement": "Hepatitis B Screening Result",
+        "where_to_secure": "Hospital/Clinic"
+      },
+      {
+        "requirement": "X-ray, Urine, Stool, Drug Test Results",
+        "where_to_secure": "Hospital/Clinic"
+      },
+      {
+        "requirement": "Health Certificate / Card",
+        "where_to_secure": "Hospital/Clinic"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang mga kailangan dokumento",
+        "agencyAction": "Tanggapin at suriin ang mga dokumento.",
+        "processing_time": "8 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Pag-issue ng Pink Card. If Compliant Results: Bigyan ng Pink Card. If not Compliant Results: Irefer sa Social Hygienic Clinic para masusing pagsusuri at pamamahala",
+        "processing_time": "8 minuto"
+      }
+    ],
+    "processingTime": "8 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Health Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Mga Serbisyo para sa mga Bago at Pagkatapos Manganak",
+    "slug": "mga-serbisyo-para-sa-mga-bago-at-pagkatapos-manganak",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "12",
+    "officeDivision": "City Health Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan",
+    "officeSlug": [
+      "city-health-office"
+    ],
+    "category": {
+      "name": "Health & Wellness",
+      "slug": "health-wellness"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Talaan bago Manganak",
+        "where_to_secure": "Barangay Health Station"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Magpatala at pagbibigay ng impormasyon",
+        "agencyAction": "Itala ang impormasyon ng pasyente at kunin ang Vital Signs. 1.2. Kapanayamin ang pasyente.",
+        "processing_time": "30 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Aktuwal na pamamaraan (Maneuver).",
+        "processing_time": "30 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Pagtuturok ng Tetanus Toxoid sa pasyente (kung nabigyan na noon, gawin ang susunod na pamamaraan). 3. Pagbibigay ng bitamina",
+        "processing_time": "30 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Pagtanggap ng mga Gamot /Bitamina",
+        "processing_time": "5 minuto"
+      }
+    ],
+    "processingTime": "35 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Health Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Newborn Screening",
+    "slug": "newborn-screening",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "13",
+    "officeDivision": "City Health Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan",
+    "officeSlug": [
+      "city-health-office"
+    ],
+    "category": {
+      "name": "Health & Wellness",
+      "slug": "health-wellness"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Sanggol na edad 48-72 oras pa lamang",
+        "where_to_secure": "City Health Office Main Health Center"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Kumpletuhin at isumite ang mga dokumento",
+        "agencyAction": "Suriin at itala ang impormasyon ng pasyente.",
+        "processing_time": "25 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Kapanayamin ang magulang o kasamang nakatatanda.",
+        "processing_time": "25 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Bigyan ng Impormasyong pangkalusugan ukol sa 5 karamdaman",
+        "processing_time": "25 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Pagkuha ng dugo sa pamamagitan ng pagtusok sa kaliwang sakong ng sanggol at pagpapatuyo ng filter card",
+        "agencyAction": "Ihanda at i-masahe ang sanggol. 3. Pagpoproseso",
+        "processing_time": "15 minuto, 3 linggo"
+      },
+      {
+        "step": 5,
+        "action": "Pagtanggap ng Resulta",
+        "agencyAction": "Paglalabas ng resulta galling sa Health Center.",
+        "processing_time": "1 araw at 5 minuto"
+      },
+      {
+        "step": 6,
+        "action": "Processing...",
+        "agencyAction": "Pag asiste sa mga pasyenteng may positibong resulta",
+        "processing_time": "1 araw at 5 minuto"
+      }
+    ],
+    "processingTime": "1 araw at 45 minuto (at 3 linggo pagproseso)",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Health Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Note: Makukuha ang resulta ng New Born Screening makalipas ang tatlong (3) linggo sapagka't dadalhin pa ito sa New Born Screening Center sa Southern Luzon, Tanauan."
+  },
+  {
+    "service": "Pag-gawa ng Sertipiko ng Paglipat ng Labi ng Patay",
+    "slug": "pag-gawa-ng-sertipiko-ng-paglipat-ng-labi-ng-patay",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "3",
+    "officeDivision": "City Health Services Office - Sanitation and Information Section",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan",
+    "officeSlug": [
+      "city-health-office"
+    ],
+    "category": {
+      "name": "Health & Wellness",
+      "slug": "health-wellness"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Sertipiko ng Pagpanaw",
+        "where_to_secure": "CHO Sanitation and Information Section"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang Sertipiko ng Pagpanaw.",
+        "agencyAction": "Tanggapin, suriin at itala ang Sertipiko ng Pagpanaw",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Tanggapin ang dokumento",
+        "agencyAction": "Iproseso ang Sertipiko ng Paglipat ng labi ng patay. 2. Ipagkaloob ang Sertipiko ng Paglipat ng Labi ng Patay",
+        "processing_time": "2 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Magtungo sa Tanggapan ng Civil Registry Office para sa Order of Payment"
+      }
+    ],
+    "processingTime": "7 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Health Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pag-gawa ng Sertipiko ng Pagpanaw",
+    "slug": "pag-gawa-ng-sertipiko-ng-pagpanaw",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "2",
+    "officeDivision": "City Health Services Office - Sanitation and Information Section",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan",
+    "officeSlug": [
+      "city-health-office"
+    ],
+    "category": {
+      "name": "Health & Wellness",
+      "slug": "health-wellness"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Data Form",
+        "where_to_secure": "CHO Sanitation and Information Section"
+      },
+      {
+        "requirement": "Medical Records",
+        "where_to_secure": "Hospital"
+      },
+      {
+        "requirement": "Birth Certificate, Baptismal Certificate at Marriage Certificate",
+        "where_to_secure": "Civil Registry Office / Church"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Punan at isumite ang Data Form",
+        "agencyAction": "Itala ang mga impormasyon sa Sertipiko ng pagpanaw.",
+        "processing_time": "15 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Iproseso ang Sertipiko ng Pagpanaw",
+        "processing_time": "15 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Sumangguni sa doctor",
+        "agencyAction": "Kapanayamin ukol sa sanhi ng kamatayan at paglagda sa Sertipiko ng pagpanaw",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Tanggapin ang Sertipiko ng Pagpanaw at magtungo sa Tanggapan ng Civil Registry Office para magparehistro.",
+        "agencyAction": "Itala at ibigay ang Sertipiko ng Pagpanaw",
+        "processing_time": "1 minuto"
+      }
+    ],
+    "processingTime": "26 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Health Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pag-plano para sa Pagbuo ng Pamilya",
+    "slug": "pag-plano-para-sa-pagbuo-ng-pamilya",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "10",
+    "officeDivision": "City Health Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan",
+    "officeSlug": [
+      "city-health-office"
+    ],
+    "category": {
+      "name": "Health & Wellness",
+      "slug": "health-wellness"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Talaan ng Pag-plano para sa Pamilya",
+        "where_to_secure": "City Health Office Main Health Center"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Magpatala sa City Health Office",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Pumunta o lumapit sa Coordinator",
+        "agencyAction": "Kapanayamin ang pasyente at bigyan ng payo ukol sa tamang pagpaplano ng pamilya.",
+        "processing_time": "25 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Aktuwal na proseso (maliban sa pagtatali sa lalaki at babae)",
+        "processing_time": "25 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Maghanda sa napiling pamamaraan",
+        "agencyAction": "Pagbibigay ng mga pangangailangan para sa pagpaplano ng pamilya",
+        "processing_time": "5 minuto"
+      }
+    ],
+    "processingTime": "35 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Health Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pag-susuri ng Ngipin",
+    "slug": "pag-susuri-ng-ngipin",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "7",
+    "officeDivision": "City Health Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan",
+    "officeSlug": [
+      "city-health-office"
+    ],
+    "category": {
+      "name": "Health & Wellness",
+      "slug": "health-wellness"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Dental Record",
+        "where_to_secure": "City Health Office Main Health Center"
+      },
+      {
+        "requirement": "Referral Letter",
+        "where_to_secure": "Barangay Midwife"
+      },
+      {
+        "requirement": "Cedula",
+        "where_to_secure": "Barangay Hall"
+      },
+      {
+        "requirement": "Barangay Clearance",
+        "where_to_secure": "Barangay Hall"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Magpatala ng Pangalan",
+        "agencyAction": "Kapanayamin ang pasyente at kunin ang Vital Signs. 1.2. Aktwal na pamamaraan. 1.3. Ituro ang paraan ng pag-inom ng gamot",
+        "processing_time": "40 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Tanggapin ang Gamot",
+        "agencyAction": "Ibigay ang gamot",
+        "processing_time": "5 minuto"
+      }
+    ],
+    "processingTime": "45 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Health Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Permit Pangkalusugan",
+    "slug": "permit-pangkalusugan",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "5",
+    "officeDivision": "City Health Services Office - Sanitation and Information Section",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan",
+    "officeSlug": [
+      "city-health-office"
+    ],
+    "category": {
+      "name": "Health & Wellness",
+      "slug": "health-wellness"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Resulta ng laboratoryo: Chest X-ray, Urinalysis and Fecalysis, Hepatitis Screening",
+        "where_to_secure": "CHO Sanitation and Information Section"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang mga laboratory results.",
+        "agencyAction": "Tanggapin at suriin ang laboratory results at kapanayamin.",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Bigyan ng Order of Payment",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Magbayad ng kaukulang halaga",
+        "agencyAction": "Tanggapin ang kaukulang halaga at bigyan ng opisyal na resibo",
+        "processing_time": "2 minuto",
+        "fee": "Php 50.00"
+      },
+      {
+        "step": 4,
+        "action": "Tanggapin ang Permit Pangkalusugan",
+        "agencyAction": "Pagbibigay ng ID ng Permit Pangkalusugan",
+        "processing_time": "5 minuto"
+      }
+    ],
+    "processingTime": "12 minuto",
+    "fees": {
+      "amount": "Php 50.00",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Health Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Permit ng Sanitasyon",
+    "slug": "permit-ng-sanitasyon",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "6",
+    "officeDivision": "City Health Services Office - Sanitation and Information Section",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan",
+    "officeSlug": [
+      "city-health-office"
+    ],
+    "category": {
+      "name": "Health & Wellness",
+      "slug": "health-wellness"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Water Refilling Station: 40 hrs seminar from DOH, Health Certificate Operational Permit Water Analysis (PhysicoChemical)",
+        "where_to_secure": "CHO Sanitation and Information Section (LG04)"
+      },
+      {
+        "requirement": "LyingIn-, Hospital, DiagnosticClinic: LTO from DOH / Healthcare Waste",
+        "where_to_secure": "CHO Sanitation and Information Section (LG04)"
+      },
+      {
+        "requirement": "Funeral Parlor: Embalmer License, MOA",
+        "where_to_secure": "CHO Sanitation and Information Section (LG04)"
+      },
+      {
+        "requirement": "Drug Store / Pharmacy: LTO from FDA",
+        "where_to_secure": "CHO Sanitation and Information Section (LG04)"
+      },
+      {
+        "requirement": "Company (Food/Non-Food): Annual APE, Vermin Control Program, Health Certificate, Water Analysis (Physico/Chemical)",
+        "where_to_secure": "CHO Sanitation and Information Section (LG04)"
+      },
+      {
+        "requirement": "Rehabilitation Center: DOH Accreditation",
+        "where_to_secure": "CHO Sanitation and Information Section (LG04)"
+      },
+      {
+        "requirement": "Public/Private Schools: Sanitary Permit / Annual Medical",
+        "where_to_secure": "CHO Sanitation and Information Section (LG04)"
+      },
+      {
+        "requirement": "Water Provider / All Existing Water Supply: Certificate of Potability, Water Analysis (Physico/Chemical)",
+        "where_to_secure": "CHO Sanitation and Information Section (LG04)"
+      },
+      {
+        "requirement": "Bakeries / Bakeshop: Medical/ Health Card",
+        "where_to_secure": "CHO Sanitation and Information Section (LG04)"
+      },
+      {
+        "requirement": "Salon / Spa: Medical / Health Card / License",
+        "where_to_secure": "CHO Sanitation and Information Section (LG04)"
+      },
+      {
+        "requirement": "Night Clubs: VDRL/Medical / Smear",
+        "where_to_secure": "CHO Sanitation and Information Section (LG04)"
+      },
+      {
+        "requirement": "Swimming Pools: Water Analysis",
+        "where_to_secure": "CHO Sanitation and Information Section (LG04)"
+      },
+      {
+        "requirement": "Gasoline Station: Chest X-ray",
+        "where_to_secure": "CHO Sanitation and Information Section (LG04)"
+      },
+      {
+        "requirement": "Carinderia / Eatery / Canteen: Medical / Health Card",
+        "where_to_secure": "CHO Sanitation and Information Section (LG04)"
+      },
+      {
+        "requirement": "All other establishment: Medical Health Certificate",
+        "where_to_secure": "CHO Sanitation and Information Section (LG04)"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang Application Form at mga kinakailangan dokumento",
+        "agencyAction": "Tanggapin, beripikahin at itala ang mga dokumento. 1.2. Kapanayamin at ibgyan ng order of payment at Iproseso ang dokumento",
+        "processing_time": "15 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Magbayad ng kaukulang halaga",
+        "agencyAction": "Tanggapin ang kaukulang halaga at bigyan ng opisyal na resibo",
+        "processing_time": "2 minuto",
+        "fee": "Base sa kita ng kumpanya/establisimento"
+      },
+      {
+        "step": 3,
+        "action": "Ipresinta ang opisyal na resibo at tanggapin ng Permit ng Sanitasyon",
+        "agencyAction": "Aktuwal na Inspection ng Establisimento (Para sa mga bagong establisimento). 3. Ibigay ang Permit ng Sanitasyon (sa City Health Office)",
+        "processing_time": "1 araw"
+      }
+    ],
+    "processingTime": "1 araw at 19 minuto",
+    "fees": {
+      "amount": "Base sa kita ng kumpanya/establisimento",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Health Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pre-Natal Services at Birthing Facility",
+    "slug": "pre-natal-services-at-birthing-facility",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "16",
+    "officeDivision": "City Health Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan",
+    "officeSlug": [
+      "city-health-office"
+    ],
+    "category": {
+      "name": "Health & Wellness",
+      "slug": "health-wellness"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Talaan ng bago manganak \"Booklet ni Mommy at Baby\"",
+        "where_to_secure": "Barangay Health Station"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Magpatala o magparehistro ng pangalan",
+        "agencyAction": "Beripikahin at Itala ang dokumento kuhanin ang Vital Signs.",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Kapanayamin ang Buntis na Ina",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Aktwal na Pamamaraan at Pagbibigay ng mga Laboratory Result ng Ina.",
+        "agencyAction": "Aktwal na pamamaraan (Leopold's maneuver pagsuri sa kalagayan ng sanggol).",
+        "processing_time": "25 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Processing...",
+        "agencyAction": "Paghiling ng Laboratory Test.",
+        "processing_time": "25 minuto"
+      },
+      {
+        "step": 5,
+        "action": "Processing...",
+        "agencyAction": "Pagturok ng Tetanus Toxoid sa pasyente. 2.4. Pagbibigay ng impormasyon hingil sa Edukasyong Pangkalusugan",
+        "processing_time": "25 minuto"
+      },
+      {
+        "step": 6,
+        "action": "Tanggapin ang mga Gamot / Bitamina",
+        "agencyAction": "Pagbibigay ng bitamina",
+        "processing_time": "5 minuto"
+      }
+    ],
+    "processingTime": "40 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Health Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Serbisyong Konsultasyon Laban sa Tuberculosis",
+    "slug": "serbisyong-konsultasyon-laban-sa-tuberculosis",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "14",
+    "officeDivision": "City Health Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C - Government to Citizen",
+    "whoMayAvail": "Mamamayan",
+    "officeSlug": [
+      "city-health-office"
+    ],
+    "category": {
+      "name": "Health & Wellness",
+      "slug": "health-wellness"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Plema mula sa pasyente",
+        "where_to_secure": "Kliyente"
+      },
+      {
+        "requirement": "Natapos na Laboratory request form",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "NTP referral form",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Kasunduan Household Interview Form",
+        "where_to_secure": "N/A"
+      },
+      {
+        "requirement": "Chest X-ray.",
+        "where_to_secure": "City Health Office"
+      },
+      {
+        "requirement": "Voter's ID",
+        "where_to_secure": "Comelec"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Pagpapatala ng Impormasyon.",
+        "agencyAction": "Kapanayamin at Itala ang mga Impormasyon at Pagbibigay ng request ng X-Ray",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Isumite ang resulta ng x-ray at ipasa ang mga kailangan dokumento",
+        "agencyAction": "Suriin ang resulta ng x-ray at iproseso ang mga dokumento.",
+        "processing_time": "40 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Suriin ang resulta ng X-ray. Kapag positibo: Mag pasa ng plema para sa Gen Expert. Kapag negatibo: Sumangguni sa Espesyalista. 2.3. Pagbibigay ng Impormasyon Pangkalusugan ukol sa TB Ed at HIV. 2.4. Suriin ang HIV",
+        "processing_time": "40 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Tanggapin ang Gamot",
+        "agencyAction": "Pagbibigay ng Gamot o reseta (kung kinakailangan)",
+        "processing_time": "3 minuto"
+      }
+    ],
+    "processingTime": "53 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Health Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Serbisyong Konsultasyon laban sa Tuberculosis ng mga Bata",
+    "slug": "serbisyong-konsultasyon-laban-sa-tuberculosis-ng-mga-bata",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "15",
+    "officeDivision": "City Health Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan",
+    "officeSlug": [
+      "city-health-office"
+    ],
+    "category": {
+      "name": "Health & Wellness",
+      "slug": "health-wellness"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "PPD Test",
+        "where_to_secure": "City Health Office Main Health Center (TBDOTS)"
+      },
+      {
+        "requirement": "Plema mula sa Pasyente",
+        "where_to_secure": "City Health Office Main Health Center (TBDOTS)"
+      },
+      {
+        "requirement": "Natapos na Laboratory Request Form",
+        "where_to_secure": "City Health Office Main Health Center (TBDOTS)"
+      },
+      {
+        "requirement": "NTP Referral Form",
+        "where_to_secure": "City Health Office Main Health Center (TBDOTS)"
+      },
+      {
+        "requirement": "Kasunduan Household Interview Form",
+        "where_to_secure": "City Health Office Main Health Center (TBDOTS)"
+      },
+      {
+        "requirement": "Chest X-ray",
+        "where_to_secure": "Laboratory Clinic"
+      },
+      {
+        "requirement": "Voter's ID",
+        "where_to_secure": "Comelec"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Pagpapatala ng Impormasyon",
+        "agencyAction": "Kapanayamin at Itala ang impormasyon ng Pasyente.",
+        "processing_time": "20 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Pagsasagawa ng pagsusuri ng PPD at pagpasa ng resulta",
+        "processing_time": "20 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Magpatala sa Programa ng Edukasyong Pangkalusugan",
+        "agencyAction": "Itala at pagbibigay ng impormasyon sa pasyente",
+        "processing_time": "30 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Tanggapin ang gamot.",
+        "agencyAction": "Ibigay ng gamot",
+        "processing_time": "3 minuto"
+      }
+    ],
+    "processingTime": "53 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Health Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Serbisyong Konsultasyon para sa mga Pasyente",
+    "slug": "serbisyong-konsultasyon-para-sa-mga-pasyente",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "9",
+    "officeDivision": "City Health Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan",
+    "officeSlug": [
+      "city-health-office"
+    ],
+    "category": {
+      "name": "Health & Wellness",
+      "slug": "health-wellness"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Talaan ng pasyente at Referral mula sa Barangay Midwife",
+        "where_to_secure": "City Health Office Main Health Center"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang referral na galing sa barangay midwife",
+        "agencyAction": "Tanggapin at beripikahin ang referral na galing sa barangay midwife at itala ang pasyente.",
+        "processing_time": "43 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Kuhanin ang Vital Signs at kapanayamin ang pasyente.",
+        "processing_time": "43 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Aktuwal na pagsusuri sa pasyente.",
+        "processing_time": "43 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Processing...",
+        "agencyAction": "Bigyan ng preskripsyon o reseta ng gamot",
+        "processing_time": "43 minuto"
+      },
+      {
+        "step": 5,
+        "action": "Tanggapin ang gamot",
+        "agencyAction": "Ibigay ang gamot",
+        "processing_time": "5 minuto"
+      }
+    ],
+    "processingTime": "48 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Health Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Serbisyong Pagbabakuna",
+    "slug": "serbisyong-pagbabakuna",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "11",
+    "officeDivision": "City Health Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan",
+    "officeSlug": [
+      "city-health-office"
+    ],
+    "category": {
+      "name": "Health & Wellness",
+      "slug": "health-wellness"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Talaan ng Medical Records ng bata",
+        "where_to_secure": "Barangay Health Station"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Magpatala at isumite ang dokumento",
+        "agencyAction": "Tanggapin at suriin ang dokumento.",
+        "processing_time": "35 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Kuhanin ang timbang at temperatura ng bata.",
+        "processing_time": "35 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Kapanayamin ang magulang ng bata at ipaliwanag ang Edukasyong Pangkalusugan.",
+        "processing_time": "35 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Processing...",
+        "agencyAction": "Aktuwal na pagturok ng bakuna",
+        "processing_time": "35 minuto"
+      },
+      {
+        "step": 5,
+        "action": "Tanggapin ang Gamot",
+        "agencyAction": "Ibigay ang gamot (kung kinakailangan)",
+        "processing_time": "5 minuto"
+      }
+    ],
+    "processingTime": "40 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Health Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Serbisyong Pang-Laboratoryo",
+    "slug": "serbisyong-pang-laboratoryo",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "8",
+    "officeDivision": "City Health Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan",
+    "officeSlug": [
+      "city-health-office"
+    ],
+    "category": {
+      "name": "Health & Wellness",
+      "slug": "health-wellness"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Laboratory Request",
+        "where_to_secure": "City Health Office Main Health Center"
+      },
+      {
+        "requirement": "Specimen",
+        "where_to_secure": "City Health Office Main Health Center"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang Laboratory Request, Specimen na kailangan at ipatala ang pangalan.",
+        "agencyAction": "Tanggapin at suriin ang Laboratory Request at kolektahin ang specimen na kailangan at kapanayamin ang pasyente.",
+        "processing_time": "1 oras at 27 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Aktuwal na Pagsusuri.",
+        "processing_time": "1 oras at 27 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Ibigay ang resulta ng Laboratoryo",
+        "processing_time": "1 oras at 27 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Ipasuri ang Resulta ng Laboratoryo sa Doctor",
+        "agencyAction": "Suriin ang resulta ng laboratory.",
+        "processing_time": "30 minuto"
+      },
+      {
+        "step": 5,
+        "action": "Processing...",
+        "agencyAction": "Bigyan ng reseta ng gamot",
+        "processing_time": "30 minuto"
+      },
+      {
+        "step": 6,
+        "action": "Tanggapin ang gamot",
+        "agencyAction": "Ibigay ang gamot",
+        "processing_time": "5 minuto"
+      }
+    ],
+    "processingTime": "2 oras at 2 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Health Services Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  }
+]

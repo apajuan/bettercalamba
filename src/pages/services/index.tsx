@@ -23,9 +23,11 @@ export default function ServicesPage() {
     selectedOfficeDivision,
     selectedSource,
     selectedClassification,
+    selectedTransactionType,
     setOfficeDivision,
     setSource,
     setClassification,
+    setTransactionType,
   } = useOutletContext<ServicesOutletContext>();
 
   const [currentPage, setCurrentPage] = useState(1);
@@ -39,6 +41,7 @@ export default function ServicesPage() {
       source: selectedSource,
       classification:
         selectedClassification !== 'all' ? selectedClassification : undefined,
+      transactionType: selectedTransactionType,
       search: searchQuery || undefined,
     });
   }, [
@@ -47,6 +50,7 @@ export default function ServicesPage() {
     selectedOfficeDivision,
     selectedSource,
     selectedClassification,
+    selectedTransactionType,
   ]);
 
   // Reset page when filters change
@@ -58,6 +62,7 @@ export default function ServicesPage() {
     selectedOfficeDivision,
     selectedSource,
     selectedClassification,
+    selectedTransactionType,
   ]);
 
   // 2. Pagination & Infinite Scroll logic
@@ -100,9 +105,11 @@ export default function ServicesPage() {
         selectedOfficeDivision={selectedOfficeDivision}
         selectedSource={selectedSource}
         selectedClassification={selectedClassification}
+        selectedTransactionType={selectedTransactionType}
         onOfficeDivisionChange={setOfficeDivision}
         onSourceChange={setSource}
         onClassificationChange={setClassification}
+        onTransactionTypeChange={setTransactionType}
       />
 
       {/* Results Badge */}
@@ -117,7 +124,8 @@ export default function ServicesPage() {
         {/* Active Filters Display */}
         {(selectedOfficeDivision !== 'all' ||
           selectedSource !== 'all' ||
-          selectedClassification !== 'all') && (
+          selectedClassification !== 'all' ||
+          selectedTransactionType !== 'all') && (
           <div className='flex flex-wrap gap-2'>
             {selectedOfficeDivision !== 'all' && (
               <Badge variant='primary' className='gap-1'>
@@ -151,6 +159,18 @@ export default function ServicesPage() {
                 <button
                   type='button'
                   onClick={() => setClassification('all')}
+                  className='hover:text-kapwa-text-inverse ml-1'
+                >
+                  ×
+                </button>
+              </Badge>
+            )}
+            {selectedTransactionType !== 'all' && (
+              <Badge variant='primary' className='gap-1'>
+                Target Client: {selectedTransactionType}
+                <button
+                  type='button'
+                  onClick={() => setTransactionType('all')}
                   className='hover:text-kapwa-text-inverse ml-1'
                 >
                   ×

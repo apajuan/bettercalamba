@@ -1,1 +1,1195 @@
-[]
+[
+  {
+    "service": "Assistance sa MSMEs sa pamamagitan ng konsultasyon",
+    "slug": "assistance-sa-msmes-sa-pamamagitan-ng-konsultasyon",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "4",
+    "officeDivision": "CLDD - All Divisions",
+    "classification": "Complex",
+    "typeOfTransaction": "G2B-Government to Business",
+    "whoMayAvail": "Mamamayan ng Calamba",
+    "officeSlug": [
+      "city-agriculture-office"
+    ],
+    "category": {
+      "name": "Agriculture & Economic Development",
+      "slug": "agriculture-economic-development"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Request Letter",
+        "where_to_secure": "Kliyente"
+      },
+      {
+        "requirement": "Certified True Copy ng isa sa mga sumusunod: • Barangay Clearance • Business Permit • Certificate of Registration",
+        "where_to_secure": "Barangay, Business Permits & Tricycle Franchising Office, Cooperative Development Authority o Securities & Exchange Commission"
+      },
+      {
+        "requirement": "Photocopy ng mga sumusunod na dokumento: By Laws, Artikulo ng Kooperasyon, Financial Statement, Process Flow",
+        "where_to_secure": "Kliyente"
+      },
+      {
+        "requirement": "Sample Product",
+        "where_to_secure": "N/A"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang Request Letter at mga kailangang dokumento",
+        "agencyAction": "Pagsuri sa mga dokumento",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Pag-apruba sa request Approved: Tuloy ang proseso Disapproved: Mali ang impormasyong ibinigay o kulang ang requirements",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Pagsagawa ng konsultasyon",
+        "processing_time": "1 oras"
+      },
+      {
+        "step": 4,
+        "action": "Punan ang Feedback Form",
+        "agencyAction": "Pagtala ng resulta ng feedback form",
+        "processing_time": "10 minuto"
+      }
+    ],
+    "processingTime": "1 oras at 25 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "Cooperatives & Livelihood Development Department Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Assistance sa Pagkuha ng Certificate of Compliance (COC) sa Cooperative Development Authority (CDA)",
+    "slug": "assistance-sa-pagkuha-ng-certificate-of-compliance-coc-sa-cooperative-development-authority-cda",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "3",
+    "officeDivision": "CLDD - All Divisions",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C - Government to Citizen",
+    "whoMayAvail": "Calamba Cooperatives",
+    "officeSlug": [
+      "city-agriculture-office"
+    ],
+    "category": {
+      "name": "Agriculture & Economic Development",
+      "slug": "agriculture-economic-development"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Request Letter",
+        "where_to_secure": "Kliyente"
+      },
+      {
+        "requirement": "Orihinal na kopya ng mga dokumentong kailangang isumite sa Cooperative Development Authority upang makakuha ng Certificate of Compliance",
+        "where_to_secure": "Kliyente"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang request letter at mga kailangang dokumento",
+        "agencyAction": "Suriin at isaayos ang mga dokumento",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Pag-apruba sa request Approved: Tuloy ang proseso ng dokumento Disapproved: Mali ang impormasyong ibinigay o kulang ang requirements.",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Pagpasa ng mga naprosesong dokumento sa CDA",
+        "agencyAction": "Pagsasagawa ng ulat ng pagsubaybay at pagsasaayos ng taludtod",
+        "processing_time": "1 oras"
+      }
+    ],
+    "processingTime": "1 oras at 15 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "Cooperatives & Livelihood Development Department Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Assistance sa Pagsasaayos ng Requirements sa Cooperative Development Authority (CDA) Registration",
+    "slug": "assistance-sa-pagsasaayos-ng-requirements-sa-cooperative-development-authority-cda-registration",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "2",
+    "officeDivision": "Cooperatives and Livelihood Development Department",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C - Government to Citizen",
+    "whoMayAvail": "Mamamayan ng Calamba",
+    "officeSlug": [
+      "city-agriculture-office"
+    ],
+    "category": {
+      "name": "Agriculture & Economic Development",
+      "slug": "agriculture-economic-development"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Request Letter",
+        "where_to_secure": "Kliyente"
+      },
+      {
+        "requirement": "Orihinal na kopya ng mga dokumentong isusumite sa Cooperative Development Authority (CDA)",
+        "where_to_secure": "Kliyente"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang Request Letter at kumpletong dokumento",
+        "agencyAction": "Tanggapin at suriin ang mga dokumento",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Pag-apruba ng Request Approved: Tuloy ang proseso Disapproved: Mali ang impormasyong ibinigay o kulang ang requirements",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Pagsumite ng mga naprosesong dokumento sa CDA",
+        "agencyAction": "Pagsasaayos ng mga dokumento para sa electronic submission sa CDA",
+        "processing_time": "1 oras"
+      },
+      {
+        "step": 4,
+        "action": "Pagtanggap ng Sertipiko ng Pagrerehistro mula sa CDA"
+      }
+    ],
+    "processingTime": "1 oras at 15 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "Cooperatives & Livelihood Development Department Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Assistance sa Pagsasagawa ng Enterprise Development Services",
+    "slug": "assistance-sa-pagsasagawa-ng-enterprise-development-services",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "5",
+    "officeDivision": "CLDD - PDM Division",
+    "classification": "Highly Technical",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Kwalipikadong Mamamayan ng Calamba",
+    "officeSlug": [
+      "city-agriculture-office"
+    ],
+    "category": {
+      "name": "Agriculture & Economic Development",
+      "slug": "agriculture-economic-development"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Request Form for Product Testing Assistance",
+        "where_to_secure": "Cooperatives and Livelihood Development Department"
+      },
+      {
+        "requirement": "Certified True Copy ng isa sa mga sumusunod: ✓ Barangay Clearance ✓ Business Permit ✓ Certification of Registration",
+        "where_to_secure": "✓ Barangay Hall ✓ Business Permits & Tricycle Franchising Office ✓ Cooperative Development Authority o Securities and Exchange Commission"
+      },
+      {
+        "requirement": "Sample Product / Coop Profile / Service Profile",
+        "where_to_secure": "Aplikante"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Punan ng request form at isumite ang mga kinakailangan dokumento at sample product",
+        "agencyAction": "Tanggapin at suriin ang request form at ang mga kinakailangan dokumento para sa pagsasagawa ng serbisyo",
+        "processing_time": "20 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Isagawa ang paunang interview at konsultasyon",
+        "processing_time": "30 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Pagtakda ng uri ng serbisyong angkop sa pangangailangan / request ng kliyente",
+        "processing_time": "20 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Processing...",
+        "agencyAction": "Paggawa ng Action Plan",
+        "processing_time": "5 oras"
+      },
+      {
+        "step": 5,
+        "action": "Pagsasagawa ng isang Action Plan para sa kaukulang serbisyo na ipinagkalaoob",
+        "agencyAction": "Ipaliwanag ang Action Plan",
+        "processing_time": "1 oras"
+      },
+      {
+        "step": 6,
+        "action": "Lagdaan ang Action plan",
+        "agencyAction": "Isagawa ang Action Plan",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 7,
+        "action": "Punan ang Evaluation Form",
+        "agencyAction": "Ibigay ang Evaluation Form",
+        "processing_time": "2 oras"
+      },
+      {
+        "step": 8,
+        "action": "Processing...",
+        "agencyAction": "Itala ang resulta ng Evaluation Form at kaukulang update"
+      }
+    ],
+    "processingTime": "2 oras at 50 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "Cooperatives & Livelihood Development Department Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Note: Ang Pagsasagawa ng serbisyo ay maaring tumagal ng higit labingsiyam (19) na araw dahil sa research and testing"
+  },
+  {
+    "service": "Isahan o Personal na Paglapit para sa pagbabakuna (walk-in)",
+    "slug": "isahan-o-personal-na-paglapit-para-sa-pagbabakuna-walk-in",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "1",
+    "officeDivision": "CVSSMD - Veterinary Services",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan ng Calamba",
+    "officeSlug": [
+      "city-veterinary-office"
+    ],
+    "category": {
+      "name": "Agriculture & Economic Development",
+      "slug": "agriculture-economic-development"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Vaccination Card (kung mayroon);\n2. Malusog na alagang hayop tatlong buwan ang edad pataas",
+        "where_to_secure": "Kliyente"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Magtungo sa Tanggapan ng City Verterinary Services Office at Itala sa log sheet ang pangunahing impormasyon at health record ng alagang hayop",
+        "agencyAction": "Suriin ang record ng hayop at I-asses ang estado ng kalusugan ng kung maaring bakunahan",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Bigyan ng Order of Payment para sa Dog Tag",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Magbayad ng kaukulang halaga",
+        "agencyAction": "Tanggapin ang kaukulang halaga at bigyan ng opisyal na resibo",
+        "processing_time": "2 minuto",
+        "fee": "Php 20.00 / dog tag"
+      },
+      {
+        "step": 4,
+        "action": "Ipresinta ang opisyal na resibo at hintayin mabakunahan ang alagang hayop",
+        "agencyAction": "Bakunahan ang hayop at bigyan ng tag at vaccination card kung ito ay aso at vaccination card lamang kung ito ay pusa.",
+        "processing_time": "5 minuto"
+      }
+    ],
+    "processingTime": "13 minuto",
+    "fees": {
+      "amount": "Php 20.00 / dog tag",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "CITY VETERINARY SERVICES & SLAUGHTERHOUSE MANAGEMENT OFFICE Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Kahilingan para sa Veterinary Health Certificate at Shipping Permit kaugnay ng pagbibiyahe ng Hayop",
+    "slug": "kahilingan-para-sa-veterinary-health-certificate-at-shipping-permit-kaugnay-ng-pagbibiyahe-ng-hayop",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "10",
+    "officeDivision": "CVSSMD - Veterinary Services",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan ng Calamba",
+    "officeSlug": [
+      "city-veterinary-office"
+    ],
+    "category": {
+      "name": "Agriculture & Economic Development",
+      "slug": "agriculture-economic-development"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Shipping Permit\nVeterinary Health Certificates",
+        "where_to_secure": "Kliyente\nCity Veterinary Services Office"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Magtungo sa Tanggapan ng City Veterinary Services Office at magtala sa listahan at ibigay ang lahat ng impormasyon na kinakailangan",
+        "agencyAction": "Suriin ang hayop at mga dokumentong kailangan at ihanda ang Veterinary Health Certificate at Shipping Permit",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Bigyan Order of Payment",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Magbayad ng kaukulang halaga",
+        "agencyAction": "Tanggapin ang kaukulang halaga at bigyan ng opisyal na resibo",
+        "processing_time": "2 minuto",
+        "fee": "Ayon sa Shipping Permit Fees"
+      },
+      {
+        "step": 4,
+        "action": "Ipresinta ant opisyal na resibo at tanggapin ang dokumento",
+        "agencyAction": "Iproseso ang dokumento at lagdaan",
+        "processing_time": "11 minuto"
+      },
+      {
+        "step": 5,
+        "action": "Processing...",
+        "agencyAction": "Ipagkaloob ang Shipping Permit at Veterinary Health Certificate",
+        "processing_time": "11 minuto"
+      }
+    ],
+    "processingTime": "18 minuto",
+    "fees": {
+      "amount": "Ayon sa shipping permit fees",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "CITY VETERINARY SERVICES & SLAUGHTERHOUSE MANAGEMENT OFFICE Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Pagbibigay ng Veterinary Health Certificate at Shipping Permit para sa mga hayop na ibibiyahe\n\nSHIPPING PERMIT FEES\n\n1. Panabong - 5.00\n    \n2. Kabayo - 20.00\n    \n3. Pusa - 20.00\n    \n4. Aso - 20.00\n    \n5. Kambing - 5.00\n    \n6. Baka - 20.00\n    \n7. Baboy - 5.00\n    \n8. Avian / Pigeon - 0.50\n    \n9. Poultry Broiler, Layer Ducks - 0.50"
+  },
+  {
+    "service": "Pag Apruba sa Tawag Panlabas ng Opisina para sa Gamutan ng Alaga para sa Pangkahayupang Produksyon",
+    "slug": "pag-apruba-sa-tawag-panlabas-ng-opisina-para-sa-gamutan-ng-alaga-para-sa-pangkahayupang-produksyon",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "4",
+    "officeDivision": "CVSSMD - Veterinary Services",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan ng Calamba",
+    "officeSlug": [
+      "city-veterinary-office"
+    ],
+    "category": {
+      "name": "Agriculture & Economic Development",
+      "slug": "agriculture-economic-development"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "N/A",
+        "where_to_secure": "N/A"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Tumawag o magsadya sa opisina.",
+        "agencyAction": "Suriin ang tawag at i-tala ang mga pangunahing impormasyon ng kliyente",
+        "processing_time": "3 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Ibigay ang lahat na impormasyon na kinakailangan",
+        "agencyAction": "Bigyan ng inisyal na pagsusuri ayon sa nakalap na impormasyon.",
+        "processing_time": "15 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Bigyan ng schedule ng pagbisita.",
+        "processing_time": "15 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Processing...",
+        "agencyAction": "Bisitahin at suriin ang hayop na may sakit. Bigyan ng gamot kung mayroon o magbigay ng reseta",
+        "processing_time": "1 oras"
+      }
+    ],
+    "processingTime": "1 oras at 18 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "CITY VETERINARY SERVICES & SLAUGHTERHOUSE MANAGEMENT OFFICE Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pag apruba ng Kahilingan para sa Pag kolekta ng dugo para sa Farm Accreditation",
+    "slug": "pag-apruba-ng-kahilingan-para-sa-pag-kolekta-ng-dugo-para-sa-farm-accreditation",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "8",
+    "officeDivision": "CVSSMD - Veterinary Services",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan ng Calamba",
+    "officeSlug": [
+      "city-veterinary-office"
+    ],
+    "category": {
+      "name": "Agriculture & Economic Development",
+      "slug": "agriculture-economic-development"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Farm Accreditation (kung for renewal), dokumento kaugnay ng farm (kung bago lang magpa accredit)",
+        "where_to_secure": "Personal records (kung for renewal); BAI Website"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Punan ang google form o pumunta sa opisina at magpatala",
+        "agencyAction": "Suriin at itala sa logbook",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Hintayin ang pormal na communication (tawag, e-mail) ukol sa schedule kung kailan maisasagawa ang hinihiling na serbisyo",
+        "agencyAction": "Pagtatakda sa araw at oras",
+        "processing_time": "30 minuto"
+      }
+    ],
+    "processingTime": "35 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "CITY VETERINARY SERVICES & SLAUGHTERHOUSE MANAGEMENT OFFICE Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Serbisyo upang kuhanan ng dugo ang alagang hayop upang masuri at gamitin bilang isa sa mga requirements ng farm accrediation"
+  },
+  {
+    "service": "Pag apruba sa Kahilingan para sa Veterinary Medical Supplies",
+    "slug": "pag-apruba-sa-kahilingan-para-sa-veterinary-medical-supplies",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "5",
+    "officeDivision": "CVSSMD - Veterinary Services",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan ng Calamba",
+    "officeSlug": [
+      "city-veterinary-office"
+    ],
+    "category": {
+      "name": "Agriculture & Economic Development",
+      "slug": "agriculture-economic-development"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Uri at bilang ng hayop, timbang ng hayop",
+        "where_to_secure": "Kliyente"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Magtungo sa Tanggapan ng City Veterinary Services Office at itala sa log sheet ang pangunahing impormasyon",
+        "agencyAction": "Kapanayamin ang kliyente para sa kinakailangang Veterinary Supply",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Tanggapin ang medical supplies o reseta at lumagda sa talaan",
+        "agencyAction": "Ipagkaloob ang hiling na veterinary supplies",
+        "processing_time": "3 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Kung Meron: Ibigay ang Medical Supplies",
+        "processing_time": "3 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Processing...",
+        "agencyAction": "Kung Wala: Bigyan ng Reseta",
+        "processing_time": "3 minuto"
+      }
+    ],
+    "processingTime": "8 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "CITY VETERINARY SERVICES & SLAUGHTERHOUSE MANAGEMENT OFFICE Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Pagbibigay ng mga Veterinary Medical Supplies para sa pangkahayupang produksyon at maliliit na hayop"
+  },
+  {
+    "service": "Pag apruba sa kahilingan para sa Maramihang Pagbabakuna laban sa Rabis (Homeowners / Company etc.)",
+    "slug": "pag-apruba-sa-kahilingan-para-sa-maramihang-pagbabakuna-laban-sa-rabis-homeowners-company-etc",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "3",
+    "officeDivision": "CVSSMD - Veterinary Services",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan ng Calamba",
+    "officeSlug": [
+      "city-veterinary-office"
+    ],
+    "category": {
+      "name": "Agriculture & Economic Development",
+      "slug": "agriculture-economic-development"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Sulat Kahilingan",
+        "where_to_secure": "Kliyente"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Magtungo sa Tanggapan ng City Veterinary Services Office at isumite ang sulat kahilingan",
+        "agencyAction": "Tanggapin at suriin ang sulat kahilingan at itala sa logbook",
+        "processing_time": "3 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Hintayin ang pormal na communication (tawag, e-mail) ukol sa schedule kung kailan maisasagawa ang hinihiling na serbisyo",
+        "agencyAction": "Pagtatakda sa araw at oras ng pagbabakuna",
+        "processing_time": "30 minuto"
+      }
+    ],
+    "processingTime": "33 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "CITY VETERINARY SERVICES & SLAUGHTERHOUSE MANAGEMENT OFFICE Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pag apruba sa kahilingan para sa training at/o panghuhuli ng galang aso",
+    "slug": "pag-apruba-sa-kahilingan-para-sa-training-ato-panghuhuli-ng-galang-aso",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "6",
+    "officeDivision": "CVSSMD - Veterinary Services",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan ng Calamba",
+    "officeSlug": [
+      "city-veterinary-office"
+    ],
+    "category": {
+      "name": "Agriculture & Economic Development",
+      "slug": "agriculture-economic-development"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Sulat Kahilingan",
+        "where_to_secure": "Kliyente"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Magtungo sa Tanggapan ng City Veterinary Services Office at isumite ang sulat kahilingan",
+        "agencyAction": "Tanggapin at suriin ang sulat kahilingan at itala sa logbook",
+        "processing_time": "3 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Hintayin ang pormal na communication (tawag, e-mail) ukol sa schedule kung kailan maisasagawa ang hinihiling na serbisyo",
+        "agencyAction": "Pagtatakda sa araw at oras ng training/o panghuhuli",
+        "processing_time": "15 minuto"
+      }
+    ],
+    "processingTime": "18 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "CITY VETERINARY SERVICES & SLAUGHTERHOUSE MANAGEMENT OFFICE Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Kahilingan sa paghuhuli ng mga alagang hayop"
+  },
+  {
+    "service": "Pagpapapirma ng Shipping Permit / Veterinary Health Certificate ng mga Hayop na ibibiyahe",
+    "slug": "pagpapapirma-ng-shipping-permit-veterinary-health-certificate-ng-mga-hayop-na-ibibiyahe",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "9",
+    "officeDivision": "CVSSMD - Veterinary Services",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan ng Calamba",
+    "officeSlug": [
+      "city-veterinary-office"
+    ],
+    "category": {
+      "name": "Agriculture & Economic Development",
+      "slug": "agriculture-economic-development"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Shipping Permit\nVeterinary Health Certificates",
+        "where_to_secure": "Kliyente\nCity Veterinary Services Office"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang mga dokumentong papipirmahan",
+        "agencyAction": "Tanggapin at beripikahin ang dokumento at itala sa log-book ang mga detalye at lagyan ng control number at dry seal",
+        "processing_time": "7 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Lagdaan ang Shipping Permit o Veterinary Health Certificate",
+        "processing_time": "7 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Tanggapin ang dokumento",
+        "agencyAction": "Ipagkaloob ang Shipping Permit o Veterinary Health Certificate",
+        "processing_time": "1 minuto"
+      }
+    ],
+    "processingTime": "8 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "CITY VETERINARY SERVICES & SLAUGHTERHOUSE MANAGEMENT OFFICE Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Pag pirma ng isang Deputized Government Veterinarian sa Veterinary Health Certificate galing sa isang Pribadong Beterinaryo ng isang Kumpanya"
+  },
+  {
+    "service": "Pagpapatala para sa Pagkapon ng Pusa",
+    "slug": "pagpapatala-para-sa-pagkapon-ng-pusa",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "11",
+    "officeDivision": "CVSSMD - Veterinary Services",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan ng Calamba",
+    "officeSlug": [
+      "city-veterinary-office"
+    ],
+    "category": {
+      "name": "Agriculture & Economic Development",
+      "slug": "agriculture-economic-development"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Valid ID, Valid email address, Malusog na alagang hayop anim na buwan ang edad pataas",
+        "where_to_secure": "Kliyente"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Bisitahin ang Facebook Page ng Tanggapan para sa anunsiyo ng pagkakapon"
+      },
+      {
+        "step": 2,
+        "action": "Magtungo at magpa rehistro bago ang nakatakdang araw ng Gawain",
+        "agencyAction": "Suriin ang mga nagpatala at gawaan ng pinal na listahan ng mga makakasama sa pagkapon",
+        "processing_time": "5 minuto"
+      }
+    ],
+    "processingTime": "5 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "CITY VETERINARY SERVICES & SLAUGHTERHOUSE MANAGEMENT OFFICE Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Pagkapon sa mga alagang Lalaking pusa tuwing Lunes, mag aabiso kung ito ay ililipat ng petsa"
+  },
+  {
+    "service": "Pagpapatala para sa Spay and Neuter (Special Schedule na Gawain)",
+    "slug": "pagpapatala-para-sa-spay-and-neuter-special-schedule-na-gawain",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "12",
+    "officeDivision": "CVSSMD - Veterinary Services",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan ng Calamba",
+    "officeSlug": [
+      "city-veterinary-office"
+    ],
+    "category": {
+      "name": "Agriculture & Economic Development",
+      "slug": "agriculture-economic-development"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Valid ID, Valid email address, Malusog na alagang hayop walong buwan ang edad pataas",
+        "where_to_secure": "Kliyente"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Bisitahin ang Facebook Page ng Tanggapan para sa anunsiyo ng spay and neuter",
+        "agencyAction": "I-monitor ang bilang ng hayop na nagparehistro",
+        "processing_time": "30 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Punan ang google form",
+        "agencyAction": "Suriin ang mga nagpatala at gawaan ng pinal na listahan ng mga makakasama sa gawain",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Hintayin ang anunsiyo sa FB Page kung nakasama ang inyong alaga sa gagawaing spay and neuter",
+        "agencyAction": "Ipost ang listahan ng mga may-ari na nakasama para sa nasabing spay and neuter",
+        "processing_time": "5 minuto"
+      }
+    ],
+    "processingTime": "40 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "CITY VETERINARY SERVICES & SLAUGHTERHOUSE MANAGEMENT OFFICE Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Pagkapon ng lalaking aso at pag aalis ng matres ng babaeng aso at pusa"
+  },
+  {
+    "service": "Pagproseso at Pagbigay ng CLDF Loan",
+    "slug": "pagproseso-at-pagbigay-ng-cldf-loan",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "7",
+    "officeDivision": "CLDD - LDM Division",
+    "classification": "Simple",
+    "typeOfTransaction": "G2B-Government to Business",
+    "whoMayAvail": "Cooperatives and Individual Entrepreneurs",
+    "officeSlug": [
+      "city-agriculture-office"
+    ],
+    "category": {
+      "name": "Agriculture & Economic Development",
+      "slug": "agriculture-economic-development"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Photocopy ng mga sumusunod: Cedula, Barangay Clearance, Voter's ID / Certification, Photo of Business, Business Permit or Farm Plan",
+        "where_to_secure": "Barangay Hall, Comelec, Aplikante, Business Permts & Tricycle Franchising Office"
+      },
+      {
+        "requirement": "Recent 2x2 ID Picture (2 pcs)",
+        "where_to_secure": "Aplikante"
+      },
+      {
+        "requirement": "Photocopy ng mga sumusunod (kung isang kooperatiba): Application thru Project Proposal, Business Permit, Certificate of Compliance, Certificate of Tax Exemption for Cooperatives (BIR Form 1945), GA Resolution",
+        "where_to_secure": "Aplikante, Business Permits & Tricycle Franchising Office, Cooperative Development Authority, BIR"
+      },
+      {
+        "requirement": "Eligible Co-Maker",
+        "where_to_secure": "Aplikante"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Magtungo sa Tanggapan ng Cooperatives & Livelihood Devt. Department",
+        "agencyAction": "Isagawa ang Oryentasyon",
+        "processing_time": "1 oras"
+      },
+      {
+        "step": 2,
+        "action": "Isumite ang mga kailangang dokumento at isagawa ang Interview",
+        "agencyAction": "Tanggapin at suriin ang mga dokumento",
+        "processing_time": "30 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Pagbisita ng Credit Investigator",
+        "processing_time": "2 oras"
+      },
+      {
+        "step": 4,
+        "action": "Processing...",
+        "agencyAction": "Suriin ang isinumiteng aplikasyon: Approved: Tuloy ang proseso Disapproved: Dahil Walang Negosyo, maling impormasyon ang ibinigay o kulang ang mga requirements",
+        "processing_time": "30 minuto"
+      },
+      {
+        "step": 5,
+        "action": "Lagdaan ang Kontrata",
+        "agencyAction": "Iprisinta at palagdaan ang kontrata at papeles",
+        "processing_time": "15 minuto"
+      },
+      {
+        "step": 6,
+        "action": "Processing...",
+        "agencyAction": "Panayam sa Co-Maker: Kung Qualified: Lagdaan ang kontrata at abisuhan sa nakatakdang araw ng pamimigay ng tseke Kung hindi Qualified: Disapproved o hindi na ipoproseso ang dokumento",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 7,
+        "action": "Tanggapin ang Tseke",
+        "agencyAction": "Ibigay ang Tseke at abisuhan ang kliyente na kumuha ng Loan Payment Protection Insurance (LPPI) at ipanotaryo ang kopya ng Loan Contract.",
+        "processing_time": "1 oras"
+      }
+    ],
+    "processingTime": "5 oras at 50 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "Cooperatives & Livelihood Development Department Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Note: Ang CLDF Loan ay makukuha ng hindi hihigit sa isang (1) buwan sapagka't dadaan pa ito sa proseso sa mga sumusunod na tanggapan: Mayor's Office, Accounting Office, City Administration Office at Treasury Office."
+  },
+  {
+    "service": "Pagsasagawa ng Pagsasanay",
+    "slug": "pagsasagawa-ng-pagsasanay",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "1",
+    "officeDivision": "CLDD - All Division",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan ng Calamba",
+    "officeSlug": [
+      "city-agriculture-office"
+    ],
+    "category": {
+      "name": "Agriculture & Economic Development",
+      "slug": "agriculture-economic-development"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Request Letter",
+        "where_to_secure": "Kliyente"
+      },
+      {
+        "requirement": "Certification of Participation ng nakaraang seminar (photocopy)",
+        "where_to_secure": "Kliyente"
+      },
+      {
+        "requirement": "Certifified True Copy of Certificate of Registration of Business Entity / Cooperative Registration (para sa mga may negosyo) o Barangay Clearance (para sa mga indibidwal)",
+        "where_to_secure": "Business Permits Tricycle Franchising Office o Barangay"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang mga kailangang dokumento",
+        "agencyAction": "Tanggapin at suriin ang mga dokumento",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Pag-apruba sa Request Approved: Tuloy ang proseso at bigyan ng schedule ng pagsasanay Disappoved: Mali ang imporasyong ibinigay o kulang ang mga requirements.",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Punan ang Attendance at Evaluation Sheets",
+        "agencyAction": "Pagsasagawa ng Pagsasanay",
+        "processing_time": "2 araw at 6 oras"
+      },
+      {
+        "step": 4,
+        "action": "Processing...",
+        "agencyAction": "Pagbibigay at Pagkolekta ng Evaluation Sheets",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 5,
+        "action": "Processing...",
+        "agencyAction": "Pagsusuri ng Evaluation Sheet",
+        "processing_time": "3 minuto"
+      },
+      {
+        "step": 6,
+        "action": "Tanggapin ang Sertipiko ng Pagdalo",
+        "agencyAction": "Ibigay ang Sertipiko",
+        "processing_time": "1 oras"
+      }
+    ],
+    "processingTime": "2 araw, 7 oras at 55 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "Cooperatives & Livelihood Development Department Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pagtubos sa nahuling galang aso (City Pound)",
+    "slug": "pagtubos-sa-nahuling-galang-aso-city-pound",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "7",
+    "officeDivision": "CVSSMD - Veterinary Services",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan ng Calamba",
+    "officeSlug": [
+      "city-veterinary-office"
+    ],
+    "category": {
+      "name": "Agriculture & Economic Development",
+      "slug": "agriculture-economic-development"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Order of Payment",
+        "where_to_secure": "Pound Keeper"
+      },
+      {
+        "requirement": "Official Receipt",
+        "where_to_secure": "City Treasury Office"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Pumunta sa City Pound at kilalanin ang hayop na tutubusin",
+        "agencyAction": "Ipakita ang nahuling hayop",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Bigyan ng Order of Payment",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Magbayad ng kaukulang halaga",
+        "agencyAction": "Tanggapin ang kaukulang halaga at bigyan ng opisyal na resibo",
+        "processing_time": "2 minuto",
+        "fee": "Ayon sa Anti-Rabies Ordinance"
+      },
+      {
+        "step": 4,
+        "action": "Ipresinta ang opisyal na resibo at hintayin maihanda ang hayop na mai-release at lumagda sa log-book",
+        "agencyAction": "Bakunahan ang hayop ng Anti-Rabies Vaccine kung ito ay hindi pa bakunado at bigyan ng vaccination card.",
+        "processing_time": "15 minuto"
+      },
+      {
+        "step": 5,
+        "action": "Processing...",
+        "agencyAction": "Palagdain sa log-book na katunayang na na-release na ang asong nahuli",
+        "processing_time": "15 minuto"
+      }
+    ],
+    "processingTime": "22 minuto",
+    "fees": {
+      "amount": "Ayon sa Anti-Rabies Ordinance",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "CITY VETERINARY SERVICES & SLAUGHTERHOUSE MANAGEMENT OFFICE Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Pagtubos sa mga nahuling hayop\n\nPENALTIES AND FEES \"ANTI-RABIES ORDINANCE\"\n\n1st Offense Php 100\n\n2nd Offense Php 300\n\n3rd Offense Php 500\n\na. Rabies Vaccination\n\nb. Issuance of Certificate of Registration\n\nc. Duty of the Owner/Possessor of Dogs\n\nd. Mandatory Leashing or Confinement of Dogs\n\ne. Liability of Owner of Biting Dog - Php 5,000\n\nf. Unauthorized Impounding, Trapping or Catching - Php 1,000/ Dog"
+  },
+  {
+    "service": "Pagtulong sa pamamagitan ng Business Incubation",
+    "slug": "pagtulong-sa-pamamagitan-ng-business-incubation",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "6",
+    "officeDivision": "CLDD - LDM Division",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C- Government to Citizen",
+    "whoMayAvail": "Kwalipikadong Mamamayan ng Calamba",
+    "officeSlug": [
+      "city-agriculture-office"
+    ],
+    "category": {
+      "name": "Agriculture & Economic Development",
+      "slug": "agriculture-economic-development"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Certification of completion ng mga pagsasanay",
+        "where_to_secure": "Aplikante"
+      },
+      {
+        "requirement": "Alinman sa mga sumusunod: DTI Registration, BMBE Registration, SEC Registration, Business Permits, CDA Registration",
+        "where_to_secure": "DTI, Securities and Exchange Commission, BPTFO, CDA"
+      },
+      {
+        "requirement": "Voter's ID or Certificate",
+        "where_to_secure": "Comelec"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang mga kinakai- langan dokumento",
+        "agencyAction": "Tanggapin at suriin ang mga dokumento at bigyan ng schedule ng orientation",
+        "processing_time": "20 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Isagaw ang orientation",
+        "processing_time": "1 oras at 30 mniuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Ibigay ang livelihood package",
+        "processing_time": "1 oras"
+      },
+      {
+        "step": 4,
+        "action": "Processing...",
+        "agencyAction": "Igawad ang Sertipiko ng Pagtanggap",
+        "processing_time": "30 minuto"
+      }
+    ],
+    "processingTime": "3 oras at 30 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "Cooperatives & Livelihood Development Department Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Serbisyong Konsultasyon para sa mga Walk-In na kliyente",
+    "slug": "serbisyong-konsultasyon-para-sa-mga-walk-in-na-kliyente",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "2",
+    "officeDivision": "CVSSMD - Veterinary Services",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan ng Calamba",
+    "officeSlug": [
+      "city-veterinary-office"
+    ],
+    "category": {
+      "name": "Agriculture & Economic Development",
+      "slug": "agriculture-economic-development"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Alagang Hayop, Vaccination Card (kung mayroon)",
+        "where_to_secure": "Kliyente"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Magtungo sa Tanggapan ng City Verterinary Services Office at itala sa log sheet ang pangunahing impormasyon ng alagang hayop",
+        "agencyAction": "Ipasa sa City Veterinarian / Veterinarian of the Day ang pangunahing impormasyon ng hayop",
+        "processing_time": "3 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Isanguni sa Beterinaryo ang kondisyon at aktuwal na pag-gagamot ng alagang hayop",
+        "agencyAction": "Suriin ang kondisyon ng alagang hayop",
+        "processing_time": "30 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Tanggapin ang gamot at/o reseta",
+        "agencyAction": "Ipagkaloob ang gamot at/o reseta at ipaliwanag sa kliyente ang gagawin",
+        "processing_time": "5 minuto"
+      }
+    ],
+    "processingTime": "38 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "CITY VETERINARY SERVICES & SLAUGHTERHOUSE MANAGEMENT OFFICE Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Ang Serbisyong Konsultasyon ay para lamang sa mga hayop na maaaring ma diagnose ang kundisyon at mabigyan ng lunas/ reseta batay sa pisikal na eksaminasyon at hindi na kinakailangan ng mga test sa laboratoryo o private clinics"
+  }
+]

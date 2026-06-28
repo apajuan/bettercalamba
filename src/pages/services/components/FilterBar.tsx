@@ -9,27 +9,32 @@ import {
 
 import { Badge } from '@/components/ui/Badge';
 import { getAllOfficeDivisions } from '@/lib/services';
+import type { TransactionTypeFilter } from '@/types/servicesTypes';
 
 // Types
 export type ServiceSource = 'citizens-charter' | 'community' | 'all';
-export type ClassificationFilter = 'Simple' | 'Complex' | 'all';
+export type ClassificationFilter = 'Simple' | 'Complex' | 'Highly Technical' | 'all';
 
 interface FilterBarProps {
   selectedOfficeDivision: string;
   selectedSource: ServiceSource;
   selectedClassification: ClassificationFilter;
+  selectedTransactionType: TransactionTypeFilter;
   onOfficeDivisionChange: (division: string) => void;
   onSourceChange: (source: ServiceSource) => void;
   onClassificationChange: (classification: ClassificationFilter) => void;
+  onTransactionTypeChange: (transactionType: TransactionTypeFilter) => void;
 }
 
 export default function FilterBar({
   selectedOfficeDivision,
   selectedSource,
   selectedClassification,
+  selectedTransactionType,
   onOfficeDivisionChange,
   onSourceChange,
   onClassificationChange,
+  onTransactionTypeChange,
 }: FilterBarProps) {
   const [isExpanded, setIsExpanded] = useState(false);
   const officeDivisions = getAllOfficeDivisions();
@@ -37,7 +42,8 @@ export default function FilterBar({
   const hasActiveFilters =
     selectedOfficeDivision !== 'all' ||
     selectedSource !== 'all' ||
-    selectedClassification !== 'all';
+    selectedClassification !== 'all' ||
+    selectedTransactionType !== 'all';
 
   return (
     <div
@@ -71,7 +77,7 @@ export default function FilterBar({
       {/* Expandable Filter Content */}
       {isExpanded && (
         <div className='border-kapwa-border-weak border-t px-4 py-4 sm:px-5'>
-          <div className='flex flex-col gap-4 md:flex-row md:gap-6'>
+          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6'>
             {/* Data Source Filter */}
             <div className='flex-1'>
               <div className='mb-2 flex items-center gap-2'>
@@ -106,9 +112,23 @@ export default function FilterBar({
             <div className='flex-1'>
               <div className='mb-2 flex items-center gap-2'>
                 <Layers className='text-kapwa-text-disabled h-3.5 w-3.5' />
-                <h4 className='text-kapwa-text-disabled text-[10px] font-bold uppercase tracking-wider'>
-                  Type
-                </h4>
+                <div className='group relative flex items-center gap-1.5'>
+                  <h4 className='text-kapwa-text-disabled text-[10px] font-bold uppercase tracking-wider'>
+                    Type
+                  </h4>
+                  <div className='text-kapwa-text-disabled hover:text-kapwa-text-brand flex h-4 w-4 cursor-help items-center justify-center rounded-full border border-current text-[9px] font-bold transition-colors'>
+                    i
+                  </div>
+                  {/* Option B Popover */}
+                  <div className='bg-kapwa-bg-surface-raised border-kapwa-border-weak pointer-events-none absolute top-full left-0 z-50 mt-2 w-64 translate-y-2 opacity-0 shadow-lg transition-all group-hover:pointer-events-auto group-hover:translate-y-0 group-hover:opacity-100 rounded-xl border p-4'>
+                    <h5 className='text-kapwa-text-strong mb-2 text-[10px] font-bold uppercase tracking-widest'>ARTA Classifications</h5>
+                    <ul className='text-kapwa-text-support space-y-2 text-xs'>
+                      <li><span className='text-kapwa-text-brand font-bold'>Simple:</span> Max 3 days</li>
+                      <li><span className='text-kapwa-text-brand font-bold'>Complex:</span> Max 7 days</li>
+                      <li><span className='text-kapwa-text-brand font-bold'>Highly Technical:</span> Max 20 days</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
               <div className='flex flex-wrap gap-1.5'>
                 <FilterPill
@@ -119,15 +139,60 @@ export default function FilterBar({
                 />
                 <FilterPill
                   label='Simple'
+                  title='Maximum of 3 days processing time'
                   selected={selectedClassification === 'Simple'}
                   onClick={() => onClassificationChange('Simple')}
                   data-testid='filter-classification-simple'
                 />
                 <FilterPill
                   label='Complex'
+                  title='Maximum of 7 days processing time'
                   selected={selectedClassification === 'Complex'}
                   onClick={() => onClassificationChange('Complex')}
                   data-testid='filter-classification-complex'
+                />
+                <FilterPill
+                  label='Highly Technical'
+                  title='Maximum of 20 days processing time'
+                  selected={selectedClassification === 'Highly Technical'}
+                  onClick={() => onClassificationChange('Highly Technical')}
+                  data-testid='filter-classification-highly'
+                />
+              </div>
+            </div>
+
+            {/* Target Client Filter */}
+            <div className='flex-1'>
+              <div className='mb-2 flex items-center gap-2'>
+                <Layers className='text-kapwa-text-disabled h-3.5 w-3.5' />
+                <h4 className='text-kapwa-text-disabled text-[10px] font-bold uppercase tracking-wider'>
+                  Target Client
+                </h4>
+              </div>
+              <div className='flex flex-wrap gap-1.5'>
+                <FilterPill
+                  label='All'
+                  selected={selectedTransactionType === 'all'}
+                  onClick={() => onTransactionTypeChange('all')}
+                  data-testid='filter-transaction-all'
+                />
+                <FilterPill
+                  label='Citizen (G2C)'
+                  selected={selectedTransactionType === 'G2C'}
+                  onClick={() => onTransactionTypeChange('G2C')}
+                  data-testid='filter-transaction-g2c'
+                />
+                <FilterPill
+                  label='Business (G2B)'
+                  selected={selectedTransactionType === 'G2B'}
+                  onClick={() => onTransactionTypeChange('G2B')}
+                  data-testid='filter-transaction-g2b'
+                />
+                <FilterPill
+                  label="Gov't (G2G)"
+                  selected={selectedTransactionType === 'G2G'}
+                  onClick={() => onTransactionTypeChange('G2G')}
+                  data-testid='filter-transaction-g2g'
                 />
               </div>
             </div>
@@ -164,6 +229,7 @@ export default function FilterBar({
                     onOfficeDivisionChange('all');
                     onSourceChange('all');
                     onClassificationChange('all');
+                    onTransactionTypeChange('all');
                   }}
                   className='text-kapwa-text-brand hover:text-kapwa-text-accent-orange text-xs font-bold transition-colors'
                   data-testid='filter-clear-all'
@@ -185,6 +251,7 @@ interface FilterPillProps {
   selected: boolean;
   onClick: () => void;
   'data-testid'?: string;
+  title?: string;
 }
 
 function FilterPill({
@@ -192,10 +259,12 @@ function FilterPill({
   selected,
   onClick,
   'data-testid': testId,
+  title,
 }: FilterPillProps) {
   return (
     <button
       type='button'
+      title={title}
       onClick={onClick}
       data-testid={testId}
       className={`transition-all ${

@@ -1,1 +1,766 @@
-[]
+[
+  {
+    "service": "Aplikasyon para makapagsagawa ng Job Fair",
+    "slug": "aplikasyon-para-makapagsagawa-ng-job-fair",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "6",
+    "officeDivision": "IIPESO- Investment Promotions and Employment Services Division",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan",
+    "officeSlug": [
+      "city-information-office"
+    ],
+    "category": {
+      "name": "Business, Trade & Investment",
+      "slug": "business-trade-investment"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Certificate of Accreditation from IIPESO",
+        "where_to_secure": "Sa Tanggapan ng IIPESO"
+      },
+      {
+        "requirement": "List of Job Vacancies",
+        "where_to_secure": "Sa Tanggapan ng IIPESO"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Punan ang application form at isumite ang mga kailangang dokumento isang (1) buwan bago ang takdang araw ng Job Fair",
+        "agencyAction": "Tanggapin at suriin ang mga dokumento",
+        "processing_time": "2 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Aprubahan ang application form at itakda ang araw ng job fair.",
+        "processing_time": "30 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "I-endorso sa DOLE-Lfaguna ang Application",
+        "processing_time": "1 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Tanggapin ang Job Fair Permit",
+        "agencyAction": "Ibigay ang Job Fair Permit",
+        "processing_time": "2 minuto"
+      }
+    ],
+    "processingTime": "35 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "INFORMATION, INVESTMENT PROMOTIONS & EMPLOYMENT SERVICES OFFICE Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Note: Makukuha ang Job Fair Permit mula sa DOLE-Laguna sa loob ng sampung (10) araw"
+  },
+  {
+    "service": "Aplikasyon para makapagsagawa ng Local Recruitment Activity (LRA)",
+    "slug": "aplikasyon-para-makapagsagawa-ng-local-recruitment-activity-lra",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "4",
+    "officeDivision": "IIPESO- Investment Promotions and Employment Services Division",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "All Citizens",
+    "officeSlug": [
+      "city-information-office"
+    ],
+    "category": {
+      "name": "Business, Trade & Investment",
+      "slug": "business-trade-investment"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "PESO Accreditation",
+        "where_to_secure": "Sa Tanggapan ng IIPESO"
+      },
+      {
+        "requirement": "List of Job Vacancies",
+        "where_to_secure": "Sa Tanggapan ng IIPESO"
+      },
+      {
+        "requirement": "Application Form",
+        "where_to_secure": "Sa Tanggapan ng IIPESO"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang mga kailangang dokumento at punan ang application form",
+        "agencyAction": "Tanggapin at suriin ang mga dokumento at alamin ang takdang araw ng Local Recruitment Activity.",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Tanggapin ang permit",
+        "agencyAction": "Ipagkaloob ang permit"
+      }
+    ],
+    "processingTime": "5 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "INFORMATION, INVESTMENT PROMOTIONS & EMPLOYMENT SERVICES OFFICE Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Aplikasyon para makapagsagawa ng Special Recruitment Activity (SRA)",
+    "slug": "aplikasyon-para-makapagsagawa-ng-special-recruitment-activity-sra",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "5",
+    "officeDivision": "IIPESO- Investment Promotions and Employment Services Division",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "All Citizens",
+    "officeSlug": [
+      "city-information-office"
+    ],
+    "category": {
+      "name": "Business, Trade & Investment",
+      "slug": "business-trade-investment"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "POEA License",
+        "where_to_secure": "POEA"
+      },
+      {
+        "requirement": "Business Permit",
+        "where_to_secure": "Business Permits & Tricycle Franchising Office"
+      },
+      {
+        "requirement": "List of Job Vacancies",
+        "where_to_secure": "Company"
+      },
+      {
+        "requirement": "Application Form",
+        "where_to_secure": "IIPESO"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Punan ang application form at isumite ang mga kailangang dokumento dalawang (2) linggo bago ang takdang araw ng SRA",
+        "agencyAction": "Tanggapin at suriin ang mga dokumento at alamin ang takdang araw ng SRA",
+        "processing_time": "2 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Tanggapin ang Endorsement Letter na dadalhin sa DOLE-Laguna para makakuha ng Certificate of No Objection",
+        "agencyAction": "Ihanda ang Endorsement Letter at Itala ang araw ng Special Recruitmentg Activity"
+      },
+      {
+        "step": 3,
+        "action": "Isumite ang CNO at POEA Permit",
+        "agencyAction": "Tanggapin at I-finalize ang schedule ng SRA",
+        "processing_time": "5 minuto"
+      }
+    ],
+    "processingTime": "7 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "INFORMATION, INVESTMENT PROMOTIONS & EMPLOYMENT SERVICES OFFICE Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pagbibigay ng Mayor's Clearance (Para sa magtatrabaho na may edad 17 pababa)",
+    "slug": "pagbibigay-ng-mayors-clearance-para-sa-magtatrabaho-na-may-edad-17-pababa",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "1.4",
+    "officeDivision": "IIPESO- Investment Promotions and Employment Services Division",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "All Citizens",
+    "officeSlug": [
+      "city-information-office"
+    ],
+    "category": {
+      "name": "Business, Trade & Investment",
+      "slug": "business-trade-investment"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Application Form",
+        "where_to_secure": "Info., Investment Promotions & Employment Services Office"
+      },
+      {
+        "requirement": "Barangay Clearance",
+        "where_to_secure": "Barangay"
+      },
+      {
+        "requirement": "Police Clearance",
+        "where_to_secure": "Police Station"
+      },
+      {
+        "requirement": "Court Clearance",
+        "where_to_secure": "Municipal Trial Court"
+      },
+      {
+        "requirement": "Working Permit",
+        "where_to_secure": "DOLE - Laguna Field Office"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Punan ang application form at isumite ang mga kinaka-ilangang dokumento",
+        "agencyAction": "Tanggapin at suriin ang mga dokumento at bigyan ng Order of payment",
+        "processing_time": "2 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Iproseso ang Mayor's Clearance",
+        "processing_time": "6 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Magbayad ng kaukulang halaga",
+        "agencyAction": "Tanggapin ang kaukulang halaga at bigyan ng opisyal na resibo",
+        "processing_time": "2 minuto",
+        "fee": "Php 40.00"
+      },
+      {
+        "step": 4,
+        "action": "Ipresinta ang opisyal na resibo at tanggapin ang dokumento",
+        "agencyAction": "Ipagkaloob ang Mayor's Clearance at dalhin sa Mayor's Office para pa-aprubahan.",
+        "processing_time": "2 minuto"
+      }
+    ],
+    "processingTime": "12 minuto",
+    "fees": {
+      "amount": "Php 40.00",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "INFORMATION, INVESTMENT PROMOTIONS & EMPLOYMENT SERVICES OFFICE Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pagbibigay ng Mayor's Clearance (Para sa magtatrabaho sa City Hall)",
+    "slug": "pagbibigay-ng-mayors-clearance-para-sa-magtatrabaho-sa-city-hall",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "1.3",
+    "officeDivision": "IIPESO- Investment Promotions and Employment Services Division",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "All Citizens",
+    "officeSlug": [
+      "city-information-office"
+    ],
+    "category": {
+      "name": "Business, Trade & Investment",
+      "slug": "business-trade-investment"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Application Form",
+        "where_to_secure": "Info., Investment Promotions & Employment Services Office"
+      },
+      {
+        "requirement": "Barangay Clearance",
+        "where_to_secure": "Barangay"
+      },
+      {
+        "requirement": "Police Clearance",
+        "where_to_secure": "Police Station"
+      },
+      {
+        "requirement": "Court Clearance",
+        "where_to_secure": "Municipal Trial Court"
+      },
+      {
+        "requirement": "Office Order / Appointment / Contract",
+        "where_to_secure": "Mayor's Office"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Punan ang application form at isumite ang mga kinaka-ilangang dokumento",
+        "agencyAction": "Tanggapin at suriin ang mga dokumento at bigyan ng Order of payment",
+        "processing_time": "2 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Iproseso ang Mayor's Clearance",
+        "processing_time": "6 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Magbayad ng kaukulang halaga",
+        "agencyAction": "Tanggapin ang kaukulang halaga at bigyan ng opisyal na resibo",
+        "processing_time": "2 minuto",
+        "fee": "Php 40.00"
+      },
+      {
+        "step": 4,
+        "action": "Ipresinta ang opisyal na resibo at tanggapin ang dokumento",
+        "agencyAction": "Ipagkaloob ang Mayor's Clearance at dalhin sa Mayor's Office para pa-aprubahan.",
+        "processing_time": "2 minuto"
+      }
+    ],
+    "processingTime": "12 minuto",
+    "fees": {
+      "amount": "Php 40.00",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "INFORMATION, INVESTMENT PROMOTIONS & EMPLOYMENT SERVICES OFFICE Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pagbibigay ng Mayor's Clearance (Para sa magtatrabaho sa KTV bars)",
+    "slug": "pagbibigay-ng-mayors-clearance-para-sa-magtatrabaho-sa-ktv-bars",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "1.2",
+    "officeDivision": "IIPESO- Investment Promotions and Employment Services Division",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "All Citizens",
+    "officeSlug": [
+      "city-information-office"
+    ],
+    "category": {
+      "name": "Business, Trade & Investment",
+      "slug": "business-trade-investment"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Application Form",
+        "where_to_secure": "Info., Investment Promotions & Employment Services Office"
+      },
+      {
+        "requirement": "Barangay Clearance",
+        "where_to_secure": "Barangay"
+      },
+      {
+        "requirement": "Police Clearance",
+        "where_to_secure": "Police Station"
+      },
+      {
+        "requirement": "Court Clearance",
+        "where_to_secure": "Municipal Trial Court"
+      },
+      {
+        "requirement": "Birth Certificate",
+        "where_to_secure": "Philippine Statistics Office"
+      },
+      {
+        "requirement": "Health Card",
+        "where_to_secure": "City Health Office"
+      },
+      {
+        "requirement": "Diagnostic Clinic Result",
+        "where_to_secure": "Venereal Disease Research Laboratory Test"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Punan ang application form at isumite ang mga kinaka-ilangang dokumento",
+        "agencyAction": "Tanggapin at suriin ang mga dokumento at bigyan ng Order of payment",
+        "processing_time": "2 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Iproseso ang Mayor's Clearance",
+        "processing_time": "6 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Magbayad ng kaukulang halaga",
+        "agencyAction": "Tanggapin ang kaukulang halaga at bigyan ng opisyal na resibo",
+        "processing_time": "2 minuto",
+        "fee": "Php 40.00"
+      },
+      {
+        "step": 4,
+        "action": "Ipresinta ang opisyal na resibo at tanggapin ang dokumento",
+        "agencyAction": "Ipagkaloob ang Mayor's Clearance at dalhin sa Mayor's Office para pa-aprubahan.",
+        "processing_time": "2 minuto"
+      }
+    ],
+    "processingTime": "12 minuto",
+    "fees": {
+      "amount": "Php 40.00",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "INFORMATION, INVESTMENT PROMOTIONS & EMPLOYMENT SERVICES OFFICE Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pagbibigay ng Mayor's Clearance (Para sa trabaho / Enlistment)",
+    "slug": "pagbibigay-ng-mayors-clearance-para-sa-trabaho-enlistment",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "1.1",
+    "officeDivision": "IIPESO- Investment Promotions and Employment Services Division",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "All Citizens",
+    "officeSlug": [
+      "city-information-office"
+    ],
+    "category": {
+      "name": "Business, Trade & Investment",
+      "slug": "business-trade-investment"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Application Form",
+        "where_to_secure": "Info., Investment Promotions & Employment Services Office"
+      },
+      {
+        "requirement": "Barangay Clearance",
+        "where_to_secure": "Barangay"
+      },
+      {
+        "requirement": "Police Clearance",
+        "where_to_secure": "Police Station"
+      },
+      {
+        "requirement": "Court Clearance",
+        "where_to_secure": "Municipal Trial Court"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Punan ang application form at isumite ang mga kinaka-ilangang dokumento",
+        "agencyAction": "Tanggapin at suriin ang mga dokumento at bigyan ng Order of payment",
+        "processing_time": "2 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Iproseso ang Mayor's Clearance",
+        "processing_time": "6 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Magbayad ng kaukulang halaga",
+        "agencyAction": "Tanggapin ang kaukulang halaga at bigyan ng opisyal na resibo",
+        "processing_time": "2 minuto",
+        "fee": "Php 40.00"
+      },
+      {
+        "step": 4,
+        "action": "Ipresinta ang opisyal na resibo at tanggapin ang dokumento",
+        "agencyAction": "Ipagkaloob ang Mayor's Clearance at dalhin sa Mayor's Office para pa-aprubahan.",
+        "processing_time": "2 minuto"
+      }
+    ],
+    "processingTime": "12 minuto",
+    "fees": {
+      "amount": "Php 40.00",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "INFORMATION, INVESTMENT PROMOTIONS & EMPLOYMENT SERVICES OFFICE Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pagbibigay ng Referral at Endorsement Letter",
+    "slug": "pagbibigay-ng-referral-at-endorsement-letter",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "2",
+    "officeDivision": "IIPESO- Investment Promotions and Employment Services Division",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "All Citizens",
+    "officeSlug": [
+      "city-information-office"
+    ],
+    "category": {
+      "name": "Business, Trade & Investment",
+      "slug": "business-trade-investment"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Police Clearance",
+        "where_to_secure": "PNP Station"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Ipresinta ang dokumento",
+        "agencyAction": "Bigyan ng National skills Registry System (NSRS) form",
+        "processing_time": "1 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Sagutan ang National Skills Registration Form",
+        "agencyAction": "Alamin ang akmang trabaho para sa kliyente at ihanda ang Endorsement/ Referral Letter",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Tanggapin ang dokumento",
+        "agencyAction": "Ibigay ng Endorsement/ Referral Letter",
+        "processing_time": "2 minuto"
+      }
+    ],
+    "processingTime": "8 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "INFORMATION, INVESTMENT PROMOTIONS & EMPLOYMENT SERVICES OFFICE Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pagpapa-apruba para sa Sound System",
+    "slug": "pagpapa-apruba-para-sa-sound-system",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "7",
+    "officeDivision": "IIPESO- Information and Media Bureau",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "All Citizens",
+    "officeSlug": [
+      "city-information-office"
+    ],
+    "category": {
+      "name": "Business, Trade & Investment",
+      "slug": "business-trade-investment"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Sulat Kahilingan",
+        "where_to_secure": "Sa tanggapan ng IIPESO"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang Sulat Kahilingan",
+        "agencyAction": "Tanggapin at Pa-aprubahan ang petsa at itala sa record book.",
+        "processing_time": "4 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Tanggapin ang aprubadong sulat kahilingan",
+        "agencyAction": "Ibigay ang aprubadong sulat kahilingan."
+      }
+    ],
+    "processingTime": "4 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "INFORMATION, INVESTMENT PROMOTIONS & EMPLOYMENT SERVICES OFFICE Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pagrerehistro at pagkakaloob ng Accreditation (Hindi nakabase sa Calamba)",
+    "slug": "pagrerehistro-at-pagkakaloob-ng-accreditation-hindi-nakabase-sa-calamba",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "3.2",
+    "officeDivision": "IIPESO- Investment Promotions and Employment Services Division",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "All Citizens",
+    "officeSlug": [
+      "city-information-office"
+    ],
+    "category": {
+      "name": "Business, Trade & Investment",
+      "slug": "business-trade-investment"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Business Permit",
+        "where_to_secure": "Company"
+      },
+      {
+        "requirement": "Company TIN",
+        "where_to_secure": "Company"
+      },
+      {
+        "requirement": "DOLE Registration",
+        "where_to_secure": "Company"
+      },
+      {
+        "requirement": "Certificate of No Pending Case",
+        "where_to_secure": "Company"
+      },
+      {
+        "requirement": "List of Job Vacancies",
+        "where_to_secure": "Company"
+      },
+      {
+        "requirement": "Philjobnet Accreditation",
+        "where_to_secure": "Company"
+      },
+      {
+        "requirement": "Special Mayor's Permit",
+        "where_to_secure": "Company"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Punan ang Google Form at Isumite ang mga kailangang dokumento",
+        "agencyAction": "Tanggapin at suriin ang mga dokumento at itala sa Public Employment Information System (PEIS)",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Isumite ang Endorsement Form",
+        "agencyAction": "Bigyan ng Order of Payment",
+        "processing_time": "2 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Magbayad ng kaukulang halaga para Special Mayor's Permit",
+        "agencyAction": "Tanggapin ang kaukulang bayad at bigyan ng opisyal na resibo",
+        "processing_time": "2 minuto",
+        "fee": "Php 1,200"
+      },
+      {
+        "step": 4,
+        "action": "Ipresinta ang opisyal na resibo at tanggapin ang dokumento",
+        "agencyAction": "Ipagkaloob ang Special Mayor's Permit",
+        "processing_time": "2 minuto"
+      },
+      {
+        "step": 5,
+        "action": "Tanggapin ang Certificate of Accreditation",
+        "agencyAction": "Ibigay ang Certificate of Accreditation",
+        "processing_time": "2 minuto"
+      }
+    ],
+    "processingTime": "13 minuto",
+    "fees": {
+      "amount": "Php 1,200",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "INFORMATION, INVESTMENT PROMOTIONS & EMPLOYMENT SERVICES OFFICE Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pagrerehistro at pagkakaloob ng Accreditation (Nakabase sa Calamba)",
+    "slug": "pagrerehistro-at-pagkakaloob-ng-accreditation-nakabase-sa-calamba",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "3.1",
+    "officeDivision": "IIPESO- Investment Promotions and Employment Services Division",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "All Citizens",
+    "officeSlug": [
+      "city-information-office"
+    ],
+    "category": {
+      "name": "Business, Trade & Investment",
+      "slug": "business-trade-investment"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Business Permit",
+        "where_to_secure": "Company"
+      },
+      {
+        "requirement": "Company TIN",
+        "where_to_secure": "Company"
+      },
+      {
+        "requirement": "List of Job Vacancies",
+        "where_to_secure": "Company"
+      },
+      {
+        "requirement": "Philjobnet Accreditation",
+        "where_to_secure": "Company"
+      },
+      {
+        "requirement": "Certificate of No Pending Case",
+        "where_to_secure": "Company"
+      },
+      {
+        "requirement": "Certificate of Registration",
+        "where_to_secure": "Company"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Punan ang Google Form at isumite ang mga kailangang dokumento",
+        "agencyAction": "Tanggapin at suriin ang mga dokumento at itala sa Public Employment Information System (PEIS)",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Tanggapin ang Certificate of Accreditation",
+        "agencyAction": "Ibigay ang Certificate of Accreditation",
+        "processing_time": "2 minuto"
+      }
+    ],
+    "processingTime": "7 minuto",
+    "fees": {
+      "amount": "Walang babayaran",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "INFORMATION, INVESTMENT PROMOTIONS & EMPLOYMENT SERVICES OFFICE Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  }
+]

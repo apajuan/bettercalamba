@@ -1,1 +1,458 @@
-[]
+[
+  {
+    "service": "Kahilingan para sa seminar tungkol sa Ecological Solid Waste Management",
+    "slug": "kahilingan-para-sa-seminar-tungkol-sa-ecological-solid-waste-management",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "4",
+    "officeDivision": "CENRO - Waste Management Division",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan ng Calamba",
+    "officeSlug": [
+      "city-environment-and-natural-resources-office"
+    ],
+    "category": {
+      "name": "Environment & Natural Resources",
+      "slug": "environment-natural-resources"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Liham na kahilingan",
+        "where_to_secure": "N/A"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang Liham na Kahilingan",
+        "agencyAction": "Tanggapin at suriin ang Liham na Kahilingan",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Pakikipag-ugnayan sa kliyente ukol sa petsa ng seminar",
+        "processing_time": "1 oras"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Pagtatakda at pagsasagawa ng seminar",
+        "processing_time": "1 araw"
+      },
+      {
+        "step": 4,
+        "action": "Pagtanggap ng Sertipikasyon ng Pagdalo",
+        "agencyAction": "Pagbibigay ng Sertipikasyon ng Pagdalo",
+        "processing_time": "1 oras"
+      }
+    ],
+    "processingTime": "1 araw, 2 oras at 5 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Environment & Natural Resources Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pagbibigay ng Certificate of No Objection as one of the requirements for the Issuance of permit to cut trees",
+    "slug": "pagbibigay-ng-certificate-of-no-objection-as-one-of-the-requirements-for-the-issuance-of-permit-to-cut-trees",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "2",
+    "officeDivision": "CENRO - Environmental Conversation & Pollution Control Division & Waste Management Division",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan ng Calamba",
+    "officeSlug": [
+      "city-environment-and-natural-resources-office"
+    ],
+    "category": {
+      "name": "Environment & Natural Resources",
+      "slug": "environment-natural-resources"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Sulat Kahilingin sa pagpapaputol",
+        "where_to_secure": "Mula sa may-ari ng lupa"
+      },
+      {
+        "requirement": "Sketch Map",
+        "where_to_secure": "Mula sa may-ari ng lupa"
+      },
+      {
+        "requirement": "Development Plan",
+        "where_to_secure": "City Building Office / City Planning & Development Office"
+      },
+      {
+        "requirement": "Kopya at Titulo ng Lupa",
+        "where_to_secure": "Mula sa may-ari ng lupa"
+      },
+      {
+        "requirement": "Kung ang puno ay bungangkahoy kumuha ng Certificate mula sa City Agricultural Services Department",
+        "where_to_secure": "City Agricultural Services Office"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang Sulat Kahilingan at mga kinakailangang dokumento at bigyan ng Schedule ng Inspection.",
+        "agencyAction": "Tanggapin at suriin ang mga dokumento",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Aktuwal na Inspection",
+        "processing_time": "4 oras"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Pag-evaluate sa Inspection Report Approved: Iproseso ang Dokumento Disapproved: Ipaliwanag sa Kliyente",
+        "processing_time": "2 araw"
+      },
+      {
+        "step": 4,
+        "action": "Tanggapin ang dokumento",
+        "agencyAction": "Ibigay ang Certificate of No. Objection",
+        "processing_time": "5 minuto"
+      }
+    ],
+    "processingTime": "2 araw, 4 oras at 10 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Environment & Natural Resources Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pagkuha ng CENRO Certificate (Para sa CNC)",
+    "slug": "pagkuha-ng-cenro-certificate-para-sa-cnc",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "3.2",
+    "officeDivision": "CENRO - Environmental Conversation & Pollution Control Division",
+    "classification": "Simple",
+    "typeOfTransaction": "G2B-Government to Business",
+    "whoMayAvail": "Local and other city entities with business permits",
+    "officeSlug": [
+      "city-environment-and-natural-resources-office"
+    ],
+    "category": {
+      "name": "Environment & Natural Resources",
+      "slug": "environment-natural-resources"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Business Barangay Clearance",
+        "where_to_secure": "Barangay"
+      },
+      {
+        "requirement": "DTI/SEC",
+        "where_to_secure": "DTI/SEC"
+      },
+      {
+        "requirement": "Updated Sanitary Landfill Accreditation",
+        "where_to_secure": "Any SLF proponent"
+      },
+      {
+        "requirement": "Receipt of Garbage Disposal for the Previous Year",
+        "where_to_secure": "SLF"
+      },
+      {
+        "requirement": "Passbook",
+        "where_to_secure": "CENRO"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang mga kinakailangan dokumento",
+        "agencyAction": "Tanggapin at suriin ang mga dokumento",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Pagkausap o Panayam sa aplikante at bigyan ng schedule ng Inspection.",
+        "processing_time": "15 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Aktwal na Inspeksyon",
+        "processing_time": "3 araw"
+      },
+      {
+        "step": 4,
+        "action": "Processing...",
+        "agencyAction": "Pag-susuri sa Inspection Report. Kumpleto ang dokumento: Bigyan ng Order of Payment at Iproseso ang Certificate. Kulang ang dokumento: Ibalik sa kliyente ang mga dokumento",
+        "processing_time": "20 minuto"
+      },
+      {
+        "step": 5,
+        "action": "Magbayad ng kaukulang halaga sa City Treasury Office",
+        "agencyAction": "Tanggapin ang kaukulang bayad at bigyan ng opisyal na resibo",
+        "processing_time": "2 minuto",
+        "fee": "Php 609.00"
+      },
+      {
+        "step": 6,
+        "action": "Ipresinta ang opisyal na resibo at tanggapin ang certificate",
+        "agencyAction": "Ibigay ang Certificate",
+        "processing_time": "2 minuto"
+      }
+    ],
+    "processingTime": "3 araw at 44 minuto",
+    "fees": {
+      "amount": "Php 609.00",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Environment & Natural Resources Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pagkuha ng CENRO Certificate (Para sa ECC)",
+    "slug": "pagkuha-ng-cenro-certificate-para-sa-ecc",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "3.1",
+    "officeDivision": "CENRO - Environmental Conversation & Pollution Control Division",
+    "classification": "Simple",
+    "typeOfTransaction": "G2B-Government to Business",
+    "whoMayAvail": "Local and other city entities with business permits",
+    "officeSlug": [
+      "city-environment-and-natural-resources-office"
+    ],
+    "category": {
+      "name": "Environment & Natural Resources",
+      "slug": "environment-natural-resources"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Business Barangay Clearance",
+        "where_to_secure": "Barangay"
+      },
+      {
+        "requirement": "DTI/SEC",
+        "where_to_secure": "DTI/SEC"
+      },
+      {
+        "requirement": "Discharge Permit",
+        "where_to_secure": "Laguna Lake Development Authority (LLDA)"
+      },
+      {
+        "requirement": "Permit to Operate",
+        "where_to_secure": "DENR"
+      },
+      {
+        "requirement": "CENRO Accredited Waste Hauler",
+        "where_to_secure": "CENRO"
+      },
+      {
+        "requirement": "DENR ID #",
+        "where_to_secure": "DENR"
+      },
+      {
+        "requirement": "BFAD (Food)",
+        "where_to_secure": "BFAD"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang mga kinakailangan dokumento",
+        "agencyAction": "Tanggapin at suriin ang mga dokumento",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Pagkausap o Panayam sa aplikante at bigyan ng schedule ng Inspection.",
+        "processing_time": "15 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Aktwal na Inspeksyon",
+        "processing_time": "3 araw"
+      },
+      {
+        "step": 4,
+        "action": "Processing...",
+        "agencyAction": "Pag-susuri sa Inspection Report. Kumpleto ang dokumento: Bigyan ng Order of Payment at Iproseso ang Certificate. Kulang ang dokumento: Ibalik sa kliyente ang mga dokumento",
+        "processing_time": "20 minuto"
+      },
+      {
+        "step": 5,
+        "action": "Magbayad ng kaukulang halaga sa City Treasury Office",
+        "agencyAction": "Tanggapin ang kaukulang bayad at bigyan ng opisyal na resibo",
+        "processing_time": "2 minuto",
+        "fee": "Php 609.00"
+      },
+      {
+        "step": 6,
+        "action": "Ipresinta ang opisyal na resibo at tanggapin ang certificate",
+        "agencyAction": "Ibigay ang Certificate",
+        "processing_time": "2 minuto"
+      }
+    ],
+    "processingTime": "3 araw at 44 minuto",
+    "fees": {
+      "amount": "Php 609.00",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Environment & Natural Resources Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Reklamo hinggil sa Kalikasan at Polusyon",
+    "slug": "reklamo-hinggil-sa-kalikasan-at-polusyon",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "1",
+    "officeDivision": "CENRO - Environmental Conversation & Pollution Control Division & Waste Management Division",
+    "classification": "Complex",
+    "typeOfTransaction": "G2C-Government to Citizen; Government to Government",
+    "whoMayAvail": "Mamamayan ng Calamba",
+    "officeSlug": [
+      "city-environment-and-natural-resources-office"
+    ],
+    "category": {
+      "name": "Environment & Natural Resources",
+      "slug": "environment-natural-resources"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Liham ng reklamo",
+        "where_to_secure": "Kliyente"
+      },
+      {
+        "requirement": "Tawag sa Telepono ng nagpapaki-lalang nagrereklamo",
+        "where_to_secure": "Kliyente"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang Liham ng Reklamo o Pagbibigay ng impormasyon sa pamamagitan ng pagtawag",
+        "agencyAction": "Tanggapin at suriin ang Liham ng Reklamo at bigyan ng Schedule ng Inspection.",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Aktuwal na pag-iinspeksyon",
+        "processing_time": "4 oras"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Pagpapatawag sa isang pagpupu-long teknikal sa inerereklamong tao, grupo o kumpanya",
+        "processing_time": "4 oras"
+      },
+      {
+        "step": 4,
+        "action": "Processing...",
+        "agencyAction": "Pagsubaybay o pagsusuri ng pag-tupad sa nasabing nilagdaang pangako sa itinakdang palugit sa pamamagitan ng paggawa ng Compliance Monitoring and Verification Report (CMVR) Kung nakatupad sa pangako: Bigyan ng sertipikasyon",
+        "processing_time": "3 araw"
+      },
+      {
+        "step": 5,
+        "action": "Processing...",
+        "agencyAction": "Kung hindi nakatupad sa pangako: Itakda ang Ikalawang pulong teknikal at muling imonitor"
+      },
+      {
+        "step": 6,
+        "action": "Processing...",
+        "agencyAction": "Sa ikalawang beses na hindi pagtupad sa pangako: Irekomenda sa City Legal Office ang Cease and Desist Order or Closure Order",
+        "processing_time": "4 oras"
+      }
+    ],
+    "processingTime": "4 araw, 4 oras at 5 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Environment & Natural Resources Office Citizen's Charter 2025",
+        "url": null
+      }
+    ],
+    "notes": "Note: Ang serbisyong reklamo hinggil sa kalikasan at polusyon ay tatagal ng hanggang pitong (7) araw ng pagtatrabaho sapagka't dadaan pa ito sa isang pagpupulong teknikal, monitoring o evaluation."
+  },
+  {
+    "service": "Reklamo sa hindi nahakot na basura",
+    "slug": "reklamo-sa-hindi-nahakot-na-basura",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "5",
+    "officeDivision": "CENRO - Environmental Conversation & Pollution Control Division",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C-Government to Citizen",
+    "whoMayAvail": "Mamamayan ng Calamba",
+    "officeSlug": [
+      "city-environment-and-natural-resources-office"
+    ],
+    "category": {
+      "name": "Environment & Natural Resources",
+      "slug": "environment-natural-resources"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Liham ng Reklamo",
+        "where_to_secure": "Nagrereklamo"
+      },
+      {
+        "requirement": "PhonedIn -Complaint",
+        "where_to_secure": "CENR Office"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang Liham ng Reklamo o Tumawag sa opisina",
+        "agencyAction": "Tanggapin at suriin ang Liham ng Reklamo o tanggapin ang tawag",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Pakikipag-ugnayan sa kinauukulan hinggil sa reklamo",
+        "processing_time": "1 araw"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Pagpapasama sa Schedule ng hakot ng basura sa lalong madaling panahon",
+        "processing_time": "1 araw"
+      }
+    ],
+    "processingTime": "2 araw at 5 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "City Environment & Natural Resources Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  }
+]

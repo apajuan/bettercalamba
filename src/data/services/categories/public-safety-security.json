@@ -1,1 +1,447 @@
-[]
+[
+  {
+    "service": "Kahilingan na mapanood o makahingi ng kopya CCTV footage",
+    "slug": "kahilingan-na-mapanood-o-makahingi-ng-kopya-cctv-footage",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "3",
+    "officeDivision": "Public Order & Safety Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "Mamamayan",
+    "officeSlug": [
+      "city-disaster-risk-reduction-and-management-office"
+    ],
+    "category": {
+      "name": "Public Safety & Security",
+      "slug": "public-safety-security"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Request Form",
+        "where_to_secure": "POSO Command Operations Center"
+      },
+      {
+        "requirement": "Police Request (kung hihingi ng kopya)",
+        "where_to_secure": "Calamba City Police Station"
+      },
+      {
+        "requirement": "Any Valid ID",
+        "where_to_secure": "Kliyente"
+      },
+      {
+        "requirement": "Flash Drive (kung hihingi ng kopya)",
+        "where_to_secure": "Kliyente"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Punan ang Request Form at iprisinta ang Valid ID",
+        "agencyAction": "Tanggapin at beripikahin ang request form at",
+        "processing_time": "8 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Aprubahan ang Request Form",
+        "processing_time": "8 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Isagawa ang panonood ng hinihinging sipi (bawal irecord cctv footage)",
+        "agencyAction": "Paghahanap ng sipi na hiniling mapanood",
+        "processing_time": "30 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Punan ang Request Form at iprisinta ang valid ID at isumite ang flash drive at police request",
+        "agencyAction": "Tanggapin at beripikahin ang request form, valid id, flash drive at police request;",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 5,
+        "action": "Processing...",
+        "agencyAction": "Aprubahan ang Request Form",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 6,
+        "action": "Processing...",
+        "agencyAction": "Pagsasalin ng kopya ng CCTV footage sa Flash Drive",
+        "processing_time": "1 araw"
+      },
+      {
+        "step": 7,
+        "action": "Ibigay ang Flash Drive",
+        "agencyAction": "Tanggapin ang kopya ng CCTV footage at lumagda sa logbook",
+        "processing_time": "2 minuto"
+      }
+    ],
+    "processingTime": "1 araw at 50 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "Public Order & Safety Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Kahilingan para sa pag-agapay sa Parada at Motorcade",
+    "slug": "kahilingan-para-sa-pag-agapay-sa-parada-at-motorcade",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "2",
+    "officeDivision": "Public Order & Safety Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "Mamamayan ng Calamba",
+    "officeSlug": [
+      "city-disaster-risk-reduction-and-management-office"
+    ],
+    "category": {
+      "name": "Public Safety & Security",
+      "slug": "public-safety-security"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Permit galing sa Mayor's Office o sa City Administration Office",
+        "where_to_secure": "Mayor's Office / City Administration Office"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang Aprubadong Permit galing sa Mayor's Office o sa City Administration Office",
+        "agencyAction": "Suriin ang dokumento",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Italaga ang Traffic Enforcer na aalalay sa parade o motorcade",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Pagsasagawa ng pag-aalalay",
+        "processing_time": "2 oras"
+      }
+    ],
+    "processingTime": "2 oras at 20 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "Public Order & Safety Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Kahilingan sa Pag-agapay sa paghahawan ng mga sagabal sa daan",
+    "slug": "kahilingan-sa-pag-agapay-sa-paghahawan-ng-mga-sagabal-sa-daan",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "6",
+    "officeDivision": "Public Order & Safety Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "Sanggunian Barangay, Mamayan ng Calamba",
+    "officeSlug": [
+      "city-disaster-risk-reduction-and-management-office"
+    ],
+    "category": {
+      "name": "Public Safety & Security",
+      "slug": "public-safety-security"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Sulat Kahilingan",
+        "where_to_secure": "Kliyente"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang sulat kahilingan",
+        "agencyAction": "Tanggapin at suriin ang Sulat Kahilingan",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Pag-schedule ng nasabing paghahawan",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Aktwal na pag-agapay sa paghahawan ng mga sagabal sa daan",
+        "processing_time": "Walang tiyak na oras"
+      }
+    ],
+    "processingTime": "Walang tiyak na oras",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "Public Order & Safety Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Kahilingan sa Pagpapatupad ng kaayusan sa mga kaganapan sa mga pampublikong lugar",
+    "slug": "kahilingan-sa-pagpapatupad-ng-kaayusan-sa-mga-kaganapan-sa-mga-pampublikong-lugar",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "5",
+    "officeDivision": "Public Order & Safety Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "Sanggunian Barangay, Mamayan ng Calamba",
+    "officeSlug": [
+      "city-disaster-risk-reduction-and-management-office"
+    ],
+    "category": {
+      "name": "Public Safety & Security",
+      "slug": "public-safety-security"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Sulat Kahilingan",
+        "where_to_secure": "Kliyente"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang sulat kahilingan na naglalaman ng mga detalye ng kaganapan",
+        "agencyAction": "Tanggapin at suriin ang Sulat Kahilingan",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Pagpapatupad ng kaayusan sa aktwal na kaganapan",
+        "processing_time": "Walang tiyak na oras"
+      }
+    ],
+    "processingTime": "Walang tiyak na oras",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "Public Order & Safety Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pagkuha ng Sertipikasyon ng pagsunod sa mga alintuntunin ng CCTV para sa mga Negosyong Establisimyento",
+    "slug": "pagkuha-ng-sertipikasyon-ng-pagsunod-sa-mga-alintuntunin-ng-cctv-para-sa-mga-negosyong-establisimyento",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "7",
+    "officeDivision": "Public Order & Safety Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "Sanggunian Barangay, Mamayan ng Calamba",
+    "officeSlug": [
+      "city-disaster-risk-reduction-and-management-office"
+    ],
+    "category": {
+      "name": "Public Safety & Security",
+      "slug": "public-safety-security"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Business Permit Application",
+        "where_to_secure": "BPTFO"
+      },
+      {
+        "requirement": "Inspection Report",
+        "where_to_secure": "POSO"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang Business Permit Application",
+        "agencyAction": "Tanggapin at suriin ang mga dokumento",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Bigyan ng schedule ng inspeksyon at pag-isyu ng 90-days undertaking",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Isumite ang Inspection Report",
+        "agencyAction": "Tanggapin at beripekahin ang inspection report",
+        "processing_time": "15 minuto"
+      },
+      {
+        "step": 4,
+        "action": "Processing...",
+        "agencyAction": "Tanggapin ang kaukulang halaga at bigyan ng opisyal na resibo",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 5,
+        "action": "Kung lumabag sa alituntunin: Magbayad ng kaukulang halaga",
+        "fee": "Base sa paglabag sa alituntunin"
+      },
+      {
+        "step": 6,
+        "action": "Processing...",
+        "agencyAction": "Ipagkaloob ang Sertipikasyon; Kung walang nilabag: Tanggapin ang Sertipikasyon at lumagda sa logbook",
+        "processing_time": "20 minuto"
+      }
+    ],
+    "processingTime": "50 minuto",
+    "fees": {
+      "amount": "Base sa paglabag sa alituntunin",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "Public Order & Safety Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pagsasagawa ng Kaalaman at kasanayan sa mga Pampublikong Paaralan, Barangay at Organisasyon",
+    "slug": "pagsasagawa-ng-kaalaman-at-kasanayan-sa-mga-pampublikong-paaralan-barangay-at-organisasyon",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "1",
+    "officeDivision": "Public Order & Safety Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "Pampublikong Paaralan, Barangay at Organisasyon",
+    "officeSlug": [
+      "city-disaster-risk-reduction-and-management-office"
+    ],
+    "category": {
+      "name": "Public Safety & Security",
+      "slug": "public-safety-security"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Sulat Kahilingan",
+        "where_to_secure": "N/A"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Isumite ang Sulat Kahilingan",
+        "agencyAction": "Tanggapin at suriin ang Sulat Kahilingan",
+        "processing_time": "5 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Pakikipag-ugnayan para sa araw ang pagsasanay",
+        "processing_time": "30 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Processing...",
+        "agencyAction": "Pagsasagawa ng kasanayan",
+        "processing_time": "8 oras"
+      },
+      {
+        "step": 4,
+        "action": "Pagtataya ng natutunan",
+        "agencyAction": "Pamimigay ng Post Evaluation Test",
+        "processing_time": "20 minuto"
+      }
+    ],
+    "processingTime": "8 oras 55 minuto",
+    "fees": null,
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "Public Order & Safety Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  },
+  {
+    "service": "Pagtubos ng Lisensya",
+    "slug": "pagtubos-ng-lisensya",
+    "type": "transaction",
+    "source": "citizens-charter",
+    "serviceNumber": "4",
+    "officeDivision": "Public Order & Safety Office",
+    "classification": "Simple",
+    "typeOfTransaction": "G2C",
+    "whoMayAvail": "Mga nahuling lumabag sa batas trapiko o ordinansa",
+    "officeSlug": [
+      "city-disaster-risk-reduction-and-management-office"
+    ],
+    "category": {
+      "name": "Public Safety & Security",
+      "slug": "public-safety-security"
+    },
+    "detailedRequirements": [
+      {
+        "requirement": "Traffic/Ordinance Violation Ticket",
+        "where_to_secure": "Traffic Enforcer"
+      },
+      {
+        "requirement": "Valid ID",
+        "where_to_secure": "Kliyente"
+      }
+    ],
+    "clientSteps": [
+      {
+        "step": 1,
+        "action": "Kumuha ng queue number",
+        "agencyAction": "Bigyan ng queue number",
+        "processing_time": "2 minuto"
+      },
+      {
+        "step": 2,
+        "action": "Processing...",
+        "agencyAction": "Beripikahin sa system ang kaukulang halaga ng multa at gumawa ng order of payment",
+        "processing_time": "10 minuto"
+      },
+      {
+        "step": 3,
+        "action": "Magbayad ng kaukulang halaga ng multa",
+        "agencyAction": "Tanggapin ang kaukulang halaga at bigyan ng opisyal na resibo",
+        "processing_time": "8 minuto",
+        "fee": "Base sa Fines & Penalties"
+      },
+      {
+        "step": 4,
+        "action": "Tanggapin ang lisensya at lumagda sa logbook",
+        "agencyAction": "Ipagkaloob ang lisensya",
+        "processing_time": "2 minuto"
+      }
+    ],
+    "processingTime": "22 minuto",
+    "fees": {
+      "amount": "Base sa Fines & Penalties",
+      "description": "As per Citizens Charter fee schedule"
+    },
+    "updatedAt": "2025-01-01T00:00:00.000Z",
+    "sources": [
+      {
+        "name": "Public Order & Safety Office Citizen's Charter 2025",
+        "url": null
+      }
+    ]
+  }
+]

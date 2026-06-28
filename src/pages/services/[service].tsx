@@ -17,6 +17,7 @@ import {
   FileText,
   HeartHandshake,
   Info,
+  Layers,
   LinkIcon,
   LucideIcon,
   Users,
@@ -472,6 +473,31 @@ export default function ServiceDetail() {
               </div>
             </div>
           </div>
+          {/* Classification Info (Citizens Charter) */}
+          {service.classification && (
+            <div className='border-kapwa-border-weak bg-kapwa-bg-surface flex flex-col gap-3 rounded-2xl border p-5 transition-colors'>
+              <div className='flex items-center justify-between'>
+                <p className='text-kapwa-text-disabled text-[10px] font-bold tracking-widest uppercase'>
+                  ARTA Classification
+                </p>
+                <Layers className='text-kapwa-text-support h-4 w-4' />
+              </div>
+              <div className='flex items-center gap-3'>
+                <div>
+                  <p className='text-kapwa-text-strong text-sm font-bold'>
+                    {service.classification}
+                  </p>
+                  <p className='text-kapwa-text-disabled text-[11px] font-medium'>
+                    {service.classification === 'Simple'
+                      ? 'Maximum of 3 days processing time'
+                      : service.classification === 'Complex'
+                        ? 'Maximum of 7 days processing time'
+                        : 'Maximum of 20 days processing time'}
+                  </p>
+                </div>
+              </div>
+            </div>
+          )}
 
           {/* Involved Offices */}
           {involvedOffices.length > 0 && (
