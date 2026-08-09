@@ -7,12 +7,10 @@ import {
   BarChart3Icon,
   BuildingIcon,
   DollarSignIcon,
-  FileTextIcon,
   GavelIcon,
 } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
-import { Badge } from '@/components/ui/Badge';
 import SearchInput from '@/components/ui/SearchInput';
 
 import servicesData from '@/data/services/services.json';
@@ -25,13 +23,6 @@ interface Service {
   description?: string;
   category?: { name: string; slug: string };
   subcategory?: { name: string; slug: string };
-}
-
-interface MergedService {
-  slug: string;
-  service: string;
-  plainLanguageName?: string;
-  officeSlug: string;
 }
 
 interface QuickAccessCard {
@@ -63,18 +54,6 @@ const Hero: FC = () => {
     if (!query) return [];
     return fuse.search(query).map(r => r.item);
   }, [query, fuse]);
-
-  // Random services - using plain language titles
-  const randomServices = useMemo(() => {
-    const services = servicesData as MergedService[];
-    // Filter services that have plainLanguageName
-    const servicesWithPlainNames = services.filter(s => s.plainLanguageName);
-    // Shuffle and pick 2
-    const shuffled = [...servicesWithPlainNames].sort(
-      () => Math.random() - 0.5
-    );
-    return shuffled.slice(0, 2);
-  }, []);
 
   // Quick access cards for key sections
   const quickAccessCards: QuickAccessCard[] = [
@@ -161,23 +140,6 @@ const Hero: FC = () => {
                 ))}
               </div>
             )}
-
-            {/* Random services - using plain language titles */}
-            <div className='flex flex-wrap gap-2 mt-4'>
-              {randomServices.map(service => (
-                <Link key={service.slug} to={`/services/${service.slug}`}>
-                  <Badge
-                    variant='outline'
-                    className='cursor-pointer border-white/20 text-kapwa-text-inverse hover:bg-kapwa-bg-surface/20'
-                  >
-                    <FileTextIcon className='w-4 h-4' />
-                    <span className='ml-1'>
-                      {service.plainLanguageName || service.service}
-                    </span>
-                  </Badge>
-                </Link>
-              ))}
-            </div>
           </div>
 
           {/* Right section: quick access to key sections */}
