@@ -1,10 +1,10 @@
 # Admin API Overview
 
-The Admin API provides endpoints for managing the BetterLB municipal government portal. All admin endpoints require authentication and implement CSRF protection for state-changing operations.
+The Admin API provides endpoints for managing the BetterCalamba city government portal. All admin endpoints require authentication and implement CSRF protection for state-changing operations.
 
 ## Overview
 
-- **Base URL:** `https://betterlb.gov.ph/api/admin/`
+- **Base URL:** `https://bettercalamba.org/api/admin/`
 - **Authentication:** GitHub OAuth (required for all endpoints)
 - **CSRF Protection:** Required for all state-changing operations (POST/PUT/PATCH/DELETE)
 - **Rate Limiting:** 100 requests per minute per session
@@ -18,7 +18,7 @@ The Admin API provides endpoints for managing the BetterLB municipal government 
 All admin endpoints use GitHub OAuth for authentication:
 
 1. **Redirect to Login:** User visits `/api/admin/auth/login`
-2. **GitHub Authorization:** User authorizes the BetterLB app
+2. **GitHub Authorization:** User authorizes the BetterCalamba app
 3. **Callback Handler:** GitHub redirects to `/api/admin/auth/callback`
 4. **Session Creation:** Server creates session and sets `admin_session` cookie
 5. **Authenticated Requests:** Include session cookie in subsequent requests
@@ -99,12 +99,12 @@ Cross-Site Request Forgery (CSRF) is an attack that forces an end user to execut
 **1. Login:**
 ```typescript
 // Redirect to GitHub OAuth
-window.location.href = 'https://betterlb.gov.ph/api/admin/auth/login';
+window.location.href = 'https://bettercalamba.org/api/admin/auth/login';
 ```
 
 **2. Check Session:**
 ```typescript
-const response = await fetch('https://betterlb.gov.ph/api/admin/auth/session', {
+const response = await fetch('https://bettercalamba.org/api/admin/auth/session', {
   credentials: 'include', // Include session cookie
 });
 
@@ -116,7 +116,7 @@ if (data.authenticated) {
 
 **3. Make Authenticated Request (GET):**
 ```typescript
-const response = await fetch('https://betterlb.gov.ph/api/admin/documents', {
+const response = await fetch('https://bettercalamba.org/api/admin/documents', {
   credentials: 'include',
 });
 
@@ -126,13 +126,13 @@ const data = await response.json();
 **4. Make Authenticated Request (POST with CSRF):**
 ```typescript
 // Get CSRF token first
-const csrfResponse = await fetch('https://betterlb.gov.ph/api/admin/auth/csrf', {
+const csrfResponse = await fetch('https://bettercalamba.org/api/admin/auth/csrf', {
   credentials: 'include',
 });
 const { csrfToken } = await csrfResponse.json();
 
 // Make CSRF-protected request
-const response = await fetch('https://betterlb.gov.ph/api/admin/documents', {
+const response = await fetch('https://bettercalamba.org/api/admin/documents', {
   method: 'POST',
   credentials: 'include',
   headers: {
@@ -359,21 +359,21 @@ const data = await response.json();
 
 ```bash
 # 1. Login (opens browser)
-# Navigate to: https://betterlb.gov.ph/api/admin/auth/login
+# Navigate to: https://bettercalamba.org/api/admin/auth/login
 
 # 2. Get session cookie from browser dev tools
 # Application > Cookies > admin_session
 
 # 3. Test authenticated endpoint
-curl https://betterlb.gov.ph/api/admin/auth/session \
+curl https://bettercalamba.org/api/admin/auth/session \
   -H "Cookie: admin_session=<your-session-cookie>"
 
 # 4. Get CSRF token
-curl https://betterlb.gov.ph/api/admin/auth/csrf \
+curl https://bettercalamba.org/api/admin/auth/csrf \
   -H "Cookie: admin_session=<your-session-cookie>"
 
 # 5. Make CSRF-protected request
-curl -X POST https://betterlb.gov.ph/api/admin/documents \
+curl -X POST https://bettercalamba.org/api/admin/documents \
   -H "Content-Type: application/json" \
   -H "X-CSRF-Token: <csrf-token>" \
   -H "Cookie: admin_session=<your-session-cookie>" \
@@ -388,7 +388,7 @@ curl -X POST https://betterlb.gov.ph/api/admin/documents \
 
 **Authenticated Request:**
 ```typescript
-const response = await fetch('https://betterlb.gov.ph/api/admin/documents', {
+const response = await fetch('https://bettercalamba.org/api/admin/documents', {
   credentials: 'include', // Include session cookie
 });
 const data = await response.json();
@@ -397,13 +397,13 @@ const data = await response.json();
 **CSRF-Protected Request:**
 ```typescript
 // Get CSRF token
-const csrfResponse = await fetch('https://betterlb.gov.ph/api/admin/auth/csrf', {
+const csrfResponse = await fetch('https://bettercalamba.org/api/admin/auth/csrf', {
   credentials: 'include',
 });
 const { csrfToken } = await csrfResponse.json();
 
 // Make request
-const response = await fetch('https://betterlb.gov.ph/api/admin/documents', {
+const response = await fetch('https://bettercalamba.org/api/admin/documents', {
   method: 'POST',
   credentials: 'include',
   headers: {
@@ -416,7 +416,7 @@ const response = await fetch('https://betterlb.gov.ph/api/admin/documents', {
 
 **Logout:**
 ```typescript
-const response = await fetch('https://betterlb.gov.ph/api/admin/auth/logout', {
+const response = await fetch('https://bettercalamba.org/api/admin/auth/logout', {
   method: 'POST',
   credentials: 'include',
 });
@@ -436,4 +436,4 @@ const response = await fetch('https://betterlb.gov.ph/api/admin/auth/logout', {
 
 **Last Updated:** 2026-02-28
 **API Version:** 1.0.0
-**Maintained By:** BetterLB Development Team
+**Maintained By:** BetterCalamba Development Team

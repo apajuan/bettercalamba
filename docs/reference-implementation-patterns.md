@@ -108,7 +108,7 @@ A single JSON file parameterizes the entire portal. Swap this file and the porta
   },
   "portal": {
     "name": "BetterLB",
-    "domain": "betterlb.org",
+    "domain": "bettercalamba.org",
     "brandColor": "#0066eb",
     "tagline": "Community Powered Los Baños Portal"
   },

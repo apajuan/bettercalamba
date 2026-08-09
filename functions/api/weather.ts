@@ -57,7 +57,7 @@ const DEFAULT_CITY: CityCoordinates = {
 // Optional: Add more cities if needed
 const ADDITIONAL_CITIES: CityCoordinates[] = [
   // { name: 'Los Baños', lat: 14.1763, lon: 121.2219 },
-  // { name: 'Bay', lat: 14.1833, lon: 121.2833 },
+  // { name: 'Cabuyao', lat: 14.2726, lon: 121.1258 },
 ];
 
 const ALL_CITIES = [DEFAULT_CITY, ...ADDITIONAL_CITIES];

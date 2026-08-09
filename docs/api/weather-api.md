@@ -4,7 +4,7 @@ The Weather API provides current weather conditions and 3-hour forecasts for Los
 
 ## Overview
 
-- **Base URL:** `https://betterlb.gov.ph/api/weather`
+- **Base URL:** `https://bettercalamba.org/api/weather`
 - **Authentication:** None required
 - **Data Source:** OpenWeatherMap API
 - **Cache Duration:** 1 hour (3,600 seconds)
@@ -164,32 +164,32 @@ Retrieves current weather and 3-hour forecast data. Returns cached data if avail
 ### Get All Cities
 
 ```bash
-curl https://betterlb.gov.ph/api/weather
+curl https://bettercalamba.org/api/weather
 ```
 
 ### Get Specific City
 
 ```bash
-curl "https://betterlb.gov.ph/api/weather?city=Los Baños"
+curl "https://bettercalamba.org/api/weather?city=Los Baños"
 ```
 
 ### Force Update (Bypass Cache)
 
 ```bash
-curl "https://betterlb.gov.ph/api/weather?update=true"
+curl "https://bettercalamba.org/api/weather?update=true"
 ```
 
 ### Get Specific City with Force Update
 
 ```bash
-curl "https://betterlb.gov.ph/api/weather?city=Los Baños&update=true"
+curl "https://bettercalamba.org/api/weather?city=Los Baños&update=true"
 ```
 
 ### JavaScript/TypeScript Example
 
 ```typescript
 // Fetch weather data
-const response = await fetch('https://betterlb.gov.ph/api/weather');
+const response = await fetch('https://bettercalamba.org/api/weather');
 const weather = await response.json();
 
 // Access Los Baños weather
@@ -224,7 +224,7 @@ export function WeatherWidget() {
   useEffect(() => {
     async function fetchWeather() {
       try {
-        const response = await fetch('https://betterlb.gov.ph/api/weather');
+        const response = await fetch('https://bettercalamba.org/api/weather');
         const data = await response.json();
         setWeather(data);
       } catch (error) {
@@ -345,8 +345,8 @@ export async function scheduled(controller: ScheduledController, env: Env) {
 The API implements CORS protection for security:
 
 **Allowed Origins:**
-- `https://betterlb.pages.dev` (production)
-- `https://betterlb.gov.ph` (custom domain)
+- `https://bettercalamba.pages.dev` (production)
+- `https://bettercalamba.org` (custom domain)
 - `http://localhost:5173` (Vite dev server)
 - `http://localhost:8788` (Wrangler dev server)
 
@@ -427,19 +427,19 @@ The API is designed to support multiple cities:
 
 ```bash
 # Test basic request
-curl https://betterlb.gov.ph/api/weather
+curl https://bettercalamba.org/api/weather
 
 # Test city filtering
-curl "https://betterlb.gov.ph/api/weather?city=Los Baños"
+curl "https://bettercalamba.org/api/weather?city=Los Baños"
 
 # Test force update
-curl "https://betterlb.gov.ph/api/weather?update=true"
+curl "https://bettercalamba.org/api/weather?update=true"
 
 # Test case insensitivity
-curl "https://betterlb.gov.ph/api/weather?city=los_banos"
+curl "https://bettercalamba.org/api/weather?city=los_banos"
 
 # Test OPTIONS preflight
-curl -X OPTIONS https://betterlb.gov.ph/api/weather \
+curl -X OPTIONS https://bettercalamba.org/api/weather \
   -H "Origin: http://localhost:5173" \
   -v
 ```
@@ -468,4 +468,4 @@ assert(data.los_banos.hourly.length === 8);
 
 **Last Updated:** 2026-02-28
 **API Version:** 1.0.0
-**Maintained By:** BetterLB Development Team
+**Maintained By:** BetterCalamba Development Team

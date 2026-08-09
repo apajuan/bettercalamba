@@ -22,7 +22,7 @@ The Authentication API handles GitHub OAuth login, session management, logout, a
 2. Backend generates state parameter and redirects to GitHub
    → GitHub authorization page
 
-3. User authorizes the BetterLB GitHub App
+3. User authorizes the BetterCalamba GitHub App
    → GitHub redirects to /api/admin/auth/callback?code=xxx&state=yyy
 
 4. Backend exchanges code for access token
@@ -81,14 +81,14 @@ Initiates the GitHub OAuth flow by redirecting to GitHub's authorization page.
 
 ```bash
 # Initiate login (redirects to GitHub)
-curl -L https://betterlb.gov.ph/api/admin/auth/login
+curl -L https://bettercalamba.org/api/admin/auth/login
 ```
 
 **Frontend Example:**
 
 ```typescript
 // Redirect user to login
-window.location.href = 'https://betterlb.gov.ph/api/admin/auth/login';
+window.location.href = 'https://bettercalamba.org/api/admin/auth/login';
 ```
 
 ---
@@ -161,7 +161,7 @@ Handles the GitHub OAuth callback after user authorization. Creates admin sessio
 
 ```bash
 # GitHub redirects to this after authorization
-curl "https://betterlb.gov.ph/api/admin/auth/callback?code=xxx&state=yyy"
+curl "https://bettercalamba.org/api/admin/auth/callback?code=xxx&state=yyy"
 ```
 
 **Session Data Structure:**
@@ -242,7 +242,7 @@ Retrieves the current authenticated session information.
 **Example:**
 
 ```bash
-curl https://betterlb.gov.ph/api/admin/auth/session \
+curl https://bettercalamba.org/api/admin/auth/session \
   -H "Cookie: admin_session=<your-session-cookie>"
 ```
 
@@ -250,7 +250,7 @@ curl https://betterlb.gov.ph/api/admin/auth/session \
 
 ```typescript
 // Check authentication status
-const response = await fetch('https://betterlb.gov.ph/api/admin/auth/session', {
+const response = await fetch('https://bettercalamba.org/api/admin/auth/session', {
   credentials: 'include', // Include session cookie
 });
 
@@ -304,11 +304,11 @@ Logs out the current user by deleting their session and clearing the cookie.
 
 ```bash
 # First get CSRF token
-curl https://betterlb.gov.ph/api/admin/auth/csrf \
+curl https://bettercalamba.org/api/admin/auth/csrf \
   -H "Cookie: admin_session=<your-session-cookie>"
 
 # Then logout
-curl -X POST https://betterlb.gov.ph/api/admin/auth/logout \
+curl -X POST https://bettercalamba.org/api/admin/auth/logout \
   -H "Cookie: admin_session=<your-session-cookie>" \
   -H "X-CSRF-Token: <csrf-token>"
 ```
@@ -318,13 +318,13 @@ curl -X POST https://betterlb.gov.ph/api/admin/auth/logout \
 ```typescript
 async function logout() {
   // Get CSRF token first
-  const csrfResponse = await fetch('https://betterlb.gov.ph/api/admin/auth/csrf', {
+  const csrfResponse = await fetch('https://bettercalamba.org/api/admin/auth/csrf', {
     credentials: 'include',
   });
   const { csrf_token } = await csrfResponse.json();
 
   // Logout
-  await fetch('https://betterlb.gov.ph/api/admin/auth/logout', {
+  await fetch('https://bettercalamba.org/api/admin/auth/logout', {
     method: 'POST',
     credentials: 'include',
     headers: {
@@ -389,7 +389,7 @@ Returns a CSRF token for the authenticated session. Required for all state-chang
 **Example:**
 
 ```bash
-curl https://betterlb.gov.ph/api/admin/auth/csrf \
+curl https://bettercalamba.org/api/admin/auth/csrf \
   -H "Cookie: admin_session=<your-session-cookie>"
 ```
 
@@ -398,7 +398,7 @@ curl https://betterlb.gov.ph/api/admin/auth/csrf \
 ```typescript
 // Get CSRF token for state-changing operations
 async function getCSRFToken() {
-  const response = await fetch('https://betterlb.gov.ph/api/admin/auth/csrf', {
+  const response = await fetch('https://bettercalamba.org/api/admin/auth/csrf', {
     credentials: 'include',
   });
 
@@ -414,7 +414,7 @@ async function getCSRFToken() {
 async function createDocument(title: string) {
   const csrfToken = await getCSRFToken();
 
-  const response = await fetch('https://betterlb.gov.ph/api/admin/documents', {
+  const response = await fetch('https://bettercalamba.org/api/admin/documents', {
     method: 'POST',
     credentials: 'include',
     headers: {
@@ -471,10 +471,10 @@ async function createDocument(title: string) {
 
 1. Go to GitHub Settings → Developer settings → OAuth Apps → New OAuth App
 2. Configure:
-   - **Application name:** BetterLB Admin
-   - **Homepage URL:** `https://betterlb.gov.ph`
-   - **Authorization callback URL:** `https://betterlb.gov.ph/api/admin/auth/callback`
-   - **Application description:** BetterLB municipal government portal admin access
+   - **Application name:** BetterCalamba Admin
+   - **Homepage URL:** `https://bettercalamba.org`
+   - **Authorization callback URL:** `https://bettercalamba.org/api/admin/auth/callback`
+   - **Application description:** BetterCalamba city government portal admin access
 3. Copy **Client ID** and generate **Client Secret**
 
 ### 2. Configure Environment Variables
@@ -534,26 +534,26 @@ AUTHORIZED_USERS=["admin1", "admin2", "admin3"]
 
 ```bash
 # 1. Test login (opens browser)
-curl -L https://betterlb.gov.ph/api/admin/auth/login
+curl -L https://bettercalamba.org/api/admin/auth/login
 
 # 2. After OAuth callback, get session cookie from browser
 # Application > Cookies > admin_session
 
 # 3. Test session check
-curl https://betterlb.gov.ph/api/admin/auth/session \
+curl https://bettercalamba.org/api/admin/auth/session \
   -H "Cookie: admin_session=<your-session-cookie>"
 
 # 4. Test CSRF token
-curl https://betterlb.gov.ph/api/admin/auth/csrf \
+curl https://bettercalamba.org/api/admin/auth/csrf \
   -H "Cookie: admin_session=<your-session-cookie>"
 
 # 5. Test logout
-curl -X POST https://betterlb.gov.ph/api/admin/auth/logout \
+curl -X POST https://bettercalamba.org/api/admin/auth/logout \
   -H "Cookie: admin_session=<your-session-cookie>" \
   -H "X-CSRF-Token: <csrf-token>"
 
 # 6. Verify session is cleared
-curl https://betterlb.gov.ph/api/admin/auth/session \
+curl https://bettercalamba.org/api/admin/auth/session \
   -H "Cookie: admin_session=<your-session-cookie>"
 # Should return 401 Unauthorized
 ```
@@ -573,4 +573,4 @@ curl https://betterlb.gov.ph/api/admin/auth/session \
 
 **Last Updated:** 2026-02-28
 **API Version:** 1.0.0
-**Maintained By:** BetterLB Development Team
+**Maintained By:** BetterCalamba Development Team

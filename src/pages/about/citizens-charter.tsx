@@ -18,10 +18,21 @@ export default function CitizensCharterPage() {
             What is the Anti-Red Tape Act (ARTA)?
           </h2>
           <p className='text-kapwa-text-support leading-relaxed mb-4'>
-            Republic Act No. 11032, also known as the <strong>Ease of Doing Business and Efficient Government Service Delivery Act of 2018</strong>, is an act that aims to streamline the current systems and procedures of government services. The Anti-Red Tape Authority (ARTA) is the government agency mandated to administer and implement this law.
+            Republic Act No. 11032, also known as the{' '}
+            <strong>
+              Ease of Doing Business and Efficient Government Service Delivery
+              Act of 2018
+            </strong>
+            , is an act that aims to streamline the current systems and
+            procedures of government services. The Anti-Red Tape Authority
+            (ARTA) is the government agency mandated to administer and implement
+            this law.
           </p>
           <p className='text-kapwa-text-support leading-relaxed'>
-            Its core purpose is to promote integrity, accountability, and proper management of public affairs and public property, and to establish effective practices aimed at the prevention of graft and corruption in government.
+            Its core purpose is to promote integrity, accountability, and proper
+            management of public affairs and public property, and to establish
+            effective practices aimed at the prevention of graft and corruption
+            in government.
           </p>
         </section>
 
@@ -32,14 +43,20 @@ export default function CitizensCharterPage() {
               <FileText className='h-6 w-6' />
             </div>
             <h2 className='text-kapwa-text-strong text-2xl font-bold'>
-              The Citizen's Charter
+              The Citizen&rsquo;s Charter
             </h2>
           </div>
           <p className='text-kapwa-text-support leading-relaxed'>
-            The Citizen’s Charter is an official document, a pledge, that communicates, in simple terms, the service standards or pledges of an agency. It details exactly what you need to provide, step-by-step procedures, maximum processing times, and fees required to avail of a government service.
+            The Citizen’s Charter is an official document, a pledge, that
+            communicates, in simple terms, the service standards or pledges of
+            an agency. It details exactly what you need to provide, step-by-step
+            procedures, maximum processing times, and fees required to avail of
+            a government service.
           </p>
           <p className='text-kapwa-text-support leading-relaxed'>
-            By publishing our Citizen's Charter in this digital format, we aim to empower you with the exact knowledge of your rights and expectations when transacting with the local government.
+            By publishing our Citizen&rsquo;s Charter in this digital format, we
+            aim to empower you with the exact knowledge of your rights and
+            expectations when transacting with the local government.
           </p>
         </section>
 
@@ -54,7 +71,9 @@ export default function CitizensCharterPage() {
             </h2>
           </div>
           <p className='text-kapwa-text-support leading-relaxed mb-6'>
-            Under ARTA, all government transactions are strictly categorized into three classifications based on their complexity. The law dictates a maximum processing time for each classification:
+            Under ARTA, all government transactions are strictly categorized
+            into three classifications based on their complexity. The law
+            dictates a maximum processing time for each classification:
           </p>
 
           <div className='grid gap-6 md:grid-cols-3'>
@@ -67,7 +86,12 @@ export default function CitizensCharterPage() {
               </h3>
               <p className='text-kapwa-text-brand mb-3 font-bold'>Max 3 Days</p>
               <p className='text-kapwa-text-support text-sm leading-relaxed'>
-                Applications or requests submitted by applicants or requesting parties of a government office or agency which only require ministerial actions on the part of the public officer or employee, or that which present only inconsequential issues for the resolution by an officer or employee of said government office.
+                Applications or requests submitted by applicants or requesting
+                parties of a government office or agency which only require
+                ministerial actions on the part of the public officer or
+                employee, or that which present only inconsequential issues for
+                the resolution by an officer or employee of said government
+                office.
               </p>
             </div>
 
@@ -80,7 +104,11 @@ export default function CitizensCharterPage() {
               </h3>
               <p className='text-kapwa-text-brand mb-3 font-bold'>Max 7 Days</p>
               <p className='text-kapwa-text-support text-sm leading-relaxed'>
-                Requests or applications submitted by applicants or requesting parties of a government office which necessitate the use of discretion in the resolution of complicated issues by an officer or employee of said government office, such as transactions to be evaluated by a superior officer.
+                Requests or applications submitted by applicants or requesting
+                parties of a government office which necessitate the use of
+                discretion in the resolution of complicated issues by an officer
+                or employee of said government office, such as transactions to
+                be evaluated by a superior officer.
               </p>
             </div>
 
@@ -91,9 +119,14 @@ export default function CitizensCharterPage() {
               <h3 className='text-kapwa-text-strong mb-2 text-lg font-bold'>
                 Highly Technical
               </h3>
-              <p className='text-kapwa-text-brand mb-3 font-bold'>Max 20 Days</p>
+              <p className='text-kapwa-text-brand mb-3 font-bold'>
+                Max 20 Days
+              </p>
               <p className='text-kapwa-text-support text-sm leading-relaxed'>
-                Transactions which require the use of technical knowledge, specialized skills and/or training in the creation of computer programs, evaluation of technical documents, or any other transaction requiring specialized skills.
+                Transactions which require the use of technical knowledge,
+                specialized skills and/or training in the creation of computer
+                programs, evaluation of technical documents, or any other
+                transaction requiring specialized skills.
               </p>
             </div>
           </div>

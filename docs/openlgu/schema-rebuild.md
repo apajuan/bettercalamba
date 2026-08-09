@@ -73,7 +73,7 @@ NOT NULL
 ### Step 1: Backup existing data
 
 ```bash
-wrangler d1 export betterlb_openlgu --remote --output=backup_$(date +%Y%m%d).sql
+wrangler d1 export bettercalamba-openlgu --remote --output=backup_$(date +%Y%m%d).sql
 ```
 
 Also already exported to `pipeline/openlgu/reference/remote-*.json`.
@@ -82,8 +82,8 @@ Also already exported to `pipeline/openlgu/reference/remote-*.json`.
 
 ```bash
 # Drop and recreate — this is destructive
-wrangler d1 execute betterlb_openlgu --remote --file=db/migrations/001_initial_schema.sql
-wrangler d1 execute betterlb_openlgu --remote --file=db/migrations/002_baseline_data.sql
+wrangler d1 execute bettercalamba-openlgu --remote --file=db/migrations/001_initial_schema.sql
+wrangler d1 execute bettercalamba-openlgu --remote --file=db/migrations/002_baseline_data.sql
 ```
 
 ### Step 3: Migrate data
@@ -97,9 +97,9 @@ This reads from `pipeline/openlgu/reference/remote-*.json`, transforms, and inse
 ### Step 4: Verify
 
 ```bash
-wrangler d1 execute betterlb_openlgu --remote --command="SELECT type, COUNT(*) FROM documents GROUP BY type"
-wrangler d1 execute betterlb_openlgu --remote --command="SELECT COUNT(*) FROM persons"
-wrangler d1 execute betterlb_openlgu --remote --command="SELECT COUNT(*) FROM memberships"
+wrangler d1 execute bettercalamba-openlgu --remote --command="SELECT type, COUNT(*) FROM documents GROUP BY type"
+wrangler d1 execute bettercalamba-openlgu --remote --command="SELECT COUNT(*) FROM persons"
+wrangler d1 execute bettercalamba-openlgu --remote --command="SELECT COUNT(*) FROM memberships"
 ```
 
 Expected: 2430 documents, 27+ persons, 38+ memberships.

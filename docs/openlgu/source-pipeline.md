@@ -407,13 +407,13 @@ If the website keeps the same dead PDF URL, that is the same source row with a d
 
 ## PDF Mirrors
 
-Official LGU PDF URLs remain the canonical source link. BetterLB may store archived PDF mirrors separately, usually in R2, so review and OCR can continue when official links rot.
+Official LGU PDF URLs remain the canonical source link. BetterCalamba may store archived PDF mirrors separately, usually in R2, so review and OCR can continue when official links rot.
 
 Recommended fields:
 
 - `pdf_url`: official LGU URL
 - `pdf_url_status`: `unchecked`, `reachable`, `dead`, `redirected`, or `missing`
-- `mirror_pdf_uri`: BetterLB-controlled archived copy
+- `mirror_pdf_uri`: BetterCalamba-controlled archived copy
 - `mirror_status`: `archived`, `missing`, or `failed`
 
 Scheduled scrapes should not block on mirroring every PDF. Scrapes detect source row changes; a separate archive job downloads or refreshes mirrors.
@@ -1193,7 +1193,7 @@ OCR may:
 
 Canonical updates from OCR must go through the same staged validation and review/promotion path as other source evidence. Early OCR-derived updates should require manual review.
 
-PDF mirroring should happen before OCR. OCR should read from a BetterLB-controlled mirror when available, not directly from official LGU URLs.
+PDF mirroring should happen before OCR. OCR should read from a BetterCalamba-controlled mirror when available, not directly from official LGU URLs.
 
 ```text
 official pdf_url

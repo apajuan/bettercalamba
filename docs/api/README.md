@@ -1,10 +1,10 @@
-# BetterLB API Documentation
+# BetterCalamba API Documentation
 
-Welcome to the BetterLB API documentation. This system provides comprehensive documentation for all API endpoints available in the BetterLB municipal government portal.
+Welcome to the BetterCalamba API documentation. This system provides comprehensive documentation for all API endpoints available in the BetterCalamba city government portal.
 
 ## Overview
 
-BetterLB exposes multiple API categories for different purposes:
+BetterCalamba exposes multiple API categories for different purposes:
 
 - **Public APIs** - No authentication required, publicly accessible
 - **Admin APIs** - GitHub OAuth authentication required, for administrative operations
@@ -15,7 +15,7 @@ BetterLB exposes multiple API categories for different purposes:
 All API endpoints are prefixed with `/api/`:
 
 ```
-https://betterlb.gov.ph/api/
+https://bettercalamba.org/api/
 ```
 
 ## Quick Start
@@ -24,10 +24,10 @@ https://betterlb.gov.ph/api/
 
 1. **Weather API** - Get current weather and forecasts
    ```bash
-   curl https://betterlb.gov.ph/api/weather
+   curl https://bettercalamba.org/api/weather
    ```
 
-2. **Contribution Flow** - Community contributions are submitted via [GitHub Issues](https://github.com/BetterLosBanos/betterlb/issues/new?template=contribution.yml) using the contribution issue template. The `/contribute` page on the site links users directly to GitHub.
+2. **Contribution Flow** - Community contributions are submitted via [GitHub Issues](https://github.com/BetterCalamba/bettercalamba/issues/new?template=contribution.yml) using the contribution issue template. The `/contribute` page on the site links users directly to GitHub.
 
 ### Admin APIs (Authentication Required)
 
@@ -35,18 +35,18 @@ All admin endpoints require GitHub OAuth authentication:
 
 1. **Login** - Redirect to GitHub OAuth
    ```bash
-   curl https://betterlb.gov.ph/api/admin/auth/login
+   curl https://bettercalamba.org/api/admin/auth/login
    ```
 
 2. **Get Session** - Check authentication status
    ```bash
-   curl https://betterlb.gov.ph/api/admin/auth/session \
+   curl https://bettercalamba.org/api/admin/auth/session \
      -H "Cookie: session=<your-session-cookie>"
    ```
 
 3. **Make Authenticated Request** - Include session cookie in requests
    ```bash
-   curl https://betterlb.gov.ph/api/admin/documents \
+   curl https://bettercalamba.org/api/admin/documents \
      -H "Cookie: session=<your-session-cookie>"
    ```
 
@@ -56,13 +56,13 @@ Comprehensive documentation available in [openlgu-api.md](./openlgu-api.md)
 
 ```bash
 # Get documents
-curl https://betterlb.gov.ph/api/openlgu/documents?limit=10
+curl https://bettercalamba.org/api/openlgu/documents?limit=10
 
 # Get persons
-curl https://betterlb.gov.ph/api/openlgu/persons?term=1
+curl https://bettercalamba.org/api/openlgu/persons?term=1
 
 # Get terms
-curl https://betterlb.gov.ph/api/openlgu/terms
+curl https://bettercalamba.org/api/openlgu/terms
 ```
 
 ---
@@ -125,7 +125,7 @@ All Admin APIs use the `withAuth()` wrapper from `functions/utils/admin-auth.ts`
 
 1. **Get CSRF Token:**
    ```bash
-   curl https://betterlb.gov.ph/api/admin/auth/csrf \
+   curl https://bettercalamba.org/api/admin/auth/csrf \
      -H "Cookie: session=<your-session-cookie>"
    ```
 
@@ -182,7 +182,7 @@ await logAudit(env, {
 
 **View Audit Logs:**
 ```bash
-curl "https://betterlb.gov.ph/api/admin/audit-logs?action=create_document&limit=10" \
+curl "https://bettercalamba.org/api/admin/audit-logs?action=create_document&limit=10" \
   -H "Cookie: session=<your-session-cookie>"
 ```
 
@@ -318,7 +318,7 @@ curl "https://betterlb.gov.ph/api/admin/audit-logs?action=create_document&limit=
 
 All public APIs support CORS for authorized origins:
 
-- **Production:** `https://betterlb.pages.dev`, `https://betterlb.gov.ph`
+- **Production:** `https://bettercalamba.pages.dev`, `https://bettercalamba.org`
 - **Development:** `http://localhost:5173`, `http://localhost:8788`
 
 **CORS Headers:**
@@ -332,7 +332,7 @@ Access-Control-Max-Age: 86400
 ### Admin APIs
 
 Admin APIs require same-origin requests (no CORS for security).
-All admin requests must originate from `https://betterlb.gov.ph`.
+All admin requests must originate from `https://bettercalamba.org`.
 
 ---
 
@@ -342,7 +342,7 @@ All admin requests must originate from `https://betterlb.gov.ph`.
 
 **Public API (Weather):**
 ```typescript
-const response = await fetch('https://betterlb.gov.ph/api/weather');
+const response = await fetch('https://bettercalamba.org/api/weather');
 const weather = await response.json();
 console.log(weather.los_banos);
 ```
@@ -350,10 +350,10 @@ console.log(weather.los_banos);
 **Admin API (Authenticated):**
 ```typescript
 // Login
-window.location.href = 'https://betterlb.gov.ph/api/admin/auth/login';
+window.location.href = 'https://bettercalamba.org/api/admin/auth/login';
 
 // After callback, make authenticated request
-const response = await fetch('https://betterlb.gov.ph/api/admin/documents', {
+const response = await fetch('https://bettercalamba.org/api/admin/documents', {
   credentials: 'include', // Include session cookie
 });
 const data = await response.json();
@@ -362,13 +362,13 @@ const data = await response.json();
 **Admin API (CSRF-Protected):**
 ```typescript
 // Get CSRF token
-const csrfResponse = await fetch('https://betterlb.gov.ph/api/admin/auth/csrf', {
+const csrfResponse = await fetch('https://bettercalamba.org/api/admin/auth/csrf', {
   credentials: 'include',
 });
 const { csrfToken } = await csrfResponse.json();
 
 // Make CSRF-protected request
-const response = await fetch('https://betterlb.gov.ph/api/admin/documents', {
+const response = await fetch('https://bettercalamba.org/api/admin/documents', {
   method: 'POST',
   credentials: 'include',
   headers: {
@@ -385,14 +385,14 @@ const response = await fetch('https://betterlb.gov.ph/api/admin/documents', {
 import requests
 
 # Public API
-response = requests.get('https://betterlb.gov.ph/api/weather')
+response = requests.get('https://bettercalamba.org/api/weather')
 weather = response.json()
 
 # Admin API with session cookie
 session = requests.Session()
 session.cookies.set('session', '<your-session-cookie>')
 
-response = session.get('https://betterlb.gov.ph/api/admin/documents')
+response = session.get('https://bettercalamba.org/api/admin/documents')
 documents = response.json()
 ```
 
@@ -404,37 +404,37 @@ documents = response.json()
 
 ```bash
 # Weather API
-curl https://betterlb.gov.ph/api/weather
+curl https://bettercalamba.org/api/weather
 
 # Weather API (specific city)
-curl "https://betterlb.gov.ph/api/weather?city=Los Baños"
+curl "https://bettercalamba.org/api/weather?city=Los Baños"
 
 # Weather API (force update)
-curl "https://betterlb.gov.ph/api/weather?update=true"
+curl "https://bettercalamba.org/api/weather?update=true"
 
 # OpenLGU API
-curl "https://betterlb.gov.ph/api/openlgu/documents?limit=5"
+curl "https://bettercalamba.org/api/openlgu/documents?limit=5"
 ```
 
 ### Testing Admin APIs
 
 ```bash
 # 1. Login (opens browser)
-# Navigate to: https://betterlb.gov.ph/api/admin/auth/login
+# Navigate to: https://bettercalamba.org/api/admin/auth/login
 
 # 2. Get session cookie from browser dev tools
 # Application > Cookies > session
 
 # 3. Test authenticated endpoint
-curl https://betterlb.gov.ph/api/admin/auth/session \
+curl https://bettercalamba.org/api/admin/auth/session \
   -H "Cookie: session=<your-session-cookie>"
 
 # 4. Get CSRF token
-curl https://betterlb.gov.ph/api/admin/auth/csrf \
+curl https://bettercalamba.org/api/admin/auth/csrf \
   -H "Cookie: session=<your-session-cookie>"
 
 # 5. Make CSRF-protected request
-curl -X POST https://betterlb.gov.ph/api/admin/documents \
+curl -X POST https://bettercalamba.org/api/admin/documents \
   -H "Content-Type: application/json" \
   -H "X-CSRF-Token: <csrf-token>" \
   -H "Cookie: session=<your-session-cookie>" \
@@ -446,7 +446,7 @@ curl -X POST https://betterlb.gov.ph/api/admin/documents \
 ## Support
 
 - **Documentation:** See individual API documentation files
-- **Issues:** [GitHub Issues](https://github.com/bettergovph/betterlb/issues)
+- **Issues:** [GitHub Issues](https://github.com/BetterCalamba/bettercalamba/issues)
 - **Contributions:** Use the [Contribution API](./contribution-api.md)
 
 ---

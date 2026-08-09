@@ -1,4 +1,5 @@
 User-Agent: *
 Allow: /
+Disallow: /admin
 
-Sitemap: https://bettergov.ph/sitemap.xml
+Sitemap: https://bettercalamba.org/sitemap.xml

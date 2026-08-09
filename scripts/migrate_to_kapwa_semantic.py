@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """
-Kapwa Semantic Token Migration Script for BetterLB
+Kapwa Semantic Token Migration Script for BetterCalamba
 
 This script replaces your existing color/spacing tokens with Kapwa semantic tokens.
 Prioritizes semantic tokens over raw color values for better maintainability.

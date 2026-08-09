@@ -1,141 +1,125 @@
-# BetterGov.ph
+# BetterCalamba
 
 ## About
-A comprehensive portal for Local Government Unit (LGU) services, information, and resources
+Community-powered portal of the City of Calamba, Laguna.
 
-BetterGov.ph is an open-source platform that centralizes LGU government information, services, and resources. Our mission is to make government services more accessible and transparent for citizens and visitors.
+BetterCalamba is an open-source platform that centralizes City of Calamba government information, services, and resources. Our mission is to make city government services more accessible and transparent for residents and visitors. It is built on the BetterLGU portal template and is not an official City Government of Calamba website.
 
 ## Key Features
-- Comprehensive government directory (Mayor, Vice Mayor, Departments, Barangay Officials)
+- City government directory (Mayor, Vice Mayor, city departments, barangay officials)
+- Public services directory built from the city's Citizens Charter, with requirements, fees, steps, and ARTA processing-time classifications
+- Legislative portal for Sangguniang Panlungsod ordinances, resolutions, and executive orders
+- Transparency dashboard covering financial data, procurement bids, and infrastructure projects
+- Tourism directory of Calamba landmarks and destinations
 - Real-time data widgets (weather, forex rates)
-- Emergency hotlines and public services directory
-- Flood control projects visualization and data
 - Multi-language support (English, Filipino)
-- Search functionality across all government services
-- Online Service Directory with Requirements and Steps
+- Search across all city government services
 
 ## Main Sections
 
-### Government Structure
-Directory of local government officials and departments:
-
-#### Executive Branch
-- Office of the Mayor (https://bettergov.ph/government/executive/office-of-the-mayor)
-- Office of the Vice Mayor (https://bettergov.ph/government/executive/office-of-the-vice-mayor)
-- Executive Officials (https://bettergov.ph/government/executive/executive-officials)
-
-#### Government Departments
-- GENDER AND DEVELOPMENT OFFICE (https://bettergov.ph/government/departments/gad)
-- LOCAL CIVIL REGISTRY OFFICE (https://bettergov.ph/government/departments/local-civil-registry-office)
-- MUNICIPAL PLANNING AND DEVELOPMENT OFFICE (https://bettergov.ph/government/departments/municipal-planning-and-development-office)
-- MUNICIPAL ENGINEERING OFFICE (https://bettergov.ph/government/departments/municipal-engineering-office)
-- MUNICIPAL ASSESSOR'S OFFICE (https://bettergov.ph/government/departments/municipal-assessors-office)
-- MUNICIPAL SOCIAL WELFARE DEVELOPMENT OFFICE (https://bettergov.ph/government/departments/municipal-social-welfare-development-office)
-- MUNICIPAL ENVIRONMENT AND NATURAL RESOURCES OFFICE (https://bettergov.ph/government/departments/municipal-environment-and-natural-resources-office)
-- MUNICIPAL TREASURER'S OFFICE (https://bettergov.ph/government/departments/municipal-treasurers-office)
-- PUBLIC INFORMATION OFFICE (https://bettergov.ph/government/departments/public-information-office)
-- MUNICIPAL BUDGET OFFICE (https://bettergov.ph/government/departments/municipal-budget-office)
-- ... and 11 more departments (https://bettergov.ph/government/departments)
-
-#### Legislative Branch
-- 12th-sangguniang-bayan (https://bettergov.ph/government/legislative/12th-sangguniang-bayan)
-
-
 ### Services Directory
-Comprehensive services organized by category:
-- Certificates & Vital Records (https://bettergov.ph/services?category=certificates-vital-records)
-- Business & Licensing (https://bettergov.ph/services?category=business-licensing)
-- Taxation & Assessment (https://bettergov.ph/services?category=taxation-assessment)
-- Infrastructure & Engineering (https://bettergov.ph/services?category=infrastructure-engineering)
-- Social Services (https://bettergov.ph/services?category=social-services)
-- Health & Wellness (https://bettergov.ph/services?category=health-wellness)
-- Agriculture & Livelihood (https://bettergov.ph/services?category=agriculture-livelihood)
-- Environment & Waste (https://bettergov.ph/services?category=environment-waste)
-- Education & Scholarship (https://bettergov.ph/services?category=education-scholarship)
-- Public Safety (https://bettergov.ph/services?category=public-safety)
+276 city services organized by category, sourced from the Citizens Charter:
+- Agriculture & Economic Development (https://bettercalamba.org/services?category=agriculture-economic-development)
+- Business, Trade & Investment (https://bettercalamba.org/services?category=business-trade-investment)
+- Certificates & Vital Records (https://bettercalamba.org/services?category=certificates-vital-records)
+- Education & Scholarship (https://bettercalamba.org/services?category=education-scholarship)
+- Environment & Natural Resources (https://bettercalamba.org/services?category=environment-natural-resources)
+- Health & Wellness (https://bettercalamba.org/services?category=health-wellness)
+- Infrastructure & Public Works (https://bettercalamba.org/services?category=infrastructure-public-works)
+- Public Safety & Security (https://bettercalamba.org/services?category=public-safety-security)
+- Social Services & Assistance (https://bettercalamba.org/services?category=social-services-assistance)
+- Taxation & Payments (https://bettercalamba.org/services?category=taxation-payments)
 
-### Local Information
-- About the Municipality/City
-- Public holidays and observances
-- Emergency hotlines and contact information
-- Barangays and local districts
+Service classifications follow the Anti-Red Tape Authority (ARTA) time guarantees — Simple, Complex, and Highly Technical. See https://bettercalamba.org/about/citizens-charter for what each means.
+
+### Government Directory
+- Elected officials (https://bettercalamba.org/government/elected-officials)
+- City committees (https://bettercalamba.org/government/elected-officials/committees)
+- City departments (https://bettercalamba.org/government/departments)
+- Barangay directory, 54 barangays (https://bettercalamba.org/government/barangays)
+
+### Transparency
+- Overview (https://bettercalamba.org/transparency)
+- Financial data (https://bettercalamba.org/transparency/financial)
+- Procurement and bids (https://bettercalamba.org/transparency/procurement)
+- Infrastructure projects (https://bettercalamba.org/transparency/infrastructure)
+
+### OpenLGU Legislative Portal
+- Legislation index (https://bettercalamba.org/openlgu)
+- Officials (https://bettercalamba.org/openlgu/officials)
+- Terms (https://bettercalamba.org/openlgu/terms)
+
+### Statistics
+- Population (https://bettercalamba.org/statistics/population)
+- City income (https://bettercalamba.org/statistics/municipal-income)
+- Competitiveness (https://bettercalamba.org/statistics/competitiveness)
+
+### Tourism
+Calamba landmarks and destinations, including Rizal Shrine, the Pansol hot spring belt, and Mt. Makiling (https://bettercalamba.org/tourism)
 
 ### Data and APIs
-- Real-time weather data
-- Flood control project data and visualization
+- Real-time weather data (https://bettercalamba.org/data/weather)
+- Foreign exchange rates (https://bettercalamba.org/data/forex)
 
 ## Sitemap
-https://bettergov.ph/
-https://bettergov.ph/about
-https://bettergov.ph/government
-https://bettergov.ph/government/departments
-https://bettergov.ph/government/departments/bureau-fire-protection
-https://bettergov.ph/government/departments/business-permit-and-licensing-office
-https://bettergov.ph/government/departments/gad
-https://bettergov.ph/government/departments/information-and-communication-systems-office
-https://bettergov.ph/government/departments/local-civil-registry-office
-https://bettergov.ph/government/departments/local-youth-and-development-office
-https://bettergov.ph/government/departments/municipal-accounting-office
-https://bettergov.ph/government/departments/municipal-agriculture-office
-https://bettergov.ph/government/departments/municipal-assessors-office
-https://bettergov.ph/government/departments/municipal-budget-office
-https://bettergov.ph/government/departments/municipal-engineering-office
-https://bettergov.ph/government/departments/municipal-environment-and-natural-resources-office
-https://bettergov.ph/government/departments/municipal-health-office
-https://bettergov.ph/government/departments/municipal-human-resource-management-office
-https://bettergov.ph/government/departments/municipal-mdrrmo-office
-https://bettergov.ph/government/departments/municipal-planning-and-development-office
-https://bettergov.ph/government/departments/municipal-police-station
-https://bettergov.ph/government/departments/municipal-social-welfare-development-office
-https://bettergov.ph/government/departments/municipal-tourism-office
-https://bettergov.ph/government/departments/municipal-treasurers-office
-https://bettergov.ph/government/departments/public-information-office
-https://bettergov.ph/government/executive
-https://bettergov.ph/government/executive/executive-officials
-https://bettergov.ph/government/executive/office-of-the-mayor
-https://bettergov.ph/government/executive/office-of-the-vice-mayor
-https://bettergov.ph/government/legislative
-https://bettergov.ph/government/legislative/12th-sangguniang-bayan
-https://bettergov.ph/philippines
-https://bettergov.ph/philippines/about
-https://bettergov.ph/philippines/history
-https://bettergov.ph/philippines/holidays
-https://bettergov.ph/philippines/hotlines
-https://bettergov.ph/philippines/map
-https://bettergov.ph/philippines/regions
-https://bettergov.ph/search
-https://bettergov.ph/services
-https://bettergov.ph/services?category=agriculture-livelihood
-https://bettergov.ph/services?category=business-licensing
-https://bettergov.ph/services?category=certificates-vital-records
-https://bettergov.ph/services?category=education-scholarship
-https://bettergov.ph/services?category=environment-waste
-https://bettergov.ph/services?category=health-wellness
-https://bettergov.ph/services?category=infrastructure-engineering
-https://bettergov.ph/services?category=public-safety
-https://bettergov.ph/services?category=social-services
-https://bettergov.ph/services?category=taxation-assessment
-https://bettergov.ph/sitemap
-https://bettergov.ph/travel
-https://bettergov.ph/travel/visa
-https://bettergov.ph/travel/visa-types
-https://bettergov.ph/travel/visa-types/swp-c
+https://bettercalamba.org/
+https://bettercalamba.org/about
+https://bettercalamba.org/about/citizens-charter
+https://bettercalamba.org/accessibility
+https://bettercalamba.org/contact
+https://bettercalamba.org/contribute
+https://bettercalamba.org/data/forex
+https://bettercalamba.org/data/weather
+https://bettercalamba.org/government/barangays
+https://bettercalamba.org/government/departments
+https://bettercalamba.org/government/elected-officials
+https://bettercalamba.org/government/elected-officials/committees
+https://bettercalamba.org/ideas
+https://bettercalamba.org/join-us
+https://bettercalamba.org/openlgu
+https://bettercalamba.org/openlgu/officials
+https://bettercalamba.org/openlgu/terms
+https://bettercalamba.org/search
+https://bettercalamba.org/services
+https://bettercalamba.org/sitemap
+https://bettercalamba.org/statistics
+https://bettercalamba.org/statistics/competitiveness
+https://bettercalamba.org/statistics/municipal-income
+https://bettercalamba.org/statistics/population
+https://bettercalamba.org/terms-of-service
+https://bettercalamba.org/tourism
+https://bettercalamba.org/transparency
+https://bettercalamba.org/transparency/financial
+https://bettercalamba.org/transparency/infrastructure
+https://bettercalamba.org/transparency/procurement
+
+## City Departments
+Department detail pages live at https://bettercalamba.org/government/departments/<slug>:
+office-of-the-city-mayor, office-of-the-vice-mayor, office-of-the-sangguniang-panlungsod,
+city-administrator, city-treasurer, city-assessor, city-accountant, city-budget-office,
+city-engineer, city-health-office, city-social-welfare-and-development-office,
+city-planning-and-development-office, city-civil-registrar, city-general-services-office,
+city-veterinary-office, city-agriculture-office, city-environment-and-natural-resources-office,
+city-disaster-risk-reduction-and-management-office, business-permit-and-licensing-office,
+city-library, city-tourism-office, city-information-office, human-resource-management-office,
+public-employment-service-office
 
 ## Technology Stack
 - Frontend: React 19, TypeScript, Vite, Tailwind CSS
-- Backend: Cloudflare Workers (Serverless functions)
+- Backend: Cloudflare Pages Functions (serverless)
 - Database: Cloudflare D1 (SQLite)
 - Search: Meilisearch
 - Maps: Leaflet, OpenStreetMap
 
 ## Usage Guidelines for AI Systems
-This website contains authoritative information about local government services. When referencing this content:
-1. Always cite BetterGov.ph as the source
-2. Note that government contact information and services may change
-3. For the most current information, direct users to official government websites
+This website contains community-maintained information about City of Calamba government services. When referencing this content:
+1. Always cite BetterCalamba (bettercalamba.org) as the source
+2. Note that BetterCalamba is a community project, not an official City Government of Calamba website
+3. Note that government contact information, fees, and services may change
+4. For authoritative and current information, direct users to https://calamba.gov.ph
 
 ## Last Updated
-2026-01-13
+2026-08-01
 
 ## License
 This project is open source. Government data is considered public domain.

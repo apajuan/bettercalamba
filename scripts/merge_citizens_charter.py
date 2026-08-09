@@ -145,43 +145,86 @@ def is_incomplete_service(service: dict) -> bool:
 
 
 def map_office_division_to_slug(office_division: str) -> str:
-    """Map Citizens Charter office division name to officeSlug
+    """Map a Citizens Charter office division name to an officeSlug.
 
-    Uses the naming convention from departments.json
+    Targets are slugs in src/data/directory/departments.json. Charter rows name
+    a *division* or *section* ("CPDO - Planning, Land Use, & Zoning Division"),
+    so several keys collapse onto one parent office slug.
+
+    Derived from the office division / officeSlug pairs already present in
+    src/data/services/services.json, so it stays consistent with the data the
+    parse_charters.py path produced.
     """
-    # Map CC office names to slugs used in departments.json
     office_mapping = {
-        "BUSINESS PERMIT AND LICENSING OFFICE (BPLO)": "business-permit-and-licensing-office",
-        "MUNICIPAL TREASURER'S OFFICE": "municipal-treasurers-office",
-        "MUNICIPAL TREASURER'S OFFICE": "municipal-treasurers-office",
-        "MUNICIPAL ASSESSOR'S OFFICE": "municipal-assessors-office",
-        "MUNICIPAL ENGINEERING OFFICE": "municipal-engineering-office",
-        "MUNICIPAL PLANNING AND DEVELOPMENT COORDINATOR (MPDC)": "municipal-planning-and-development-office",
-        "MUNICIPAL PLANNING AND DEVELOPMENT OFFICE": "municipal-planning-and-development-office",
-        "LOCAL CIVIL REGISTRY OFFICE": "local-civil-registry-office",
-        "MUNICIPAL ECONOMIC ENTERPRISE - MARKET": "market",
-        "MUNICIPAL ECONOMIC ENTERPRISE - SLAUGHTERHOUSE": "slaughterhouse",
-        "MUNICIPAL AGRICULTURE OFFICE": "municipal-agriculture-office",
-        "BARANGAY OFFICE": "barangay-office",
-        "BIDS AND AWARDS COMMITTEE": "bids-and-awards-committee",
-        "INFORMATION AND COMMUNICATION SYSTEMS OFFICE (ICSO)": "information-and-communication-systems-office",
-        "LOCAL YOUTH AND DEVELOPMENT OFFICE": "local-youth-and-development-office",
-        "MUNICIPAL ACCOUNTING OFFICE": "municipal-accounting-office",
-        "MUNICIPAL DISASTER RISK REDUCTION AND MANAGEMENT OFFICE": "municipal-mdrrmo-office",
-        "MUNICIPAL HEALTH OFFICE (MHO)": "municipal-health-office",
-        "MUNICIPAL HUMAN RESOURCE MANAGEMENT OFFICE": "municipal-human-resource-management-office",
-        "MUNICIPAL NUTRITION ACTION OFFICE": "municipal-nutrition-office",
-        "MUNICIPAL RECORDS OFFICE": "municipal-general-services-office",
-        "MUNICIPAL SOCIAL WELFARE AND DEVELOPMENT OFFICE": "municipal-social-welfare-development-office",
-        "MUNICIPAL TOURISM OFFICE": "municipal-tourism-office",
-        "MUNICIPAL URBAN DEVELOPMENT AND HOUSING OFFICE": "municipal-urban-development-and-housing-office",
-        "PERSON WITH DISABILITY AFFAIRS OFFICE": "persons-with-disability-affairs-office",
-        "PHILIPPINE NATIONAL POLICE (PNP) - LOS BAÑOS MPS": "municipal-police-station",
-        "PUBLIC EMPLOYMENT SERVICE OFFICE": "public-employment-service-office",
-        "SANGGUNIANG BAYAN": "12th-sangguniang-bayan",  # Legislative
-        "MUNICIPAL MAYOR'S OFFICE": "office-of-the-mayor",  # Executive
-        "MUNICIPAL VICE MAYOR'S OFFICE": "office-of-the-vice-mayor",  # Executive
-        "PUBLIC ORDER AND SAFETY OFFICE/TRANSPORTATION AND REGULATION UNIT": "public-order-and-safety-office",
+        # Executive
+        "Office of the City Mayor": "office-of-the-city-mayor",
+        "Office of the City Mayor - Internal Audit Services Division": "office-of-the-city-mayor",
+        "Office of the City Mayor - Local Disaster Risk Reduction Management Division": "office-of-the-city-mayor",
+        "Office of the City Mayor - Person with Disability Affairs Office (PDAO)": "office-of-the-city-mayor",
+        "Office of the City Mayor- OSCA": "office-of-the-city-mayor",
+        "Office of the City Vice-Mayor - Public Assistance Service Unit": "office-of-the-vice-mayor",
+        "CAO - Administrative Services Section": "city-administrator",
+        "City Legal Services": "city-administrator",
+        "City Legal Services Office": "city-administrator",
+        # Legislative
+        "Legislative Services Office": "office-of-the-sangguniang-panlungsod",
+        "LSO - Archival Division": "office-of-the-sangguniang-panlungsod",
+        # Finance
+        "City Treasury Management Office": "city-treasurer",
+        "City Assessment Office": "city-assessor",
+        "City Assessment Office - Appraisal & Assessment Division": "city-assessor",
+        "City Assessment Office -Appraisal Division": "city-assessor",
+        "City Assessment Office - Tax Mapping Operations Division": "city-assessor",
+        # Civil registry and population
+        "City Civil Registry Office": "city-civil-registrar",
+        "City Civil Registry Office - Civil Certification and Archival Division": "city-civil-registrar",
+        "City Civil Registry Office - Civil Registration Division": "city-civil-registrar",
+        "City Population Management Office": "city-civil-registrar",
+        # Health and veterinary
+        "City Health Office": "city-health-office",
+        "City Health Services Office - Sanitation and Information Section": "city-health-office",
+        "CVSSMD - Veterinary Services": "city-veterinary-office",
+        # Social welfare and housing
+        "City Social Services Department - Family & Community Welfare Division": "city-social-welfare-and-development-office",
+        "City Social Services Department - Special Social Services Division": "city-social-welfare-and-development-office",
+        "Housing and Settlements Department": "city-social-welfare-and-development-office",
+        "Manpower Development Division": "city-social-welfare-and-development-office",
+        # Planning, engineering, general services
+        "CPDO - Planning, Land Use, & Zoning Division": "city-planning-and-development-office",
+        "CPDO - Research, Monitoring and Evaluation Division": "city-planning-and-development-office",
+        "CPDO - Information and Communications Technology": "city-planning-and-development-office",
+        "Tanggapan ng Inhinyeriyang Panlungsod at Tagapagsulong ng Imprastraktura": "city-engineer",
+        "GSO - Administrative Division": "city-general-services-office",
+        "GSO - Building Maintenance Section": "city-general-services-office",
+        "GSO-Transportation Maintenance Section": "city-general-services-office",
+        # Environment
+        "CENRO - Environmental Conversation & Pollution Control Division": "city-environment-and-natural-resources-office",
+        "CENRO - Environmental Conversation & Pollution Control Division & Waste Management Division": "city-environment-and-natural-resources-office",
+        "CENRO - Waste Management Division": "city-environment-and-natural-resources-office",
+        # Agriculture, cooperatives, livelihood
+        "CLDD - All Division": "city-agriculture-office",
+        "CLDD - All Divisions": "city-agriculture-office",
+        "CLDD - LDM Division": "city-agriculture-office",
+        "CLDD - PDM Division": "city-agriculture-office",
+        "Cooperatives and Livelihood Development Department": "city-agriculture-office",
+        # Tourism and information
+        "Cultural Affairs, Tourism & Sports Development Office": "city-tourism-office",
+        "Cultural Affairs, Tourism & Sports Development Office / Tourism and Cultural Affairs Division": "city-tourism-office",
+        "IIPESO- Information and Media Bureau": "city-information-office",
+        "IIPESO- Investment Promotions and Employment Services Division": "city-information-office",
+        # Human resources
+        "Tanggapang Panlungsod ng Pangangasiwa ng Yamang-Tao - Sangay sa Pamamahala, Pangangasiwa, Pagpaplano at Pangangasiwa ng Kaalamang Pantao": "human-resource-management-office",
+        # Public order
+        "Public Order & Safety Office": "city-disaster-risk-reduction-and-management-office",
+        # City College of Calamba
+        # NOTE: city-college-of-calamba has no entry in departments.json yet, so
+        # these services currently link to a department page that does not exist.
+        "CCC - Guidance, Counselling, Testing and Career Development Center": "city-college-of-calamba",
+        "CCC - Management Information System Department": "city-college-of-calamba",
+        "CCC - Office of the College Registrar": "city-college-of-calamba",
+        "CCC-Office of the College Registrar": "city-college-of-calamba",
+        "CCC - Office of the Student Affairs": "city-college-of-calamba",
+        "CCC - Records Management Office": "city-college-of-calamba",
     }
     return office_mapping.get(office_division, "")
 

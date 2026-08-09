@@ -3,6 +3,18 @@
 /**
  * Script to generate llms.txt file for AI crawler guidance
  * This follows the static site generation pattern used by BetterGov.ph
+ *
+ * !! STALE — DO NOT RUN AS-IS !!
+ *
+ * Inherited from the BetterGov.ph national template. It hardcodes
+ * `https://bettergov.ph` and emits the national route structure
+ * (/philippines/*, /travel/*, /government/executive/*, /government/legislative)
+ * — none of which exist in BetterCalamba's router (see src/App.tsx).
+ *
+ * Running it overwrites public/llms.txt with BetterGov branding and URLs that
+ * 404. public/llms.txt is currently hand-maintained against the real route
+ * table. Either rewrite this script for the Calamba routes or delete it; it is
+ * deliberately NOT wired into any npm script.
  */
 import fs from 'fs';
 import path from 'path';

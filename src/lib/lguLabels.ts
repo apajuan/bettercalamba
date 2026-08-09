@@ -32,9 +32,9 @@ const type = config.lgu.type;
 const labels = LGU_LABELS[type] ?? LGU_LABELS.municipality;
 
 export const lguLabels = {
-  /** "Municipality of Los Baños" / "City of ..." / "Province of ..." */
+  /** "City of Calamba" / "Municipality of ..." / "Province of ..." */
   fullName: config.lgu.fullName,
-  /** "Los Baños" */
+  /** "Calamba" */
   name: config.lgu.name,
   /** "Laguna" */
   province: config.lgu.province,
@@ -46,6 +46,6 @@ export const lguLabels = {
   subdivisions: labels.subdivisions,
   /** "Municipal" / "City" / "Provincial" */
   adjective: labels.adjective,
-  /** "{name}, {province}" e.g. "Los Baños, Laguna" */
+  /** "{name}, {province}" e.g. "Calamba, Laguna" */
   location: `${config.lgu.name}, ${config.lgu.province}`,
 };

@@ -364,7 +364,7 @@ export const CardDescription = ({
  *   contact={{
  *     address: "123 Main St",
  *     phone: ["(049) 123-4567", "(049) 765-4321"],
- *     email: "info@losbanos.gov.ph"
+ *     email: "info@calamba.gov.ph"
  *   }}
  * />
  * ```

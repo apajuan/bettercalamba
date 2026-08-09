@@ -1,4 +1,4 @@
-# Contributing to BetterLB
+# Contributing to BetterCalamba
 
 Thank you for your interest in contributing! We welcome developers, designers, writers, and anyone passionate about better government transparency.
 
@@ -8,8 +8,8 @@ Thank you for your interest in contributing! We welcome developers, designers, w
 
 1. **Fork and Clone**
    ```bash
-   git clone https://github.com/<your-username>/betterlb
-   cd betterlb
+   git clone https://github.com/<your-username>/bettercalamba
+   cd bettercalamba
    npm install
    ```
 
@@ -244,9 +244,9 @@ Closes #123
 
 ## Getting Help
 
-- **Issues:** [github.com/BetterLosBanos/betterlb/issues](https://github.com/BetterLosBanos/betterlb/issues)
-- **Discussions:** [github.com/BetterLosBanos/betterlb/discussions](https://github.com/BetterLosBanos/betterlb/discussions)
-- **Live Site:** [https://betterlb.org](https://betterlb.org)
+- **Issues:** [github.com/BetterCalamba/bettercalamba/issues](https://github.com/BetterCalamba/bettercalamba/issues)
+- **Discussions:** [github.com/BetterCalamba/bettercalamba/discussions](https://github.com/BetterCalamba/bettercalamba/discussions)
+- **Live Site:** [https://bettercalamba.org](https://bettercalamba.org)
 
 ---
 
@@ -256,4 +256,4 @@ By contributing, you agree that your code will be released under the [Creative C
 
 ---
 
-**Thank you for contributing to BetterLB!** 🇵🇭
+**Thank you for contributing to BetterCalamba!** 🇵🇭
