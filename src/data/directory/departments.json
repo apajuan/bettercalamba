@@ -2,8 +2,11 @@
   {
     "slug": "office-of-the-city-mayor",
     "office_name": "Office of the City Mayor",
-    "address": null,
-    "trunkline": null,
+    "address": "New City Hall of Calamba, Bacnotan Road, Brgy. Real, Calamba, Laguna 4027",
+    "trunkline": [
+      "(049) 545-6789 loc. 8304 / 8305 / 8306 / 8307",
+      "Telefax: (049) 545-7887 / 545-0529"
+    ],
     "website": null,
     "email": null,
     "department_head": null
@@ -11,164 +14,220 @@
   {
     "slug": "office-of-the-vice-mayor",
     "office_name": "Office of the Vice Mayor",
-    "address": null,
-    "trunkline": null,
+    "address": "New City Hall of Calamba, Bacnotan Road, Brgy. Real, Calamba, Laguna 4027",
+    "trunkline": ["(049) 545-6789"],
     "website": null,
     "email": null,
     "department_head": null
   },
   {
     "slug": "office-of-the-sangguniang-panlungsod",
-    "office_name": "Office of the Sangguniang Panlungsod",
-    "address": null,
-    "trunkline": null,
-    "website": null,
+    "office_name": "Sangguniang Panlungsod - Legislative Services Office",
+    "address": "Right Wing, 3rd Floor, New City Hall of Calamba, Bacnotan Road, Brgy. Real, Calamba, Laguna 4027",
+    "trunkline": ["(049) 545-6789 loc. 8312 / 8314"],
+    "website": "https://www.calambacity.gov.ph/Users/DepartmentHome/Legislative_services_office",
     "email": null,
-    "department_head": null
+    "department_head": {
+      "name": "Atty. Noel M. Villanueva",
+      "email": null
+    }
   },
   {
     "slug": "city-administrator",
-    "office_name": "Office of the City Administrator",
-    "address": null,
-    "trunkline": null,
-    "website": null,
+    "office_name": "City Administration Office",
+    "address": "Right Wing, 3rd Floor, New City Hall of Calamba, Bacnotan Road, Brgy. Real, Calamba, Laguna 4027",
+    "trunkline": ["(049) 545-6789 loc. 8300 / 8301 / 8302 / 8303"],
+    "website": "https://www.calambacity.gov.ph/Users/DepartmentHome/City_administration_office",
     "email": null,
-    "department_head": null
+    "department_head": {
+      "name": "Mr. Johnny R. Pamuspusan",
+      "email": null
+    }
   },
   {
     "slug": "city-treasurer",
-    "office_name": "Office of the City Treasurer",
-    "address": null,
-    "trunkline": null,
-    "website": null,
+    "office_name": "City Treasury Management Office",
+    "address": "Right Wing, 2nd Floor, New City Hall of Calamba, Bacnotan Road, Brgy. Real, Calamba, Laguna 4027",
+    "trunkline": ["(049) 545-6789 loc. 8110 / 8111 / 8112 / 8114"],
+    "website": "https://www.calambacity.gov.ph/Users/DepartmentHome/City_treasury_management_office",
     "email": null,
-    "department_head": null
+    "department_head": {
+      "name": "Ms. Anita C. Almeria",
+      "email": null
+    }
   },
   {
     "slug": "city-assessor",
-    "office_name": "Office of the City Assessor",
-    "address": null,
-    "trunkline": null,
-    "website": null,
+    "office_name": "City Assessment Office",
+    "address": "Right Wing, Ground Floor, New City Hall of Calamba, Bacnotan Road, Brgy. Real, Calamba, Laguna 4027",
+    "trunkline": ["(049) 545-6789 loc. 8107 / 8108 / 8109"],
+    "website": "https://www.calambacity.gov.ph/Users/DepartmentHome/City_assessment_office",
     "email": null,
-    "department_head": null
+    "department_head": {
+      "name": "Mr. Graciano G. Aldabe",
+      "email": null
+    }
   },
   {
     "slug": "city-accountant",
-    "office_name": "Office of the City Accountant",
-    "address": null,
-    "trunkline": null,
-    "website": null,
+    "office_name": "City Accounting and Internal Control Office",
+    "address": "Left Wing, 2nd Floor, New City Hall of Calamba, Bacnotan Road, Brgy. Real, Calamba, Laguna 4027",
+    "trunkline": ["(049) 545-6789 loc. 8203 / 8204"],
+    "website": "https://www.calambacity.gov.ph/Users/DepartmentHome/City_accounting_and_internal_control_office",
     "email": null,
-    "department_head": null
+    "department_head": {
+      "name": "Ms. Editha M. Malabanan",
+      "email": null
+    }
   },
   {
     "slug": "city-budget-office",
-    "office_name": "City Budget Office",
-    "address": null,
-    "trunkline": null,
-    "website": null,
+    "office_name": "City Budget Management Office",
+    "address": "Right Wing, 2nd Floor, New City Hall of Calamba, Bacnotan Road, Brgy. Real, Calamba, Laguna 4027",
+    "trunkline": ["(049) 545-6789 loc. 8205 / 8206"],
+    "website": "https://www.calambacity.gov.ph/Users/DepartmentHome/City_budget_management_office",
     "email": null,
-    "department_head": null
+    "department_head": {
+      "name": "Ms. Gregoria J. Alcantara",
+      "email": null
+    }
   },
   {
     "slug": "city-engineer",
-    "office_name": "Office of the City Engineer",
-    "address": null,
-    "trunkline": null,
-    "website": null,
+    "office_name": "City Engineering and Infrastructure Development Department",
+    "address": "Right Wing, 2nd Floor, New City Hall of Calamba, Bacnotan Road, Brgy. Real, Calamba, Laguna 4027",
+    "trunkline": ["(049) 545-6789 loc. 8211 / 8212 / 8214"],
+    "website": "https://www.calambacity.gov.ph/Users/DepartmentHome/City_engineering_services_office",
     "email": null,
-    "department_head": null
+    "department_head": {
+      "name": "Engr. Irwin M. Pacada",
+      "email": null
+    }
   },
   {
     "slug": "city-health-office",
-    "office_name": "City Health Office",
-    "address": null,
-    "trunkline": null,
-    "website": null,
+    "office_name": "City Health Services Department",
+    "address": "Left Wing, Lower Ground Floor, New City Hall of Calamba, Bacnotan Road, Brgy. Real, Calamba, Laguna 4027",
+    "trunkline": [
+      "(049) 545-6789 loc. 8015 / 8016",
+      "Main Health Center: (049) 545-1697"
+    ],
+    "website": "https://www.calambacity.gov.ph/Users/DepartmentHome/City_health_services_office",
     "email": null,
-    "department_head": null
+    "department_head": {
+      "name": "Dr. Rodrigo B. Esguerra",
+      "email": null
+    }
   },
   {
     "slug": "city-social-welfare-and-development-office",
-    "office_name": "City Social Welfare and Development Office (CSWDO)",
-    "address": null,
-    "trunkline": null,
-    "website": null,
+    "office_name": "City Social Services and Youth Development Office",
+    "address": "Right Wing, Lower Ground Floor, New City Hall of Calamba, Bacnotan Road, Brgy. Real, Calamba, Laguna 4027",
+    "trunkline": [
+      "(049) 545-6789 loc. 8120",
+      "Manpower Development: (049) 545-4834 / 545-4980"
+    ],
+    "website": "https://www.calambacity.gov.ph/Users/DepartmentHome/City_social_services_and_youth_development_office",
     "email": null,
-    "department_head": null
+    "department_head": {
+      "name": "Ms. Celina D. Manabat",
+      "email": null
+    }
   },
   {
     "slug": "city-planning-and-development-office",
-    "office_name": "City Planning and Development Office (CPDO)",
-    "address": null,
-    "trunkline": null,
-    "website": null,
-    "email": null,
-    "department_head": null
+    "office_name": "City Planning and Development Office",
+    "address": "Right Wing, 2nd Floor, New City Hall of Calamba, Bacnotan Road, Brgy. Real, Calamba, Laguna 4027",
+    "trunkline": ["(049) 545-6789 loc. 8208 / 8209 / 8210"],
+    "website": "https://www.calambacity.gov.ph/Users/DepartmentHome/City_planning_and_development_office",
+    "email": "cpdo@calambacity.gov.ph",
+    "department_head": {
+      "name": "Mr. Dennis R. Lanzanas",
+      "email": "cpdo@calambacity.gov.ph"
+    }
   },
   {
     "slug": "city-civil-registrar",
-    "office_name": "Office of the City Civil Registrar",
-    "address": null,
-    "trunkline": null,
-    "website": null,
-    "email": null,
-    "department_head": null
+    "office_name": "City Civil Registry Office",
+    "address": "Left Wing, Ground Floor, New City Hall of Calamba, Bacnotan Road, Brgy. Real, Calamba, Laguna 4027",
+    "trunkline": ["(049) 545-6789 loc. 8115 / 8117"],
+    "website": "https://www.calambacity.gov.ph/Users/DepartmentHome/City_civil_registry_office",
+    "email": "civilregistration@calambacity.gov.ph",
+    "department_head": {
+      "name": "Ms. Ednalina S. Masongsong",
+      "email": "civilregistration@calambacity.gov.ph"
+    }
   },
   {
     "slug": "city-general-services-office",
-    "office_name": "City General Services Office (CGSO)",
-    "address": null,
-    "trunkline": null,
-    "website": null,
+    "office_name": "City General Services Office",
+    "address": "Warehouse Building, City Hall Compound, New City Hall of Calamba, Bacnotan Road, Brgy. Real, Calamba, Laguna 4027",
+    "trunkline": ["(049) 545-6789 loc. 8205 / 8206"],
+    "website": "https://www.calambacity.gov.ph/Users/DepartmentHome/City_general_services_office",
     "email": null,
-    "department_head": null
+    "department_head": {
+      "name": "Ms. Concepion R. Herrera",
+      "email": null
+    }
   },
   {
     "slug": "city-veterinary-office",
-    "office_name": "City Veterinary Office",
-    "address": null,
-    "trunkline": null,
-    "website": null,
+    "office_name": "Veterinary Services and Slaughterhouse Management Office",
+    "address": "Right Wing, Lower Ground Floor, New City Hall of Calamba, Bacnotan Road, Brgy. Real, Calamba, Laguna 4027",
+    "trunkline": ["(049) 545-6789 loc. 8003 / 8004"],
+    "website": "https://www.calambacity.gov.ph/Users/DepartmentHome/Veterinary_services_and_slaughterhouse_management_office",
     "email": null,
-    "department_head": null
+    "department_head": {
+      "name": "Dr. Sheila A. Matibag",
+      "email": null
+    }
   },
   {
     "slug": "city-agriculture-office",
-    "office_name": "City Agriculture Office",
-    "address": null,
-    "trunkline": null,
-    "website": null,
+    "office_name": "City Agricultural Services Office",
+    "address": "Right Wing, Lower Ground Floor, New City Hall of Calamba, Bacnotan Road, Brgy. Real, Calamba, Laguna 4027",
+    "trunkline": ["(049) 545-6789 loc. 8001 / 8002"],
+    "website": "https://www.calambacity.gov.ph/Users/DepartmentHome/City_agricultural_services_office",
     "email": null,
-    "department_head": null
+    "department_head": {
+      "name": "Ms. Ruby V. Arenas",
+      "email": null
+    }
   },
   {
     "slug": "city-environment-and-natural-resources-office",
-    "office_name": "City Environment and Natural Resources Office (CENRO)",
-    "address": null,
-    "trunkline": null,
-    "website": null,
-    "email": null,
-    "department_head": null
+    "office_name": "City Environment and Natural Resources Office",
+    "address": "Right Wing, 2nd Floor, New City Hall of Calamba, Bacnotan Road, Brgy. Real, Calamba, Laguna 4027",
+    "trunkline": ["(049) 545-6789 loc. 8217 / 8218"],
+    "website": "https://www.calambacity.gov.ph/Users/DepartmentHome/City_environment_and_natural_resources_department",
+    "email": "cenro@calambacity.gov.ph",
+    "department_head": {
+      "name": "Mr. Joseph Arlan O. Llorente",
+      "email": "cenro@calambacity.gov.ph"
+    }
   },
   {
     "slug": "city-disaster-risk-reduction-and-management-office",
     "office_name": "City Disaster Risk Reduction and Management Office (CDRRMO)",
-    "address": null,
-    "trunkline": null,
+    "address": "New City Hall of Calamba, Bacnotan Road, Brgy. Real, Calamba, Laguna 4027",
+    "trunkline": ["(049) 545-6789"],
     "website": null,
     "email": null,
     "department_head": null
   },
   {
     "slug": "business-permit-and-licensing-office",
-    "office_name": "Business Permit and Licensing Office (BPLO)",
-    "address": null,
-    "trunkline": null,
-    "website": null,
-    "email": null,
-    "department_head": null
+    "office_name": "Business Permits and Tricycle Franchising Office",
+    "address": "Right Wing, Ground Floor, New City Hall of Calamba, Bacnotan Road, Brgy. Real, Calamba, Laguna 4027",
+    "trunkline": [
+      "(049) 545-6789 loc. 8101 (Business Permits) / 8102 (Working Permits) / 8104 (Tricycle Franchising)"
+    ],
+    "website": "https://www.calambacity.gov.ph/Users/DepartmentHome/business_permits_and_tricycle_franchising_office",
+    "email": "lgucalambabptfo@gmail.com",
+    "department_head": {
+      "name": "Ms. Bernadette D. Opulencia",
+      "email": "lgucalambabptfo@gmail.com"
+    }
   },
   {
     "slug": "city-library",
@@ -181,30 +240,39 @@
   },
   {
     "slug": "city-tourism-office",
-    "office_name": "City Tourism Office",
-    "address": null,
-    "trunkline": null,
-    "website": null,
+    "office_name": "Cultural Affairs, Sports and Tourism Office",
+    "address": "Left Wing, Ground Floor, New City Hall of Calamba, Bacnotan Road, Brgy. Real, Calamba, Laguna 4027",
+    "trunkline": ["(049) 545-6789 loc. 8331 / 8332"],
+    "website": "https://www.calambacity.gov.ph/Users/DepartmentHome/Cultural_affairs_sports_and_tourism_office",
     "email": null,
-    "department_head": null
+    "department_head": {
+      "name": "Ms. Maolen Karla M. Boholano",
+      "email": null
+    }
   },
   {
     "slug": "city-information-office",
-    "office_name": "City Information Office",
-    "address": null,
-    "trunkline": null,
-    "website": null,
-    "email": null,
-    "department_head": null
+    "office_name": "Information, Investment Promotions and Employment Services Office",
+    "address": "Left Wing, Lower Ground Floor, New City Hall of Calamba, Bacnotan Road, Brgy. Real, Calamba, Laguna 4027",
+    "trunkline": ["(049) 545-6789 loc. 8011 / 8012 / 8014"],
+    "website": "https://www.calambacity.gov.ph/Users/DepartmentHome/Information_investment_promotions_and_employment_services_office",
+    "email": "iipeso@calambacity.gov.ph",
+    "department_head": {
+      "name": "Ms. Noemi E. Talatala",
+      "email": "iipeso@calambacity.gov.ph"
+    }
   },
   {
     "slug": "human-resource-management-office",
-    "office_name": "Human Resource Management Office (HRMO)",
-    "address": null,
-    "trunkline": null,
-    "website": null,
-    "email": null,
-    "department_head": null
+    "office_name": "City Human Resource Management Office (CHRMO)",
+    "address": "Left Wing, 2nd Floor, New City Hall of Calamba, Bacnotan Road, Brgy. Real, Calamba, Laguna 4027",
+    "trunkline": ["(049) 545-6789 loc. 8219 / 8220"],
+    "website": "https://www.calambacity.gov.ph/Users/DepartmentHome/City_human_resource_management_office",
+    "email": "chrmo@calambacity.gov.ph",
+    "department_head": {
+      "name": "Ms. Raysen B. Estabillo",
+      "email": "chrmo@calambacity.gov.ph"
+    }
   },
   {
     "slug": "public-employment-service-office",
@@ -214,5 +282,77 @@
     "website": null,
     "email": null,
     "department_head": null
+  },
+  {
+    "slug": "buildings-regulatory-services-department",
+    "office_name": "Buildings Regulatory Services Department",
+    "address": "Right Wing, 2nd Floor, New City Hall of Calamba, Bacnotan Road, Brgy. Real, Calamba, Laguna 4027",
+    "trunkline": ["(049) 545-6789 loc. 8030 / 8031"],
+    "website": "https://www.calambacity.gov.ph/Users/DepartmentHome/BUILDING_REGULATORY_SERVICES_OFFICE",
+    "email": null,
+    "department_head": {
+      "name": "Engr. Joselito Guevarra",
+      "email": null
+    }
+  },
+  {
+    "slug": "city-legal-services-office",
+    "office_name": "City Legal Services Office",
+    "address": "Left Wing, 2nd Floor, New City Hall of Calamba, Bacnotan Road, Brgy. Real, Calamba, Laguna 4027",
+    "trunkline": ["(049) 545-6789 loc. 8221 / 8222"],
+    "website": "https://www.calambacity.gov.ph/Users/DepartmentHome/City_legal_services_office",
+    "email": null,
+    "department_head": {
+      "name": "Atty. Angelita Bantatua-Alonzo",
+      "email": null
+    }
+  },
+  {
+    "slug": "city-population-management-office",
+    "office_name": "City Population Management Office",
+    "address": "Right Wing, 2nd Floor, New City Hall of Calamba, Bacnotan Road, Brgy. Real, Calamba, Laguna 4027",
+    "trunkline": ["(049) 545-6789 loc. 8329"],
+    "website": "https://www.calambacity.gov.ph/Users/DepartmentHome/City_population_management_office",
+    "email": null,
+    "department_head": {
+      "name": "Ms. Raysen B. Estabillo",
+      "email": null
+    }
+  },
+  {
+    "slug": "cooperatives-and-livelihood-development-department",
+    "office_name": "Cooperative and Livelihood Development Office",
+    "address": "Right Wing, Lower Ground Floor, New City Hall of Calamba, Bacnotan Road, Brgy. Real, Calamba, Laguna 4027",
+    "trunkline": ["(049) 545-6789 loc. 8018 / 8019"],
+    "website": "https://www.calambacity.gov.ph/Users/DepartmentHome/Cooperative_and_livelihood_development_office",
+    "email": "cccldd@yahoo.com",
+    "department_head": {
+      "name": "Mr. Leonardo F. Opulencia Sr.",
+      "email": "cccldd@yahoo.com"
+    }
+  },
+  {
+    "slug": "housing-and-settlements-department",
+    "office_name": "Housing and Settlements Department",
+    "address": "Left Wing, Lower Ground Floor, New City Hall of Calamba, Bacnotan Road, Brgy. Real, Calamba, Laguna 4027",
+    "trunkline": ["(049) 545-6789 loc. 8020 / 8021"],
+    "website": "https://www.calambacity.gov.ph/Users/DepartmentHome/Housing_and_settlements_department",
+    "email": "housing@calambacity.gov.ph",
+    "department_head": {
+      "name": "Mr. Ronaldo M. Dela Cruz",
+      "email": "housing@calambacity.gov.ph"
+    }
+  },
+  {
+    "slug": "public-order-and-safety-office",
+    "office_name": "Public Order and Safety Office",
+    "address": "2nd Floor, CDRRM Building, City Hall Compound, New City Hall of Calamba, Bacnotan Road, Brgy. Real, Calamba, Laguna 4027",
+    "trunkline": ["(049) 545-6789 loc. 8024 / 8025 / 8026"],
+    "website": "https://www.calambacity.gov.ph/Users/DepartmentHome/Public_order_and_safety_office",
+    "email": "poso@calambacity.gov.ph",
+    "department_head": {
+      "name": "Mr. Edwin A. Nuñez",
+      "email": "poso@calambacity.gov.ph"
+    }
   }
 ]

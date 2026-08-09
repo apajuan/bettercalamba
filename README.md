@@ -220,7 +220,15 @@ docs: update setup instructions
   Until this ships, the 404 stays live for all 21 services.
 - [ ] **Normalise `officeDivision` spellings** — the same office appears under two spellings, e.g. `"CCC-Office of the College Registrar"` and `"CCC - Office of the College Registrar"` (no space vs. spaced). Any grouping by office will split the Registrar's services into two buckets. Fix in the parse/merge step, not by hand-editing generated data
 - [ ] **Fill ex-officio councilor slots** — `src/data/directory/legislative.json` has two `"To be confirmed"` entries for ABC President and SK Federation President; fill in when confirmed
-- [ ] **Populate `src/data/directory/departments.json` contact details** — the 24 office names and slugs are already Calamba-specific, but `address`, `trunkline`, `website`, `email`, and `department_head` are `null` on every entry. Source from the city's official directory
+- [ ] **`departments.json` does not match the city's actual org structure** — contact details are now populated for 19 of 24 entries from [the city's department directory](https://www.calambacity.gov.ph/Users/DepartmentHome/DepartmentList), but that directory revealed the entry list itself is template-derived, not Calamba's real structure.
+
+  **Added (6):** Buildings Regulatory Services Department, City Legal Services Office, City Population Management Office, Cooperative and Livelihood Development Office, Housing and Settlements Department, Public Order and Safety Office — all with full contact details. City College of Calamba is deliberately **not** added here; it gets its own page (Option C above). The directory now has 30 entries against the city's 26 departments; the gap is the executive/non-department entries listed below.
+
+  **Entries we have that are not city departments (4):** the Mayor's and Vice Mayor's offices are executive offices rather than departments; `city-library` does not appear in the city directory at all; `public-employment-service-office` is not standalone — employment services sit inside the Information, Investment Promotions and Employment Services Office (IIPESO). `city-disaster-risk-reduction-and-management-office` is likewise not a standalone department; the CDRRM Building exists on the City Hall compound and houses the Public Order and Safety Office, and the Citizens Charter maps disaster services under the Mayor's office.
+
+  **Do not blindly rename slugs** — all 276 services reference these slugs via `officeSlug`, and 19 of 20 currently resolve. Any restructuring has to migrate `services.json` in the same change.
+
+  **Still unsourced (5):** `office-of-the-city-mayor` and `office-of-the-vice-mayor` (address + trunkline only, no head — deliberately left blank rather than duplicating elected officials from `legislative.json`), `city-disaster-risk-reduction-and-management-office`, `city-library`, `public-employment-service-office`.
 
 > **Resolved:** `src/data/websites.json` is the **national** directory of 723 Philippine government/institution sites inherited from BetterGov, not a Calamba-local list. The IRRI / LSPU / PHSA entries have Los Baños addresses because those institutions are physically there — they are legitimate national entries, not LB carry-overs. No action needed.
 
