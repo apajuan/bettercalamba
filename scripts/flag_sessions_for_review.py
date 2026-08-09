@@ -26,7 +26,7 @@ from typing import List, Dict, Any, Set, Tuple
 
 
 # Database configuration
-DB_NAME = "BETTERLB_DB"
+DB_NAME = "BETTERCALAMBA_DB"
 LOCAL_DB_PATH = ".wrangler/state/v3/d1/miniflare-D1DatabaseObject"
 REMOTE_DB_NAME = "bettercalamba-openlgu"
 

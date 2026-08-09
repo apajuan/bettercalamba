@@ -68,9 +68,6 @@ const BarangaysIndex = lazy(() => import('@/pages/government/barangays'));
 const BarangayDetail = lazy(
   () => import('@/pages/government/barangays/[barangay]')
 );
-const ReferenceImplementationPage = lazy(
-  () => import('@/pages/government/reference-implementation')
-);
 
 // Statistics Dashboard
 const StatisticsLayout = lazy(() => import('@/pages/statistics/layout'));
@@ -229,12 +226,6 @@ function AppContent() {
               <Route index element={<BarangaysIndex />} />
               <Route path=':barangay' element={<BarangayDetail />} />
             </Route>
-
-            {/* 4. Reference Implementation */}
-            <Route
-              path='reference-implementation'
-              element={<ReferenceImplementationPage />}
-            />
           </Route>
 
           {/* Statistics Dashboard — feature gated */}

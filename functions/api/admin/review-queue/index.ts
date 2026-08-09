@@ -127,7 +127,7 @@ async function handleGetReviewQueue(context: {
   params.push(limit.toString(), offset.toString());
 
   try {
-    const result = await env.BETTERLB_DB.prepare(sql)
+    const result = await env.BETTERCALAMBA_DB.prepare(sql)
       .bind(...params)
       .all();
 
@@ -145,7 +145,7 @@ async function handleGetReviewQueue(context: {
       countParams.push(itemTypeFilter);
     }
 
-    const countResult = await env.BETTERLB_DB.prepare(countSql)
+    const countResult = await env.BETTERCALAMBA_DB.prepare(countSql)
       .bind(...countParams)
       .first<{ count: number }>();
     const total = countResult?.count || 0;
@@ -227,7 +227,7 @@ async function createReviewItem(context: {
     }
 
     // Check if item already exists in review queue
-    const existing = await env.BETTERLB_DB.prepare(
+    const existing = await env.BETTERCALAMBA_DB.prepare(
       `SELECT id FROM review_queue WHERE item_id = ?1 AND item_type = ?2`
     )
       .bind(item_id, item_type)
@@ -243,7 +243,7 @@ async function createReviewItem(context: {
     const reviewItemId = `review_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
 
     // Insert into review queue
-    await env.BETTERLB_DB.prepare(
+    await env.BETTERCALAMBA_DB.prepare(
       `INSERT INTO review_queue (
         id, item_type, item_id, issue_type, description,
         source_type, source_url, status, assigned_to,
@@ -279,7 +279,7 @@ async function createReviewItem(context: {
     });
 
     // Fetch and return the created item
-    const newItem = await env.BETTERLB_DB.prepare(
+    const newItem = await env.BETTERCALAMBA_DB.prepare(
       `SELECT * FROM review_queue WHERE id = ?1`
     )
       .bind(reviewItemId)

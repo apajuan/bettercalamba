@@ -690,7 +690,7 @@ export function createMockEnv(overrides?: Partial<Env>): Env {
     WEATHER_KV: kv,
     FOREX_KV: kv,
     BROWSER_KV: kv,
-    BETTERLB_DB: db,
+    BETTERCALAMBA_DB: db,
     DB: db,
     ...overrides,
   } as Env;

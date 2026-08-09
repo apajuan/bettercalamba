@@ -31,7 +31,7 @@ export async function onRequestGet(context: { request: Request; env: Env }) {
 
         sql += ' ORDER BY c.name ASC';
 
-        const committeesResult = await env.BETTERLB_DB.prepare(sql)
+        const committeesResult = await env.BETTERCALAMBA_DB.prepare(sql)
           .bind(...params)
           .all();
 
@@ -66,7 +66,7 @@ export async function onRequestGet(context: { request: Request; env: Env }) {
         membersSql +=
           ' ORDER BY cm.committee_id, cm.term_id DESC, p.last_name ASC';
 
-        const membersResult = await env.BETTERLB_DB.prepare(membersSql)
+        const membersResult = await env.BETTERCALAMBA_DB.prepare(membersSql)
           .bind(...membersParams)
           .all();
 

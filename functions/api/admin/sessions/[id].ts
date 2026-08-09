@@ -50,7 +50,7 @@ async function handleGetSession(context: {
 
   try {
     // Get session details - use correct column names from schema
-    const session = await env.BETTERLB_DB.prepare(
+    const session = await env.BETTERCALAMBA_DB.prepare(
       `SELECT id, term_id, type, number, date, ordinal_number, created_at, updated_at
        FROM sessions WHERE id = ?1`
     )
@@ -62,7 +62,7 @@ async function handleGetSession(context: {
     }
 
     // Get all members for this term
-    const membersResult = await env.BETTERLB_DB.prepare(
+    const membersResult = await env.BETTERCALAMBA_DB.prepare(
       `SELECT
         m.id,
         m.person_id,
@@ -88,7 +88,7 @@ async function handleGetSession(context: {
     }));
 
     // Get absences for this session
-    const absencesResult = await env.BETTERLB_DB.prepare(
+    const absencesResult = await env.BETTERCALAMBA_DB.prepare(
       `SELECT
         sa.id,
         sa.person_id,
@@ -179,13 +179,13 @@ async function handleUpdateSession(context: {
         WHERE id = ?${paramIndex}
       `;
 
-      await env.BETTERLB_DB.prepare(updateSql)
+      await env.BETTERCALAMBA_DB.prepare(updateSql)
         .bind(...updateValues)
         .run();
     }
 
     // Fetch and return updated session
-    const updated = await env.BETTERLB_DB.prepare(
+    const updated = await env.BETTERCALAMBA_DB.prepare(
       `SELECT * FROM sessions WHERE id = ?1`
     )
       .bind(sessionId)

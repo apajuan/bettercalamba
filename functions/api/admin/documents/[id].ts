@@ -103,7 +103,7 @@ async function handlePatchDocument(context: {
         WHERE id = ?${paramIndex}
       `;
 
-      await env.BETTERLB_DB.prepare(updateSql)
+      await env.BETTERCALAMBA_DB.prepare(updateSql)
         .bind(...updateValues)
         .run();
     }
@@ -111,7 +111,7 @@ async function handlePatchDocument(context: {
     // Update authors if provided
     if (body.authors !== undefined) {
       // Delete existing authors
-      await env.BETTERLB_DB.prepare(
+      await env.BETTERCALAMBA_DB.prepare(
         `DELETE FROM document_authors WHERE document_id = ?1`
       )
         .bind(documentId)
@@ -124,7 +124,7 @@ async function handlePatchDocument(context: {
 
         if (!personId || personId.startsWith('temp_')) {
           // Try to find existing person
-          const existingPerson = await env.BETTERLB_DB.prepare(
+          const existingPerson = await env.BETTERCALAMBA_DB.prepare(
             `SELECT id FROM persons WHERE first_name = ?1 AND last_name = ?2`
           )
             .bind(author.first_name, author.last_name)
@@ -135,7 +135,7 @@ async function handlePatchDocument(context: {
           } else {
             // Create new person
             personId = `person_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
-            await env.BETTERLB_DB.prepare(
+            await env.BETTERCALAMBA_DB.prepare(
               `INSERT INTO persons (id, first_name, middle_name, last_name) VALUES (?1, ?2, ?3, ?4)`
             )
               .bind(
@@ -149,7 +149,7 @@ async function handlePatchDocument(context: {
         }
 
         // Add document-author relationship
-        await env.BETTERLB_DB.prepare(
+        await env.BETTERCALAMBA_DB.prepare(
           `INSERT OR IGNORE INTO document_authors (document_id, person_id) VALUES (?1, ?2)`
         )
           .bind(documentId, personId)
@@ -160,7 +160,7 @@ async function handlePatchDocument(context: {
     // Update subjects if provided
     if (body.subjects !== undefined) {
       // Delete existing subjects
-      await env.BETTERLB_DB.prepare(
+      await env.BETTERCALAMBA_DB.prepare(
         `DELETE FROM document_subjects WHERE document_id = ?1`
       )
         .bind(documentId)
@@ -169,7 +169,7 @@ async function handlePatchDocument(context: {
       // Add new subjects
       for (const subjectName of body.subjects) {
         // Find or create subject
-        let subject = await env.BETTERLB_DB.prepare(
+        let subject = await env.BETTERCALAMBA_DB.prepare(
           `SELECT id FROM subjects WHERE name = ?1`
         )
           .bind(subjectName)
@@ -177,7 +177,7 @@ async function handlePatchDocument(context: {
 
         if (!subject) {
           const subjectId = `subject_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
-          await env.BETTERLB_DB.prepare(
+          await env.BETTERCALAMBA_DB.prepare(
             `INSERT INTO subjects (id, name) VALUES (?1, ?2)`
           )
             .bind(subjectId, subjectName)
@@ -186,7 +186,7 @@ async function handlePatchDocument(context: {
         }
 
         // Add document-subject relationship
-        await env.BETTERLB_DB.prepare(
+        await env.BETTERCALAMBA_DB.prepare(
           `INSERT OR IGNORE INTO document_subjects (document_id, subject_id) VALUES (?1, ?2)`
         )
           .bind(documentId, subject.id)
@@ -195,7 +195,7 @@ async function handlePatchDocument(context: {
     }
 
     // Fetch and return updated document
-    const doc = await env.BETTERLB_DB.prepare(
+    const doc = await env.BETTERCALAMBA_DB.prepare(
       `SELECT * FROM documents WHERE id = ?1`
     )
       .bind(documentId)
@@ -244,7 +244,7 @@ async function handleGetDocument(context: {
       WHERE d.id = ?
     `;
 
-    const doc = await env.BETTERLB_DB.prepare(sql)
+    const doc = await env.BETTERCALAMBA_DB.prepare(sql)
       .bind(documentId)
       .first<any>();
 
@@ -259,7 +259,7 @@ async function handleGetDocument(context: {
       JOIN persons p ON da.person_id = p.id
       WHERE da.document_id = ?
     `;
-    const authorsResult = await env.BETTERLB_DB.prepare(authorsSql)
+    const authorsResult = await env.BETTERCALAMBA_DB.prepare(authorsSql)
       .bind(documentId)
       .all();
     const authors = authorsResult.results.map((row: any) => ({
@@ -276,7 +276,7 @@ async function handleGetDocument(context: {
       JOIN subjects s ON ds.subject_id = s.id
       WHERE ds.document_id = ?
     `;
-    const subjectsResult = await env.BETTERLB_DB.prepare(subjectsSql)
+    const subjectsResult = await env.BETTERCALAMBA_DB.prepare(subjectsSql)
       .bind(documentId)
       .all();
     const subjects = subjectsResult.results.map((row: any) => row.name);

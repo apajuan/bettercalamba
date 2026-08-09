@@ -48,7 +48,7 @@ async function handleGetRecentActivity(context: {
   `;
 
   try {
-    const result = await env.BETTERLB_DB.prepare(sql).all();
+    const result = await env.BETTERCALAMBA_DB.prepare(sql).all();
 
     const items: RecentActivityItem[] = (
       result.results as Array<Record<string, unknown>>

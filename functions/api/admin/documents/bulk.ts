@@ -124,7 +124,7 @@ async function handleBulkCreateDocuments(context: {
         }
 
         // Check if document with this number already exists
-        const existing = await env.BETTERLB_DB.prepare(
+        const existing = await env.BETTERCALAMBA_DB.prepare(
           `SELECT id, type, number, title, date_enacted, status, session_id
              FROM documents WHERE number = ?1`
         )
@@ -133,7 +133,7 @@ async function handleBulkCreateDocuments(context: {
 
         if (existing) {
           // Fetch authors for the existing document
-          const authorsResult = await env.BETTERLB_DB.prepare(
+          const authorsResult = await env.BETTERCALAMBA_DB.prepare(
             `SELECT p.id, p.first_name, p.last_name, p.first_name || ' ' || p.last_name as full_name
                FROM document_authors da
                JOIN persons p ON da.person_id = p.id
@@ -175,7 +175,7 @@ async function handleBulkCreateDocuments(context: {
         const documentId = `doc_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
 
         // Insert document with success checking
-        const insertResult = await env.BETTERLB_DB.prepare(
+        const insertResult = await env.BETTERCALAMBA_DB.prepare(
           `INSERT INTO documents (id, type, number, title, session_id, status, source_type, moved_by, seconded_by, processed)
            VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?9, ?10)`
         )
@@ -201,7 +201,7 @@ async function handleBulkCreateDocuments(context: {
         if (doc.authors && doc.authors.length > 0) {
           for (const author of doc.authors) {
             if (author.person_id && !author.is_new) {
-              const authorResult = await env.BETTERLB_DB.prepare(
+              const authorResult = await env.BETTERCALAMBA_DB.prepare(
                 `INSERT INTO document_authors (document_id, person_id, author_type)
                  VALUES (?1, ?2, ?3)`
               )

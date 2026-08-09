@@ -13,5 +13,6 @@ INSERT INTO terms (id, term_number, ordinal, name, start_date, end_date, year_ra
   ('sp_11', 11, '11th', '11th Sangguniang Panlungsod', '2022-07-01', '2025-06-30', '2022-2025'),
   ('sp_12', 12, '12th', '12th Sangguniang Panlungsod', '2025-07-01', '2028-06-30', '2025-2028');
 
-INSERT INTO schema_migrations (name) VALUES ('001_initial_schema.sql');
-INSERT INTO schema_migrations (name) VALUES ('002_baseline_data.sql');
+-- NOTE: schema_migrations bookkeeping is owned by scripts/migrate.sh, which
+-- records each file after applying it. Do not INSERT into schema_migrations
+-- here — doing so collides with the runner on a PRIMARY KEY conflict.

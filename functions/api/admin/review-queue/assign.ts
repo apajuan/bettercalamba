@@ -39,7 +39,7 @@ export async function onRequestPost(context: {
         WHERE id = ?2
       `;
 
-        await env.BETTERLB_DB.prepare(updateSql).bind(userId, item_id).run();
+        await env.BETTERCALAMBA_DB.prepare(updateSql).bind(userId, item_id).run();
 
         await logAudit(env, {
           action: AuditActions.ASSIGN_REVIEW,

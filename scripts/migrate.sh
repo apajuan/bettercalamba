@@ -20,7 +20,7 @@ NC='\033[0m' # No Color
 
 # Configuration
 MIGRATIONS_DIR="db/migrations"
-DB_BINDING="BETTERLB_DB"
+DB_BINDING="BETTERCALAMBA_DB"
 DB_NAME="bettercalamba-openlgu"
 WRANGLER_CMD="npx wrangler d1 execute"
 
@@ -59,17 +59,47 @@ get_migrations() {
     ls -1 ${MIGRATIONS_DIR}/*.sql 2>/dev/null | sort
 }
 
+# Extract the "name" column from wrangler's --json output, one per line.
+#
+# Wrangler emits a JSON array of result blocks on stdout (npm notices and the
+# echoed command go to stderr). Do not parse the human-readable table format —
+# it echoes the SQL back, so a bare grep matches the query text rather than the
+# rows and reports false positives.
+parse_names_json() {
+    printf '%s' "$1" | python3 -c '
+import json, sys
+try:
+    blocks = json.load(sys.stdin)
+except Exception:
+    sys.exit(0)
+for block in blocks:
+    for row in block.get("results", []):
+        name = row.get("name")
+        if name:
+            print(name)
+' 2>/dev/null
+}
+
+# Run a read-only query against the target database, returning JSON
+query_json() {
+    local local_flag=$1
+    local sql=$2
+
+    if [ "$local_flag" = "--local" ]; then
+        ${WRANGLER_CMD} ${DB_BINDING} --local --json --command="$sql" 2>/dev/null || echo ""
+    else
+        ${WRANGLER_CMD} ${DB_NAME} --remote --json --command="$sql" 2>/dev/null || echo ""
+    fi
+}
+
 # Check if schema_migrations table exists
 check_schema_table() {
     local local_flag=$1
+    local result
 
-    if [ "$local_flag" = "--local" ]; then
-        result=$(${WRANGLER_CMD} ${DB_BINDING} --local --command="SELECT name FROM sqlite_master WHERE type='table' AND name='schema_migrations';" 2>/dev/null || echo "")
-    else
-        result=$(${WRANGLER_CMD} ${DB_NAME} --remote --command="SELECT name FROM sqlite_master WHERE type='table' AND name='schema_migrations';" 2>/dev/null || echo "")
-    fi
+    result=$(query_json "$local_flag" "SELECT name FROM sqlite_master WHERE type='table' AND name='schema_migrations';")
 
-    if echo "$result" | grep -q "schema_migrations"; then
+    if parse_names_json "$result" | grep -q "^schema_migrations$"; then
         return 0
     else
         return 1
@@ -101,11 +131,7 @@ get_applied_migrations() {
     local local_flag=$1
 
     if check_schema_table "$local_flag"; then
-        if [ "$local_flag" = "--local" ]; then
-            ${WRANGLER_CMD} ${DB_BINDING} --local --command="SELECT name FROM schema_migrations ORDER BY name;" 2>/dev/null | grep -v "^─" | tail -n +3 | sed 's/^| //' | sed 's/ |$//' || echo ""
-        else
-            ${WRANGLER_CMD} ${DB_NAME} --remote --command="SELECT name FROM schema_migrations ORDER BY name;" 2>/dev/null | grep -v "^─" | tail -n +3 | sed 's/^| //' | sed 's/ |$//' || echo ""
-        fi
+        parse_names_json "$(query_json "$local_flag" "SELECT name FROM schema_migrations ORDER BY name;")"
     else
         echo ""
     fi
@@ -127,7 +153,7 @@ run_migration() {
     fi
 
     # Record migration
-    local sql="INSERT INTO schema_migrations (name) VALUES ('$migration_name');"
+    local sql="INSERT OR IGNORE INTO schema_migrations (name) VALUES ('$migration_name');"
 
     if [ "$local_flag" = "--local" ]; then
         ${WRANGLER_CMD} ${DB_BINDING} --local --command="$sql" > /dev/null

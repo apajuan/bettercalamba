@@ -71,7 +71,7 @@ async function handleGetErrors(context: {
     let errors: ParseError[] = [];
 
     try {
-      const result = await env.BETTERLB_DB.prepare(sql)
+      const result = await env.BETTERCALAMBA_DB.prepare(sql)
         .bind(...params)
         .all<ParseErrorRow>();
       errors = result.results.map(row => ({
@@ -94,7 +94,7 @@ async function handleGetErrors(context: {
       const countSql = stage
         ? `SELECT COUNT(*) as count FROM parse_errors WHERE stage = ?1`
         : `SELECT COUNT(*) as count FROM parse_errors`;
-      const countResult = await env.BETTERLB_DB.prepare(countSql)
+      const countResult = await env.BETTERCALAMBA_DB.prepare(countSql)
         .bind(...params)
         .first<{ count: number }>();
       count = countResult?.count || 0;
@@ -127,7 +127,7 @@ async function retryError(context: {
 
   try {
     // Get the error record to find what needs to be retried
-    const errorRecord = await env.BETTERLB_DB.prepare(
+    const errorRecord = await env.BETTERCALAMBA_DB.prepare(
       `SELECT * FROM parse_errors WHERE id = ?1`
     )
       .bind(errorId)
@@ -138,7 +138,7 @@ async function retryError(context: {
     }
 
     // Mark as retrying
-    await env.BETTERLB_DB.prepare(
+    await env.BETTERCALAMBA_DB.prepare(
       `UPDATE parse_errors SET status = 'retrying', updated_at = datetime('now') WHERE id = ?1`
     )
       .bind(errorId)
@@ -193,7 +193,7 @@ async function deleteError(context: {
 
   try {
     // Get the error record before deleting for audit log
-    const errorRecord = await env.BETTERLB_DB.prepare(
+    const errorRecord = await env.BETTERCALAMBA_DB.prepare(
       `SELECT * FROM parse_errors WHERE id = ?1`
     )
       .bind(errorId)
@@ -204,7 +204,7 @@ async function deleteError(context: {
     }
 
     // Delete the error record
-    await env.BETTERLB_DB.prepare(`DELETE FROM parse_errors WHERE id = ?1`)
+    await env.BETTERCALAMBA_DB.prepare(`DELETE FROM parse_errors WHERE id = ?1`)
       .bind(errorId)
       .run();
 

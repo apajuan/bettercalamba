@@ -144,7 +144,7 @@ async function handleGetAuditLogs(context: {
 
   try {
     // Get total count for pagination
-    const countResult = await env.BETTERLB_DB.prepare(
+    const countResult = await env.BETTERCALAMBA_DB.prepare(
       `SELECT COUNT(*) as count FROM admin_audit_log ${clause}`
     )
       .bind(...bindings)
@@ -154,7 +154,7 @@ async function handleGetAuditLogs(context: {
     const totalPages = Math.ceil(total / limit);
 
     // Fetch audit logs
-    const logsResult = await env.BETTERLB_DB.prepare(
+    const logsResult = await env.BETTERCALAMBA_DB.prepare(
       `SELECT id, action, performed_by, target_type, target_id, details, created_at
        FROM admin_audit_log
        ${clause}

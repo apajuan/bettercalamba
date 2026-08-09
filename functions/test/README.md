@@ -116,7 +116,7 @@ import { createSampleDatabase } from './test/fixtures/sample-data';
 import { createMockEnv, MockD1Database } from './test/test-utils';
 
 const mockEnv = createMockEnv();
-const mockDb = mockEnv.BETTERLB_DB as MockD1Database;
+const mockDb = mockEnv.BETTERCALAMBA_DB as MockD1Database;
 
 const sampleData = createSampleDatabase();
 Object.entries(sampleData).forEach(([table, rows]) => {

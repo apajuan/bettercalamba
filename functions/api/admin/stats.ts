@@ -42,7 +42,7 @@ async function handleGetStats(context: {
 
   try {
     // Get review queue stats
-    const reviewQueueStats = await env.BETTERLB_DB.prepare(
+    const reviewQueueStats = await env.BETTERCALAMBA_DB.prepare(
       `SELECT
         COUNT(*) as total,
         SUM(CASE WHEN status = 'pending' THEN 1 ELSE 0 END) as pending,
@@ -57,7 +57,7 @@ async function handleGetStats(context: {
     }>();
 
     // Get document stats
-    const documentStats = await env.BETTERLB_DB.prepare(
+    const documentStats = await env.BETTERCALAMBA_DB.prepare(
       `SELECT
         COUNT(*) as total,
         SUM(CASE WHEN review_status = 'in_review' THEN 1 ELSE 0 END) as pending_review,
@@ -70,7 +70,7 @@ async function handleGetStats(context: {
     let errorRecent = 0;
 
     try {
-      const errorStats = await env.BETTERLB_DB.prepare(
+      const errorStats = await env.BETTERCALAMBA_DB.prepare(
         `SELECT
           COUNT(*) as total,
           SUM(CASE WHEN datetime(timestamp) > datetime('now', '-7 days') THEN 1 ELSE 0 END) as recent
@@ -87,7 +87,7 @@ async function handleGetStats(context: {
     let conflictActive = 0;
 
     try {
-      const conflictStats = await env.BETTERLB_DB.prepare(
+      const conflictStats = await env.BETTERCALAMBA_DB.prepare(
         `SELECT COUNT(*) as active FROM data_conflicts WHERE status = 'unresolved'`
       ).first<{ active: number }>();
 
@@ -100,7 +100,7 @@ async function handleGetStats(context: {
     let deletionQueueTotal = 0;
 
     try {
-      const deletionQueueStats = await env.BETTERLB_DB.prepare(
+      const deletionQueueStats = await env.BETTERCALAMBA_DB.prepare(
         `SELECT COUNT(*) as total FROM persons WHERE deleted_at IS NOT NULL`
       ).first<{ total: number }>();
 

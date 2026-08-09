@@ -36,7 +36,7 @@ async function handleListTerms(context: {
       LIMIT ?1
     `;
 
-    const result = await env.BETTERLB_DB.prepare(sql).bind(limit).all();
+    const result = await env.BETTERCALAMBA_DB.prepare(sql).bind(limit).all();
 
     const terms = result.results.map(
       (row: {

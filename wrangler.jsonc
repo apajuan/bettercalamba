@@ -10,9 +10,9 @@
 	],
 	"d1_databases": [
 		{
-			"binding": "BETTERLB_DB",
+			"binding": "BETTERCALAMBA_DB",
 			"database_name": "bettercalamba-openlgu",
-			"database_id": "TODO-create-new-d1-database",
+			"database_id": "38f77eb6-ac0a-4bcc-b48f-f26edf1253bd",
 			"migrations_dir": "db/migrations"
 		}
 	],

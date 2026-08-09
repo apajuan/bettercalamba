@@ -23,7 +23,7 @@ export async function onRequestGet(context: { request: Request; env: Env }) {
 
   // Get session
   const sessionSql = 'SELECT * FROM sessions WHERE id = ?';
-  const session = await env.BETTERLB_DB.prepare(sessionSql)
+  const session = await env.BETTERCALAMBA_DB.prepare(sessionSql)
     .bind(sessionId)
     .first<Session>();
 
@@ -39,7 +39,7 @@ export async function onRequestGet(context: { request: Request; env: Env }) {
     WHERE m.term_id = ?
     ORDER BY m.rank ASC, p.last_name ASC
   `;
-  const membersResult = await env.BETTERLB_DB.prepare(membersSql)
+  const membersResult = await env.BETTERCALAMBA_DB.prepare(membersSql)
     .bind(session.term_id)
     .all();
 
@@ -49,7 +49,7 @@ export async function onRequestGet(context: { request: Request; env: Env }) {
     FROM session_absences
     WHERE session_id = ?
   `;
-  const absencesResult = await env.BETTERLB_DB.prepare(absencesSql)
+  const absencesResult = await env.BETTERCALAMBA_DB.prepare(absencesSql)
     .bind(sessionId)
     .all();
   const absentIds = new Set(
@@ -80,7 +80,7 @@ export async function onRequestGet(context: { request: Request; env: Env }) {
     WHERE session_id = ?
     ORDER BY date_enacted ASC
   `;
-  const documentsResult = await env.BETTERLB_DB.prepare(documentsSql)
+  const documentsResult = await env.BETTERCALAMBA_DB.prepare(documentsSql)
     .bind(sessionId)
     .all();
 

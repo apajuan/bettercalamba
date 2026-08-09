@@ -95,7 +95,7 @@ async function getSessionsList(context: { request: Request; env: Env }) {
           ' ORDER BY t.term_number DESC, s.date DESC, s.number DESC LIMIT ? OFFSET ?';
         params.push(limit.toString(), offset.toString());
 
-        const result = await env.BETTERLB_DB.prepare(sql)
+        const result = await env.BETTERCALAMBA_DB.prepare(sql)
           .bind(...params)
           .all();
 
@@ -126,7 +126,7 @@ async function getSessionsList(context: { request: Request; env: Env }) {
               WHERE session_id IN (${placeholders})
             `;
 
-            const absencesResult = await env.BETTERLB_DB.prepare(absencesSql)
+            const absencesResult = await env.BETTERCALAMBA_DB.prepare(absencesSql)
               .bind(...batch)
               .all();
 
@@ -156,7 +156,7 @@ async function getSessionsList(context: { request: Request; env: Env }) {
               FROM memberships
               WHERE term_id IN (${placeholders})
             `;
-            const membershipsResult = await env.BETTERLB_DB.prepare(
+            const membershipsResult = await env.BETTERCALAMBA_DB.prepare(
               membershipsSql
             )
               .bind(...termIds)
@@ -227,7 +227,7 @@ async function getSessionsList(context: { request: Request; env: Env }) {
           countParams.push(type);
         }
 
-        const countResult = await env.BETTERLB_DB.prepare(countSql)
+        const countResult = await env.BETTERCALAMBA_DB.prepare(countSql)
           .bind(...countParams)
           .first<{ count: number }>();
         const total = countResult?.count || 0;

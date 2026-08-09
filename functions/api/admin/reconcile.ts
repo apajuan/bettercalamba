@@ -104,7 +104,7 @@ async function handleGetReconcile(context: {
   `;
 
   try {
-    const result = await env.BETTERLB_DB.prepare(sql)
+    const result = await env.BETTERCALAMBA_DB.prepare(sql)
       .bind(limit.toString(), offset.toString())
       .all();
 
@@ -116,7 +116,7 @@ async function handleGetReconcile(context: {
       // Check for moved_by conflicts (if we have Facebook data)
       if (doc.source_type === 'facebook' && doc.moved_by) {
         // Try to find corresponding PDF record
-        const pdfDoc = await env.BETTERLB_DB.prepare(
+        const pdfDoc = await env.BETTERCALAMBA_DB.prepare(
           `SELECT moved_by, seconded_by FROM documents WHERE number = ?1 AND type = ?2 AND source_type = 'pdf'`
         )
           .bind(doc.number, doc.type)
@@ -203,7 +203,7 @@ async function resolveConflict(context: {
       return Response.json({ error: 'Invalid conflict type' }, { status: 400 });
     }
 
-    await env.BETTERLB_DB.prepare(updateSql)
+    await env.BETTERCALAMBA_DB.prepare(updateSql)
       .bind(resolved_value, notes || '', documentId)
       .run();
 

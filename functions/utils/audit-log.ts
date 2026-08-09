@@ -66,7 +66,7 @@ export async function logAudit(
     const detailsJson = entry.details ? JSON.stringify(entry.details) : null;
 
     // Insert into audit log table
-    await env.BETTERLB_DB.prepare(
+    await env.BETTERCALAMBA_DB.prepare(
       `INSERT INTO admin_audit_log (id, action, performed_by, target_type, target_id, details, created_at)
        VALUES (?1, ?2, ?3, ?4, ?5, ?6, datetime('now'))`
     )

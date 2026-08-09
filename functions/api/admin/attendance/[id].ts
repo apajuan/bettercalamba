@@ -39,7 +39,7 @@ async function handleUpdateAttendance(context: {
 
     // 1. Delete all existing absences for this session
     statements.push(
-      env.BETTERLB_DB.prepare(
+      env.BETTERCALAMBA_DB.prepare(
         `DELETE FROM session_absences WHERE session_id = ?1`
       ).bind(sessionId)
     );
@@ -56,14 +56,14 @@ async function handleUpdateAttendance(context: {
       ]);
 
       statements.push(
-        env.BETTERLB_DB.prepare(
+        env.BETTERCALAMBA_DB.prepare(
           `INSERT INTO session_absences (session_id, person_id) VALUES ${placeholders}`
         ).bind(...values)
       );
     }
 
     // Execute atomically - if insert fails, delete is rolled back
-    await env.BETTERLB_DB.batch(statements);
+    await env.BETTERCALAMBA_DB.batch(statements);
 
     return Response.json({
       success: true,

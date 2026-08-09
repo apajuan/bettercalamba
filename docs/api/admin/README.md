@@ -307,7 +307,7 @@ const data = await response.json();
 
 | Variable | Description | Example |
 |----------|-------------|---------|
-| `BETTERLB_DB` | D1 database binding | Cloudflare D1 binding |
+| `BETTERCALAMBA_DB` | D1 database binding | Cloudflare D1 binding |
 | `WEATHER_KV` | KV namespace for sessions and CSRF tokens | Cloudflare KV binding |
 | `GITHUB_CLIENT_ID` | GitHub OAuth App Client ID | `github_client_id` |
 | `GITHUB_CLIENT_SECRET` | GitHub OAuth App Client Secret | `github_client_secret` |

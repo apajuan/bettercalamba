@@ -76,7 +76,7 @@ async function handleGetDuplicates(context: {
       ORDER BY MIN(p.created_at) DESC
     `;
 
-    const exactResults = await env.BETTERLB_DB.prepare(sql_exact).all();
+    const exactResults = await env.BETTERCALAMBA_DB.prepare(sql_exact).all();
 
     for (const row of exactResults.results as Array<{
       person_ids: string;
@@ -84,7 +84,7 @@ async function handleGetDuplicates(context: {
     }>) {
       const ids = row.person_ids.split(',');
 
-      const personRecordsResult = await env.BETTERLB_DB.prepare(
+      const personRecordsResult = await env.BETTERCALAMBA_DB.prepare(
         `SELECT id, first_name, middle_name, last_name, suffix FROM persons WHERE id IN (${ids.map(() => '?').join(',')})`
       )
         .bind(...ids)
@@ -92,19 +92,19 @@ async function handleGetDuplicates(context: {
       const personRecords = personRecordsResult.results as unknown as Person[];
 
       // Count related records with single queries each
-      const docCount = await env.BETTERLB_DB.prepare(
+      const docCount = await env.BETTERCALAMBA_DB.prepare(
         `SELECT COUNT(*) as count FROM document_authors WHERE person_id IN (${ids.map(() => '?').join(',')})`
       )
         .bind(...ids)
         .first<{ count: number }>();
 
-      const memberCount = await env.BETTERLB_DB.prepare(
+      const memberCount = await env.BETTERCALAMBA_DB.prepare(
         `SELECT COUNT(*) as count FROM memberships WHERE person_id IN (${ids.map(() => '?').join(',')})`
       )
         .bind(...ids)
         .first<{ count: number }>();
 
-      const committeeCount = await env.BETTERLB_DB.prepare(
+      const committeeCount = await env.BETTERCALAMBA_DB.prepare(
         `SELECT COUNT(*) as count FROM committee_memberships WHERE person_id IN (${ids.map(() => '?').join(',')})`
       )
         .bind(...ids)
@@ -132,7 +132,7 @@ async function handleGetDuplicates(context: {
       LIMIT 50
     `;
 
-    const middleResults = await env.BETTERLB_DB.prepare(sql_middle).all();
+    const middleResults = await env.BETTERCALAMBA_DB.prepare(sql_middle).all();
 
     for (const row of middleResults.results as Array<{
       id1: string;
@@ -144,7 +144,7 @@ async function handleGetDuplicates(context: {
       suffix: string | null;
     }>) {
       // Single query to fetch both persons
-      const personsResult = await env.BETTERLB_DB.prepare(
+      const personsResult = await env.BETTERCALAMBA_DB.prepare(
         `SELECT id, first_name, middle_name, last_name, suffix FROM persons WHERE id IN (?1, ?2)`
       )
         .bind(row.id1, row.id2)
@@ -159,19 +159,19 @@ async function handleGetDuplicates(context: {
       }>;
 
       if (persons.length === 2) {
-        const docCount = await env.BETTERLB_DB.prepare(
+        const docCount = await env.BETTERCALAMBA_DB.prepare(
           `SELECT COUNT(*) as count FROM document_authors WHERE person_id IN (?1, ?2)`
         )
           .bind(row.id1, row.id2)
           .first<{ count: number }>();
 
-        const memberCount = await env.BETTERLB_DB.prepare(
+        const memberCount = await env.BETTERCALAMBA_DB.prepare(
           `SELECT COUNT(*) as count FROM memberships WHERE person_id IN (?1, ?2)`
         )
           .bind(row.id1, row.id2)
           .first<{ count: number }>();
 
-        const committeeCount = await env.BETTERLB_DB.prepare(
+        const committeeCount = await env.BETTERCALAMBA_DB.prepare(
           `SELECT COUNT(*) as count FROM committee_memberships WHERE person_id IN (?1, ?2)`
         )
           .bind(row.id1, row.id2)
@@ -229,7 +229,7 @@ async function handleMerge(context: {
     }
 
     // Validate that keep_person_id exists
-    const keepPerson = await env.BETTERLB_DB.prepare(
+    const keepPerson = await env.BETTERCALAMBA_DB.prepare(
       `SELECT id FROM persons WHERE id = ?1`
     )
       .bind(keep_person_id)
@@ -241,7 +241,7 @@ async function handleMerge(context: {
 
     // Validate all merge_person_ids exist
     for (const id of merge_person_ids) {
-      const person = await env.BETTERLB_DB.prepare(
+      const person = await env.BETTERCALAMBA_DB.prepare(
         `SELECT id FROM persons WHERE id = ?1`
       )
         .bind(id)
@@ -264,35 +264,35 @@ async function handleMerge(context: {
 
     // 1. Update memberships - change person_id to keep_person_id
     statements.push(
-      env.BETTERLB_DB.prepare(
+      env.BETTERCALAMBA_DB.prepare(
         `UPDATE memberships SET person_id = ?1 WHERE person_id IN (${merge_person_ids.map(() => '?').join(',')})`
       ).bind(keep_person_id, ...merge_person_ids)
     );
 
     // 2. Update document_authors
     statements.push(
-      env.BETTERLB_DB.prepare(
+      env.BETTERCALAMBA_DB.prepare(
         `UPDATE document_authors SET person_id = ?1 WHERE person_id IN (${merge_person_ids.map(() => '?').join(',')})`
       ).bind(keep_person_id, ...merge_person_ids)
     );
 
     // 3. Update session_absences
     statements.push(
-      env.BETTERLB_DB.prepare(
+      env.BETTERCALAMBA_DB.prepare(
         `UPDATE session_absences SET person_id = ?1 WHERE person_id IN (${merge_person_ids.map(() => '?').join(',')})`
       ).bind(keep_person_id, ...merge_person_ids)
     );
 
     // 4. Update committee_memberships
     statements.push(
-      env.BETTERLB_DB.prepare(
+      env.BETTERCALAMBA_DB.prepare(
         `UPDATE committee_memberships SET person_id = ?1 WHERE person_id IN (${merge_person_ids.map(() => '?').join(',')})`
       ).bind(keep_person_id, ...merge_person_ids)
     );
 
     // 5. Detect and remove duplicate committee_memberships
     statements.push(
-      env.BETTERLB_DB.prepare(
+      env.BETTERCALAMBA_DB.prepare(
         `
         DELETE FROM committee_memberships
         WHERE id IN (
@@ -312,7 +312,7 @@ async function handleMerge(context: {
 
     // 6. Detect and remove duplicate session_absences
     statements.push(
-      env.BETTERLB_DB.prepare(
+      env.BETTERCALAMBA_DB.prepare(
         `
         DELETE FROM session_absences
         WHERE id IN (
@@ -330,7 +330,7 @@ async function handleMerge(context: {
 
     // 7. Detect and remove duplicate memberships
     statements.push(
-      env.BETTERLB_DB.prepare(
+      env.BETTERCALAMBA_DB.prepare(
         `
         DELETE FROM memberships
         WHERE id IN (
@@ -350,12 +350,12 @@ async function handleMerge(context: {
     for (const id of merge_person_ids) {
       if (deletion_mode === 'delete') {
         statements.push(
-          env.BETTERLB_DB.prepare(`DELETE FROM persons WHERE id = ?1`).bind(id)
+          env.BETTERCALAMBA_DB.prepare(`DELETE FROM persons WHERE id = ?1`).bind(id)
         );
         deleted_ids.push(id);
       } else if (deletion_mode === 'flag') {
         statements.push(
-          env.BETTERLB_DB.prepare(
+          env.BETTERCALAMBA_DB.prepare(
             `UPDATE persons SET deleted_at = datetime('now') WHERE id = ?1`
           ).bind(id)
         );
@@ -365,7 +365,7 @@ async function handleMerge(context: {
     }
 
     // Execute all statements in a single batch transaction
-    const results = await env.BETTERLB_DB.batch(statements);
+    const results = await env.BETTERCALAMBA_DB.batch(statements);
 
     // Check results and populate updated_tables
     // Results are in the same order as statements

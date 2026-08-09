@@ -32,7 +32,7 @@ async function handleGetTermMembers(context: {
   const termId = params.id;
 
   try {
-    const membersResult = await env.BETTERLB_DB.prepare(
+    const membersResult = await env.BETTERCALAMBA_DB.prepare(
       `SELECT
         m.id,
         m.person_id,

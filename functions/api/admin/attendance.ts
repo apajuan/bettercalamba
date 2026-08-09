@@ -44,7 +44,7 @@ async function handleUpdateAttendance(context: {
 
     // 1. Delete all existing absences for this session
     statements.push(
-      env.BETTERLB_DB.prepare(
+      env.BETTERCALAMBA_DB.prepare(
         `DELETE FROM session_absences WHERE session_id = ?1`
       ).bind(sessionId)
     );
@@ -60,7 +60,7 @@ async function handleUpdateAttendance(context: {
       ]);
 
       statements.push(
-        env.BETTERLB_DB.prepare(
+        env.BETTERCALAMBA_DB.prepare(
           `INSERT INTO session_absences (session_id, person_id) VALUES ${placeholders}`
         ).bind(...values)
       );
@@ -68,13 +68,13 @@ async function handleUpdateAttendance(context: {
 
     // 3. Update the session's updated_at timestamp
     statements.push(
-      env.BETTERLB_DB.prepare(
+      env.BETTERCALAMBA_DB.prepare(
         `UPDATE sessions SET updated_at = ?1 WHERE id = ?2`
       ).bind(new Date().toISOString(), sessionId)
     );
 
     // Execute atomically
-    await env.BETTERLB_DB.batch(statements);
+    await env.BETTERCALAMBA_DB.batch(statements);
 
     // 4. Log the audit entry
     await logAudit(env, {

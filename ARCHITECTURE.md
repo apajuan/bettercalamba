@@ -174,7 +174,7 @@ Component testing for complex UI components.
 
 ### Production (BetterCalamba)
 - **Platform:** Cloudflare Pages
-- **Database:** D1 `bettercalamba-openlgu` (binding `BETTERLB_DB`)
+- **Database:** D1 `bettercalamba-openlgu` (binding `BETTERCALAMBA_DB`)
 - **Search:** Self-hosted Meilisearch
 - **Domain:** bettercalamba.org
 - **Wrangler:** 4.70.0 (pinned for compatibility)

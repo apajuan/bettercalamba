@@ -239,7 +239,7 @@ curl "https://bettercalamba.org/api/admin/audit-logs?action=create_document&limi
 
 | Variable | Description | Example |
 |----------|-------------|---------|
-| `BETTERLB_DB` | D1 database binding | Cloudflare D1 binding |
+| `BETTERCALAMBA_DB` | D1 database binding | Cloudflare D1 binding |
 | `WEATHER_KV` | KV namespace for weather caching | Cloudflare KV binding |
 
 ### Required for Admin APIs

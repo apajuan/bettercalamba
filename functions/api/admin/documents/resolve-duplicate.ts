@@ -67,7 +67,7 @@ async function handleResolveDuplicate(context: {
     }
 
     // Get existing document
-    const existing = await env.BETTERLB_DB.prepare(
+    const existing = await env.BETTERCALAMBA_DB.prepare(
       `SELECT id, type, number, title, session_id, moved_by, seconded_by
          FROM documents WHERE id = ?1`
     )
@@ -128,7 +128,7 @@ async function handleResolveDuplicate(context: {
         updates.push(`updated_at = datetime('now')`);
         params.push(existing.id);
 
-        await env.BETTERLB_DB.prepare(
+        await env.BETTERCALAMBA_DB.prepare(
           `UPDATE documents SET ${updates.join(', ')} WHERE id = ?${paramIndex}`
         )
           .bind(...params)
@@ -138,7 +138,7 @@ async function handleResolveDuplicate(context: {
       // Replace authors if requested
       if (updateFields.authors) {
         // Delete existing authors
-        await env.BETTERLB_DB.prepare(
+        await env.BETTERCALAMBA_DB.prepare(
           `DELETE FROM document_authors WHERE document_id = ?1`
         )
           .bind(existing.id)
@@ -148,7 +148,7 @@ async function handleResolveDuplicate(context: {
         if (body.new_document.authors && body.new_document.authors.length > 0) {
           for (const author of body.new_document.authors) {
             if (author.person_id && !author.is_new) {
-              await env.BETTERLB_DB.prepare(
+              await env.BETTERCALAMBA_DB.prepare(
                 `INSERT INTO document_authors (document_id, person_id, author_type)
                  VALUES (?1, ?2, ?3)`
               )
@@ -216,7 +216,7 @@ async function handleResolveDuplicate(context: {
         updates.push(`updated_at = datetime('now')`);
         params.push(existing.id);
 
-        await env.BETTERLB_DB.prepare(
+        await env.BETTERCALAMBA_DB.prepare(
           `UPDATE documents SET ${updates.join(', ')} WHERE id = ?${paramIndex}`
         )
           .bind(...params)
@@ -230,7 +230,7 @@ async function handleResolveDuplicate(context: {
         body.new_document.authors.length > 0
       ) {
         // Get existing authors
-        const existingAuthors = await env.BETTERLB_DB.prepare(
+        const existingAuthors = await env.BETTERCALAMBA_DB.prepare(
           `SELECT person_id FROM document_authors WHERE document_id = ?1`
         )
           .bind(existing.id)
@@ -247,7 +247,7 @@ async function handleResolveDuplicate(context: {
             !author.is_new &&
             !existingAuthorIds.has(author.person_id)
           ) {
-            await env.BETTERLB_DB.prepare(
+            await env.BETTERCALAMBA_DB.prepare(
               `INSERT INTO document_authors (document_id, person_id, author_type)
                VALUES (?1, ?2, ?3)`
             )

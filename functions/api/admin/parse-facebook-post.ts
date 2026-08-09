@@ -172,7 +172,7 @@ async function handleParsePost(context: {
           const lastName = nameParts[nameParts.length - 1];
 
           // Try exact match first
-          let match = await env.BETTERLB_DB.prepare(
+          let match = await env.BETTERCALAMBA_DB.prepare(
             `SELECT id, first_name, middle_name, last_name
              FROM persons
              WHERE first_name = ?1 AND last_name = ?2`
@@ -182,7 +182,7 @@ async function handleParsePost(context: {
 
           // If no exact match, try fuzzy search
           if (!match) {
-            match = await env.BETTERLB_DB.prepare(
+            match = await env.BETTERCALAMBA_DB.prepare(
               `SELECT id, first_name, middle_name, last_name
                FROM persons
                WHERE first_name LIKE ?1 OR last_name LIKE ?2

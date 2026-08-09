@@ -48,7 +48,7 @@ async function handleSearch(context: {
       LIMIT 20
     `;
 
-    const results = await env.BETTERLB_DB.prepare(sql)
+    const results = await env.BETTERCALAMBA_DB.prepare(sql)
       .bind(searchPattern, searchPattern, searchPattern)
       .all();
 
