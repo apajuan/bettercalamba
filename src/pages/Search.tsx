@@ -6,7 +6,7 @@ import { Helmet } from 'react-helmet-async';
 import { Input } from '@bettergov/kapwa/input';
 import { SearchIcon } from 'lucide-react';
 
-import mergedServicesData from '@/data/citizens-charter/merged-services.json';
+import mergedServicesData from '@/data/services/services.json';
 import { Badge, EmptyState } from '@/components/ui';
 
 interface MergedService {

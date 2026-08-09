@@ -26,7 +26,7 @@ import { toTelUri } from '@/lib/utils';
 import { lguLabels } from '@/lib/lguLabels';
 
 import departmentsData from '@/data/directory/departments.json';
-import mergedServicesData from '@/data/citizens-charter/merged-services.json';
+import mergedServicesData from '@/data/services/services.json';
 
 export default function DepartmentDetail() {
   const { department: slug } = useParams();
@@ -34,7 +34,7 @@ export default function DepartmentDetail() {
   // 1. Data Lookup
   const dept = departmentsData.find(d => d.slug === slug);
 
-  // Filter services from merged-services.json
+  // Filter services from services.json
   const associatedServices = mergedServicesData.filter(s => {
     const officeSlug = s.officeSlug;
     const slugs = Array.isArray(officeSlug)

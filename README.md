@@ -191,9 +191,7 @@ docs: update setup instructions
 
 ## TODO
 
-### Blocker (required before first production deploy)
-
-- [ ] **Create Cloudflare D1 database** — create `bettercalamba-openlgu` in the Cloudflare dashboard and replace `TODO-create-new-d1-database` in `wrangler.jsonc` with the real `database_id`
+> **Done — first production deploy is live.** Created the `bettercalamba-openlgu` D1 database and the `WEATHER_KV` namespace (both binding IDs were template leftovers pointing at an account we do not control), applied migrations `001`/`002`, and moved the Git integration from a Workers Build to a Pages project — `functions/` is 38 Pages Functions endpoints, which Workers static assets cannot route.
 
 ### Branding
 

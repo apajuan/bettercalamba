@@ -16,7 +16,6 @@ import { Badge } from '@/components/ui/Badge';
 import SearchInput from '@/components/ui/SearchInput';
 
 import servicesData from '@/data/services/services.json';
-import mergedServicesData from '@/data/citizens-charter/merged-services.json';
 
 interface Service {
   slug: string;
@@ -65,9 +64,9 @@ const Hero: FC = () => {
     return fuse.search(query).map(r => r.item);
   }, [query, fuse]);
 
-  // Random services from merged-services - using plain language titles
+  // Random services - using plain language titles
   const randomServices = useMemo(() => {
-    const services = mergedServicesData as MergedService[];
+    const services = servicesData as MergedService[];
     // Filter services that have plainLanguageName
     const servicesWithPlainNames = services.filter(s => s.plainLanguageName);
     // Shuffle and pick 2
