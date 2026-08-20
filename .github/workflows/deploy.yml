@@ -72,6 +72,6 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy dist --project-name=betterlb
+          command: pages deploy dist --project-name=bettercalamba
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
           wranglerVersion: '4.70.0'

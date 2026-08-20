@@ -1,0 +1,8 @@
+# Cloudflare Pages Functions local secrets (read by Wrangler).
+# Copy this file to `.dev.vars` and fill in real values, then run
+# `npm run functions:dev` to start the Functions runtime alongside Vite.
+# `.dev.vars` is gitignored.
+
+# OpenWeatherMap API key — required for the weather widget on the home page.
+# Get a free key at https://openweathermap.org/api.
+OPENWEATHERMAP_API_KEY=
